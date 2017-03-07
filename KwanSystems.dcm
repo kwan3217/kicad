@@ -6,6 +6,23 @@ K Linear LDO Regulator
 F https://datasheets.maximintegrated.com/en/ds/MAX8880-MAX8881.pdf
 $ENDCMP
 #
+$CMP MCP73831
+D LiPo Battery Charger
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.5BM5
+D 500mA LDO fixed output voltage ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5319.pdf
+$ENDCMP
+#
+$CMP MIC5319
+D 500mA LDO fixed output voltage 3.3V ultra-low-noise
+K linear low dropout Regulator fixed ultra-low-noise
+F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
 $CMP RESISTOR
 D American-style Resistor Symbol
 K Resistor

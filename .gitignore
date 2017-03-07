@@ -1,2 +1,5 @@
 *.net
 *bak
+*.bck
+*-cache.lib
+
