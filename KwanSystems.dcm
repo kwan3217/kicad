@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Battery_Cell
+D single battery cell
+K battery cell
+$ENDCMP
+#
+$CMP Battery_Cell_Conn
+D single battery cell
+K battery cell
+$ENDCMP
+#
 $CMP MAX8881
 D 200mA Linear LDO Regulator, Fixed Output, SOT-23-6
 K Linear LDO Regulator
@@ -11,16 +21,16 @@ D LiPo Battery Charger
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.5BM5
-D 500mA LDO fixed output voltage ultra-low-noise
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5319.pdf
-$ENDCMP
-#
 $CMP MIC5319
 D 500mA LDO fixed output voltage 3.3V ultra-low-noise
 K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_SPI
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
 $ENDCMP
 #
 $CMP RESISTOR
