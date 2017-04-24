@@ -1,4 +1,4 @@
-update=4/23/2017 6:23:05 PM
+update=Mon 24 Apr 2017 12:08:10 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Program Files/KiCad/share/kicad/library/ftdi
-LibName31=C:/Program Files/KiCad/share/kicad/library/switches
-LibName32=O:/home/chrisj/workspace/kicad/KwanSystems
+LibName30=ftdi
+LibName31=switches
+LibName32=/home/chrisj/workspace/kicad/KwanSystems
+LibName33=analog_devices

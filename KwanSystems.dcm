@@ -50,6 +50,12 @@ K Resistor
 F https://en.wikipedia.org/wiki/Resistor
 $ENDCMP
 #
+$CMP RP2
+D American-style Resistor Symbol
+K Resistor
+F https://en.wikipedia.org/wiki/Resistor
+$ENDCMP
+#
 $CMP RP4
 D American-style Resistor Symbol
 K Resistor
