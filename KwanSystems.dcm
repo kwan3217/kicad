@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2SC1815
+D 50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92
+K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP ATSAMS70J
+D Cortex M7 Microcontroller in a 64-pin package
+K Cortex-M7 Microcontroller
+F http://www.atmel.com/Images/Atmel-11242-32-bit-Cortex-M7-Microcontroller-SAM-S70Q-SAM-S70N-SAM-S70J_Datasheet.pdf
+$ENDCMP
+#
 $CMP Battery_Cell
 D single battery cell
 K battery cell
@@ -37,6 +48,18 @@ $CMP RESISTOR
 D American-style Resistor Symbol
 K Resistor
 F https://en.wikipedia.org/wiki/Resistor
+$ENDCMP
+#
+$CMP RP4
+D American-style Resistor Symbol
+K Resistor
+F https://en.wikipedia.org/wiki/Resistor
+$ENDCMP
+#
+$CMP Raspberry_Pi_1
+D expansion header for Raspberry Pi 2 & 3
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf
 $ENDCMP
 #
 $CMP SAM70
