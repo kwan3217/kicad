@@ -1,4 +1,4 @@
-update=Mon 24 Apr 2017 12:08:10 PM MDT
+update=4/24/2017 10:21:06 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,5 +60,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=ftdi
 LibName31=switches
-LibName32=/home/chrisj/workspace/kicad/KwanSystems
-LibName33=analog_devices
+LibName32=analog_devices
+LibName33=O:/home/chrisj/workspace/kicad/KwanSystems

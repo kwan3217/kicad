@@ -21,6 +21,11 @@ D single battery cell
 K battery cell
 $ENDCMP
 #
+$CMP Coin_Cell
+D single battery cell
+K battery cell
+$ENDCMP
+#
 $CMP MAX8881
 D 200mA Linear LDO Regulator, Fixed Output, SOT-23-6
 K Linear LDO Regulator
@@ -72,6 +77,11 @@ $CMP SAM70
 D Cortex M7 Microcontroller in a 64-pin package
 K Cortex-M7 Microcontroller
 F http://www.atmel.com/Images/Atmel-11242-32-bit-Cortex-M7-Microcontroller-SAM-S70Q-SAM-S70N-SAM-S70J_Datasheet.pdf
+$ENDCMP
+#
+$CMP USB_MICROB
+D USB mini/micro connector
+K connector USB
 $ENDCMP
 #
 #End Doc Library
