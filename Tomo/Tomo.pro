@@ -1,4 +1,4 @@
-update=4/24/2017 10:21:06 PM
+update=Tue 25 Apr 2017 09:46:46 AM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,4 @@ LibName29=valves
 LibName30=ftdi
 LibName31=switches
 LibName32=analog_devices
-LibName33=O:/home/chrisj/workspace/kicad/KwanSystems
+LibName33=KwanSystems
