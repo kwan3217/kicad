@@ -1515,4 +1515,6 @@ F 3 "" H 4825 3650 60  0001 C CNN
 	1    4400 3950
 	0    1    1    0   
 $EndComp
+Text Notes 1800 6850 2    60   ~ 0
+SPI/Reset is for loading\nbootloader on the Ardino
 $EndSCHEMATC
