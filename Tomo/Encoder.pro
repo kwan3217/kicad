@@ -1,6 +1,6 @@
-update=22/05/2015 07:44:53
+update=4/30/2017 6:14:41 PM
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=O:/home/chrisj/workspace/kicad/KwanSystems
