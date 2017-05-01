@@ -1,4 +1,4 @@
-update=4/30/2017 6:14:41 PM
+update=Sun 30 Apr 2017 11:16:16 PM MDT
 version=1
 last_client=eeschema
 [general]
@@ -60,4 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=O:/home/chrisj/workspace/kicad/KwanSystems
+LibName30=KwanSystems
