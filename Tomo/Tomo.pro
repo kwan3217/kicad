@@ -1,4 +1,4 @@
-update=5/2/2017 10:46:09 PM
+update=5/6/2017 8:29:33 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=ftdi
 LibName32=switches
 LibName33=analog_devices
 LibName34=KwanSystems
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
