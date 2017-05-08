@@ -1,4 +1,4 @@
-update=5/6/2017 8:29:33 AM
+update=Sun 07 May 2017 07:58:16 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,21 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../kicad
 [eeschema/libraries]
-LibName1=Tomo-rescue
+LibName1=KwanSystems
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -62,14 +72,3 @@ LibName30=valves
 LibName31=ftdi
 LibName32=switches
 LibName33=analog_devices
-LibName34=KwanSystems
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
