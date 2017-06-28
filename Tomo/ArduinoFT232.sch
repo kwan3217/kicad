@@ -33,7 +33,7 @@ LIBS:ftdi
 LIBS:switches
 LIBS:analog_devices
 LIBS:Tomo-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,15 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ftdi
-LIBS:switches
-LIBS:analog_devices
-LIBS:Tomo-cache
-EELAYER 26 0
+LIBS:KwanSystems
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
