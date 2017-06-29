@@ -225,4 +225,21 @@ Connection ~ 6300 3500
 Connection ~ 7900 3800
 Text HLabel 6300 3900 0    60   UnSpc ~ 0
 GND
+$Comp
+L Coin_Cell B604
+U 1 1 5911D6E9
+P 6000 3000
+F 0 "B604" H 6118 3096 50  0000 L CNN
+F 1 "Coin_Cell" H 6118 3005 50  0000 L CNN
+F 2 "KwanSystems:CR1220-2" V 6000 3060 50  0001 C CNN
+F 3 "" V 6000 3060 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2800 6000 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 3100 6000 3200
+Connection ~ 6000 3200
 $EndSCHEMATC
