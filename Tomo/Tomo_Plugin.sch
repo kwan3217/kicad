@@ -29,7 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
-EELAYER 26 0
+LIBS:Tomo_Plugin-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -265,7 +266,7 @@ Connection ~ 1800 4200
 Connection ~ 1800 4300
 Wire Wire Line
 	1800 4100 2300 4100
-Text Label 2100 4100 0    60   ~ 0
+Text Label 2150 4100 0    60   ~ 0
 THROTTLE_HI
 $Comp
 L ADuM3221 U301
@@ -281,19 +282,19 @@ F 4 "ADUM3221ARZ-ND" H 1700 4800 60  0001 C CNN "Digikey"
 $EndComp
 Wire Wire Line
 	2100 4800 2600 4800
-Text Label 2200 4800 0    60   ~ 0
+Text Label 2150 4900 0    60   ~ 0
 STEER_HI
 Wire Wire Line
 	2100 4900 2600 4900
-Text Label 2200 4900 0    60   ~ 0
+Text Label 2150 4800 0    60   ~ 0
 THROTTLE_HI
 Wire Wire Line
 	1300 4800 800  4800
 Wire Wire Line
 	1300 4900 800  4900
-Text Label 800  4800 0    60   ~ 0
-STEER
 Text Label 800  4900 0    60   ~ 0
+STEER
+Text Label 800  4800 0    60   ~ 0
 THROTTLE
 Wire Wire Line
 	1300 4100 700  4100
@@ -376,9 +377,9 @@ Wire Wire Line
 	3900 4200 3500 4200
 Wire Wire Line
 	3900 4300 3500 4300
-Text Label 3500 4200 0    60   ~ 0
-ENCODER0
 Text Label 3500 4300 0    60   ~ 0
+ENCODER0
+Text Label 3500 4200 0    60   ~ 0
 ENCODER1
 $Comp
 L STANDOFF_GND J002
