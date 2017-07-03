@@ -1,6 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew "(2017-06-29 revision 413008344)-makepkg")
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
+    (links 68)
+    (no_connects 0)
+    (area 105.967599 85.707599 175.942401 157.197401)
     (thickness 1.6)
     (drawings 30)
     (tracks 170)
@@ -73,6 +76,7 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
+      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -1184,11 +1188,11 @@
       (xy 0.134117 3.810292)) (layer B.Mask) (width 0.01))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5956CDC0) (tstamp 5955201E)
+  (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 595AB694) (tstamp 5955201E)
     (at 153.17 130.37 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
-    (fp_text reference REF** (at 0 -2.33 90) (layer F.SilkS) hide
+    (fp_text reference J503 (at 0 -2.33 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Pin_Header_Straight_1x04_Pitch2.54mm (at 0 9.95 90) (layer F.Fab) hide
@@ -1222,11 +1226,11 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5956CDB6) (tstamp 59552859)
+  (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 595AB67B) (tstamp 59552859)
     (at 160.79 120.21)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
-    (fp_text reference REF** (at 0 -2.33) (layer F.SilkS) hide
+    (fp_text reference J502 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Pin_Header_Straight_1x03_Pitch2.54mm (at 0 7.41) (layer F.Fab) hide
@@ -1343,13 +1347,13 @@
     (fp_arc (start 1.27 -1.27) (end -1.27 -1.27) (angle 90) (layer F.Fab) (width 0.01))
     (fp_arc (start 13.97 36.83) (end 16.51 36.83) (angle 90) (layer F.Fab) (width 0.01))
     (fp_arc (start 13.97 -1.27) (end 13.97 -3.81) (angle 90) (layer F.Fab) (width 0.01))
-    (fp_text user TX1 (at 2.54 0) (layer F.SilkS)
+    (fp_text user TX1 (at 2.54 0 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.1016)))
     )
     (fp_text user %R (at 7.62 5.08 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user RX0 (at 2.54 2.54) (layer F.SilkS)
+    (fp_text user RX0 (at 2.54 2.54 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.1016)))
     )
     (fp_text user RST (at 2.54 5.08 180) (layer F.SilkS)
@@ -1608,6 +1612,7 @@
   (gr_line (start 127.77 154.5) (end 160.79 154.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 126.5 99.89) (end 126.5 153.23) (angle 90) (layer Edge.Cuts) (width 0.15))
 
+  (segment (start 160.536 110.812) (end 160.282 111.066) (width 0.1524) (layer B.Cu) (net 0))
   (segment (start 161.2345 106.875) (end 161.2345 111.32) (width 0.254) (layer B.Cu) (net 1))
   (segment (start 159.52 121.48) (end 159.52 113.0345) (width 0.254) (layer B.Cu) (net 1))
   (segment (start 159.52 113.0345) (end 161.2345 111.32) (width 0.254) (layer B.Cu) (net 1))
@@ -1639,7 +1644,6 @@
   (segment (start 159.95567 105.732) (end 160.536 105.732) (width 0.254) (layer B.Cu) (net 1))
   (via (at 160.536 105.732) (size 0.635) (drill 0.3302) (layers F.Cu B.Cu) (net 1))
   (segment (start 129.04 101.16) (end 131.58 101.16) (width 1.6764) (layer F.Cu) (net 1))
-  (segment (start 160.536 110.812) (end 160.282 111.066) (width 0.1524) (layer B.Cu) (net 2))
   (segment (start 160.282 111.066) (end 160.282 109.834) (width 0.1524) (layer F.Cu) (net 2))
   (segment (start 160.282 109.834) (end 160.028 109.58) (width 0.1524) (layer F.Cu) (net 2))
   (segment (start 160.028 107.98) (end 159.616 107.568) (width 0.1524) (layer F.Cu) (net 3))
