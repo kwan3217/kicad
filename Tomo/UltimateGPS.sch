@@ -33,11 +33,11 @@ LIBS:ftdi
 LIBS:switches
 LIBS:analog_devices
 LIBS:Tomo-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -62,7 +62,7 @@ $EndComp
 Wire Wire Line
 	5600 3200 5600 3100
 Wire Wire Line
-	5300 3200 6300 3200
+	4700 3200 6300 3200
 Wire Wire Line
 	6300 3200 6300 3900
 Connection ~ 6300 3300
@@ -80,40 +80,42 @@ F 4 "490-1051-1-ND" H 5300 2400 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2500 5300 3000
+	5300 2600 5300 2500
 Wire Wire Line
-	4400 2600 6300 2600
+	4700 2600 6300 2600
+Wire Wire Line
+	5050 2600 4950 2600
 $Comp
 L C_Small C603
 U 1 1 591017DC
-P 5300 3100
-F 0 "C603" H 5310 3170 50  0000 L CNN
-F 1 "10uF" H 5310 3020 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 5300 3100 50  0001 C CNN
-F 3 "" H 5300 3100 50  0001 C CNN
-F 4 "445-4052-1-ND" H 5300 3100 60  0001 C CNN "Digikey"
-	1    5300 3100
+P 4700 3100
+F 0 "C603" H 4710 3170 50  0000 L CNN
+F 1 "10uF" H 4710 3020 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+F 4 "445-4052-1-ND" H 4700 3100 60  0001 C CNN "Digikey"
+	1    4700 3100
 	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C601
 U 1 1 591017E4
-P 5400 2850
-F 0 "C601" H 5410 2920 50  0000 L CNN
-F 1 "100nF" H 5410 2770 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 5400 2850 50  0001 C CNN
-F 3 "" H 5400 2850 50  0001 C CNN
-F 4 "445-5613-1-ND" H 5400 2850 60  0001 C CNN "Digikey"
-	1    5400 2850
+P 4950 2850
+F 0 "C601" H 4960 2920 50  0000 L CNN
+F 1 "100nF" H 4960 2770 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 4950 2850 50  0001 C CNN
+F 3 "" H 4950 2850 50  0001 C CNN
+F 4 "445-5613-1-ND" H 4950 2850 60  0001 C CNN "Digikey"
+	1    4950 2850
 	-1   0    0    1   
 $EndComp
 Connection ~ 5600 3200
 Wire Wire Line
-	5400 2950 5400 3200
-Connection ~ 5400 3200
+	4950 2950 4950 3200
+Connection ~ 4950 3200
 Wire Wire Line
-	5400 2750 5400 2600
-Connection ~ 5400 2600
+	4950 2600 4950 2750
+Connection ~ 4950 2600
 Connection ~ 5300 2600
 Text Label 5650 2600 0    60   ~ 0
 VGPS
@@ -126,10 +128,10 @@ GPS_RX
 Text Label 7350 2700 0    60   ~ 0
 GPS_TX
 Wire Wire Line
-	5050 2700 6300 2700
+	5600 2700 6300 2700
 Wire Wire Line
 	5600 2700 5600 2900
-Text Label 5700 2700 0    60   ~ 0
+Text Label 5900 2700 0    60   ~ 0
 VBACKUP
 Connection ~ 5600 2600
 NoConn ~ 6300 2900
@@ -158,11 +160,11 @@ Text Label 7350 3500 0    60   ~ 0
 ANT
 Wire Wire Line
 	7300 3000 7700 3000
-Text Label 7350 3000 0    60   ~ 0
+Text Label 7350 3100 0    60   ~ 0
 FIX
 Wire Wire Line
 	7300 3100 7700 3100
-Text Label 7350 3100 0    60   ~ 0
+Text Label 7350 3000 0    60   ~ 0
 PPS
 $Comp
 L CP1_Small C604
@@ -179,32 +181,32 @@ $EndComp
 $Comp
 L D_Schottky D604
 U 1 1 59101828
-P 4550 2700
-F 0 "D604" H 4550 2484 50  0000 C CNN
-F 1 "D_Schottky" H 4550 2575 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 4550 2700 50  0001 C CNN
-F 3 "" H 4550 2700 50  0001 C CNN
-F 4 "641-1520-1-ND" H 4550 2700 60  0001 C CNN "Digikey"
-	1    4550 2700
+P 5200 2700
+F 0 "D604" H 5200 2484 50  0000 C CNN
+F 1 "D_Schottky" H 5200 2575 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5200 2700 50  0001 C CNN
+F 3 "" H 5200 2700 50  0001 C CNN
+F 4 "641-1520-1-ND" H 5200 2700 60  0001 C CNN "Digikey"
+	1    5200 2700
 	-1   0    0    1   
 $EndComp
 $Comp
 L RESISTOR R604
 U 1 1 59101830
-P 4950 2700
-F 0 "R604" H 4900 2750 45  0000 L BNN
-F 1 "10k" H 4900 2600 45  0000 L BNN
-F 2 "KwanSystems:SMD_0402" H 5005 2850 20  0001 C CNN
-F 3 "" H 5375 2400 60  0001 C CNN
-F 4 "P17199CT-ND" H 4950 2700 60  0001 C CNN "Digikey"
-	1    4950 2700
+P 5500 2700
+F 0 "R604" H 5450 2750 45  0000 L BNN
+F 1 "10k" H 5450 2600 45  0000 L BNN
+F 2 "KwanSystems:SMD_0402" H 5555 2850 20  0001 C CNN
+F 3 "" H 5925 2400 60  0001 C CNN
+F 4 "P17199CT-ND" H 5500 2700 60  0001 C CNN "Digikey"
+	1    5500 2700
 	-1   0    0    1   
 $EndComp
 Connection ~ 5600 2700
 Wire Wire Line
-	4850 2700 4700 2700
+	5400 2700 5350 2700
 Wire Wire Line
-	4400 2600 4400 2700
+	5050 2600 5050 2700
 Wire Wire Line
 	5300 2300 5300 2200
 Text Label 5300 2200 3    60   ~ 0
@@ -215,9 +217,9 @@ Text HLabel 7700 2600 2    60   Input ~ 0
 RX
 Text HLabel 7700 2700 2    60   Output ~ 0
 TX
-Text HLabel 7700 3000 2    60   Output ~ 0
-FIX
 Text HLabel 7700 3100 2    60   Output ~ 0
+FIX
+Text HLabel 7700 3000 2    60   Output ~ 0
 PPS
 Wire Wire Line
 	7900 3900 6300 3900
@@ -242,4 +244,13 @@ Connection ~ 6000 2700
 Wire Wire Line
 	6000 3100 6000 3200
 Connection ~ 6000 3200
+Text Notes 5550 3800 2    60   ~ 0
+Backup charger: Diode D604\nprevents backup battery from\ntrying to power external 3V3\nor main VCC of GPS. Resistor\nR604 limits charging rate of\nsupercap.
+Text Notes 5100 2500 2    60   ~ 0
+DO NOT POPULATE D604 and/or \nR604 if using a coin cell rather than\na supercap.
+Wire Wire Line
+	4700 2600 4700 3000
+Connection ~ 5050 2600
+Text Label 5350 2700 0    60   ~ 0
+VBACKUP+
 $EndSCHEMATC
