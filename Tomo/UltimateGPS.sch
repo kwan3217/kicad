@@ -33,11 +33,11 @@ LIBS:ftdi
 LIBS:switches
 LIBS:analog_devices
 LIBS:Tomo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -184,7 +184,7 @@ U 1 1 59101828
 P 5200 2700
 F 0 "D604" H 5200 2484 50  0000 C CNN
 F 1 "D_Schottky" H 5200 2575 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 5200 2700 50  0001 C CNN
+F 2 "KwanSystems:D_0603" H 5200 2700 50  0001 C CNN
 F 3 "" H 5200 2700 50  0001 C CNN
 F 4 "641-1520-1-ND" H 5200 2700 60  0001 C CNN "Digikey"
 	1    5200 2700
