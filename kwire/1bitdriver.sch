@@ -1,0 +1,140 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kwire
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2550 1300 600  300 
+U 596E3F12
+F0 "bit0" 60
+F1 "1bitadder.sch" 60
+F2 "A" I L 2550 1350 60 
+F3 "B" I L 2550 1450 60 
+F4 "C_IN" I L 2550 1550 60 
+F5 "S" O R 3150 1350 60 
+F6 "C_OUT" O R 3150 1450 60 
+$EndSheet
+Wire Wire Line
+	2250 1350 2550 1350
+Wire Wire Line
+	2250 1600 2250 1450
+Wire Wire Line
+	2250 1450 2550 1450
+Wire Wire Line
+	2250 1850 2350 1850
+Wire Wire Line
+	2350 1850 2350 1550
+Wire Wire Line
+	2350 1550 2550 1550
+$Comp
+L CONTROL SA101
+U 1 1 596E468B
+P 1650 1350
+F 0 "SA101" H 1650 1400 50  0000 C CNN
+F 1 "CONTROL" H 1650 1300 50  0000 C CNN
+F 2 "" H 1650 1350 50  0000 C CNN
+F 3 "" H 1650 1350 50  0000 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONTROL SB101
+U 1 1 596E46C4
+P 1650 1600
+F 0 "SB101" H 1650 1650 50  0000 C CNN
+F 1 "CONTROL" H 1650 1550 50  0000 C CNN
+F 2 "" H 1650 1600 50  0000 C CNN
+F 3 "" H 1650 1600 50  0000 C CNN
+	1    1650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONTROL SC101
+U 1 1 596E46FB
+P 1650 1850
+F 0 "SC101" H 1650 1900 50  0000 C CNN
+F 1 "CONTROL" H 1650 1800 50  0000 C CNN
+F 2 "" H 1650 1850 50  0000 C CNN
+F 3 "" H 1650 1850 50  0000 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1350 3550 1350
+Wire Wire Line
+	3150 1450 3550 1450
+Text Label 2300 1350 0    60   ~ 0
+A
+Text Label 2300 1450 0    60   ~ 0
+B
+Text Label 2400 1550 0    60   ~ 0
+C
+Text Label 3250 1350 0    60   ~ 0
+S
+Text Label 3250 1450 0    60   ~ 0
+K
+$Comp
+L INDICATOR DS101
+U 1 1 596E48D9
+P 4000 1350
+F 0 "DS101" H 3950 1400 50  0000 C CNN
+F 1 "INDICATOR" H 4000 1300 50  0000 C CNN
+F 2 "" H 4000 1350 50  0000 C CNN
+F 3 "" H 4000 1350 50  0000 C CNN
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDICATOR DK101
+U 1 1 596E4930
+P 4000 1600
+F 0 "DK101" H 3950 1650 50  0000 C CNN
+F 1 "INDICATOR" H 4000 1550 50  0000 C CNN
+F 2 "" H 4000 1600 50  0000 C CNN
+F 3 "" H 4000 1600 50  0000 C CNN
+	1    4000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1450 3550 1600
+$EndSCHEMATC
