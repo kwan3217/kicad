@@ -1,6 +1,9 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-5d25263~58~ubuntu17.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.5+dfsg1-4)
 
   (general
+    (links 16)
+    (no_connects 0)
+    (area 90.629499 78.456666 120.100001 120.100001)
     (thickness 1.6)
     (drawings 22)
     (tracks 36)
@@ -57,7 +60,7 @@
     (mod_text_width 0.15)
     (pad_size 1.7 1.7)
     (pad_drill 1)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 100 100)
     (visible_elements 7FFFCE7F)
@@ -73,6 +76,7 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
+      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
