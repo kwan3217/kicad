@@ -28,11 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:kwire
+LIBS:switches
+LIBS:8bitdriver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 23
+Sheet 1 24
 Title ""
 Date ""
 Rev ""

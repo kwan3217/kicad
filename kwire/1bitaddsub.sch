@@ -29,12 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:kwire
+LIBS:switches
+LIBS:KwanSystems
 LIBS:1bitdriver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -51,28 +53,17 @@ B
 Text HLabel 5000 1800 0    60   Input ~ 0
 C_IN
 Wire Wire Line
-	5000 1700 5150 1700
+	4550 1700 5150 1700
 Text HLabel 5950 1600 2    60   Output ~ 0
 S
 Text HLabel 5950 1700 2    60   Output ~ 0
 C_OUT
-$Comp
-L XOR U201
-U 1 1 596FA829
-P 4400 1700
-F 0 "U201" H 4450 1750 50  0000 C CNN
-F 1 "XOR" H 4450 1650 50  0000 C CNN
-F 2 "" H 4400 1700 50  0000 C CNN
-F 3 "" H 4400 1700 50  0000 C CNN
-	1    4400 1700
-	1    0    0    -1  
-$EndComp
 Text HLabel 3200 1600 1    60   Input ~ 0
 SUB
 Wire Wire Line
-	3200 1600 3750 1600
+	3200 1600 3800 1600
 Wire Wire Line
-	3200 1800 3750 1800
+	3200 1800 3800 1800
 $Sheet
 S 5150 1550 600  300 
 U 596FACCF
@@ -92,4 +83,21 @@ Wire Wire Line
 	5750 1600 5950 1600
 Wire Wire Line
 	5750 1700 5950 1700
+$Sheet
+S 4050 1600 500  200 
+U 59723831
+F0 "BxorSUB" 60
+F1 "DerivedXOR.sch" 60
+F2 "A" I L 4050 1650 60 
+F3 "Y" O R 4550 1700 60 
+F4 "B" I L 4050 1750 60 
+$EndSheet
+Wire Wire Line
+	3800 1600 3800 1650
+Wire Wire Line
+	3800 1650 4050 1650
+Wire Wire Line
+	3800 1800 3800 1750
+Wire Wire Line
+	3800 1750 4050 1750
 $EndSCHEMATC
