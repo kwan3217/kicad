@@ -31,12 +31,11 @@ LIBS:valves
 LIBS:kwire
 LIBS:switches
 LIBS:KwanSystems
-LIBS:1bitdriver-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 3 18
 Title ""
 Date ""
 Rev ""
