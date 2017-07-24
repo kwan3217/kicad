@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5+dfsg1-4)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-f042fcd~59~ubuntu17.04.1)
 
   (general
-    (links 102)
-    (no_connects 1)
-    (area 114.224999 96.444999 157.555001 114.375001)
     (thickness 1.6)
     (drawings 56)
     (tracks 582)
@@ -60,7 +57,7 @@
     (mod_text_width 0.01524)
     (pad_size 0.5 0.381)
     (pad_drill 0)
-    (pad_to_mask_clearance 0.2)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 114.3 114.3)
     (grid_origin 114.3 114.3)
     (visible_elements FFFFFF7F)
@@ -76,7 +73,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -432,9 +428,9 @@
       (net 3 GND))
     (pad 6 smd rect (at -1.33 0.84 180) (size 1.9 1.175) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model Connectors_Molex.3dshapes/USB_Micro-B_Molex_47346-0001.wrl
-      (at (xyz -0.05 0 0.05))
-      (scale (xyz 0.39 0.39 0.39))
+    (model /home/chrisj/workspace/kicad/KwanSystems.pretty/wrl/Molex_47346_0001.wrl
+      (at (xyz -0.03937007874015748 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 90))
     )
   )
@@ -445,10 +441,10 @@
     (tags "resistor array")
     (path /58B740EE)
     (attr smd)
-    (fp_text reference R1 (at -0.127 0 360) (layer F.SilkS) hide
+    (fp_text reference R1 (at -0.127 0) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.01524)))
     )
-    (fp_text value 680 (at 0.127 0 360) (layer F.Fab)
+    (fp_text value 680 (at 0.127 0) (layer F.Fab)
       (effects (font (size 0.1016 0.1016) (thickness 0.01524)))
     )
     (fp_line (start -0.5 -1) (end 0.5 -1) (layer F.Fab) (width 0.1))
@@ -510,7 +506,7 @@
       (net 1 /RESET))
     (pad 2 smd rect (at 1.7 0 180) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ../KwanSystems.pretty/B3U1000P.wrl
+    (model /home/chrisj/workspace/kicad/KwanSystems.pretty/wrl/B3U1000P.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 0))
@@ -583,8 +579,8 @@
       (net 36 +5V))
     (model Diodes_SMD.3dshapes/D_TUMD2.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 4 4 4))
-      (rotate (xyz 0 0 180))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -638,9 +634,9 @@
     (pad 15 thru_hole oval (at 0 -35.56 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 /D12))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x15_Pitch2.54mm.wrl
-      (at (xyz 0 -0.7 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -676,9 +672,9 @@
     (pad 6 thru_hole oval (at 2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 3 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl
-      (at (xyz 0.05 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -732,9 +728,9 @@
     (pad 15 thru_hole oval (at 0 -35.56 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 HT))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x15_Pitch2.54mm.wrl
-      (at (xyz 0 -0.7 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1139,7 +1135,7 @@
       (net 1 /RESET))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 36 +5V))
-    (model Capacitors_SMD.3dshapes/C_0402.wrl
+    (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
