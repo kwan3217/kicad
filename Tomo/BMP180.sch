@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,15 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:analog_devices
-LIBS:Tomo-cache
+LIBS:Tomo_pHAT-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 5
 Title ""
 Date ""
 Rev ""
@@ -65,7 +64,7 @@ U 1 1 5910A302
 P 5800 3100
 F 0 "C802" H 5810 3170 50  0000 L CNN
 F 1 "100nF" H 5810 3020 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 5800 3100 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 5800 3100 50  0001 C CNN
 F 3 "" H 5800 3100 50  0001 C CNN
 F 4 "445-5613-1-ND" H 5800 3100 60  0001 C CNN "Digikey"
 	1    5800 3100

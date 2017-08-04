@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,15 +28,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:analog_devices
-LIBS:Tomo-cache
+LIBS:Tomo_pHAT-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -103,7 +102,7 @@ U 1 1 591017E4
 P 4950 2850
 F 0 "C601" H 4960 2920 50  0000 L CNN
 F 1 "100nF" H 4960 2770 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 4950 2850 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 4950 2850 50  0001 C CNN
 F 3 "" H 4950 2850 50  0001 C CNN
 F 4 "445-5613-1-ND" H 4950 2850 60  0001 C CNN "Digikey"
 	1    4950 2850
@@ -173,7 +172,7 @@ P 5600 3000
 F 0 "C604" H 5691 3046 50  0000 L CNN
 F 1 "220mF" H 5691 2955 50  0000 L CNN
 F 2 "KwanSystems:Supercap" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
+F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/408/KEM_S6011_FC.pdf" H 5600 3000 50  0001 C CNN
 F 4 "399-10941-1-ND" H 5600 3000 60  0001 C CNN "Digikey"
 	1    5600 3000
 	1    0    0    -1  
@@ -185,8 +184,8 @@ P 5200 2700
 F 0 "D604" H 5200 2484 50  0000 C CNN
 F 1 "D_Schottky" H 5200 2575 50  0000 C CNN
 F 2 "KwanSystems:D_0603" H 5200 2700 50  0001 C CNN
-F 3 "" H 5200 2700 50  0001 C CNN
-F 4 "641-1520-1-ND" H 5200 2700 60  0001 C CNN "Digikey"
+F 3 "http://www.onsemi.com/pub_link/Collateral/BAT54HT1-D.PDF" H 5200 2700 50  0001 C CNN
+F 4 "BAT54HT1GOSCT-ND" H 5200 2700 60  0001 C CNN "Digikey"
 	1    5200 2700
 	-1   0    0    1   
 $EndComp
@@ -196,7 +195,7 @@ U 1 1 59101830
 P 5500 2700
 F 0 "R604" H 5450 2750 45  0000 L BNN
 F 1 "10k" H 5450 2600 45  0000 L BNN
-F 2 "KwanSystems:SMD_0402" H 5555 2850 20  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 5555 2850 20  0001 C CNN
 F 3 "" H 5925 2400 60  0001 C CNN
 F 4 "P17199CT-ND" H 5500 2700 60  0001 C CNN "Digikey"
 	1    5500 2700
