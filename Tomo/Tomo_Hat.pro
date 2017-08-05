@@ -1,4 +1,4 @@
-update=Sun 30 Jul 2017 11:28:35 AM MDT
+update=Fri 04 Aug 2017 04:25:05 PM MDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -62,3 +62,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=KwanSystems
+LibName32=ftdi
+LibName33=switches

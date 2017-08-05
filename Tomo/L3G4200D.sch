@@ -31,12 +31,11 @@ LIBS:valves
 LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:Tomo_pHAT-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""

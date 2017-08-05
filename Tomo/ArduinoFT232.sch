@@ -29,8 +29,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
-LIBS:Tomo_Hat-cache
-EELAYER 26 0
+LIBS:ftdi
+LIBS:switches
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

@@ -31,12 +31,11 @@ LIBS:valves
 LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:Tomo_pHAT-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -49,17 +48,21 @@ $EndDescr
 Connection ~ 1700 1400
 Connection ~ 1700 1600
 Wire Wire Line
-	1700 3400 1700 4450
+	1700 3400 1700 3500
+Wire Wire Line
+	1700 3500 1700 3600
+Wire Wire Line
+	1700 3600 1700 4450
 $Comp
 L C_Small C420
 U 1 1 590E2991
-P 1500 2050
-F 0 "C420" H 1510 2120 50  0000 L CNN
-F 1 "100nF" H 1510 1970 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1500 2050 50  0001 C CNN
-F 3 "" H 1500 2050 50  0001 C CNN
-F 4 "445-5613-1-ND" H 1500 2050 60  0001 C CNN "Digikey"
-	1    1500 2050
+P 1500 1950
+F 0 "C420" H 1510 2020 50  0000 L CNN
+F 1 "100nF" H 1510 1870 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 1500 1950 50  0001 C CNN
+F 3 "" H 1500 1950 50  0001 C CNN
+F 4 "445-5613-1-ND" H 1500 1950 60  0001 C CNN "Digikey"
+	1    1500 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -107,11 +110,11 @@ Wire Wire Line
 	900  1600 900  2200
 Connection ~ 1000 1600
 Wire Wire Line
-	1700 1900 1500 1900
+	1700 1800 1500 1800
 Wire Wire Line
-	1500 1900 1500 1950
+	1500 1800 1500 1850
 Wire Wire Line
-	1500 3400 1500 2150
+	1500 3400 1500 2050
 Wire Wire Line
 	1100 3400 1100 1900
 Connection ~ 1500 3400
@@ -158,31 +161,47 @@ F 4 "445-5588-1-ND" H 5350 4350 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5550 3400 5550 4250
+	5550 3400 5550 4000
+Wire Wire Line
+	5550 4000 5550 4250
 Connection ~ 5550 4000
 Wire Wire Line
-	5350 3400 5350 4250
+	5350 3400 5350 4000
+Wire Wire Line
+	5350 4000 5350 4250
 Wire Wire Line
 	3600 2000 4200 2000
 Connection ~ 5350 4000
 Wire Wire Line
-	5450 4450 5450 3875
+	5450 4450 5450 4125
 Wire Wire Line
-	1700 4450 6300 4450
+	5450 4125 5450 3875
+Wire Wire Line
+	1700 4450 4900 4450
+Wire Wire Line
+	4900 4450 5350 4450
+Wire Wire Line
+	5350 4450 5450 4450
+Wire Wire Line
+	5450 4450 5550 4450
+Wire Wire Line
+	5550 4450 6300 4450
 Connection ~ 5450 4450
 Connection ~ 5450 4125
 Text Label 5550 3450 3    60   ~ 0
 XTAL1
 Text Label 5350 3450 3    60   ~ 0
 XTAL2
-Text Label 3700 2900 0    60   ~ 0
-D0
 Text Label 3700 3000 0    60   ~ 0
+D0
+Text Label 3700 3100 0    60   ~ 0
 D1
 Wire Wire Line
-	3600 2750 5350 2750
+	3600 2800 4900 2800
 Wire Wire Line
-	4900 2750 4900 3000
+	4900 2800 5350 2800
+Wire Wire Line
+	4900 2800 4900 3000
 $Comp
 L SW_SPST S429
 U 1 1 590E2A2B
@@ -198,20 +217,20 @@ $EndComp
 $Comp
 L RESISTOR R429
 U 1 1 590E2A33
-P 4900 2650
-F 0 "R429" H 4850 2700 45  0000 L BNN
-F 1 "10k" H 4850 2550 45  0000 L BNN
-F 2 "KwanSystems:SMD_0603" H 4955 2800 20  0001 C CNN
-F 3 "" H 5325 2350 60  0001 C CNN
-F 4 "P17199CT-ND" H 4900 2650 60  0001 C CNN "Digikey"
-	1    4900 2650
+P 4900 2700
+F 0 "R429" H 4850 2750 45  0000 L BNN
+F 1 "10k" H 4850 2600 45  0000 L BNN
+F 2 "KwanSystems:SMD_0603" H 4955 2850 20  0001 C CNN
+F 3 "" H 5325 2400 60  0001 C CNN
+F 4 "P17199CT-ND" H 4900 2700 60  0001 C CNN "Digikey"
+	1    4900 2700
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR044
 U 1 1 590E2A3A
 P 6200 4450
-F 0 "#PWR041" H 6200 4200 50  0001 C CNN
+F 0 "#PWR044" H 6200 4200 50  0001 C CNN
 F 1 "GND" H 6200 4300 50  0000 C CNN
 F 2 "" H 6200 4450 50  0001 C CNN
 F 3 "" H 6200 4450 50  0001 C CNN
@@ -219,27 +238,41 @@ F 3 "" H 6200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 2650 4200 2650
-Wire Wire Line
-	3600 3400 4200 3400
+	3600 2700 4200 2700
 Wire Wire Line
 	3600 3500 4200 3500
 Wire Wire Line
-	1700 1600 1700 1000
+	3600 3600 4200 3600
 Wire Wire Line
-	900  1600 1700 1600
+	1700 1600 1700 1400
+Wire Wire Line
+	1700 1400 1700 1300
+Wire Wire Line
+	1700 1300 1700 1000
+Wire Wire Line
+	900  1600 1000 1600
+Wire Wire Line
+	1000 1600 1100 1600
+Wire Wire Line
+	1100 1600 1700 1600
 Connection ~ 1700 3500
 Wire Wire Line
-	900  3400 1700 3400
-Text Label 1500 1900 0    60   ~ 0
+	900  3400 1000 3400
+Wire Wire Line
+	1000 3400 1100 3400
+Wire Wire Line
+	1100 3400 1500 3400
+Wire Wire Line
+	1500 3400 1700 3400
+Text Label 1500 1800 0    60   ~ 0
 AREF
 Wire Wire Line
-	1700 2650 1300 2650
+	1700 2600 1300 2600
 Wire Wire Line
-	1700 2750 1300 2750
-Text Label 1350 2650 0    60   ~ 0
+	1700 2700 1300 2700
+Text Label 1350 2600 0    60   ~ 0
 A6
-Text Label 1350 2750 0    60   ~ 0
+Text Label 1350 2700 0    60   ~ 0
 A7
 Connection ~ 1700 3600
 Wire Wire Line
@@ -257,34 +290,34 @@ Wire Wire Line
 Text HLabel 6300 4450 2    60   UnSpc ~ 0
 GND
 Wire Wire Line
-	3600 3100 4200 3100
-Wire Wire Line
 	3600 3200 4200 3200
 Wire Wire Line
 	3600 3300 4200 3300
 Wire Wire Line
-	3600 3600 4200 3600
+	3600 3400 4200 3400
 Wire Wire Line
-	3600 2450 4200 2450
+	3600 3700 4200 3700
 Wire Wire Line
-	3600 2350 4200 2350
+	3600 2500 4200 2500
 Wire Wire Line
-	3600 2250 4200 2250
+	3600 2400 4200 2400
 Wire Wire Line
-	3600 2150 4200 2150
+	3600 2300 4200 2300
+Wire Wire Line
+	3600 2200 4200 2200
 Wire Wire Line
 	3600 1300 4200 1300
-Text Label 3700 3100 0    60   ~ 0
-D2
 Text Label 3700 3200 0    60   ~ 0
-D3
+D2
 Text Label 3700 3300 0    60   ~ 0
-D4
+D3
 Text Label 3700 3400 0    60   ~ 0
-D5
+D4
 Text Label 3700 3500 0    60   ~ 0
-D6
+D5
 Text Label 3700 3600 0    60   ~ 0
+D6
+Text Label 3700 3700 0    60   ~ 0
 D7
 Text Label 3700 1300 0    60   ~ 0
 D8
@@ -299,47 +332,47 @@ D12
 Text Label 3700 1800 0    60   ~ 0
 D13
 Wire Wire Line
-	3600 2900 4200 2900
-Wire Wire Line
 	3600 3000 4200 3000
 Wire Wire Line
-	3600 2550 4200 2550
-Text Label 3700 2150 0    60   ~ 0
-A0
-Text Label 3700 2250 0    60   ~ 0
-A1
-Text Label 3700 2350 0    60   ~ 0
-A2
-Text Label 3700 2450 0    60   ~ 0
-A3
-Text Label 3700 2550 0    60   ~ 0
-A4
-Text Label 3700 2650 0    60   ~ 0
-A5
-Text Label 3700 2750 0    60   ~ 0
-RESET
-Text Label 5050 2750 0    60   ~ 0
-RESET
-Connection ~ 4900 2750
+	3600 3100 4200 3100
 Wire Wire Line
-	4900 1000 4900 2550
-Text HLabel 5350 2750 2    60   Input ~ 0
+	3600 2600 4200 2600
+Text Label 3700 2200 0    60   ~ 0
+A0
+Text Label 3700 2300 0    60   ~ 0
+A1
+Text Label 3700 2400 0    60   ~ 0
+A2
+Text Label 3700 2500 0    60   ~ 0
+A3
+Text Label 3700 2600 0    60   ~ 0
+A4
+Text Label 3700 2700 0    60   ~ 0
+A5
+Text Label 3700 2800 0    60   ~ 0
 RESET
-Text HLabel 4200 2900 2    60   BiDi ~ 0
-D0/RX
+Text Label 5050 2800 0    60   ~ 0
+RESET
+Connection ~ 4900 2800
+Wire Wire Line
+	4900 1000 4900 2600
+Text HLabel 5350 2800 2    60   Input ~ 0
+RESET
 Text HLabel 4200 3000 2    60   BiDi ~ 0
-D1/TX
+D0/RX
 Text HLabel 4200 3100 2    60   BiDi ~ 0
-D2
+D1/TX
 Text HLabel 4200 3200 2    60   BiDi ~ 0
-D3
+D2
 Text HLabel 4200 3300 2    60   BiDi ~ 0
-D4
+D3
 Text HLabel 4200 3400 2    60   BiDi ~ 0
-D5
+D4
 Text HLabel 4200 3500 2    60   BiDi ~ 0
-D6
+D5
 Text HLabel 4200 3600 2    60   BiDi ~ 0
+D6
+Text HLabel 4200 3700 2    60   BiDi ~ 0
 D7
 Text HLabel 4200 1300 2    60   BiDi ~ 0
 D8
@@ -353,21 +386,21 @@ Text HLabel 4200 1700 2    60   BiDi ~ 0
 D12
 Text HLabel 4200 1800 2    60   BiDi ~ 0
 D13
-Text HLabel 4200 2150 2    60   BiDi ~ 0
+Text HLabel 4200 2200 2    60   BiDi ~ 0
 A0
-Text HLabel 4200 2250 2    60   BiDi ~ 0
+Text HLabel 4200 2300 2    60   BiDi ~ 0
 A1
-Text HLabel 4200 2350 2    60   BiDi ~ 0
+Text HLabel 4200 2400 2    60   BiDi ~ 0
 A2
-Text HLabel 4200 2450 2    60   BiDi ~ 0
+Text HLabel 4200 2500 2    60   BiDi ~ 0
 A3
-Text HLabel 4200 2550 2    60   BiDi ~ 0
+Text HLabel 4200 2600 2    60   BiDi ~ 0
 A4
-Text HLabel 4200 2650 2    60   BiDi ~ 0
+Text HLabel 4200 2700 2    60   BiDi ~ 0
 A5
-Text HLabel 1300 2650 0    60   Input ~ 0
+Text HLabel 1300 2600 0    60   Input ~ 0
 A6
-Text HLabel 1300 2750 0    60   Input ~ 0
+Text HLabel 1300 2700 0    60   Input ~ 0
 A7
 Wire Wire Line
 	3600 1900 4200 1900
@@ -396,7 +429,7 @@ Text Label 1200 1600 0    60   ~ 0
 +5V
 Text GLabel 900  1600 0    60   UnSpc ~ 0
 +5V
-Text HLabel 1500 1900 0    60   Input ~ 0
+Text HLabel 1500 1800 0    60   Input ~ 0
 AREF
 Connection ~ 4900 4450
 $EndSCHEMATC
