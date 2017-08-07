@@ -96,6 +96,18 @@ K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
 $ENDCMP
 #
+$CMP Micro_SD_Card_Det
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP Micro_SD_Card_Det_Hirose_DM3AT
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
 $CMP Micro_SD_Card_SPI
 D Micro SD Card Socket
 K connector SD microsd
@@ -135,6 +147,11 @@ $ENDCMP
 $CMP SPARKFUN_6PIN
 D Connector, single row, 01x06, pin header
 K connector
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
 $ENDCMP
 #
 $CMP USB_MICROB
