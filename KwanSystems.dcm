@@ -79,6 +79,12 @@ D single battery cell
 K battery cell
 $ENDCMP
 #
+$CMP MAX4173
+D 200mA Linear LDO Regulator, Fixed Output, SOT-23-6
+K Linear LDO Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX8880-MAX8881.pdf
+$ENDCMP
+#
 $CMP MAX8881
 D 200mA Linear LDO Regulator, Fixed Output, SOT-23-6
 K Linear LDO Regulator
@@ -147,6 +153,11 @@ $ENDCMP
 $CMP SPARKFUN_6PIN
 D Connector, single row, 01x06, pin header
 K connector
+$ENDCMP
+#
+$CMP SW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
 $ENDCMP
 #
 $CMP SW_SPST
