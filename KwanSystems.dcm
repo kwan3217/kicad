@@ -74,6 +74,11 @@ D Connector, single row, 01x06, pin header
 K connector
 $ENDCMP
 #
+$CMP CP2
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
 $CMP Coin_Cell
 D single battery cell
 K battery cell
