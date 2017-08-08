@@ -157,8 +157,6 @@
     (via_drill 0.254)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.25)
-    (diff_pair_width 0.254)
     (add_net +3V3)
     (add_net +5V)
     (add_net +BATT)
@@ -228,8 +226,6 @@
     (via_drill 0.254)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
-    (diff_pair_gap 0.25)
-    (diff_pair_width 0.254)
   )
 
   (module KwanSystems:D_0603 (layer F.Cu) (tedit 59096247) (tstamp 5983E956)

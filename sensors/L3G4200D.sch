@@ -9,9 +9,7 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
-LIBS:xilinx
 LIBS:microcontrollers
-LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -27,15 +25,15 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
+LIBS:Tracker_pHAT-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -86,7 +84,6 @@ Wire Wire Line
 	6200 2900 6700 2900
 Wire Wire Line
 	6200 3000 6700 3000
-NoConn ~ 6200 3400
 NoConn ~ 6200 3500
 Text Label 6250 2900 0    60   ~ 0
 SCL
@@ -165,4 +162,26 @@ SDA
 Wire Wire Line
 	6300 3900 6300 3700
 Connection ~ 6300 3700
+$Comp
+L C_Small C916
+U 1 1 598A5D6A
+P 4600 3200
+F 0 "C916" H 4610 3270 50  0000 L CNN
+F 1 "10uF" H 4610 3120 50  0000 L CNN
+F 2 "KwanSystems:SMD_1206" H 4600 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0001 C CNN
+F 4 "445-5613-1-ND" H 4600 3200 60  0001 C CNN "Digikey"
+	1    4600 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3100 4600 2900
+Connection ~ 4600 2900
+Wire Wire Line
+	4600 3300 4600 3800
+Connection ~ 4600 3800
+Text HLabel 6300 3400 2    60   Output ~ 0
+DRDY
+Wire Wire Line
+	6200 3400 6300 3400
 $EndSCHEMATC

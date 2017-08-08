@@ -9,9 +9,7 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
-LIBS:xilinx
 LIBS:microcontrollers
-LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -27,16 +25,15 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:Tomo_pHAT-cache
-EELAYER 26 0
+LIBS:Tracker_pHAT-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -141,7 +138,7 @@ Wire Wire Line
 Connection ~ 4100 1700
 Connection ~ 4100 1900
 Connection ~ 3700 1700
-Text Label 3750 2200 0    60   ~ 0
+Text Label 3800 2200 0    60   ~ 0
 REGOUT
 Text HLabel 5500 1700 2    60   BiDi ~ 0
 SCL

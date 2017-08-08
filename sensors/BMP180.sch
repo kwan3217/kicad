@@ -9,9 +9,7 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
-LIBS:xilinx
 LIBS:microcontrollers
-LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -27,16 +25,15 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:Tomo_pHAT-cache
-EELAYER 26 0
+LIBS:Tracker_pHAT-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 5
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -60,7 +57,7 @@ F 4 "828-1027-1-ND" H 6500 3100 60  0001 C CNN "Digikey"
 $EndComp
 $Comp
 L C_Small C802
-U 1 1 5910A302
+U 1 1 5989F783
 P 5800 3100
 F 0 "C802" H 5810 3170 50  0000 L CNN
 F 1 "100nF" H 5810 3020 50  0000 L CNN
