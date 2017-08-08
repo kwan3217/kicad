@@ -33,7 +33,7 @@ LIBS:ftdi
 LIBS:switches
 LIBS:analog_devices
 LIBS:Loginator2148-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
@@ -292,7 +292,7 @@ F 1 "M04" H 978 13000 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 900 13050 50  0001 C CNN
 F 3 "" H 900 13050 50  0001 C CNN
 	1    900  13050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X10 J403
