@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 5
+Sheet 3 5
 Title "Adafruit BNO055 Breakout board"
 Date "2017-08-09"
 Rev ""
