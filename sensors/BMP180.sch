@@ -30,12 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer6050-cache
-EELAYER 26 0
+LIBS:Rocketometer055-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -63,7 +63,7 @@ U 1 1 5989F783
 P 5800 3100
 F 0 "C101" H 5810 3170 50  0000 L CNN
 F 1 "100nF" H 5810 3020 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 5800 3100 50  0001 C CNN
+F 2 "KwanSystems:SMD_0402" H 5800 3100 50  0001 C CNN
 F 3 "" H 5800 3100 50  0001 C CNN
 F 4 "445-5613-1-ND" H 5800 3100 60  0001 C CNN "Digikey"
 	1    5800 3100
