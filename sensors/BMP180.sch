@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -9,7 +10,9 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
+LIBS:xilinx
 LIBS:microcontrollers
+LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -25,15 +28,14 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:KwanSystems
-LIBS:ftdi
+LIBS:valves
 LIBS:switches
-LIBS:Tracker_pHAT-cache
-EELAYER 25 0
+LIBS:Rocketometer6050-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -44,10 +46,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BMP180 U801
+L BMP180 U101
 U 1 1 5910A2FA
 P 6500 3100
-F 0 "U801" H 6450 3547 60  0000 C CNN
+F 0 "U101" H 6450 3547 60  0000 C CNN
 F 1 "BMP180" H 6450 3441 60  0000 C CNN
 F 2 "KwanSystems:BMP180" H 6500 3100 60  0001 C CNN
 F 3 "" H 6500 3100 60  0001 C CNN
@@ -56,10 +58,10 @@ F 4 "828-1027-1-ND" H 6500 3100 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C802
+L C_Small C101
 U 1 1 5989F783
 P 5800 3100
-F 0 "C802" H 5810 3170 50  0000 L CNN
+F 0 "C101" H 5810 3170 50  0000 L CNN
 F 1 "100nF" H 5810 3020 50  0000 L CNN
 F 2 "KwanSystems:SMD_0603" H 5800 3100 50  0001 C CNN
 F 3 "" H 5800 3100 50  0001 C CNN
