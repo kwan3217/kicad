@@ -23,7 +23,11 @@ for c in soup.components.find_all("comp"):
   new_comp['Reference'] = [c['ref']]
   new_comp['Value'] = c.value.contents[0]
   new_comp['Identifier'] = ''
-  new_comp['Footprint'] = c.find("footprint").text
+  fp=c.find("footprint")
+  if fp is None:
+      new_comp['Footprint']=''
+  else:
+      new_comp['Footprint'] = c.find("footprint").text
   new_comp['Tolerance'] = ''
   new_comp['Voltage'] = ''
   new_comp['Current'] = ''
