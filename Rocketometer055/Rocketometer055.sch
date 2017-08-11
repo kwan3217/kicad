@@ -1331,7 +1331,7 @@ $EndComp
 Wire Wire Line
 	1100 16100 1400 16100
 Text Label 1150 15300 0    60   ~ 0
-RESET
+RST
 Wire Wire Line
 	1100 15900 1400 15900
 Text Label 1150 15900 0    60   ~ 0
