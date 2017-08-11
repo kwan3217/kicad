@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
@@ -172,15 +172,13 @@ F 3 "" H 1400 15800 50  0001 C CNN
 	1    1400 15800
 	0    -1   -1   0   
 $EndComp
-Text Label 1150 15300 0    60   ~ 0
+Text Label 1150 15600 0    60   ~ 0
 VBUS
 Text Label 1150 15400 0    60   ~ 0
 TX0(PWMR)
 Text Label 1150 15500 0    60   ~ 0
 RX0
-Text Label 1150 16000 0    60   ~ 0
-SCL
-Text Label 1150 15900 0    60   ~ 0
+Text Label 1150 15700 0    60   ~ 0
 SDA(BSL)
 Text Label 6100 11000 0    60   ~ 0
 TX0(PWMR)
@@ -213,7 +211,7 @@ USBD+
 Text Label 6100 13900 0    60   ~ 0
 USBD-
 Text Label 6100 14300 0    60   ~ 0
-USB_LIGHT
+USB_SOFTCONNECT
 $Comp
 L LED_ARGB D401
 U 1 1 598BF214
@@ -554,12 +552,12 @@ $EndComp
 $Comp
 L VCC #PWR012
 U 1 1 598BF23F
-P 1400 16200
-F 0 "#PWR012" H 1400 16050 50  0001 C CNN
-F 1 "VCC" H 1400 16350 50  0000 C CNN
-F 2 "" H 1400 16200 50  0000 C CNN
-F 3 "" H 1400 16200 50  0000 C CNN
-	1    1400 16200
+P 1400 16000
+F 0 "#PWR012" H 1400 15850 50  0001 C CNN
+F 1 "VCC" H 1400 16150 50  0000 C CNN
+F 2 "" H 1400 16000 50  0000 C CNN
+F 3 "" H 1400 16000 50  0000 C CNN
+	1    1400 16000
 	0    1    1    0   
 $EndComp
 Text Label 4600 9200 0    60   ~ 0
@@ -597,7 +595,6 @@ F 3 "" H 2500 12300 50  0001 C CNN
 	1    2500 12300
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 8000 14200
 $Comp
 L RP4 R402
 U 4 1 598C6058
@@ -740,11 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 15800 1400 15800
 Wire Wire Line
-	1100 15900 1400 15900
-Wire Wire Line
 	1100 16000 1400 16000
-Wire Wire Line
-	1100 16100 1400 16100
 Wire Wire Line
 	6000 11000 6700 11000
 Wire Wire Line
@@ -802,10 +795,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 14000 7400 14000
 Wire Wire Line
-	9700 14500 7600 14500
+	7600 14500 9700 14500
 Wire Wire Line
-	9700 14300 9700 14500
-Connection ~ 9700 14400
+	9700 14500 9700 14300
 Connection ~ 8000 14500
 Wire Wire Line
 	8000 13700 7600 13700
@@ -955,7 +947,7 @@ Connection ~ 2700 12300
 Wire Wire Line
 	6000 12500 7400 12500
 Wire Wire Line
-	8000 14300 8000 14500
+	8000 14200 8000 14500
 Connection ~ 7400 9000
 Wire Wire Line
 	7100 12200 7100 11000
@@ -1078,6 +1070,7 @@ F 0 "J701" H 8850 14617 50  0000 C CNN
 F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 8850 14526 50  0000 C CNN
 F 2 "KwanSystems:MICROSD-SOCKET-PP" H 10950 14500 50  0001 C CNN
 F 3 "" H 8900 13900 50  0001 C CNN
+F 4 "101-00581-59-1-ND" H 8900 13800 60  0001 C CNN "Digikey"
 	1    8900 13800
 	1    0    0    -1  
 $EndComp
@@ -1172,7 +1165,7 @@ Wire Wire Line
 	9600 11500 9850 11500
 Wire Wire Line
 	9600 11600 9850 11600
-NoConn ~ 6000 12100
+NoConn ~ 6000 14200
 $Comp
 L VCC #PWR019
 U 1 1 598CBDBD
@@ -1231,16 +1224,16 @@ Wire Wire Line
 	1100 15600 1400 15600
 Wire Wire Line
 	1100 15700 1400 15700
-Text Label 1150 15600 0    60   ~ 0
+Text Label 1150 16100 0    60   ~ 0
 GPS_RX
-Text Label 1150 15700 0    60   ~ 0
+Text Label 1150 16200 0    60   ~ 0
 GPS_TX
 Wire Wire Line
 	6700 11000 6700 11400
 Connection ~ 8600 10400
 Wire Wire Line
-	6000 14200 6500 14200
-Text Label 6100 14200 0    60   ~ 0
+	6000 12100 6500 12100
+Text Label 6100 12100 0    60   ~ 0
 FIX
 $Comp
 L RP2 R050
@@ -1335,4 +1328,12 @@ F 3 "" H 2725 7700 60  0001 C CNN
 	2    2300 8000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1100 16100 1400 16100
+Text Label 1150 15300 0    60   ~ 0
+RESET
+Wire Wire Line
+	1100 15900 1400 15900
+Text Label 1150 15900 0    60   ~ 0
+SCL
 $EndSCHEMATC

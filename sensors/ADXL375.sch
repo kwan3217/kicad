@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -106,8 +106,8 @@ Wire Wire Line
 	3100 3300 4500 3300
 Connection ~ 4500 2550
 Wire Wire Line
-	4000 2800 4000 3250
-Connection ~ 3800 3300
+	4000 2800 4000 3300
+Connection ~ 4000 3300
 Wire Wire Line
 	3600 2800 3600 3000
 $Comp
