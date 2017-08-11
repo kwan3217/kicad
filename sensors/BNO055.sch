@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8

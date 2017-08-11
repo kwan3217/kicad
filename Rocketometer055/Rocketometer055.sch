@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
@@ -175,17 +175,15 @@ $EndComp
 Text Label 1150 15300 0    60   ~ 0
 VBUS
 Text Label 1150 15400 0    60   ~ 0
-TX0/PWMR
+TX0(PWMR)
 Text Label 1150 15500 0    60   ~ 0
 RX0
-Text Label 1150 15900 0    60   ~ 0
-BSL
 Text Label 1150 16000 0    60   ~ 0
-SCL0
-Text Label 1150 16100 0    60   ~ 0
-SDA0
+SCL
+Text Label 1150 15900 0    60   ~ 0
+SDA(BSL)
 Text Label 6100 11000 0    60   ~ 0
-TX0/PWMR
+TX0(PWMR)
 Text Label 6100 11100 0    60   ~ 0
 RX0
 Text Label 6100 12200 0    60   ~ 0
@@ -203,7 +201,7 @@ GPS_RX
 Text Label 6100 13300 0    60   ~ 0
 PWMB
 Text Label 6100 12500 0    60   ~ 0
-SDA/BSL
+SDA(BSL)
 Text Label 6100 12600 0    60   ~ 0
 CS0
 Text Label 6100 12800 0    60   ~ 0
@@ -601,39 +599,6 @@ F 3 "" H 2500 12300 50  0001 C CNN
 $EndComp
 NoConn ~ 8000 14200
 $Comp
-L RESISTOR R051
-U 1 1 598BD341
-P 2300 8000
-F 0 "R051" H 2250 8050 45  0000 L BNN
-F 1 "10k" H 2250 7900 45  0000 L BNN
-F 2 "KwanSystems:SMD_0402" H 2355 8150 20  0001 C CNN
-F 3 "" H 2725 7700 60  0001 C CNN
-	1    2300 8000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C010
-U 1 1 598BF67C
-P 2100 9550
-F 0 "C010" H 2192 9596 50  0000 L CNN
-F 1 "1uF" H 2192 9505 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 2100 9550 50  0001 C CNN
-F 3 "" H 2100 9550 50  0001 C CNN
-	1    2100 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L RESISTOR R010
-U 1 1 598C074D
-P 3100 9000
-F 0 "R010" H 3050 9050 45  0000 L BNN
-F 1 "10k" H 3050 8900 45  0000 L BNN
-F 2 "KwanSystems:SMD_0402" H 3155 9150 20  0001 C CNN
-F 3 "" H 3525 8700 60  0001 C CNN
-	1    3100 9000
-	0    1    1    0   
-$EndComp
-$Comp
 L RP4 R402
 U 4 1 598C6058
 P 7550 11400
@@ -993,9 +958,6 @@ Wire Wire Line
 	8000 14300 8000 14500
 Connection ~ 7400 9000
 Wire Wire Line
-	2100 9650 2100 9800
-Connection ~ 2100 9800
-Wire Wire Line
 	7100 12200 7100 11000
 Wire Wire Line
 	6600 11700 6600 11600
@@ -1047,11 +1009,11 @@ Wire Wire Line
 Wire Wire Line
 	9600 12400 10000 12400
 Text Label 9700 11900 0    60   ~ 0
-SDA/BSL
+SDA(BSL)
 Text Label 9700 12000 0    60   ~ 0
 SCL
 Text Label 9700 12300 0    60   ~ 0
-SDA/BSL
+SDA(BSL)
 Text Label 9700 12400 0    60   ~ 0
 SCL
 Wire Wire Line
@@ -1097,7 +1059,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 11300 10000 11300
 Text Label 9750 11000 0    60   ~ 0
-SDA/BSL
+SDA(BSL)
 Text Label 9750 11100 0    60   ~ 0
 SCL
 Text Label 9750 11300 0    60   ~ 0
@@ -1142,9 +1104,6 @@ NoConn ~ 6000 14000
 NoConn ~ 6000 14100
 NoConn ~ 6000 12900
 Connection ~ 7400 10800
-Wire Wire Line
-	2100 9450 2100 8900
-Connection ~ 2100 8900
 $Sheet
 S 8800 10900 800  750 
 U 598CC465
@@ -1354,4 +1313,26 @@ Wire Wire Line
 NoConn ~ 3400 12300
 NoConn ~ 3400 12400
 NoConn ~ 6000 11300
+$Comp
+L RP2 R051
+U 1 1 598D6DCE
+P 3100 9000
+F 0 "R051" H 3050 9050 45  0000 L BNN
+F 1 "10k" H 3050 8900 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 3155 9150 20  0001 C CNN
+F 3 "" H 3525 8700 60  0001 C CNN
+	1    3100 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L RP2 R051
+U 2 1 598D71BE
+P 2300 8000
+F 0 "R051" H 2250 8050 45  0000 L BNN
+F 1 "10k" H 2250 7900 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 2355 8150 20  0001 C CNN
+F 3 "" H 2725 7700 60  0001 C CNN
+	2    2300 8000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
