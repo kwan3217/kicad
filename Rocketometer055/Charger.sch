@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 4900 5200 4900
 Wire Wire Line
-	5200 5700 5200 4900
+	5200 4900 5200 5700
 Connection ~ 4100 5700
 Connection ~ 3800 4800
 Wire Wire Line

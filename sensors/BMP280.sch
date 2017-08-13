@@ -58,7 +58,7 @@ Wire Wire Line
 Connection ~ 5800 3200
 Connection ~ 5900 3200
 Text HLabel 5900 3000 1    60   UnSpc ~ 0
-+3.3V
+VCC
 Text HLabel 5900 3450 0    60   UnSpc ~ 0
 GND
 Text HLabel 7250 3650 2    60   BiDi ~ 0
