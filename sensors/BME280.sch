@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -9,7 +10,9 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
+LIBS:xilinx
 LIBS:microcontrollers
+LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -25,15 +28,13 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:KwanSystems
-LIBS:ftdi
+LIBS:valves
 LIBS:switches
-LIBS:Tracker_pHAT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -64,7 +65,7 @@ SCL
 Text Label 7100 3650 0    60   ~ 0
 SDA
 Text HLabel 6600 3250 1    60   UnSpc ~ 0
-+3.3V
+VCC
 Text HLabel 6600 3950 3    60   UnSpc ~ 0
 GND
 Text HLabel 7300 3750 2    60   BiDi ~ 0

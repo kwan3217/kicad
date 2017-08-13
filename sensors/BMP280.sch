@@ -31,15 +31,15 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 2 8
+Title "Rocketometer055"
+Date "2017-08-12"
+Rev "0.0"
+Comp "St Kwan's Home for the Terminally ADD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -66,10 +66,10 @@ SCL
 Text HLabel 7250 3550 2    60   BiDi ~ 0
 SDA
 $Comp
-L BME280 U101
+L BME280 U201
 U 1 1 598CE84D
 P 6600 3550
-F 0 "U101" H 6350 3350 60  0000 C CNN
+F 0 "U201" H 6350 3350 60  0000 C CNN
 F 1 "BME280" H 6450 3850 60  0000 C CNN
 F 2 "KwanSystems:BME280" H 6600 3550 60  0001 C CNN
 F 3 "" H 6600 3550 60  0001 C CNN
@@ -102,10 +102,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 3200 5800 3200
 $Comp
-L CP2 C106
+L CP2 C206
 U 1 1 598CECC2
 P 5400 3100
-F 0 "C106" H 5410 3170 50  0000 L CNN
+F 0 "C206" H 5410 3170 50  0000 L CNN
 F 1 "100nF" H 5410 3020 50  0000 L CNN
 F 2 "KwanSystems:R_Array_Convex_2x0402" H 5400 3100 50  0001 C CNN
 F 3 "" H 5400 3100 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "" H 5400 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP2 C106
+L CP2 C206
 U 2 1 598CED03
 P 5800 3100
-F 0 "C106" H 5810 3170 50  0000 L CNN
+F 0 "C206" H 5810 3170 50  0000 L CNN
 F 1 "100nF" H 5810 3020 50  0000 L CNN
 F 2 "KwanSystems:R_Array_Convex_2x0402" H 5800 3100 50  0001 C CNN
 F 3 "" H 5800 3100 50  0001 C CNN

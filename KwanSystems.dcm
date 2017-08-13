@@ -184,6 +184,11 @@ D Connector, single row, 01x06, pin header
 K connector
 $ENDCMP
 #
+$CMP SPARKFUN_JST_POWER
+D Connector, single row, 01x02, pin header
+K connector
+$ENDCMP
+#
 $CMP SW_DPDT_x2
 D Switch, dual pole double throw, separate symbols
 K switch dual-pole double-throw DPDT spdt ON-ON

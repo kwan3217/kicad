@@ -30,26 +30,25 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 5
-Title "Adafruit BNO055 Breakout board"
-Date "2017-08-09"
-Rev ""
-Comp "Adafruit Industries"
+Sheet 1 1
+Title "Rocketometer055"
+Date "2017-08-12"
+Rev "0.0"
+Comp "St Kwan's Home for the Terminally ADD"
 Comment1 ""
 Comment2 "original Adafruit Eagle files"
 Comment3 "Manually imported from"
 Comment4 ""
 $EndDescr
 $Comp
-L BNO085 U601
+L BNO085 U301
 U 1 1 598B8245
 P 3100 2000
-F 0 "U601" H 3100 2750 60  0000 C CNN
+F 0 "U301" H 3100 2750 60  0000 C CNN
 F 1 "BNO085" H 3100 2850 60  0000 C CNN
 F 2 "KwanSystems:BNO055" H 3150 2000 60  0001 C CNN
 F 3 "" H 3150 2000 60  0001 C CNN
@@ -57,10 +56,10 @@ F 3 "" H 3150 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C603
+L C_Small C303
 U 1 1 598B82AE
 P 1700 1400
-F 0 "C603" H 1710 1470 50  0000 L CNN
+F 0 "C303" H 1710 1470 50  0000 L CNN
 F 1 "0.1uF" H 1710 1320 50  0000 L CNN
 F 2 "KwanSystems:SMD_0402" H 1700 1400 50  0001 C CNN
 F 3 "" H 1700 1400 50  0001 C CNN
@@ -79,10 +78,10 @@ F 3 "" H 1500 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C609
+L C_Small C309
 U 1 1 598B8309
 P 1700 1700
-F 0 "C609" H 1710 1770 50  0000 L CNN
+F 0 "C309" H 1710 1770 50  0000 L CNN
 F 1 "0.1uF" H 1710 1620 50  0000 L CNN
 F 2 "KwanSystems:SMD_0402" H 1700 1700 50  0001 C CNN
 F 3 "" H 1700 1700 50  0001 C CNN
@@ -101,37 +100,15 @@ F 3 "" H 1500 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal Y601
+L Crystal Y301
 U 1 1 598B8407
 P 1600 2750
-F 0 "Y601" H 1600 2900 50  0000 C CNN
+F 0 "Y301" H 1600 2900 50  0000 C CNN
 F 1 "32kiHz" H 1600 2600 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm" H 1600 2750 50  0001 C CNN
 F 3 "" H 1600 2750 50  0001 C CNN
 	1    1600 2750
 	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C626
-U 1 1 598B847F
-P 1200 2900
-F 0 "C626" H 1210 2970 50  0000 L CNN
-F 1 "22pF" H 1210 2820 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 1200 2900 50  0001 C CNN
-F 3 "" H 1200 2900 50  0001 C CNN
-	1    1200 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C627
-U 1 1 598B84B6
-P 1200 2600
-F 0 "C627" H 1210 2670 50  0000 L CNN
-F 1 "22pF" H 1210 2520 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 1200 2600 50  0001 C CNN
-F 3 "" H 1200 2600 50  0001 C CNN
-	1    1200 2600
-	0    -1   -1   0   
 $EndComp
 Text Label 1700 2600 0    60   ~ 0
 XIN32
@@ -221,7 +198,7 @@ Wire Wire Line
 Text HLabel 5100 3200 2    60   UnSpc ~ 0
 GND
 Text HLabel 2000 1400 1    60   UnSpc ~ 0
-+3V3
+VCC
 Text HLabel 4200 1400 2    60   BiDi ~ 0
 SDA
 Text HLabel 4200 1500 2    60   Input ~ 0
@@ -244,4 +221,26 @@ Wire Wire Line
 	4800 1100 2100 1100
 Wire Wire Line
 	2100 1100 2100 1400
+$Comp
+L CP2 C326
+U 1 1 59908124
+P 1200 2600
+F 0 "C326" H 1050 2550 50  0000 C CNN
+F 1 "22pF" H 1100 2700 50  0000 C CNN
+F 2 "" H 1200 2600 50  0001 C CNN
+F 3 "" H 1200 2600 50  0001 C CNN
+	1    1200 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L CP2 C326
+U 2 1 599081F5
+P 1200 2900
+F 0 "C326" H 1050 2850 50  0000 C CNN
+F 1 "22pF" H 1100 3000 50  0000 C CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 1200 2900 50  0001 C CNN
+F 3 "" H 1200 2900 50  0001 C CNN
+	2    1200 2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

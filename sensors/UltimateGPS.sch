@@ -30,16 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 1 1
+Title "Rocketometer055"
+Date "2017-08-12"
+Rev "0.0"
+Comp "St Kwan's Home for the Terminally ADD"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -140,7 +139,7 @@ U 1 1 5910180B
 P 7700 3500
 F 0 "X511" H 7710 3650 60  0000 C CNN
 F 1 "uFL" H 7700 3370 60  0000 C CNN
-F 2 "KwanSystems:U.FL" H 7700 3500 60  0001 C CNN
+F 2 "" H 7700 3500 60  0001 C CNN
 F 3 "" H 7700 3500 60  0001 C CNN
 F 4 "H122041-ND" H 7700 3500 60  0001 C CNN "Digikey"
 	1    7700 3500
@@ -207,10 +206,8 @@ Wire Wire Line
 	5050 2600 5050 2700
 Wire Wire Line
 	5300 2300 5300 2200
-Text Label 5300 2200 3    60   ~ 0
-+3.3V
 Text HLabel 5300 2200 1    60   UnSpc ~ 0
-+3.3V
+VCC
 Text HLabel 7700 2600 2    60   Input ~ 0
 RX
 Text HLabel 7700 2700 2    60   Output ~ 0
