@@ -955,4 +955,38 @@ F 3 "" H 3850 6900 50  0000 C CNN
 	1    3850 6900
 	0    1    1    0   
 $EndComp
+Text Notes 6600 2000 0    60   ~ 0
+Pinsel
+Text Notes 6800 2100 0    60   ~ 0
+1
+Text Notes 6800 2200 0    60   ~ 0
+1
+Text Notes 6800 2500 0    60   ~ 0
+1
+Text Notes 6800 2600 0    60   ~ 0
+1
+Text Notes 6800 2700 0    60   ~ 0
+1
+Text Notes 6800 2800 0    60   ~ 0
+2
+Text Notes 6800 3000 0    60   ~ 0
+1
+Text Notes 6800 3100 0    60   ~ 0
+1
+Text Notes 6800 3200 0    60   ~ 0
+2
+Text Notes 6800 3300 0    60   ~ 0
+3
+Text Notes 6800 3600 0    60   ~ 0
+3
+Text Notes 6800 3700 0    60   ~ 0
+0
+Text Notes 6800 3900 0    60   ~ 0
+3
+Text Notes 6800 4400 0    60   ~ 0
+1
+Text Notes 6800 4500 0    60   ~ 0
+2
+Text Notes 6800 4600 0    60   ~ 0
+1
 $EndSCHEMATC
