@@ -1,16 +1,16 @@
-(module FGPMMOPA6H (layer F.Cu) (tedit 59657D24)
-  (fp_text reference U601 (at -8 -8.5 -90) (layer F.SilkS) hide
+(module FGPMMOPA6H (layer F.Cu) (tedit 59920A52)
+  (fp_text reference U501 (at -8 -8.5 270) (layer F.SilkS) hide
     (effects (font (size 0.9652 0.9652) (thickness 0.077216)) (justify left bottom))
   )
-  (fp_text value FGPMMOPA6H (at -8 9.5 -90) (layer F.SilkS) hide
+  (fp_text value FGPMMOPA6H (at -8 9.5 270) (layer F.SilkS) hide
     (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify left bottom))
   )
   (fp_circle (center -9.1 -8.4) (end -8.7838 -8.4) (layer F.SilkS) (width 0.2032))
   (fp_circle (center 0.5 -0.85) (end 1 -0.85) (layer Dwgs.User) (width 0.8128))
-  (fp_line (start -8 8) (end -8 -8) (layer Dwgs.User) (width 0.2032))
-  (fp_line (start 8 8) (end -8 8) (layer Dwgs.User) (width 0.2032))
-  (fp_line (start 8 -8) (end 8 8) (layer Dwgs.User) (width 0.127))
-  (fp_line (start -8 -8) (end 8 -8) (layer Dwgs.User) (width 0.2032))
+  (fp_line (start -8 8) (end -8 -8) (layer F.Fab) (width 0.2032))
+  (fp_line (start 8 8) (end -8 8) (layer F.Fab) (width 0.2032))
+  (fp_line (start 8 -8) (end 8 8) (layer F.Fab) (width 0.127))
+  (fp_line (start -8 -8) (end 8 -8) (layer F.Fab) (width 0.2032))
   (pad "" np_thru_hole circle (at 0.5 -0.85) (size 3 3) (drill 3) (layers *.Cu))
   (pad 20 smd rect (at 7.5 -6.75 180) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at 7.5 -5.25 180) (size 2 1) (layers F.Cu F.Paste F.Mask))
@@ -32,7 +32,7 @@
   (pad 3 smd rect (at -7.5 -3.75) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -7.5 -5.25) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -7.5 -6.75) (size 2 1) (layers F.Cu F.Paste F.Mask))
-  (model O:/home/chrisj/workspace/kicad/KwanSystems.pretty/GTOP50.wrl
+  (model ../KwanSystems.pretty/wrl/GTOP50.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

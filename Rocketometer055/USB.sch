@@ -30,8 +30,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
-EELAYER 26 0
+LIBS:Rocketometer055_pHAT-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -160,7 +160,7 @@ F 1 "1.5k" H 4450 2550 45  0000 L BNN
 F 2 "KwanSystems:R_Array_Convex_2x0402" H 4555 2800 20  0001 C CNN
 F 3 "" H 4925 2350 60  0001 C CNN
 	1    4500 2650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L RP2 R650
@@ -171,7 +171,7 @@ F 1 "1.5k" H 4750 2350 45  0000 L BNN
 F 2 "KwanSystems:R_Array_Convex_2x0402" H 4855 2600 20  0001 C CNN
 F 3 "" H 5225 2150 60  0001 C CNN
 	2    4800 2450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L RP2 R623

@@ -30,12 +30,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
-EELAYER 26 0
+LIBS:Rocketometer055_pHAT-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 5 8
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -229,7 +229,7 @@ U 1 1 5911D6E9
 P 6000 3000
 F 0 "B504" H 6118 3096 50  0000 L CNN
 F 1 "Coin_Cell" H 6118 3005 50  0000 L CNN
-F 2 "KwanSystems:CR1220-2" V 6000 3060 50  0001 C CNN
+F 2 "" V 6000 3060 50  0001 C CNN
 F 3 "" V 6000 3060 50  0001 C CNN
 	1    6000 3000
 	1    0    0    -1  
@@ -250,10 +250,10 @@ Connection ~ 5050 2600
 Text Label 5350 2700 0    60   ~ 0
 VBACKUP+
 $Comp
-L PWR_FLAG #FLG023
+L PWR_FLAG #FLG034
 U 1 1 598DE7CB
 P 6000 2600
-F 0 "#FLG023" H 6000 2675 50  0001 C CNN
+F 0 "#FLG034" H 6000 2675 50  0001 C CNN
 F 1 "PWR_FLAG" H 6000 2750 50  0000 C CNN
 F 2 "" H 6000 2600 50  0001 C CNN
 F 3 "" H 6000 2600 50  0001 C CNN
@@ -261,4 +261,6 @@ F 3 "" H 6000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 2600
+Text HLabel 6150 2700 3    60   UnSpc ~ 0
+VBACKUP
 $EndSCHEMATC
