@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
+LIBS:KwanSystems
+LIBS:Yukari6-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C_Small C806
+L C_Small C306
 U 1 1 5910A302
 P 6050 3750
-F 0 "C806" H 6060 3820 50  0000 L CNN
+F 0 "C306" H 6060 3820 50  0000 L CNN
 F 1 "100nF" H 6060 3670 50  0000 L CNN
 F 2 "KwanSystems:SMD_0603" H 6050 3750 50  0001 C CNN
 F 3 "" H 6050 3750 50  0001 C CNN
@@ -73,10 +73,10 @@ SCL
 Text HLabel 7300 3650 2    60   BiDi ~ 0
 SDA
 $Comp
-L BME280 U802
+L BME280 U301
 U 1 1 5989E54E
 P 6650 3650
-F 0 "U802" H 6400 3450 60  0000 C CNN
+F 0 "U301" H 6400 3450 60  0000 C CNN
 F 1 "BME280" H 6500 3950 60  0000 C CNN
 F 2 "KwanSystems:BME280" H 6650 3650 60  0001 C CNN
 F 3 "" H 6650 3650 60  0001 C CNN
@@ -103,10 +103,10 @@ Wire Wire Line
 	5800 3550 5800 3950
 Connection ~ 6050 3950
 $Comp
-L C_Small C808
+L C_Small C308
 U 1 1 5989E64C
 P 5700 3750
-F 0 "C808" H 5710 3820 50  0000 L CNN
+F 0 "C308" H 5710 3820 50  0000 L CNN
 F 1 "100nF" H 5710 3670 50  0000 L CNN
 F 2 "KwanSystems:SMD_0603" H 5700 3750 50  0001 C CNN
 F 3 "" H 5700 3750 50  0001 C CNN
