@@ -1,6 +1,6 @@
-update=Sun 23 Jul 2017 09:36:11 AM MDT
+update=Sat 14 Oct 2017 09:12:49 PM MDT
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -62,3 +62,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=/mnt/passport/workspace/kicad/KwanSystems
 LibName31=/home/chrisj/workspace/kicad/KwanSystems
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

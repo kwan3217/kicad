@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
-LIBS:Rocketometer6050-cache
+LIBS:KwanSystems
+LIBS:Yukari6-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 4
 Title ""
 Date ""
 Rev ""

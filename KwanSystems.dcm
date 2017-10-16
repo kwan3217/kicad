@@ -71,6 +71,12 @@ K Cortex-M7 Microcontroller
 F http://www.atmel.com/Images/Atmel-11242-32-bit-Cortex-M7-Microcontroller-SAM-S70Q-SAM-S70N-SAM-S70J_Datasheet.pdf
 $ENDCMP
 #
+$CMP BNO055
+D 9DoF IMU with integrated microcontroller and sensor fusion software, to provide absolute orientation estimates
+K 9DoF sensor fusion
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO085_DS000_14.pdf
+$ENDCMP
+#
 $CMP BNO085
 D 9DoF IMU with integrated microcontroller and sensor fusion software, to provide absolute orientation estimates
 K 9DoF sensor fusion
