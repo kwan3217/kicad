@@ -30,8 +30,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
-EELAYER 26 0
+LIBS:Rocketometer055_pHAT-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
