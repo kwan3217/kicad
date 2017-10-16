@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
+LIBS:Yukari6-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
-LIBS:Rocketometer055_pHAT-cache
+LIBS:KwanSystems
+LIBS:Yukari6-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -141,10 +141,10 @@ Any interrupt function can be routed to\neither pin, and the results are ORed, s
 Text Notes 2250 1200 0    60   ~ 0
 This follows the "additional decoupling"\nrecommendation on the datasheet (p26)\nfor use when there is a single supply. The\n100nF capacitor should be located closer \nto the chip.
 $Comp
-L PWR_FLAG #FLG037
+L PWR_FLAG #FLG027
 U 1 1 598CC264
 P 3600 1500
-F 0 "#FLG037" H 3600 1575 50  0001 C CNN
+F 0 "#FLG027" H 3600 1575 50  0001 C CNN
 F 1 "PWR_FLAG" H 3600 1650 50  0000 C CNN
 F 2 "" H 3600 1500 50  0001 C CNN
 F 3 "" H 3600 1500 50  0001 C CNN

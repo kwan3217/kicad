@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Yukari6-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
 LIBS:Yukari6-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 6
 Title ""
 Date ""
 Rev ""

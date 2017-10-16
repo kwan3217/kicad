@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Yukari6-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
 LIBS:Yukari6-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 2 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -82,15 +83,11 @@ XIN32
 Text Label 2400 2900 0    60   ~ 0
 XOUT32
 Wire Wire Line
-	2300 3200 2600 3200
-Wire Wire Line
-	2600 3200 3000 3200
+	2300 3200 3000 3200
 Wire Wire Line
 	3100 2900 3100 3450
 Wire Wire Line
-	2300 2900 2600 2900
-Wire Wire Line
-	2600 2900 3100 2900
+	2300 2900 3100 2900
 Connection ~ 2600 3200
 Connection ~ 2600 2900
 Wire Wire Line
@@ -126,7 +123,7 @@ U 1 1 59908124
 P 2200 3200
 F 0 "C226" H 2050 3150 50  0000 C CNN
 F 1 "22pF" H 2100 3300 50  0000 C CNN
-F 2 "" H 2200 3200 50  0001 C CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 2200 3200 50  0001 C CNN
 F 3 "" H 2200 3200 50  0001 C CNN
 	1    2200 3200
 	0    1    1    0   
@@ -159,7 +156,7 @@ U 1 1 59E44929
 P 3500 4500
 F 0 "U202" H 3950 5350 60  0000 L CNN
 F 1 "BNO055" H 3950 5250 60  0000 L CNN
-F 2 "" H 3550 4100 60  0001 C CNN
+F 2 "KwanSystems:BNO055" H 3550 4100 60  0001 C CNN
 F 3 "" H 3550 4100 60  0001 C CNN
 	1    3500 4500
 	1    0    0    -1  
@@ -167,17 +164,11 @@ $EndComp
 Wire Wire Line
 	3200 2800 3150 2800
 Wire Wire Line
-	3200 2800 3200 3000
-Wire Wire Line
-	3200 3000 3200 3450
+	3200 2800 3200 3450
 Wire Wire Line
 	2950 2800 2900 2800
 Wire Wire Line
-	2900 2600 2900 2800
-Wire Wire Line
-	2900 2800 2900 3000
-Wire Wire Line
-	2900 3000 2900 3450
+	2900 2600 2900 3450
 $Comp
 L C_Small C225
 U 1 1 59E44B71
@@ -190,9 +181,7 @@ F 3 "" H 3050 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3150 3000 3200 3000
-Wire Wire Line
-	3200 3000 4400 3000
+	3150 3000 4400 3000
 Connection ~ 3200 3000
 Wire Wire Line
 	2950 3000 2900 3000
@@ -200,23 +189,11 @@ Connection ~ 2900 3000
 Wire Wire Line
 	3700 3450 3700 2900
 Wire Wire Line
-	4400 3000 4400 4400
+	4400 3000 4400 5800
 Wire Wire Line
-	4400 4400 4400 4600
+	4400 5800 2400 5800
 Wire Wire Line
-	4400 4600 4400 5800
-Wire Wire Line
-	4400 5800 3700 5800
-Wire Wire Line
-	3700 5800 3100 5800
-Wire Wire Line
-	3100 5800 2800 5800
-Wire Wire Line
-	2800 5800 2400 5800
-Wire Wire Line
-	2400 5800 2400 4600
-Wire Wire Line
-	2400 4600 2400 4200
+	2400 5800 2400 4200
 Wire Wire Line
 	2500 4600 2400 4600
 Connection ~ 2400 4600
@@ -231,17 +208,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 3200 3000 3450
 Wire Wire Line
-	1900 2900 1900 3200
-Wire Wire Line
-	1900 3200 1900 4200
+	1900 2900 1900 4200
 Wire Wire Line
 	1600 2600 1600 5900
 Wire Wire Line
-	1600 2600 1700 2600
-Wire Wire Line
-	1700 2600 1800 2600
-Wire Wire Line
-	1800 2600 2900 2600
+	1600 2600 2900 2600
 Connection ~ 2900 2800
 Wire Wire Line
 	4100 4400 4400 4400
@@ -255,11 +226,7 @@ Wire Wire Line
 	3100 5700 3100 5800
 Connection ~ 3100 5800
 Wire Wire Line
-	1900 4200 2150 4200
-Wire Wire Line
-	2150 4200 2400 4200
-Wire Wire Line
-	2400 4200 2500 4200
+	1900 4200 2500 4200
 Connection ~ 2150 4200
 Wire Wire Line
 	2500 4200 2500 4300
@@ -277,8 +244,6 @@ Connection ~ 1700 2600
 Wire Wire Line
 	1700 2600 1700 4400
 Wire Wire Line
-	1700 4400 2150 4400
-Wire Wire Line
-	2150 4400 2500 4400
+	1700 4400 2500 4400
 Connection ~ 2150 4400
 $EndSCHEMATC

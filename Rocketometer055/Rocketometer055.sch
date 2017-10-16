@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:Rocketometer055-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -857,7 +857,7 @@ $Sheet
 S 1800 6750 850  600 
 U 598EAF5E
 F0 "USB" 60
-F1 "USB.sch" 60
+F1 "../blocks/USB.sch" 60
 F2 "CONNECT" I R 2650 6900 60 
 F3 "ON" O R 2650 7000 60 
 F4 "D+" B R 2650 7100 60 
@@ -939,7 +939,7 @@ $Sheet
 S 3850 6750 600  200 
 U 598EC1B0
 F0 "Charger" 60
-F1 "Charger.sch" 60
+F1 "../blocks/Charger.sch" 60
 F2 "GND" U L 3850 6900 60 
 F3 "VBUS" U L 3850 6800 60 
 F4 "VRAW" U R 4450 6800 60 
