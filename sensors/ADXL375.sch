@@ -141,10 +141,10 @@ Any interrupt function can be routed to\neither pin, and the results are ORed, s
 Text Notes 2250 1200 0    60   ~ 0
 This follows the "additional decoupling"\nrecommendation on the datasheet (p26)\nfor use when there is a single supply. The\n100nF capacitor should be located closer \nto the chip.
 $Comp
-L PWR_FLAG #FLG033
+L PWR_FLAG #FLG037
 U 1 1 598CC264
 P 3600 1500
-F 0 "#FLG033" H 3600 1575 50  0001 C CNN
+F 0 "#FLG037" H 3600 1575 50  0001 C CNN
 F 1 "PWR_FLAG" H 3600 1650 50  0000 C CNN
 F 2 "" H 3600 1500 50  0001 C CNN
 F 3 "" H 3600 1500 50  0001 C CNN
