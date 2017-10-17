@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Yukari6-rescue
+LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:KwanSystems
-LIBS:Yukari6-cache
+LIBS:switches
+LIBS:Rocketometer055-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -46,13 +46,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_DPDT_x2 S701
+L SW_DPDT_x2 S601
 U 1 1 598BF237
 P 4600 3350
-AR Path="/598E8215/598BF237" Ref="S701"  Part="1" 
+AR Path="/598E8215/598BF237" Ref="S601"  Part="1" 
 AR Path="/59931DEA/598BF237" Ref="S701"  Part="1" 
 AR Path="/59E5513D/598BF237" Ref="S603"  Part="1" 
-F 0 "S603" H 4600 3520 50  0000 C CNN
+F 0 "S601" H 4600 3520 50  0000 C CNN
 F 1 "SPDT" H 4600 3150 50  0000 C CNN
 F 2 "KwanSystems:SWITCH_DPDT_AZY0202" H 4600 3350 50  0001 C CNN
 F 3 "" H 4600 3350 50  0000 C CNN
@@ -62,10 +62,10 @@ $EndComp
 Text Label 4900 3350 0    60   ~ 0
 PWR_EN
 $Comp
-L C_Small C704
+L C_Small C601
 U 1 1 598BF239
 P 5400 3600
-AR Path="/598E8215/598BF239" Ref="C704"  Part="1" 
+AR Path="/598E8215/598BF239" Ref="C601"  Part="1" 
 AR Path="/59931DEA/598BF239" Ref="C704"  Part="1" 
 AR Path="/59E5513D/598BF239" Ref="C601"  Part="1" 
 F 0 "C601" H 5492 3646 50  0000 L CNN
@@ -76,10 +76,10 @@ F 3 "" H 5400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C714
+L C_Small C604
 U 1 1 598BF23A
 P 6400 3550
-AR Path="/598E8215/598BF23A" Ref="C714"  Part="1" 
+AR Path="/598E8215/598BF23A" Ref="C604"  Part="1" 
 AR Path="/59931DEA/598BF23A" Ref="C714"  Part="1" 
 AR Path="/59E5513D/598BF23A" Ref="C604"  Part="1" 
 F 0 "C604" H 6492 3596 50  0000 L CNN
@@ -92,10 +92,10 @@ $EndComp
 Text Label 6400 3450 0    60   ~ 0
 BYP
 $Comp
-L C_Small C715
+L C_Small C605
 U 1 1 598BF23B
 P 6600 3750
-AR Path="/598E8215/598BF23B" Ref="C715"  Part="1" 
+AR Path="/598E8215/598BF23B" Ref="C605"  Part="1" 
 AR Path="/59931DEA/598BF23B" Ref="C715"  Part="1" 
 AR Path="/59E5513D/598BF23B" Ref="C605"  Part="1" 
 F 0 "C605" H 6692 3796 50  0000 L CNN
@@ -139,10 +139,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 3950 6400 3650
 $Comp
-L MIC5319 U701
+L MIC5319 U601
 U 1 1 598BF238
 P 6000 3250
-AR Path="/598E8215/598BF238" Ref="U701"  Part="1" 
+AR Path="/598E8215/598BF238" Ref="U601"  Part="1" 
 AR Path="/59931DEA/598BF238" Ref="U701"  Part="1" 
 AR Path="/59E5513D/598BF238" Ref="U601"  Part="1" 
 F 0 "U601" H 5750 3450 50  0000 L CNN

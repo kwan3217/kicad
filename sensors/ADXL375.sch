@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:Yukari6-rescue
+LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:KwanSystems
-LIBS:Yukari6-cache
+LIBS:switches
+LIBS:Rocketometer055-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 7
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -50,10 +50,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 2200 4800 2200
 $Comp
-L C_Small C406
+L C_Small C306
 U 1 1 598D684E
 P 2950 1800
-F 0 "C406" V 2900 1950 50  0000 C CNN
+F 0 "C306" V 2900 1950 50  0000 C CNN
 F 1 "1uF" V 3000 1650 50  0000 C CNN
 F 2 "KwanSystems:SMD_0402" H 2950 1800 50  0001 C CNN
 F 3 "" H 2950 1800 50  0001 C CNN
@@ -61,10 +61,10 @@ F 3 "" H 2950 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C405
+L C_Small C305
 U 1 1 598D6B91
 P 3100 1800
-F 0 "C405" V 3050 1950 50  0000 C CNN
+F 0 "C305" V 3050 1950 50  0000 C CNN
 F 1 "100nF" V 3150 1650 50  0000 C CNN
 F 2 "KwanSystems:SMD_0402" H 3100 1800 50  0001 C CNN
 F 3 "" H 3100 1800 50  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "" H 3100 1800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C401
+L C_Small C301
 U 1 1 598D6C36
 P 4000 1400
-F 0 "C401" V 3950 1550 50  0000 C CNN
+F 0 "C301" V 3950 1550 50  0000 C CNN
 F 1 "100nF" V 4050 1250 50  0000 C CNN
 F 2 "KwanSystems:SMD_0402" H 4000 1400 50  0001 C CNN
 F 3 "" H 4000 1400 50  0001 C CNN
@@ -111,10 +111,10 @@ Connection ~ 4000 3300
 Wire Wire Line
 	3600 2800 3600 3000
 $Comp
-L RESISTOR R406
+L RESISTOR R306
 U 1 1 598C919F
 P 2700 1500
-F 0 "R406" H 2650 1550 45  0000 L BNN
+F 0 "R306" H 2650 1550 45  0000 L BNN
 F 1 "100" H 2650 1400 45  0000 L BNN
 F 2 "KwanSystems:SMD_0402" H 2755 1650 20  0001 C CNN
 F 3 "" H 3125 1200 60  0001 C CNN
@@ -141,10 +141,10 @@ Any interrupt function can be routed to\neither pin, and the results are ORed, s
 Text Notes 2250 1200 0    60   ~ 0
 This follows the "additional decoupling"\nrecommendation on the datasheet (p26)\nfor use when there is a single supply. The\n100nF capacitor should be located closer \nto the chip.
 $Comp
-L PWR_FLAG #FLG027
+L PWR_FLAG #FLG017
 U 1 1 598CC264
 P 3600 1500
-F 0 "#FLG027" H 3600 1575 50  0001 C CNN
+F 0 "#FLG017" H 3600 1575 50  0001 C CNN
 F 1 "PWR_FLAG" H 3600 1650 50  0000 C CNN
 F 2 "" H 3600 1500 50  0001 C CNN
 F 3 "" H 3600 1500 50  0001 C CNN
@@ -152,10 +152,10 @@ F 3 "" H 3600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADXL375 U401
+L ADXL375 U301
 U 1 1 598E9BC1
 P 3500 2200
-F 0 "U401" H 4350 2450 60  0000 C CNN
+F 0 "U301" H 4350 2450 60  0000 C CNN
 F 1 "ADXL375" H 4350 2600 60  0000 C CNN
 F 2 "KwanSystems:ADXL375" V 4100 2500 60  0001 C CNN
 F 3 "" V 4100 2500 60  0001 C CNN
