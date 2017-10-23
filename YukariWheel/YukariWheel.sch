@@ -1,0 +1,951 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:KwanSystems
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 7
+Title "Rocketometer055"
+Date "2017-08-12"
+Rev "0.0"
+Comp "St Kwan's Home for the Terminally ADD"
+Comment1 "Section 1 - Microcontroller"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_Small C151
+U 1 1 598BF1FC
+P 3400 1300
+F 0 "C151" H 3492 1346 50  0000 L CNN
+F 1 "100nF" H 3492 1255 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 3400 1300 50  0001 C CNN
+F 3 "" H 3400 1300 50  0001 C CNN
+	1    3400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C163
+U 1 1 598BF1FD
+P 3600 1500
+F 0 "C163" H 3692 1546 50  0000 L CNN
+F 1 "100nF" H 3692 1455 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 3600 1500 50  0001 C CNN
+F 3 "" H 3600 1500 50  0001 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C123
+U 1 1 598BF1FE
+P 3800 1700
+F 0 "C123" H 3892 1746 50  0000 L CNN
+F 1 "1uF" H 3892 1655 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 3800 1700 50  0001 C CNN
+F 3 "" H 3800 1700 50  0001 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C143
+U 1 1 598BF1FF
+P 4000 1300
+F 0 "C143" H 4092 1346 50  0000 L CNN
+F 1 "100nF" H 4092 1255 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 4000 1300 50  0001 C CNN
+F 3 "" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 598BF202
+P 4500 1200
+F 0 "#PWR01" H 4500 1050 50  0001 C CNN
+F 1 "VCC" H 4517 1373 50  0000 C CNN
+F 2 "" H 4500 1200 50  0001 C CNN
+F 3 "" H 4500 1200 50  0001 C CNN
+	1    4500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 598BF203
+P 3400 1800
+F 0 "#PWR02" H 3400 1550 50  0001 C CNN
+F 1 "GND" H 3405 1627 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_SPST S157
+U 1 1 598BF204
+P 1550 3100
+F 0 "S157" V 1504 3198 50  0000 L CNN
+F 1 "SPST" V 1595 3198 50  0000 L CNN
+F 2 "KwanSystems:SW_SPST_B3U-1000P" H 1550 3100 50  0001 C CNN
+F 3 "" H 1550 3100 50  0001 C CNN
+	1    1550 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L RP4 R101
+U 2 1 598BF205
+P 2050 2800
+F 0 "R101" V 2008 2858 45  0000 L CNN
+F 1 "10k" V 2092 2858 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 2105 2950 20  0001 C CNN
+F 3 "" H 2475 2500 60  0001 C CNN
+	2    2050 2800
+	0    -1   -1   0   
+$EndComp
+Text Label 2600 2900 0    60   ~ 0
+RST
+$Comp
+L Crystal_GND24 Y101
+U 1 1 598BF206
+P 2650 3250
+F 0 "Y101" V 2604 3009 50  0000 R CNN
+F 1 "12MHz" V 2695 3009 50  0000 R CNN
+F 2 "Crystals:Crystal_SMD_Abracon_ABM8G-4pin_3.2x2.5mm" H 2650 3250 50  0001 C CNN
+F 3 "" H 2650 3250 50  0001 C CNN
+	1    2650 3250
+	0    -1   1    0   
+$EndComp
+Text Label 3000 3100 0    60   ~ 0
+XTAL1
+Text Label 3000 3200 0    60   ~ 0
+XTAL2
+$Comp
+L GND #PWR03
+U 1 1 598BF207
+P 2050 6300
+F 0 "#PWR03" H 2050 6050 50  0001 C CNN
+F 1 "GND" H 2055 6127 50  0000 C CNN
+F 2 "" H 2050 6300 50  0001 C CNN
+F 3 "" H 2050 6300 50  0001 C CNN
+	1    2050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 598BF212
+P 1350 6700
+F 0 "#PWR04" H 1350 6450 50  0001 C CNN
+F 1 "GND" H 1355 6527 50  0000 C CNN
+F 2 "" H 1350 6700 50  0001 C CNN
+F 3 "" H 1350 6700 50  0001 C CNN
+	1    1350 6700
+	0    -1   -1   0   
+$EndComp
+Text Label 1100 6400 0    60   ~ 0
+VBUS
+Text Label 1100 6500 0    60   ~ 0
+TX0(PWMR)
+Text Label 1100 6600 0    60   ~ 0
+RX0
+Text Label 1100 6800 0    60   ~ 0
+SDA(BSL)
+Text Label 6050 2100 0    60   ~ 0
+TX0(PWMR)
+Text Label 6050 2200 0    60   ~ 0
+RX0
+Text Label 6050 3300 0    60   ~ 0
+SCL
+Text Label 6050 2500 0    60   ~ 0
+SCK0
+Text Label 6050 2600 0    60   ~ 0
+MISO0
+Text Label 6050 2700 0    60   ~ 0
+MOSI0
+Text Label 6050 2800 0    60   ~ 0
+PWMG
+Text Label 6050 3000 0    60   ~ 0
+GPS_RX
+Text Label 6050 4400 0    60   ~ 0
+PWMB
+Text Label 6050 3600 0    60   ~ 0
+SDA(BSL)
+Text Label 6050 3700 0    60   ~ 0
+CS0
+Text Label 6050 3900 0    60   ~ 0
+ACCINT
+Text Label 6050 4600 0    60   ~ 0
+USB_ON
+Text Label 6050 4900 0    60   ~ 0
+USBD+
+Text Label 6050 5000 0    60   ~ 0
+USBD-
+Text Label 6050 5400 0    60   ~ 0
+USB_SOFTCONNECT
+$Comp
+L LED_ARGB D101
+U 1 1 598BF214
+P 7950 2700
+F 0 "D101" H 7950 3197 50  0000 C CNN
+F 1 "HSMF-C118" H 7950 3106 50  0000 C CNN
+F 2 "KwanSystems:HSMF-C118" H 7950 2650 50  0001 C CNN
+F 3 "" H 7950 2650 50  0001 C CNN
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7650 2500 0    60   ~ 0
+DR
+Text Label 7650 2700 0    60   ~ 0
+DG
+Text Label 7650 2900 0    60   ~ 0
+DB
+$Comp
+L RP4 R101
+U 4 1 598BF218
+P 7050 2000
+F 0 "R101" H 7000 1950 45  0000 L CNN
+F 1 "10k" H 7000 2050 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 7105 2150 20  0001 C CNN
+F 3 "" H 7475 1700 60  0001 C CNN
+	4    7050 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 598BF219
+P 7050 1900
+F 0 "#PWR05" H 7050 1750 50  0001 C CNN
+F 1 "VCC" H 7067 2073 50  0000 C CNN
+F 2 "" H 7050 1900 50  0001 C CNN
+F 3 "" H 7050 1900 50  0001 C CNN
+	1    7050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 598BF21B
+P 7550 4500
+F 0 "#PWR06" H 7550 4350 50  0001 C CNN
+F 1 "VCC" H 7567 4673 50  0000 C CNN
+F 2 "" H 7550 4500 50  0001 C CNN
+F 3 "" H 7550 4500 50  0001 C CNN
+	1    7550 4500
+	1    0    0    -1  
+$EndComp
+Text Label 7650 4600 0    60   ~ 0
+CS0
+Text Label 7650 4700 0    60   ~ 0
+MOSI0
+Text Label 7650 4900 0    60   ~ 0
+SCK0
+Text Label 7650 5100 0    60   ~ 0
+MISO0
+NoConn ~ 3350 3900
+NoConn ~ 3350 4000
+NoConn ~ 3350 4100
+NoConn ~ 3350 4200
+NoConn ~ 3350 4300
+NoConn ~ 3350 4400
+NoConn ~ 3350 4500
+NoConn ~ 3350 4600
+NoConn ~ 3350 4800
+NoConn ~ 3350 4900
+NoConn ~ 3350 5000
+NoConn ~ 3350 5100
+NoConn ~ 3350 5200
+NoConn ~ 3350 5300
+NoConn ~ 3350 5400
+NoConn ~ 3350 5500
+$Comp
+L VCC #PWR07
+U 1 1 598BF23D
+P 3150 2100
+F 0 "#PWR07" H 3150 1950 50  0001 C CNN
+F 1 "VCC" H 3150 2250 50  0000 C CNN
+F 2 "" H 3150 2100 50  0000 C CNN
+F 3 "" H 3150 2100 50  0000 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 598BF23E
+P 7550 5600
+F 0 "#PWR08" H 7550 5350 50  0001 C CNN
+F 1 "GND" H 7550 5450 50  0000 C CNN
+F 2 "" H 7550 5600 50  0000 C CNN
+F 3 "" H 7550 5600 50  0000 C CNN
+	1    7550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 598BF23F
+P 1350 7100
+F 0 "#PWR09" H 1350 6950 50  0001 C CNN
+F 1 "VCC" H 1350 7250 50  0000 C CNN
+F 2 "" H 1350 7100 50  0000 C CNN
+F 3 "" H 1350 7100 50  0000 C CNN
+	1    1350 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C162
+U 1 1 598BF241
+P 2450 3100
+F 0 "C162" H 2542 3146 50  0000 L CNN
+F 1 "33pF" H 2542 3055 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 2450 3100 50  0001 C CNN
+F 3 "" H 2450 3100 50  0001 C CNN
+	1    2450 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C161
+U 1 1 598BF242
+P 2450 3400
+F 0 "C161" H 2542 3446 50  0000 L CNN
+F 1 "33pF" H 2542 3355 50  0000 L CNN
+F 2 "KwanSystems:SMD_0402" H 2450 3400 50  0001 C CNN
+F 3 "" H 2450 3400 50  0001 C CNN
+	1    2450 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RP4 R102
+U 4 1 598C6058
+P 7500 2900
+F 0 "R102" H 7600 2850 45  0000 L CNN
+F 1 "1.5k" H 7300 2850 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 7555 3050 20  0001 C CNN
+F 3 "" H 7925 2600 60  0001 C CNN
+	4    7500 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L RP4 R102
+U 2 1 598C61A8
+P 7500 2500
+F 0 "R102" H 7600 2450 45  0000 L CNN
+F 1 "1.5k" H 7300 2450 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 7555 2650 20  0001 C CNN
+F 3 "" H 7925 2200 60  0001 C CNN
+	2    7500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L RP4 R102
+U 1 1 598C626A
+P 7500 2700
+F 0 "R102" H 7600 2650 45  0000 L CNN
+F 1 "1.5k" H 7300 2650 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 7555 2850 20  0001 C CNN
+F 3 "" H 7925 2400 60  0001 C CNN
+	1    7500 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L RP4 R101
+U 1 1 598C8121
+P 7350 2000
+F 0 "R101" H 7300 1950 45  0000 L CNN
+F 1 "10k" H 7300 2050 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 7405 2150 20  0001 C CNN
+F 3 "" H 7775 1700 60  0001 C CNN
+	1    7350 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LPC2148 U101
+U 1 1 598BF1FB
+P 3350 3400
+F 0 "U101" H 4650 4947 60  0000 C CNN
+F 1 "LPC2148" H 4650 4841 60  0000 C CNN
+F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 3350 3400 60  0001 C CNN
+F 3 "" H 3350 3400 60  0001 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 S156
+U 1 1 598CD289
+P 1850 3300
+F 0 "S156" V 1750 3300 50  0000 C CNN
+F 1 "SOLDERJUMPERNO" V 1950 3350 50  0000 C CNN
+F 2 "Connectors:GS2" V 1924 3300 50  0001 C CNN
+F 3 "" H 1850 3300 50  0001 C CNN
+	1    1850 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1200 3600 1200
+Wire Wire Line
+	3600 1200 3800 1200
+Wire Wire Line
+	3800 1200 4000 1200
+Wire Wire Line
+	4000 1200 4500 1200
+Wire Wire Line
+	3600 1200 3600 1400
+Wire Wire Line
+	3400 1400 3400 1800
+Wire Wire Line
+	3600 1800 3600 1600
+Wire Wire Line
+	3800 1200 3800 1600
+Connection ~ 3600 1200
+Connection ~ 3800 1200
+Connection ~ 3600 1800
+Connection ~ 4000 1200
+Wire Wire Line
+	4000 1800 4000 1400
+Connection ~ 3800 1800
+Wire Wire Line
+	3350 2100 3150 2100
+Wire Wire Line
+	3150 2100 3150 2200
+Wire Wire Line
+	3150 2200 3150 2300
+Wire Wire Line
+	3150 2300 3150 2500
+Wire Wire Line
+	3150 2500 3150 2700
+Wire Wire Line
+	3150 2700 3150 3700
+Wire Wire Line
+	3150 2200 3350 2200
+Wire Wire Line
+	3150 2300 3350 2300
+Connection ~ 3150 2200
+Wire Wire Line
+	3150 2500 3350 2500
+Connection ~ 3150 2300
+Connection ~ 3150 2500
+Wire Wire Line
+	1550 2900 2050 2900
+Wire Wire Line
+	2050 2900 3350 2900
+Connection ~ 2050 2900
+Wire Wire Line
+	2550 3100 2650 3100
+Wire Wire Line
+	2650 3100 3350 3100
+Wire Wire Line
+	2550 3400 2650 3400
+Wire Wire Line
+	2650 3400 2950 3400
+Wire Wire Line
+	2950 3400 2950 3200
+Wire Wire Line
+	2950 3200 3350 3200
+Connection ~ 3150 2700
+Wire Wire Line
+	2050 6300 3350 6300
+Wire Wire Line
+	2050 5900 3350 5900
+Wire Wire Line
+	2050 6200 3350 6200
+Connection ~ 2050 6200
+Wire Wire Line
+	2050 6100 3350 6100
+Connection ~ 2050 6100
+Wire Wire Line
+	2050 6000 3350 6000
+Connection ~ 2050 6000
+Wire Wire Line
+	2050 5700 3350 5700
+Connection ~ 2050 5900
+Connection ~ 2050 5700
+Wire Wire Line
+	2250 3250 2350 3250
+Wire Wire Line
+	2350 3250 2450 3250
+Wire Wire Line
+	2450 3250 2850 3250
+Wire Wire Line
+	2250 3250 2250 3300
+Wire Wire Line
+	2250 3300 2050 3300
+Connection ~ 2050 3300
+Connection ~ 2450 3250
+Wire Wire Line
+	1050 6400 1350 6400
+Wire Wire Line
+	1050 6500 1350 6500
+Wire Wire Line
+	1050 6600 1350 6600
+Wire Wire Line
+	1050 6900 1350 6900
+Wire Wire Line
+	1050 7100 1350 7100
+Wire Wire Line
+	5950 2100 6650 2100
+Wire Wire Line
+	5950 2200 6450 2200
+Wire Wire Line
+	5950 3300 7050 3300
+Wire Wire Line
+	5950 2500 6450 2500
+Wire Wire Line
+	5950 2600 6450 2600
+Wire Wire Line
+	5950 2700 6450 2700
+Wire Wire Line
+	5950 2800 6550 2800
+Wire Wire Line
+	5950 3000 6450 3000
+Wire Wire Line
+	5950 4400 6650 4400
+Wire Wire Line
+	5950 3700 6450 3700
+Wire Wire Line
+	5950 3900 6450 3900
+Wire Wire Line
+	5950 4600 6450 4600
+Wire Wire Line
+	5950 4900 6450 4900
+Wire Wire Line
+	5950 5000 6450 5000
+Wire Wire Line
+	5950 5400 6450 5400
+Wire Wire Line
+	7600 2500 7750 2500
+Wire Wire Line
+	7600 2700 7750 2700
+Wire Wire Line
+	7600 2900 7750 2900
+Wire Wire Line
+	6550 2700 7400 2700
+Wire Wire Line
+	6650 2900 7400 2900
+Wire Wire Line
+	6650 2500 7400 2500
+Wire Wire Line
+	8150 2700 8150 2700
+Wire Wire Line
+	8150 1900 8150 2700
+Wire Wire Line
+	7050 1900 7350 1900
+Wire Wire Line
+	7350 1900 8150 1900
+Wire Wire Line
+	7950 4600 7350 4600
+Wire Wire Line
+	7950 4700 7350 4700
+Wire Wire Line
+	7950 4900 7350 4900
+Wire Wire Line
+	7950 5100 7350 5100
+Wire Wire Line
+	7550 5600 7850 5600
+Wire Wire Line
+	7850 5600 7950 5600
+Wire Wire Line
+	7950 5600 9650 5600
+Wire Wire Line
+	9650 5600 9650 5400
+Connection ~ 7950 5600
+Wire Wire Line
+	7950 4800 7550 4800
+Wire Wire Line
+	7550 4800 7550 4500
+Wire Wire Line
+	7950 5000 7850 5000
+Wire Wire Line
+	7850 5000 7850 5600
+Connection ~ 7850 5600
+Wire Wire Line
+	2350 3100 2350 3250
+Wire Wire Line
+	2350 3250 2350 3400
+Connection ~ 2350 3250
+Connection ~ 2650 3100
+Connection ~ 2650 3400
+Wire Wire Line
+	5950 3600 7350 3600
+Wire Wire Line
+	7950 5300 7950 5600
+Wire Wire Line
+	7050 3300 7050 2100
+Wire Wire Line
+	6550 2800 6550 2700
+Wire Wire Line
+	7350 3600 7350 2100
+Wire Wire Line
+	6650 4400 6650 2900
+Wire Wire Line
+	3150 3700 3350 3700
+Wire Wire Line
+	1650 3300 1550 3300
+Wire Wire Line
+	2050 2700 3150 2700
+Wire Wire Line
+	3150 2700 3350 2700
+Wire Wire Line
+	3400 1800 3600 1800
+Wire Wire Line
+	3600 1800 3800 1800
+Wire Wire Line
+	3800 1800 4000 1800
+$Sheet
+S 8750 2950 800  200 
+U 598D31C4
+F0 "Baro" 60
+F1 "../sensors/BME280.sch" 60
+F2 "VCC" U L 8750 3000 60 
+F3 "GND" U L 8750 3100 60 
+F4 "SCL" B R 9550 3100 60 
+F5 "SDA" B R 9550 3000 60 
+$EndSheet
+Wire Wire Line
+	9550 3000 9950 3000
+Wire Wire Line
+	9550 3100 9950 3100
+Wire Wire Line
+	9550 3400 9950 3400
+Wire Wire Line
+	9550 3500 9950 3500
+Text Label 9650 3000 0    60   ~ 0
+SDA(BSL)
+Text Label 9650 3100 0    60   ~ 0
+SCL
+Text Label 9650 3400 0    60   ~ 0
+SDA(BSL)
+Text Label 9650 3500 0    60   ~ 0
+SCL
+Wire Wire Line
+	8550 3000 8750 3000
+Wire Wire Line
+	8550 1500 8550 2100
+Wire Wire Line
+	8550 2100 8550 3000
+Wire Wire Line
+	8550 3000 8550 3400
+Wire Wire Line
+	8550 3400 8750 3400
+Connection ~ 8550 3000
+Wire Wire Line
+	8650 3100 8750 3100
+Wire Wire Line
+	8250 3500 8650 3500
+Wire Wire Line
+	8650 3500 8750 3500
+Connection ~ 8650 3500
+$Comp
+L GND #PWR010
+U 1 1 598D9AD9
+P 8250 3500
+F 0 "#PWR010" H 8250 3250 50  0001 C CNN
+F 1 "GND" H 8255 3327 50  0000 C CNN
+F 2 "" H 8250 3500 50  0001 C CNN
+F 3 "" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR011
+U 1 1 598D9C65
+P 8550 1500
+F 0 "#PWR011" H 8550 1350 50  0001 C CNN
+F 1 "VCC" H 8567 1673 50  0000 C CNN
+F 2 "" H 8550 1500 50  0001 C CNN
+F 3 "" H 8550 1500 50  0001 C CNN
+	1    8550 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2100 9950 2100
+Wire Wire Line
+	9550 2200 9950 2200
+Wire Wire Line
+	9550 2400 9950 2400
+Text Label 9700 2100 0    60   ~ 0
+SDA(BSL)
+Text Label 9700 2200 0    60   ~ 0
+SCL
+Text Label 9700 2400 0    60   ~ 0
+ACCINT
+Connection ~ 8650 3100
+Wire Wire Line
+	8650 2700 8750 2700
+Wire Wire Line
+	8550 2100 8750 2100
+NoConn ~ 7950 5200
+$Comp
+L Micro_SD_Card_Det_Hirose_DM3AT J102
+U 1 1 598E1D6C
+P 8850 4900
+F 0 "J102" H 8800 5717 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 8800 5626 50  0000 C CNN
+F 2 "KwanSystems:MICROSD-SOCKET-PP" H 10900 5600 50  0001 C CNN
+F 3 "" H 8850 5000 50  0001 C CNN
+F 4 "101-00581-59-1-ND" H 8850 4900 60  0001 C CNN "Digikey"
+	1    8850 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 2300
+NoConn ~ 5950 3400
+NoConn ~ 5950 3500
+NoConn ~ 5950 4100
+NoConn ~ 5950 4200
+NoConn ~ 5950 4300
+NoConn ~ 5950 4800
+NoConn ~ 5950 5100
+NoConn ~ 5950 5200
+NoConn ~ 5950 4000
+Connection ~ 7350 1900
+$Sheet
+S 8750 3350 800  300 
+U 598D3F7C
+F0 "HighAcc" 60
+F1 "../sensors/ADXL375.sch" 60
+F2 "VCC" U L 8750 3400 60 
+F3 "GND" U L 8750 3500 60 
+F4 "SDA" B R 9550 3400 60 
+F5 "SCL" B R 9550 3500 60 
+F6 "INT" O R 9550 3600 60 
+$EndSheet
+NoConn ~ 9550 3600
+NoConn ~ 5950 5300
+Connection ~ 8550 2100
+Connection ~ 8650 2700
+Wire Wire Line
+	5950 4500 6450 4500
+Text Label 6050 4500 0    60   ~ 0
+PPS
+Wire Wire Line
+	5950 3100 6450 3100
+Text Label 6050 3100 0    60   ~ 0
+GPS_TX
+Wire Wire Line
+	1050 6700 1350 6700
+Wire Wire Line
+	1050 6800 1350 6800
+Wire Wire Line
+	6650 2100 6650 2500
+Wire Wire Line
+	5950 3200 6450 3200
+Text Label 6050 3200 0    60   ~ 0
+FIX
+Wire Wire Line
+	2050 3300 2050 5700
+Wire Wire Line
+	2050 5700 2050 5900
+Wire Wire Line
+	2050 5900 2050 6000
+Wire Wire Line
+	2050 6000 2050 6100
+Wire Wire Line
+	2050 6100 2050 6200
+Wire Wire Line
+	2050 6200 2050 6300
+NoConn ~ 3350 3400
+NoConn ~ 3350 3500
+NoConn ~ 5950 2400
+Wire Wire Line
+	1050 7000 1350 7000
+Text Label 1100 6900 0    60   ~ 0
+SCL
+Text Label 2700 6900 0    60   ~ 0
+USB_SOFTCONNECT
+Text Label 2700 7200 0    60   ~ 0
+USBD-
+Text Label 2700 7100 0    60   ~ 0
+USBD+
+Text Label 2700 7000 0    60   ~ 0
+USB_ON
+$Sheet
+S 1800 6750 850  600 
+U 598EAF5E
+F0 "USB" 60
+F1 "../blocks/USB.sch" 60
+F2 "CONNECT" I R 2650 6900 60 
+F3 "ON" O R 2650 7000 60 
+F4 "D+" B R 2650 7100 60 
+F5 "D-" B R 2650 7200 60 
+F6 "VBUS" U R 2650 6800 60 
+F7 "GND" U R 2650 7300 60 
+F8 "VCC" U L 1800 6800 60 
+$EndSheet
+Wire Wire Line
+	2650 6900 2950 6900
+Wire Wire Line
+	2650 7000 2950 7000
+Wire Wire Line
+	2650 7100 2950 7100
+Wire Wire Line
+	2650 7200 2950 7200
+Wire Wire Line
+	2650 6800 3850 6800
+Text Label 2700 6800 0    60   ~ 0
+VBUS
+$Comp
+L VCC #PWR012
+U 1 1 598EF37A
+P 1800 6800
+F 0 "#PWR012" H 1800 6650 50  0001 C CNN
+F 1 "VCC" H 1800 6950 50  0000 C CNN
+F 2 "" H 1800 6800 50  0000 C CNN
+F 3 "" H 1800 6800 50  0000 C CNN
+	1    1800 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 598EF5F6
+P 2650 7300
+F 0 "#PWR013" H 2650 7050 50  0001 C CNN
+F 1 "GND" H 2650 7150 50  0000 C CNN
+F 2 "" H 2650 7300 50  0000 C CNN
+F 3 "" H 2650 7300 50  0000 C CNN
+	1    2650 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR014
+U 1 1 598BF23C
+P 6000 6800
+F 0 "#PWR014" H 6000 6650 50  0001 C CNN
+F 1 "VCC" H 6000 6950 50  0000 C CNN
+F 2 "" H 6000 6800 50  0000 C CNN
+F 3 "" H 6000 6800 50  0000 C CNN
+	1    6000 6800
+	0    1    1    0   
+$EndComp
+$Sheet
+S 5200 6750 800  200 
+U 598E8215
+F0 "Regulator" 60
+F1 "../blocks/Regulator.sch" 60
+F2 "GND" U L 5200 6900 60 
+F3 "VRAW" U L 5200 6800 60 
+F4 "VCC" U R 6000 6800 60 
+$EndSheet
+$Comp
+L GND #PWR015
+U 1 1 598E9D63
+P 5200 6900
+F 0 "#PWR015" H 5200 6650 50  0001 C CNN
+F 1 "GND" H 5200 6750 50  0000 C CNN
+F 2 "" H 5200 6900 50  0000 C CNN
+F 3 "" H 5200 6900 50  0000 C CNN
+	1    5200 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 6800 5200 6800
+Text Label 4850 6800 0    60   ~ 0
+VRAW
+$Sheet
+S 3850 6750 600  200 
+U 598EC1B0
+F0 "Charger" 60
+F1 "../blocks/Charger.sch" 60
+F2 "GND" U L 3850 6900 60 
+F3 "VBUS" U L 3850 6800 60 
+F4 "VRAW" U R 4450 6800 60 
+F5 "VLIPO" U R 4450 6900 60 
+$EndSheet
+$Comp
+L GND #PWR016
+U 1 1 598ED1BF
+P 3850 6900
+F 0 "#PWR016" H 3850 6650 50  0001 C CNN
+F 1 "GND" H 3850 6750 50  0000 C CNN
+F 2 "" H 3850 6900 50  0000 C CNN
+F 3 "" H 3850 6900 50  0000 C CNN
+	1    3850 6900
+	0    1    1    0   
+$EndComp
+Text Notes 6600 2000 0    60   ~ 0
+Pinsel
+Text Notes 6800 2100 0    60   ~ 0
+1
+Text Notes 6800 2200 0    60   ~ 0
+1
+Text Notes 6800 2500 0    60   ~ 0
+1
+Text Notes 6800 2600 0    60   ~ 0
+1
+Text Notes 6800 2700 0    60   ~ 0
+1
+Text Notes 6800 2800 0    60   ~ 0
+2
+Text Notes 6800 3000 0    60   ~ 0
+1
+Text Notes 6800 3100 0    60   ~ 0
+1
+Text Notes 6800 3200 0    60   ~ 0
+2
+Text Notes 6800 3300 0    60   ~ 0
+3
+Text Notes 6800 3600 0    60   ~ 0
+3
+Text Notes 6800 3700 0    60   ~ 0
+0
+Text Notes 6800 3900 0    60   ~ 0
+3
+Text Notes 6800 4400 0    60   ~ 0
+1
+Text Notes 6800 4500 0    60   ~ 0
+2
+Text Notes 6800 4600 0    60   ~ 0
+1
+$Sheet
+S 8750 2000 800  750 
+U 598CC465
+F0 "BNO055" 60
+F1 "../sensors/BNO055.sch" 60
+F2 "GND" U L 8750 2700 60 
+F3 "VCC" U L 8750 2100 60 
+F4 "SDA" B R 9550 2100 60 
+F5 "SCL" B R 9550 2200 60 
+F6 "INT" O R 9550 2400 60 
+$EndSheet
+Wire Wire Line
+	8650 2700 8650 3100
+Wire Wire Line
+	8650 3100 8650 3500
+$Comp
+L Conn_01x08 J101
+U 1 1 59E6996F
+P 850 6700
+F 0 "J101" H 850 7100 50  0000 C CNN
+F 1 "Conn_01x08" H 850 6200 50  0000 C CNN
+F 2 "" H 850 6700 50  0001 C CNN
+F 3 "" H 850 6700 50  0001 C CNN
+	1    850  6700
+	-1   0    0    -1  
+$EndComp
+Text Label 1100 7000 0    60   ~ 0
+SDA(BSL)
+$EndSCHEMATC
