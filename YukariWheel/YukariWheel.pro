@@ -1,6 +1,6 @@
-update=Monday, October 23, 2017 'PMt' 04:24:29 PM
+update=10/24/2017 9:16:08 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -60,4 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
-LibName32=/Users/jeppesen/workspace/kicad/KwanSystems
+LibName32=KwanSystems

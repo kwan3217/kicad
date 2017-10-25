@@ -28,15 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:KwanSystems
 LIBS:ftdi
 LIBS:switches
-LIBS:Tomo_pHAT-cache
+LIBS:Naninator-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -49,11 +48,7 @@ $EndDescr
 Connection ~ 1700 1400
 Connection ~ 1700 1600
 Wire Wire Line
-	1700 3400 1700 3500
-Wire Wire Line
-	1700 3500 1700 3600
-Wire Wire Line
-	1700 3600 1700 4450
+	1700 3400 1700 4450
 $Comp
 L C_Small C420
 U 1 1 590E2991
@@ -115,7 +110,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1900 1500 1950
 Wire Wire Line
-	1500 3400 1500 3400
+	900  3400 1700 3400
 Wire Wire Line
 	1500 3400 1500 2150
 Wire Wire Line
@@ -164,31 +159,17 @@ F 4 "445-5588-1-ND" H 5350 4350 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5550 3400 5550 4000
-Wire Wire Line
-	5550 4000 5550 4250
+	5550 3400 5550 4250
 Connection ~ 5550 4000
 Wire Wire Line
-	5350 3400 5350 4000
-Wire Wire Line
-	5350 4000 5350 4250
+	5350 3400 5350 4250
 Wire Wire Line
 	3600 2000 4200 2000
 Connection ~ 5350 4000
 Wire Wire Line
-	5450 4450 5450 4125
+	5450 4450 5450 3875
 Wire Wire Line
-	5450 4125 5450 3875
-Wire Wire Line
-	1700 4450 4900 4450
-Wire Wire Line
-	4900 4450 5350 4450
-Wire Wire Line
-	5350 4450 5450 4450
-Wire Wire Line
-	5450 4450 5550 4450
-Wire Wire Line
-	5550 4450 6300 4450
+	1700 4450 6300 4450
 Connection ~ 5450 4450
 Connection ~ 5450 4125
 Text Label 5550 3450 3    60   ~ 0
@@ -200,15 +181,15 @@ D0
 Text Label 3700 3000 0    60   ~ 0
 D1
 Wire Wire Line
-	3600 2750 4900 2750
-Wire Wire Line
-	4900 2750 5350 2750
+	3600 2750 5350 2750
 Wire Wire Line
 	4900 2750 4900 3000
 $Comp
 L SW_SPST S429
 U 1 1 590E2A2B
 P 4900 3200
+AR Path="/590E2A2B" Ref="S429"  Part="1" 
+AR Path="/5964E4A0/590E2A2B" Ref="S429"  Part="1" 
 F 0 "S429" H 4900 3325 50  0000 C CNN
 F 1 "SW_SPST" H 4900 3100 50  0001 C CNN
 F 2 "KwanSystems:SW_SPST_B3U-1000P" H 4900 3200 50  0001 C CNN
@@ -247,26 +228,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 3500 4200 3500
 Wire Wire Line
-	1700 1600 1700 1400
+	1700 1600 1700 1000
 Wire Wire Line
-	1700 1400 1700 1300
-Wire Wire Line
-	1700 1300 1700 1000
-Wire Wire Line
-	900  1600 1000 1600
-Wire Wire Line
-	1000 1600 1100 1600
-Wire Wire Line
-	1100 1600 1700 1600
+	900  1600 1700 1600
 Connection ~ 1700 3500
-Wire Wire Line
-	900  3400 1000 3400
-Wire Wire Line
-	1000 3400 1100 3400
-Wire Wire Line
-	1100 3400 1500 3400
-Wire Wire Line
-	1500 3400 1700 3400
 Text Label 1500 1900 0    60   ~ 0
 AREF
 Wire Wire Line
