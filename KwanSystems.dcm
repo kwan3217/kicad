@@ -102,12 +102,6 @@ K 9DoF sensor fusion
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO085_DS000_14.pdf
 $ENDCMP
 #
-$CMP BNO085
-D 9DoF IMU with integrated microcontroller and sensor fusion software, to provide absolute orientation estimates
-K 9DoF sensor fusion
-F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO085_DS000_14.pdf
-$ENDCMP
-#
 $CMP Battery_Cell
 D single battery cell
 K battery cell
@@ -236,4 +230,3 @@ K connector USB
 $ENDCMP
 #
 #End Doc Library
-

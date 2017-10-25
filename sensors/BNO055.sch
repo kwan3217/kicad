@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
+LIBS:YukariWheel-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
+LIBS:KwanSystems
+LIBS:YukariWheel-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 7
+Sheet 8 4
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"

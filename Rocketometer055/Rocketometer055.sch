@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:KwanSystems
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:switches
-LIBS:Rocketometer055-cache
+LIBS:KwanSystems
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -92,12 +91,12 @@ $EndComp
 $Comp
 L VCC #PWR01
 U 1 1 598BF202
-P 4400 1200
-F 0 "#PWR01" H 4400 1050 50  0001 C CNN
-F 1 "VCC" H 4417 1373 50  0000 C CNN
-F 2 "" H 4400 1200 50  0001 C CNN
-F 3 "" H 4400 1200 50  0001 C CNN
-	1    4400 1200
+P 4500 1200
+F 0 "#PWR01" H 4500 1050 50  0001 C CNN
+F 1 "VCC" H 4517 1373 50  0000 C CNN
+F 2 "" H 4500 1200 50  0001 C CNN
+F 3 "" H 4500 1200 50  0001 C CNN
+	1    4500 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -414,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1200 4000 1200
 Wire Wire Line
-	4000 1200 4400 1200
+	4000 1200 4500 1200
 Wire Wire Line
 	3600 1200 3600 1400
 Wire Wire Line
