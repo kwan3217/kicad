@@ -33,11 +33,11 @@ LIBS:ftdi
 LIBS:switches
 LIBS:analog_devices
 LIBS:Loginator2148-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -772,9 +772,9 @@ $EndComp
 Wire Wire Line
 	7600 14300 7600 14500
 Wire Wire Line
-	7600 14500 9700 14500
+	9700 14500 7600 14500
 Wire Wire Line
-	9700 14500 9700 14300
+	9700 14300 9700 14500
 Connection ~ 9700 14400
 Connection ~ 8000 14500
 Wire Wire Line
@@ -1052,7 +1052,7 @@ CONN_D+
 Wire Wire Line
 	1200 9500 1200 9800
 Wire Wire Line
-	1200 9800 10000 9800
+	1200 9800 8200 9800
 $Comp
 L GND #PWR013
 U 1 1 598892D9
@@ -1324,7 +1324,7 @@ Wire Wire Line
 Text Label 6250 8200 0    60   ~ 0
 CURRENT
 Wire Wire Line
-	6600 8400 8800 8400
+	6600 8400 8000 8400
 Wire Wire Line
 	6700 8400 6700 8550
 Text Label 6650 8400 0    60   ~ 0
@@ -1358,105 +1358,17 @@ F 3 "" H 7800 8000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6700 8400
-$Comp
-L SW_DPDT_x2 S201
-U 1 1 5989101D
-P 8000 9200
-F 0 "S201" H 8000 9370 50  0000 C CNN
-F 1 "SPDT" H 8000 9000 50  0000 C CNN
-F 2 "KwanSystems:SWITCH_DPDT_AZY0202" H 8000 9200 50  0001 C CNN
-F 3 "" H 8000 9200 50  0000 C CNN
-	1    8000 9200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7800 8400 7800 9100
-Wire Wire Line
-	7800 9800 7800 9300
 Connection ~ 7600 9800
-Wire Wire Line
-	8200 9200 9000 9200
-Text Label 8300 9200 0    60   ~ 0
-PWR_EN
-Wire Wire Line
-	8800 8400 8800 9350
-Connection ~ 7800 8400
-Connection ~ 7800 9800
-$Comp
-L MIC5319 U201
-U 1 1 59891FFA
-P 9400 9100
-F 0 "U201" H 9150 9300 50  0000 L CNN
-F 1 "MIC5319" H 10000 9300 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 10050 8850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5319.pdf" H 9500 8750 50  0001 C CNN
-	1    9400 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 9000 9000 9000
-$Comp
-L C_Small C204
-U 1 1 598923F0
-P 8800 9450
-F 0 "C204" H 8892 9496 50  0000 L CNN
-F 1 "1uF" H 8892 9405 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 8800 9450 50  0001 C CNN
-F 3 "" H 8800 9450 50  0001 C CNN
-	1    8800 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 9800 8800 9550
-Wire Wire Line
-	9400 9800 9400 9400
-Connection ~ 8800 9800
-$Comp
-L C_Small C203
-U 1 1 59892D71
-P 9800 9400
-F 0 "C203" H 9892 9446 50  0000 L CNN
-F 1 "100nF" H 9892 9355 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 9800 9400 50  0001 C CNN
-F 3 "" H 9800 9400 50  0001 C CNN
-	1    9800 9400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 9200 9800 9300
-Wire Wire Line
-	9800 9800 9800 9500
-Connection ~ 9400 9800
-Text Label 9800 9300 0    60   ~ 0
-BYP
-$Comp
-L C_Small C201
-U 1 1 59893374
-P 10000 9600
-F 0 "C201" H 10092 9646 50  0000 L CNN
-F 1 "4.7nF" H 10092 9555 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 10000 9600 50  0001 C CNN
-F 3 "" H 10000 9600 50  0001 C CNN
-	1    10000 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 9800 10000 9700
-Connection ~ 9800 9800
-Wire Wire Line
-	10000 9500 10000 9000
-Wire Wire Line
-	10000 9000 9800 9000
 $Comp
 L VCC #PWR016
 U 1 1 598937D5
-P 10000 9000
-F 0 "#PWR016" H 10000 8850 50  0001 C CNN
-F 1 "VCC" H 10000 9150 50  0000 C CNN
-F 2 "" H 10000 9000 50  0000 C CNN
-F 3 "" H 10000 9000 50  0000 C CNN
-	1    10000 9000
-	1    0    0    -1  
+P 8850 9700
+F 0 "#PWR016" H 8850 9550 50  0001 C CNN
+F 1 "VCC" H 8850 9850 50  0000 C CNN
+F 2 "" H 8850 9700 50  0000 C CNN
+F 3 "" H 8850 9700 50  0000 C CNN
+	1    8850 9700
+	0    1    1    0   
 $EndComp
 Connection ~ 7350 10800
 $Comp
@@ -1556,7 +1468,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 14300 8000 14500
 NoConn ~ 8000 14200
-Connection ~ 8800 9000
 Wire Wire Line
 	7500 8200 7600 8200
 Connection ~ 7600 8200
@@ -1703,4 +1614,17 @@ F 3 "" H 2700 9500 50  0001 C CNN
 	2    2700 9500
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 8200 9650 650  200 
+U 59FCEA60
+F0 "Sheet59FCEA5F" 60
+F1 "../blocks/Regulator.sch" 60
+F2 "GND" U L 8200 9800 60 
+F3 "VIN" U L 8200 9700 60 
+F4 "VOUT" U R 8850 9700 60 
+$EndSheet
+Wire Wire Line
+	8000 8400 8000 9700
+Wire Wire Line
+	8000 9700 8200 9700
 $EndSCHEMATC
