@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -28,14 +31,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
 LIBS:KwanSystems
-LIBS:Rocketometer055-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 6
+Sheet 7 2
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"

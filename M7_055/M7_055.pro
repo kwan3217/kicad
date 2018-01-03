@@ -1,4 +1,4 @@
-update=Tue 02 Jan 2018 04:18:58 PM MST
+update=1/2/2018 10:46:54 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/mnt/passport/workspace/kicad/KwanSystems
+LibName33=KwanSystems
