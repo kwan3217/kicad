@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -28,14 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
 LIBS:KwanSystems
-LIBS:Rocketometer055-cache
+LIBS:M7_055-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 5 8
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -50,34 +52,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 2200 4800 2200
 $Comp
-L C_Small C306
-U 1 1 598D684E
-P 2950 1800
-F 0 "C306" V 2900 1950 50  0000 C CNN
-F 1 "1uF" V 3000 1650 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 2950 1800 50  0001 C CNN
-F 3 "" H 2950 1800 50  0001 C CNN
-	1    2950 1800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C_Small C305
+L C_Small C505
 U 1 1 598D6B91
 P 3100 1800
-F 0 "C305" V 3050 1950 50  0000 C CNN
+F 0 "C505" V 3050 1950 50  0000 C CNN
 F 1 "100nF" V 3150 1650 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 3100 1800 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 3100 1800 50  0001 C CNN
 F 3 "" H 3100 1800 50  0001 C CNN
 	1    3100 1800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C301
+L C_Small C501
 U 1 1 598D6C36
 P 4000 1400
-F 0 "C301" V 3950 1550 50  0000 C CNN
+F 0 "C501" V 3950 1550 50  0000 C CNN
 F 1 "100nF" V 4050 1250 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 4000 1400 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 4000 1400 50  0001 C CNN
 F 3 "" H 4000 1400 50  0001 C CNN
 	1    4000 1400
 	-1   0    0    -1  
@@ -111,12 +102,12 @@ Connection ~ 4000 3300
 Wire Wire Line
 	3600 2800 3600 3000
 $Comp
-L RESISTOR R306
+L RESISTOR R506
 U 1 1 598C919F
 P 2700 1500
-F 0 "R306" H 2650 1550 45  0000 L BNN
+F 0 "R506" H 2650 1550 45  0000 L BNN
 F 1 "100" H 2650 1400 45  0000 L BNN
-F 2 "KwanSystems:SMD_0402" H 2755 1650 20  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 2755 1650 20  0001 C CNN
 F 3 "" H 3125 1200 60  0001 C CNN
 	1    2700 1500
 	1    0    0    -1  
@@ -141,21 +132,10 @@ Any interrupt function can be routed to\neither pin, and the results are ORed, s
 Text Notes 2250 1200 0    60   ~ 0
 This follows the "additional decoupling"\nrecommendation on the datasheet (p26)\nfor use when there is a single supply. The\n100nF capacitor should be located closer \nto the chip.
 $Comp
-L PWR_FLAG #FLG017
-U 1 1 598CC264
-P 3600 1500
-F 0 "#FLG017" H 3600 1575 50  0001 C CNN
-F 1 "PWR_FLAG" H 3600 1650 50  0000 C CNN
-F 2 "" H 3600 1500 50  0001 C CNN
-F 3 "" H 3600 1500 50  0001 C CNN
-	1    3600 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L ADXL375 U301
+L ADXL375 U501
 U 1 1 598E9BC1
 P 3500 2200
-F 0 "U301" H 4350 2450 60  0000 C CNN
+F 0 "U501" H 4350 2450 60  0000 C CNN
 F 1 "ADXL375" H 4350 2600 60  0000 C CNN
 F 2 "KwanSystems:ADXL375" V 4100 2500 60  0001 C CNN
 F 3 "" V 4100 2500 60  0001 C CNN
@@ -165,7 +145,6 @@ $EndComp
 NoConn ~ 3700 2800
 Wire Wire Line
 	3600 1500 3600 1700
-Connection ~ 3600 1500
 Wire Wire Line
 	2800 1500 3600 1500
 Wire Wire Line
@@ -187,4 +166,17 @@ Connection ~ 2600 1500
 Text Label 3200 1500 0    60   ~ 0
 VS
 Connection ~ 4000 1300
+$Comp
+L CP1_Small C506
+U 1 1 5A4DF23E
+P 2950 1800
+F 0 "C506" V 3000 1850 50  0000 L CNN
+F 1 "10uF" V 2900 1550 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603_pol" H 2950 1800 50  0001 C CNN
+F 3 "" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 1850 0    60   ~ 0
+Cx06 is tantalum or \ntantalum-polymer
 $EndSCHEMATC
