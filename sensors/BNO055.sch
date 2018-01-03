@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:YukariWheel-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,12 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:KwanSystems
-LIBS:YukariWheel-cache
+LIBS:Rocketometer055-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 8 4
+Sheet 7 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -86,7 +85,7 @@ XOUT32
 Wire Wire Line
 	2300 3200 3000 3200
 Wire Wire Line
-	3100 2900 3100 3450
+	3100 2900 3100 3500
 Wire Wire Line
 	2300 2900 3100 2900
 Connection ~ 2600 3200
@@ -161,11 +160,11 @@ $EndComp
 Wire Wire Line
 	3200 2800 3150 2800
 Wire Wire Line
-	3200 2800 3200 3450
+	3200 2800 3200 3500
 Wire Wire Line
 	2950 2800 2900 2800
 Wire Wire Line
-	2900 2600 2900 3450
+	2900 2600 2900 3500
 $Comp
 L C_Small C825
 U 1 1 59E44B71
@@ -184,7 +183,7 @@ Wire Wire Line
 	2950 3000 2900 3000
 Connection ~ 2900 3000
 Wire Wire Line
-	3700 3450 3700 2900
+	3700 3500 3700 2900
 Wire Wire Line
 	4400 3000 4400 5800
 Wire Wire Line
@@ -203,7 +202,7 @@ Connection ~ 3700 5800
 Wire Wire Line
 	3600 5900 3600 5400
 Wire Wire Line
-	3000 3200 3000 3450
+	3000 3200 3000 3500
 Wire Wire Line
 	1900 2900 1900 4200
 Wire Wire Line

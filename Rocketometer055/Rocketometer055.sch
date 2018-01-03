@@ -30,11 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:KwanSystems
+LIBS:Rocketometer055-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -203,14 +204,6 @@ Text Label 6050 3700 0    60   ~ 0
 CS0
 Text Label 6050 3900 0    60   ~ 0
 ACCINT
-Text Label 6050 4600 0    60   ~ 0
-USB_ON
-Text Label 6050 4900 0    60   ~ 0
-USBD+
-Text Label 6050 5000 0    60   ~ 0
-USBD-
-Text Label 6050 5400 0    60   ~ 0
-USB_SOFTCONNECT
 $Comp
 L LED_ARGB D101
 U 1 1 598BF214
@@ -407,13 +400,7 @@ F 3 "" H 1850 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 1200 3600 1200
-Wire Wire Line
-	3600 1200 3800 1200
-Wire Wire Line
-	3800 1200 4000 1200
-Wire Wire Line
-	4000 1200 4500 1200
+	3400 1200 4500 1200
 Wire Wire Line
 	3600 1200 3600 1400
 Wire Wire Line
@@ -432,15 +419,7 @@ Connection ~ 3800 1800
 Wire Wire Line
 	3350 2100 3150 2100
 Wire Wire Line
-	3150 2100 3150 2200
-Wire Wire Line
-	3150 2200 3150 2300
-Wire Wire Line
-	3150 2300 3150 2500
-Wire Wire Line
-	3150 2500 3150 2700
-Wire Wire Line
-	3150 2700 3150 3700
+	3150 2100 3150 3700
 Wire Wire Line
 	3150 2200 3350 2200
 Wire Wire Line
@@ -451,18 +430,12 @@ Wire Wire Line
 Connection ~ 3150 2300
 Connection ~ 3150 2500
 Wire Wire Line
-	1550 2900 2050 2900
-Wire Wire Line
-	2050 2900 3350 2900
+	1550 2900 3350 2900
 Connection ~ 2050 2900
 Wire Wire Line
-	2550 3100 2650 3100
+	2550 3100 3350 3100
 Wire Wire Line
-	2650 3100 3350 3100
-Wire Wire Line
-	2550 3400 2650 3400
-Wire Wire Line
-	2650 3400 2950 3400
+	2550 3400 2950 3400
 Wire Wire Line
 	2950 3400 2950 3200
 Wire Wire Line
@@ -486,11 +459,7 @@ Wire Wire Line
 Connection ~ 2050 5900
 Connection ~ 2050 5700
 Wire Wire Line
-	2250 3250 2350 3250
-Wire Wire Line
-	2350 3250 2450 3250
-Wire Wire Line
-	2450 3250 2850 3250
+	2250 3250 2850 3250
 Wire Wire Line
 	2250 3250 2250 3300
 Wire Wire Line
@@ -530,14 +499,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3900 6450 3900
 Wire Wire Line
-	5950 4600 6450 4600
-Wire Wire Line
-	5950 4900 6450 4900
-Wire Wire Line
-	5950 5000 6450 5000
-Wire Wire Line
-	5950 5400 6450 5400
-Wire Wire Line
 	7600 2500 7750 2500
 Wire Wire Line
 	7600 2700 7750 2700
@@ -554,9 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8150 2700
 Wire Wire Line
-	7050 1900 7350 1900
-Wire Wire Line
-	7350 1900 8150 1900
+	7050 1900 8150 1900
 Wire Wire Line
 	7950 4600 7350 4600
 Wire Wire Line
@@ -566,11 +525,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 5100 7350 5100
 Wire Wire Line
-	7550 5600 7850 5600
-Wire Wire Line
-	7850 5600 7950 5600
-Wire Wire Line
-	7950 5600 9650 5600
+	7550 5600 9650 5600
 Wire Wire Line
 	9650 5600 9650 5400
 Connection ~ 7950 5600
@@ -584,9 +539,7 @@ Wire Wire Line
 	7850 5000 7850 5600
 Connection ~ 7850 5600
 Wire Wire Line
-	2350 3100 2350 3250
-Wire Wire Line
-	2350 3250 2350 3400
+	2350 3100 2350 3400
 Connection ~ 2350 3250
 Connection ~ 2650 3100
 Connection ~ 2650 3400
@@ -607,15 +560,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 3300 1550 3300
 Wire Wire Line
-	2050 2700 3150 2700
+	2050 2700 3350 2700
 Wire Wire Line
-	3150 2700 3350 2700
-Wire Wire Line
-	3400 1800 3600 1800
-Wire Wire Line
-	3600 1800 3800 1800
-Wire Wire Line
-	3800 1800 4000 1800
+	3400 1800 4000 1800
 $Sheet
 S 8750 2950 800  200 
 U 598D31C4
@@ -645,20 +592,14 @@ SCL
 Wire Wire Line
 	8550 3000 8750 3000
 Wire Wire Line
-	8550 1500 8550 2100
-Wire Wire Line
-	8550 2100 8550 3000
-Wire Wire Line
-	8550 3000 8550 3400
+	8550 1500 8550 3400
 Wire Wire Line
 	8550 3400 8750 3400
 Connection ~ 8550 3000
 Wire Wire Line
 	8650 3100 8750 3100
 Wire Wire Line
-	8250 3500 8650 3500
-Wire Wire Line
-	8650 3500 8750 3500
+	8250 3500 8750 3500
 Connection ~ 8650 3500
 $Comp
 L GND #PWR010
@@ -757,17 +698,7 @@ Wire Wire Line
 Text Label 6050 3200 0    60   ~ 0
 FIX
 Wire Wire Line
-	2050 3300 2050 5700
-Wire Wire Line
-	2050 5700 2050 5900
-Wire Wire Line
-	2050 5900 2050 6000
-Wire Wire Line
-	2050 6000 2050 6100
-Wire Wire Line
-	2050 6100 2050 6200
-Wire Wire Line
-	2050 6200 2050 6300
+	2050 3300 2050 6300
 NoConn ~ 3350 3400
 NoConn ~ 3350 3500
 NoConn ~ 5950 2400
@@ -775,37 +706,8 @@ Wire Wire Line
 	1050 7000 1350 7000
 Text Label 1100 6900 0    60   ~ 0
 SCL
-Text Label 2700 6900 0    60   ~ 0
-USB_SOFTCONNECT
-Text Label 2700 7200 0    60   ~ 0
-USBD-
-Text Label 2700 7100 0    60   ~ 0
-USBD+
-Text Label 2700 7000 0    60   ~ 0
-USB_ON
-$Sheet
-S 1800 6750 850  600 
-U 598EAF5E
-F0 "USB" 60
-F1 "../blocks/USB.sch" 60
-F2 "CONNECT" I R 2650 6900 60 
-F3 "ON" O R 2650 7000 60 
-F4 "D+" B R 2650 7100 60 
-F5 "D-" B R 2650 7200 60 
-F6 "VBUS" U R 2650 6800 60 
-F7 "GND" U R 2650 7300 60 
-F8 "VCC" U L 1800 6800 60 
-$EndSheet
 Wire Wire Line
-	2650 6900 2950 6900
-Wire Wire Line
-	2650 7000 2950 7000
-Wire Wire Line
-	2650 7100 2950 7100
-Wire Wire Line
-	2650 7200 2950 7200
-Wire Wire Line
-	2650 6800 3850 6800
+	2600 6800 3850 6800
 Text Label 2700 6800 0    60   ~ 0
 VBUS
 $Comp
@@ -822,13 +724,13 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 598EF5F6
-P 2650 7300
-F 0 "#PWR013" H 2650 7050 50  0001 C CNN
-F 1 "GND" H 2650 7150 50  0000 C CNN
-F 2 "" H 2650 7300 50  0000 C CNN
-F 3 "" H 2650 7300 50  0000 C CNN
-	1    2650 7300
-	0    -1   -1   0   
+P 2200 7500
+F 0 "#PWR013" H 2200 7250 50  0001 C CNN
+F 1 "GND" H 2200 7350 50  0000 C CNN
+F 2 "" H 2200 7500 50  0000 C CNN
+F 3 "" H 2200 7500 50  0000 C CNN
+	1    2200 7500
+	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR014
@@ -847,8 +749,8 @@ U 598E8215
 F0 "Regulator" 60
 F1 "../blocks/Regulator.sch" 60
 F2 "GND" U L 5200 6900 60 
-F3 "VRAW" U L 5200 6800 60 
-F4 "VCC" U R 6000 6800 60 
+F3 "VIN" U L 5200 6800 60 
+F4 "VOUT" U R 6000 6800 60 
 $EndSheet
 $Comp
 L GND #PWR015
@@ -932,9 +834,7 @@ F5 "SCL" B R 9550 2200 60
 F6 "INT" O R 9550 2400 60 
 $EndSheet
 Wire Wire Line
-	8650 2700 8650 3100
-Wire Wire Line
-	8650 3100 8650 3500
+	8650 2700 8650 3500
 $Comp
 L Conn_01x08 J101
 U 1 1 59E6996F
@@ -947,5 +847,32 @@ F 3 "" H 850 6700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 1100 7000 0    60   ~ 0
-SDA(BSL)
+RST
+$Comp
+L USB_MICROB J501
+U 1 1 5A4BD0E3
+P 2300 7000
+F 0 "J501" H 2100 7450 50  0000 L CNN
+F 1 "USB_MICROB" H 2100 7350 50  0000 L CNN
+F 2 "KwanSystems:USB_Micro-B_Molex_47346-0001" H 2450 6950 50  0001 C CNN
+F 3 "" H 2450 6950 50  0001 C CNN
+	1    2300 7000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 7000
+NoConn ~ 2600 7100
+NoConn ~ 2600 7200
+Wire Wire Line
+	2200 7400 2200 7500
+Wire Wire Line
+	2300 7400 2300 7500
+Wire Wire Line
+	2300 7500 2200 7500
+Connection ~ 2200 7500
+NoConn ~ 5950 4600
+NoConn ~ 5950 4900
+NoConn ~ 5950 5000
+NoConn ~ 5950 5400
+NoConn ~ 7950 4500
+Connection ~ 7950 5400
 $EndSCHEMATC

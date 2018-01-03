@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:YukariWheel-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,11 +30,12 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:KwanSystems
-EELAYER 26 0
+LIBS:Rocketometer055-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 4
+Sheet 7 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -175,10 +175,10 @@ Connection ~ 5200 4800
 Wire Wire Line
 	4550 4300 5200 4300
 $Comp
-L PWR_FLAG #FLG019
+L PWR_FLAG #FLG018
 U 1 1 598E375C
 P 4800 4300
-F 0 "#FLG019" H 4800 4375 50  0001 C CNN
+F 0 "#FLG018" H 4800 4375 50  0001 C CNN
 F 1 "PWR_FLAG" H 4800 4474 50  0000 C CNN
 F 2 "" H 4800 4300 50  0001 C CNN
 F 3 "" H 4800 4300 50  0001 C CNN
