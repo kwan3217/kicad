@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -259,4 +259,36 @@ Wire Wire Line
 	5100 2000 5500 2000
 Text Label 5200 1900 0    60   ~ 0
 SDA1
+Text Label 5200 2000 0    60   ~ 0
+SCL1
+Text Notes 3600 800  0    60   ~ 0
+Timers TIM2 and TIM5 are 32-bit timers. They\neach have 4 capture inputs, and each capture\ninput can appear on several pins. These are\nappropriate for capturing sensor interrupts\nand GPS PPS signals.
+Text Notes 3600 900  0    60   ~ 0
+TIM2_CH1
+Text Notes 3600 1000 0    60   ~ 0
+TIM2_CH2\n
+Text Notes 3600 1100 0    60   ~ 0
+TIM2_CH3
+Text Notes 3600 1200 0    60   ~ 0
+TIM2_CH4
+Text Notes 4150 900  0    60   ~ 0
+TIM5_CH1
+Text Notes 4150 1000 0    60   ~ 0
+TIM5_CH2
+Text Notes 4150 1100 0    60   ~ 0
+TIM5_CH3
+Text Notes 4150 1200 0    60   ~ 0
+TIM5_CH4
+Text Notes 3600 1400 0    60   ~ 0
+TIM2_CH1
+Text Notes 3600 2400 0    60   ~ 0
+TIM2_CH1
+Text Notes 3600 2900 0    60   ~ 0
+TIM2_CH2\n
+Text Notes 3600 3600 0    60   ~ 0
+TIM2_CH3
+Text Notes 3600 3700 0    60   ~ 0
+TIM2_CH4
+Text Notes 5850 700  0    60   ~ 0
+The bootloader can use serial ports\nUSART1, USART3. These can be mapped\nto the following pins:
 $EndSCHEMATC

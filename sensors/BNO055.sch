@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 6
+Sheet 7 2
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
