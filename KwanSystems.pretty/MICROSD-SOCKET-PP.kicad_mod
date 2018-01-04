@@ -29,7 +29,7 @@
   (pad 6 smd rect (at -3.44 -10.9) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -2.34 -10.7) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at -1.24 -10.7) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
-  (model /mnt/big/home/chrisj/workspace/kicad/KwanSystems.pretty/wrl/AmphenolMicroSD.wrl
+  (model ../KwanSystems.pretty/wrl/AmphenolMicroSD.wrl
     (at (xyz -0.2755905511811024 0.2854330708661417 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz -90 0 180))
