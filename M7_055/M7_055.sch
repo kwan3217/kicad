@@ -61,90 +61,90 @@ $EndComp
 $Comp
 L C_Small C119
 U 1 1 5A4D5B95
-P 1400 900
-F 0 "C119" V 1450 700 50  0000 L CNN
-F 1 "100nF" V 1350 650 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1400 900 50  0001 C CNN
-F 3 "" H 1400 900 50  0001 C CNN
-	1    1400 900 
-	0    1    1    0   
+P 1900 6900
+F 0 "C119" V 1950 6700 50  0000 L CNN
+F 1 "100nF" V 1850 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 1900 6900 50  0001 C CNN
+F 3 "" H 1900 6900 50  0001 C CNN
+	1    1900 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C132
 U 1 1 5A4D5C14
-P 1100 1000
-F 0 "C132" V 1150 800 50  0000 L CNN
-F 1 "100nF" V 1050 750 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1100 1000 50  0001 C CNN
-F 3 "" H 1100 1000 50  0001 C CNN
-	1    1100 1000
-	0    1    1    0   
+P 2100 6900
+F 0 "C132" V 2150 6700 50  0000 L CNN
+F 1 "100nF" V 2050 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 2100 6900 50  0001 C CNN
+F 3 "" H 2100 6900 50  0001 C CNN
+	1    2100 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C148
 U 1 1 5A4D5C50
-P 1400 1100
-F 0 "C148" V 1450 900 50  0000 L CNN
-F 1 "100nF" V 1350 850 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1400 1100 50  0001 C CNN
-F 3 "" H 1400 1100 50  0001 C CNN
-	1    1400 1100
-	0    1    1    0   
+P 2300 6900
+F 0 "C148" V 2350 6700 50  0000 L CNN
+F 1 "100nF" V 2250 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 2300 6900 50  0001 C CNN
+F 3 "" H 2300 6900 50  0001 C CNN
+	1    2300 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C164
 U 1 1 5A4D5C93
-P 1100 1200
-F 0 "C164" V 1150 1000 50  0000 L CNN
-F 1 "100nF" V 1050 950 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1100 1200 50  0001 C CNN
-F 3 "" H 1100 1200 50  0001 C CNN
-	1    1100 1200
-	0    1    1    0   
+P 2500 6900
+F 0 "C164" V 2550 6700 50  0000 L CNN
+F 1 "100nF" V 2450 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 2500 6900 50  0001 C CNN
+F 3 "" H 2500 6900 50  0001 C CNN
+	1    2500 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C113
 U 1 1 5A4D5D86
-P 1400 1600
-F 0 "C113" V 1450 1400 50  0000 L CNN
-F 1 "10nF" V 1350 1350 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1400 1600 50  0001 C CNN
-F 3 "" H 1400 1600 50  0001 C CNN
-	1    1400 1600
-	0    1    1    0   
+P 2900 6900
+F 0 "C113" V 2950 6700 50  0000 L CNN
+F 1 "10nF" V 2850 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 2900 6900 50  0001 C CNN
+F 3 "" H 2900 6900 50  0001 C CNN
+	1    2900 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C112
 U 1 1 5A4D5DD8
-P 1100 1700
-F 0 "C112" V 1150 1500 50  0000 L CNN
-F 1 "1uF" V 1050 1450 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1100 1700 50  0001 C CNN
-F 3 "" H 1100 1700 50  0001 C CNN
-	1    1100 1700
-	0    1    1    0   
+P 3100 6900
+F 0 "C112" V 3150 6700 50  0000 L CNN
+F 1 "1uF" V 3050 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 3100 6900 50  0001 C CNN
+F 3 "" H 3100 6900 50  0001 C CNN
+	1    3100 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C118
 U 1 1 5A4D5FB5
-P 1400 1300
-F 0 "C118" V 1450 1100 50  0000 L CNN
-F 1 "4.7uF" V 1350 1050 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1400 1300 50  0001 C CNN
-F 3 "" H 1400 1300 50  0001 C CNN
-	1    1400 1300
-	0    1    1    0   
+P 1700 6900
+F 0 "C118" V 1750 6700 50  0000 L CNN
+F 1 "4.7uF" V 1650 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 1700 6900 50  0001 C CNN
+F 3 "" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L C_Small C130
 U 1 1 5A4D604E
-P 1400 1800
-F 0 "C130" V 1450 1600 50  0000 L CNN
-F 1 "4.7uF" V 1350 1550 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 1400 1800 50  0001 C CNN
-F 3 "" H 1400 1800 50  0001 C CNN
-	1    1400 1800
-	0    1    1    0   
+P 3400 6900
+F 0 "C130" V 3450 6700 50  0000 L CNN
+F 1 "4.7uF" V 3350 6650 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 3400 6900 50  0001 C CNN
+F 3 "" H 3400 6900 50  0001 C CNN
+	1    3400 6900
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR02
@@ -157,8 +157,8 @@ F 3 "" H 800 6000 50  0001 C CNN
 	1    800  6000
 	1    0    0    -1  
 $EndComp
-Text Notes -950 1900 0    60   ~ 0
-ESR of C130 should be between 0R1 and 0R2
+Text Notes 3500 6900 0    60   ~ 0
+Datasheet table 20, p110\nESR of C130 should be\nbetween 0R1 and 0R2
 $Sheet
 S 8400 950  600  300 
 U 5A4D6457
@@ -170,70 +170,14 @@ F4 "SDA" B R 9000 1000 60
 F5 "SCL" B R 9000 1100 60 
 F6 "INT" O R 9000 1200 60 
 $EndSheet
-Text Label 3550 3200 0    60   ~ 0
+Text Label 3600 3200 0    60   ~ 0
 SCL
-Text Label 3550 3300 0    60   ~ 0
+Text Label 3600 3300 0    60   ~ 0
 SDA
 Text Label 9100 1000 0    60   ~ 0
 SDA
 Text Label 9100 1100 0    60   ~ 0
 SCL
-Text Notes 4600 800  0    60   ~ 0
-Timers TIM2 and TIM5 are 32-bit timers. They\neach have 4 capture inputs, and each capture\ninput can appear on several pins. These are\nappropriate for capturing sensor interrupts\nand GPS PPS signals.
-Text Notes 4600 900  0    60   ~ 0
-TIM2_CH1
-Text Notes 4600 1000 0    60   ~ 0
-TIM2_CH2\n
-Text Notes 4600 1100 0    60   ~ 0
-TIM2_CH3
-Text Notes 4600 1200 0    60   ~ 0
-TIM2_CH4
-Text Notes 5150 900  0    60   ~ 0
-TIM5_CH1
-Text Notes 5150 1000 0    60   ~ 0
-TIM5_CH2
-Text Notes 5150 1100 0    60   ~ 0
-TIM5_CH3
-Text Notes 5150 1200 0    60   ~ 0
-TIM5_CH4
-Text Notes 4600 1400 0    60   ~ 0
-TIM2_CH1
-Text Notes 4600 2400 0    60   ~ 0
-TIM2_CH1
-Text Notes 4600 2900 0    60   ~ 0
-TIM2_CH2\n
-Text Notes 4600 3600 0    60   ~ 0
-TIM2_CH3
-Text Notes 4600 3700 0    60   ~ 0
-TIM2_CH4
-Text Notes 5650 1600 0    60   ~ 0
-The bootloader can use serial ports\nUSART1, USART3. These can be mapped\nto the following pins:
-Text Notes 5650 1800 0    60   ~ 0
-USART1_TX
-Text Notes 5650 1900 0    60   ~ 0
-USART1_RX
-Text Notes 5600 3200 0    60   ~ 0
-USART1_TX
-Text Notes 5600 3300 0    60   ~ 0
-USART1_RX
-Text Notes 5600 3600 0    60   ~ 0
-USART3_TX
-Text Notes 5600 3700 0    60   ~ 0
-USART3_RX
-Text Notes 5600 5300 0    60   ~ 0
-USART3_TX
-Text Notes 5600 5400 0    60   ~ 0
-USART3_RX
-Text Notes 6200 3000 0    60   ~ 0
-We can use any I2C
-Text Notes 6200 3200 0    60   ~ 0
-I2C1_SCL
-Text Notes 6200 3300 0    60   ~ 0
-I2C1_SDA
-Text Notes 6200 3400 0    60   ~ 0
-I2C1_SCL
-Text Notes 6200 3500 0    60   ~ 0
-I2C1_SDA
 $Comp
 L GND #PWR03
 U 1 1 5A4D3634
@@ -397,8 +341,6 @@ F 3 "" H 6650 4650 50  0001 C CNN
 	1    6500 4700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6800 4700
-NoConn ~ 6800 4800
 NoConn ~ 6800 4900
 Text Label 9100 1600 0    60   ~ 0
 GPS_TX
@@ -425,17 +367,11 @@ NoConn ~ 3400 1400
 NoConn ~ 3400 1500
 NoConn ~ 3400 1600
 NoConn ~ 3400 1700
-NoConn ~ 3400 2000
-NoConn ~ 3400 2100
 NoConn ~ 3400 2200
 NoConn ~ 3400 2300
-NoConn ~ 3400 2400
 NoConn ~ 3400 2600
 NoConn ~ 3400 2700
 NoConn ~ 3400 2800
-NoConn ~ 3400 2900
-NoConn ~ 3400 3000
-NoConn ~ 3400 3100
 NoConn ~ 3400 3400
 NoConn ~ 3400 3500
 NoConn ~ 3400 3800
@@ -447,17 +383,12 @@ NoConn ~ 3400 4400
 NoConn ~ 3400 4500
 NoConn ~ 3400 4600
 NoConn ~ 3400 4700
-NoConn ~ 3400 4900
-NoConn ~ 3400 5000
-NoConn ~ 3400 5100
-NoConn ~ 3400 5200
 NoConn ~ 3400 5300
 NoConn ~ 3400 5400
 NoConn ~ 3400 5500
 NoConn ~ 3400 5600
 NoConn ~ 3400 5700
 NoConn ~ 3400 5800
-NoConn ~ 3400 6000
 $Comp
 L GND #PWR012
 U 1 1 5A4D9534
@@ -514,114 +445,82 @@ SCK
 $Comp
 L SW_SPST S107
 U 1 1 5A4EAFA1
-P 1000 2000
-F 0 "S107" H 1050 2100 50  0000 C CNN
-F 1 "SW_SPST" H 1000 1950 50  0000 C CNN
-F 2 "KwanSystems:SW_SPST_B3U-1000P" H 1000 2000 50  0001 C CNN
-F 3 "" H 1000 2000 50  0001 C CNN
-	1    1000 2000
-	1    0    0    1   
+P 4600 5600
+F 0 "S107" H 4650 5700 50  0000 C CNN
+F 1 "SW_SPST" H 4600 5550 50  0000 C CNN
+F 2 "KwanSystems:SW_SPST_B3U-1000P" H 4600 5600 50  0001 C CNN
+F 3 "" H 4600 5600 50  0001 C CNN
+	1    4600 5600
+	0    -1   1    0   
 $EndComp
 $Comp
 L SW_SPST S160
 U 1 1 5A4EB389
-P 1300 2300
-F 0 "S160" H 1300 2425 50  0000 C CNN
-F 1 "SW_SPST" H 1300 2250 50  0000 C CNN
-F 2 "KwanSystems:SW_SPST_B3U-1000P" H 1300 2300 50  0001 C CNN
-F 3 "" H 1300 2300 50  0001 C CNN
-	1    1300 2300
-	1    0    0    1   
+P 4900 5000
+F 0 "S160" H 4900 5125 50  0000 C CNN
+F 1 "SW_SPST" H 4900 4950 50  0000 C CNN
+F 2 "KwanSystems:SW_SPST_B3U-1000P" H 4900 5000 50  0001 C CNN
+F 3 "" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	0    1    1    0   
 $EndComp
 $Comp
 L RP4 R107
 U 1 1 5A4EB8E7
-P 1400 2000
-F 0 "R107" H 1350 2050 45  0000 L BNN
-F 1 "10k" H 1350 1900 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 1455 2150 20  0001 C CNN
-F 3 "" H 1825 1700 60  0001 C CNN
-	1    1400 2000
-	-1   0    0    1   
+P 4600 5100
+F 0 "R107" H 4550 5150 45  0000 L BNN
+F 1 "10k" H 4550 5000 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4655 5250 20  0001 C CNN
+F 3 "" H 5025 4800 60  0001 C CNN
+	1    4600 5100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L RP4 R107
 U 2 1 5A4ECAB6
-P 900 2200
-F 0 "R107" H 850 2250 45  0000 L BNN
-F 1 "10k" H 850 2100 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 955 2350 20  0001 C CNN
-F 3 "" H 1325 1900 60  0001 C CNN
-	2    900  2200
-	-1   0    0    1   
+P 4900 5500
+F 0 "R107" H 4850 5550 45  0000 L BNN
+F 1 "10k" H 4850 5400 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4955 5650 20  0001 C CNN
+F 3 "" H 5325 5200 60  0001 C CNN
+	2    4900 5500
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1500 900  1600 900 
 Wire Wire Line
-	1200 1000 1600 1000
+	1500 1000 1600 1000
 Wire Wire Line
 	1500 1100 1600 1100
 Wire Wire Line
-	1200 1200 1600 1200
-Wire Wire Line
-	1300 900  800  900 
-Wire Wire Line
-	800  900  800  6000
-Wire Wire Line
-	800  1000 1000 1000
-Wire Wire Line
-	800  1100 1300 1100
-Connection ~ 800  1000
-Wire Wire Line
-	800  1200 1000 1200
-Connection ~ 800  1100
-Wire Wire Line
-	1500 1400 1600 1400
+	1500 1200 1600 1200
 Connection ~ 1500 900 
 Connection ~ 1500 1000
 Connection ~ 1500 1100
 Connection ~ 1500 1200
-Connection ~ 1500 1400
 Wire Wire Line
 	1500 1600 1600 1600
 Wire Wire Line
-	1500 1700 1200 1700
-Connection ~ 1500 1600
-Wire Wire Line
-	800  1600 1300 1600
-Connection ~ 800  1200
-Wire Wire Line
-	800  1700 1000 1700
-Connection ~ 800  1600
-Connection ~ 1500 1300
-Wire Wire Line
-	1300 1300 800  1300
-Connection ~ 800  1300
-Wire Wire Line
-	1600 1800 1500 1800
-Wire Wire Line
-	800  1800 1300 1800
-Connection ~ 800  1700
+	1600 1800 1100 1800
 Wire Wire Line
 	800  6000 1600 6000
 Connection ~ 800  6000
-Connection ~ 800  1800
 Wire Wire Line
-	1600 5500 800  5500
+	800  5500 1600 5500
 Connection ~ 800  5500
 Wire Wire Line
-	1600 5700 800  5700
+	800  5700 1600 5700
 Connection ~ 800  5700
 Wire Wire Line
-	1600 5800 800  5800
+	800  5800 1600 5800
 Connection ~ 800  5800
 Wire Wire Line
-	1600 5900 800  5900
+	800  5900 1600 5900
 Connection ~ 800  5900
 Wire Wire Line
-	3400 3200 3900 3200
+	3400 3200 4350 3200
 Wire Wire Line
-	3400 3300 4150 3300
+	3400 3300 4600 3300
 Wire Wire Line
 	9000 1000 9400 1000
 Wire Wire Line
@@ -692,117 +591,87 @@ Wire Wire Line
 	8300 3500 8400 3500
 Wire Wire Line
 	8300 3800 8400 3800
-Connection ~ 1500 1700
 Wire Wire Line
-	1200 2000 1300 2000
+	1500 700  1500 1600
 Wire Wire Line
-	1500 700  1500 2300
+	1100 2000 1600 2000
 Wire Wire Line
-	1200 2000 1200 2100
-Wire Wire Line
-	1200 2100 1600 2100
-Wire Wire Line
-	1600 2100 1600 2000
-Connection ~ 1500 2000
-Wire Wire Line
-	1100 2300 1100 2200
-Wire Wire Line
-	1000 2200 1600 2200
-Connection ~ 1100 2200
+	1100 2200 1600 2200
 $Comp
 L +3V3 #PWR015
 U 1 1 5A4EEDBA
-P 4150 3000
-F 0 "#PWR015" H 4150 2850 50  0001 C CNN
-F 1 "+3V3" H 4150 3140 50  0000 C CNN
-F 2 "" H 4150 3000 50  0001 C CNN
-F 3 "" H 4150 3000 50  0001 C CNN
-	1    4150 3000
+P 4600 3000
+F 0 "#PWR015" H 4600 2850 50  0001 C CNN
+F 1 "+3V3" H 4600 3140 50  0000 C CNN
+F 2 "" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L RP4 R107
 U 3 1 5A4EEFA3
-P 4150 3100
-F 0 "R107" H 4100 3150 45  0000 L BNN
-F 1 "10k" H 4100 3000 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 4205 3250 20  0001 C CNN
-F 3 "" H 4575 2800 60  0001 C CNN
-	3    4150 3100
+P 4600 3100
+F 0 "R107" H 4550 3150 45  0000 L BNN
+F 1 "10k" H 4550 3000 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4655 3250 20  0001 C CNN
+F 3 "" H 5025 2800 60  0001 C CNN
+	3    4600 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L RP4 R107
 U 4 1 5A4EF122
-P 3900 3100
-F 0 "R107" H 3850 3150 45  0000 L BNN
-F 1 "10k" H 3850 3000 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 3955 3250 20  0001 C CNN
-F 3 "" H 4325 2800 60  0001 C CNN
-	4    3900 3100
+P 4350 3100
+F 0 "R107" H 4300 3150 45  0000 L BNN
+F 1 "10k" H 4300 3000 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4405 3250 20  0001 C CNN
+F 3 "" H 4775 2800 60  0001 C CNN
+	4    4350 3100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4150 3300 4150 3200
+	4600 3300 4600 3200
 Wire Wire Line
-	3900 3000 4150 3000
-Connection ~ 4150 3000
-Connection ~ 800  2000
-Connection ~ 800  2200
+	4350 3000 4600 3000
+Connection ~ 4600 3000
 Wire Wire Line
-	1600 2400 1350 2400
+	1600 2400 1300 2400
 Wire Wire Line
-	1350 2400 1350 2700
-Wire Wire Line
-	1600 3100 1600 2500
-Wire Wire Line
-	1100 3100 1600 3100
+	1300 2500 1600 2500
 $Comp
 L Crystal_GND24 Y101
 U 1 1 5A4F0DF7
-P 1350 2900
-F 0 "Y101" H 1475 3100 50  0000 L CNN
-F 1 "Crystal_GND24" H 1475 3025 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1350 2900 50  0001 C CNN
-F 3 "" H 1350 2900 50  0001 C CNN
-	1    1350 2900
-	1    0    0    -1  
+P 6800 5700
+F 0 "Y101" H 6925 5900 50  0000 L CNN
+F 1 "Crystal_GND24" H 6925 5825 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 6800 5700 50  0001 C CNN
+F 3 "" H 6800 5700 50  0001 C CNN
+	1    6800 5700
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	800  2900 1500 2900
-Connection ~ 800  2900
-Connection ~ 1200 2900
 $Comp
 L CP2 C105
 U 1 1 5A4F170D
-P 1000 3100
-F 0 "C105" H 1010 3170 50  0000 L CNN
-F 1 "22pF" H 1010 3020 50  0000 L CNN
-F 2 "KwanSystems:R_Array_Convex_2x0402" H 1000 3100 50  0001 C CNN
-F 3 "" H 1000 3100 50  0001 C CNN
-	1    1000 3100
-	0    1    1    0   
+P 7000 6100
+F 0 "C105" H 7010 6170 50  0000 L CNN
+F 1 "22pF" H 7010 6020 50  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 7000 6100 50  0001 C CNN
+F 3 "" H 7000 6100 50  0001 C CNN
+	1    7000 6100
+	-1   0    0    1   
 $EndComp
 $Comp
 L CP2 C105
 U 2 1 5A4F1836
-P 1000 2700
-F 0 "C105" H 1010 2770 50  0000 L CNN
-F 1 "22pF" H 1010 2620 50  0000 L CNN
-F 2 "KwanSystems:R_Array_Convex_2x0402" H 1000 2700 50  0001 C CNN
-F 3 "" H 1000 2700 50  0001 C CNN
-	2    1000 2700
-	0    1    1    0   
+P 6600 6100
+F 0 "C105" H 6610 6170 50  0000 L CNN
+F 1 "22pF" H 6610 6020 50  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 6600 6100 50  0001 C CNN
+F 3 "" H 6600 6100 50  0001 C CNN
+	2    6600 6100
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1350 2700 1100 2700
-Connection ~ 1350 3100
-Wire Wire Line
-	900  2700 800  2700
-Connection ~ 800  2700
-Wire Wire Line
-	900  3100 800  3100
-Connection ~ 800  3100
 $Comp
 L STM32F722 U101
 U 1 1 5A4D5B28
@@ -818,88 +687,88 @@ Wire Wire Line
 	3400 1800 4000 1800
 Wire Wire Line
 	3400 1900 4000 1900
-Text Label 3600 1800 0    60   ~ 0
+Text Label 3600 3600 0    60   ~ 0
 GPS_RX
-Text Label 3600 1900 0    60   ~ 0
+Text Label 3600 3700 0    60   ~ 0
 GPS_TX
 Wire Wire Line
 	3400 3600 4000 3600
 Wire Wire Line
 	3400 3700 4000 3700
-Text Label 3500 3600 0    60   ~ 0
+Text Label 3600 1800 0    60   ~ 0
 M7_TX
-Text Label 3500 3700 0    60   ~ 0
+Text Label 3600 1900 0    60   ~ 0
 M7_RX
 Text Label 1200 2000 0    60   ~ 0
 RESET
 Text Label 1200 2200 0    60   ~ 0
 BOOT
-Text Label 1100 3100 0    60   ~ 0
+Text Label 1400 2500 0    60   ~ 0
 XOUT
-Text Label 1100 2700 0    60   ~ 0
+Text Label 1400 2400 0    60   ~ 0
 XIN
 $Comp
-L Conn_01x08 J102
+L Conn_01x12 J102
 U 1 1 5A4DB2E3
-P 4300 5500
-F 0 "J102" H 4300 5900 50  0000 C CNN
-F 1 "Conn_01x08" H 4300 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4300 5500 50  0001 C CNN
-F 3 "" H 4300 5500 50  0001 C CNN
-	1    4300 5500
+P 4900 7100
+F 0 "J102" H 4900 7700 50  0000 C CNN
+F 1 "Conn_01x12" H 4900 6400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 4900 7100 50  0001 C CNN
+F 3 "" H 4900 7100 50  0001 C CNN
+	1    4900 7100
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3V3 #PWR016
 U 1 1 5A4DB4ED
-P 4500 5100
-F 0 "#PWR016" H 4500 4950 50  0001 C CNN
-F 1 "+3V3" H 4500 5240 50  0000 C CNN
-F 2 "" H 4500 5100 50  0001 C CNN
-F 3 "" H 4500 5100 50  0001 C CNN
-	1    4500 5100
+P 5100 6900
+F 0 "#PWR016" H 5100 6750 50  0001 C CNN
+F 1 "+3V3" H 5100 7040 50  0000 C CNN
+F 2 "" H 5100 6900 50  0001 C CNN
+F 3 "" H 5100 6900 50  0001 C CNN
+	1    5100 6900
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR017
 U 1 1 5A4DB600
-P 4500 5800
-F 0 "#PWR017" H 4500 5550 50  0001 C CNN
-F 1 "GND" H 4500 5650 50  0000 C CNN
-F 2 "" H 4500 5800 50  0001 C CNN
-F 3 "" H 4500 5800 50  0001 C CNN
-	1    4500 5800
+P 5100 7600
+F 0 "#PWR017" H 5100 7350 50  0001 C CNN
+F 1 "GND" H 5100 7450 50  0000 C CNN
+F 2 "" H 5100 7600 50  0001 C CNN
+F 3 "" H 5100 7600 50  0001 C CNN
+	1    5100 7600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4500 5200 5000 5200
+	5100 7000 5600 7000
 Wire Wire Line
-	4500 5300 5000 5300
+	5100 7100 5600 7100
 Wire Wire Line
-	4500 5400 5000 5400
+	5100 7200 5600 7200
 Wire Wire Line
-	4500 5500 5000 5500
+	5100 7300 5600 7300
 Wire Wire Line
-	4500 5600 5000 5600
+	5100 7400 5600 7400
 Wire Wire Line
-	4500 5700 5000 5700
-Text Label 4600 5600 0    60   ~ 0
+	5100 7500 5600 7500
+Text Label 5200 7400 0    60   ~ 0
 RESET
-Text Label 4600 5700 0    60   ~ 0
+Text Label 5200 7500 0    60   ~ 0
 BOOT
-Text Label 4600 5500 0    60   ~ 0
+Text Label 5200 7300 0    60   ~ 0
 M7_TX
-Text Label 4600 5400 0    60   ~ 0
+Text Label 5200 7200 0    60   ~ 0
 M7_RX
-Text Label 4600 5300 0    60   ~ 0
+Text Label 5200 7100 0    60   ~ 0
 SDA
-Text Label 4600 5200 0    60   ~ 0
+Text Label 5200 7000 0    60   ~ 0
 SCL
 Wire Wire Line
-	3400 900  4000 900 
+	3400 2400 4000 2400
 Wire Wire Line
 	3400 1000 4000 1000
-Text Label 3600 900  0    60   ~ 0
+Text Label 3600 2400 0    60   ~ 0
 BNO_INT
 Text Label 3600 1000 0    60   ~ 0
 ADXL_INT
@@ -911,6 +780,235 @@ Wire Wire Line
 	3400 1200 4000 1200
 Text Label 3600 1200 0    60   ~ 0
 GPS_FIX
-Text Label 1550 1800 0    60   ~ 0
+Text Label 1150 1800 0    60   ~ 0
 VCAP
+$Comp
+L +3V3 #PWR018
+U 1 1 5A4FDB53
+P 1700 6600
+F 0 "#PWR018" H 1700 6450 50  0001 C CNN
+F 1 "+3V3" H 1700 6740 50  0000 C CNN
+F 2 "" H 1700 6600 50  0001 C CNN
+F 3 "" H 1700 6600 50  0001 C CNN
+	1    1700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5A4FDCE0
+P 1700 7100
+F 0 "#PWR019" H 1700 6850 50  0001 C CNN
+F 1 "GND" H 1700 6950 50  0000 C CNN
+F 2 "" H 1700 7100 50  0001 C CNN
+F 3 "" H 1700 7100 50  0001 C CNN
+	1    1700 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 7000 3400 7000
+Connection ~ 3100 7000
+Connection ~ 2900 7000
+Connection ~ 2500 7000
+Connection ~ 2300 7000
+Connection ~ 2100 7000
+Connection ~ 1900 7000
+Wire Wire Line
+	1700 7000 1700 7100
+Wire Wire Line
+	1700 6600 1700 6800
+Wire Wire Line
+	1700 6800 3100 6800
+Connection ~ 1900 6800
+Connection ~ 2100 6800
+Connection ~ 2300 6800
+Connection ~ 2500 6800
+Connection ~ 2900 6800
+Wire Wire Line
+	3400 6800 3400 6500
+Text Label 3400 6600 0    60   ~ 0
+VCAP
+Wire Wire Line
+	800  5500 800  6000
+Wire Wire Line
+	3400 4900 3900 4900
+Text Label 3600 4900 0    60   ~ 0
+PWMR
+Text Label 3600 5000 0    60   ~ 0
+PWMG
+Text Label 3600 5100 0    60   ~ 0
+PWMB
+Text Label 3600 5200 0    60   ~ 0
+PWM4
+Wire Wire Line
+	3400 5000 3900 5000
+Wire Wire Line
+	3400 5100 3900 5100
+Wire Wire Line
+	3400 5200 3900 5200
+Wire Wire Line
+	5100 6800 5600 6800
+Wire Wire Line
+	5100 6700 5600 6700
+Wire Wire Line
+	5100 6600 5600 6600
+Wire Wire Line
+	5100 6500 5600 6500
+Text Label 5200 6500 0    60   ~ 0
+PWMR
+Text Label 5200 6600 0    60   ~ 0
+PWMG
+Text Label 5200 6700 0    60   ~ 0
+PWMB
+Text Label 5200 6800 0    60   ~ 0
+PWM4
+Wire Wire Line
+	6600 5500 6600 6000
+Wire Wire Line
+	7000 5500 7000 6000
+Wire Wire Line
+	6950 5700 7000 5700
+Connection ~ 7000 5700
+Wire Wire Line
+	6650 5700 6600 5700
+Connection ~ 6600 5700
+Text Label 6600 5700 1    60   ~ 0
+XIN
+Text Label 7000 5700 1    60   ~ 0
+XOUT
+Wire Wire Line
+	6600 6200 7000 6200
+Wire Wire Line
+	6800 5500 6800 6200
+Connection ~ 6800 6200
+Connection ~ 6800 5900
+$Comp
+L GND #PWR020
+U 1 1 5A51957C
+P 6800 6200
+F 0 "#PWR020" H 6800 5950 50  0001 C CNN
+F 1 "GND" H 6800 6050 50  0000 C CNN
+F 2 "" H 6800 6200 50  0001 C CNN
+F 3 "" H 6800 6200 50  0001 C CNN
+	1    6800 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 900 
+Wire Wire Line
+	3400 2000 4000 2000
+Wire Wire Line
+	3400 2100 4000 2100
+Text Label 3600 2000 0    60   ~ 0
+D-
+Text Label 3600 2100 0    60   ~ 0
+D+
+Wire Wire Line
+	6800 4700 7000 4700
+Text Label 6900 4700 0    60   ~ 0
+D+
+Text Label 6900 4800 0    60   ~ 0
+D-
+Wire Wire Line
+	6800 4800 7000 4800
+Wire Wire Line
+	3400 6000 3900 6000
+Text Label 3600 6000 0    60   ~ 0
+CS_uSD
+Wire Wire Line
+	3400 2900 4000 2900
+Wire Wire Line
+	3400 3000 4000 3000
+Wire Wire Line
+	3400 3100 4000 3100
+Text Label 3600 2900 0    60   ~ 0
+SCK
+Text Label 3600 3000 0    60   ~ 0
+MISO
+Text Label 3600 3100 0    60   ~ 0
+MOSI
+Wire Wire Line
+	4600 5800 4900 5800
+Wire Wire Line
+	4900 5800 4900 5600
+Wire Wire Line
+	4600 5000 4600 4800
+Wire Wire Line
+	4600 4800 4900 4800
+Wire Wire Line
+	4900 5200 4900 5400
+Wire Wire Line
+	4900 5300 5300 5300
+Connection ~ 4900 5300
+Wire Wire Line
+	4600 5200 4600 5400
+Wire Wire Line
+	4600 5300 4200 5300
+Connection ~ 4600 5300
+Text Label 4300 5300 0    60   ~ 0
+RESET
+Text Label 5000 5300 0    60   ~ 0
+BOOT
+Wire Wire Line
+	1600 1400 1100 1400
+Text Label 1200 1400 0    60   ~ 0
+VBAT
+Wire Wire Line
+	8400 1700 7900 1700
+Text Label 8000 1700 0    60   ~ 0
+VBAT
+$Comp
+L LED_ARGB D137
+U 1 1 5A5225DB
+P 5500 4300
+F 0 "D137" H 5500 4670 50  0000 C CNN
+F 1 "HSMF-C118" H 5500 3950 50  0000 C CNN
+F 2 "KwanSystems:HSMF-C118" H 5500 4250 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-0610EN" H 5500 4250 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4100 5000 4100
+Text Label 5050 4100 0    60   ~ 0
+PWMR
+Text Label 5050 4300 0    60   ~ 0
+PWMG
+Text Label 5050 4500 0    60   ~ 0
+PWMB
+$Comp
+L GND #PWR021
+U 1 1 5A523D77
+P 4900 5800
+F 0 "#PWR021" H 4900 5550 50  0001 C CNN
+F 1 "GND" H 4900 5650 50  0000 C CNN
+F 2 "" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5A5255AC
+P 4600 4800
+F 0 "#PWR?" H 4600 4650 50  0001 C CNN
+F 1 "+3V3" H 4600 4940 50  0000 C CNN
+F 2 "" H 4600 4800 50  0001 C CNN
+F 3 "" H 4600 4800 50  0001 C CNN
+	1    4600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5A52573D
+P 5700 4300
+F 0 "#PWR?" H 5700 4150 50  0001 C CNN
+F 1 "+3V3" H 5700 4440 50  0000 C CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 4300 5000 4300
+Wire Wire Line
+	5300 4500 5000 4500
 $EndSCHEMATC

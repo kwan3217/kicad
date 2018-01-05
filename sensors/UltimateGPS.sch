@@ -237,10 +237,10 @@ DO NOT POPULATE Dx04 and/or \nRx04 if using a coin cell rather than\na supercap.
 Text Label 4800 2700 0    60   ~ 0
 VBACKUP+
 $Comp
-L PWR_FLAG #FLG018
+L PWR_FLAG #FLG022
 U 1 1 598DE7CB
 P 5450 2600
-F 0 "#FLG018" H 5450 2675 50  0001 C CNN
+F 0 "#FLG022" H 5450 2675 50  0001 C CNN
 F 1 "PWR_FLAG" H 5450 2750 50  0000 C CNN
 F 2 "" H 5450 2600 50  0001 C CNN
 F 3 "" H 5450 2600 50  0001 C CNN
@@ -268,4 +268,8 @@ Wire Wire Line
 Wire Wire Line
 	5950 2600 6000 2600
 Connection ~ 6000 2600
+Text Notes 4800 3150 2    60   ~ 0
+VBACKUP can be used to power external\ndevices that need a SMALL amount of\ncurrent to maintain state, such as the RTC\nof a microcontroller.
+Text Notes 3200 4250 0    60   ~ 0
+If using a coin cell - coin cell must be\npopulated or VBACKUP will not have\nany voltage. If using a supercap,
 $EndSCHEMATC
