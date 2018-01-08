@@ -64,36 +64,26 @@ Text HLabel 4200 2900 0    60   Input ~ 0
 MOSI
 Text HLabel 4200 2800 0    60   Input ~ 0
 CS
-Text HLabel 4200 3000 0    60   UnSpc ~ 0
+Text HLabel 3400 3000 0    60   UnSpc ~ 0
 VCC
 Text HLabel 4200 3100 0    60   Input ~ 0
 SCK
-Text HLabel 4200 3800 0    60   UnSpc ~ 0
+Text HLabel 3400 3800 0    60   UnSpc ~ 0
 GND
 Wire Wire Line
 	4500 3100 4200 3100
-Text Label 4300 3100 0    60   ~ 0
-SCK
 NoConn ~ 4500 3400
 NoConn ~ 4500 2700
 Wire Wire Line
 	4200 2800 4500 2800
-Text Label 4300 2800 0    60   ~ 0
-CS
 Wire Wire Line
 	4200 2900 4500 2900
-Text Label 4300 2900 0    60   ~ 0
-MOSI
 Wire Wire Line
-	4200 3000 4500 3000
-Text Label 4300 3000 0    60   ~ 0
-VCC
+	3400 3000 4500 3000
 Wire Wire Line
 	4500 3300 4200 3300
-Text Label 4300 3300 0    60   ~ 0
-MISO
 Wire Wire Line
-	4200 3800 6200 3800
+	3400 3800 6200 3800
 Wire Wire Line
 	6200 3800 6200 3600
 Wire Wire Line
@@ -110,18 +100,18 @@ Connection ~ 4400 3600
 $Comp
 L C_Small C801
 U 1 1 5A4E36FD
-P 4300 3600
-F 0 "C801" H 4310 3670 50  0000 L CNN
-F 1 "100nF" H 4310 3520 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 4300 3600 50  0001 C CNN
-F 3 "" H 4300 3600 50  0001 C CNN
-	1    4300 3600
+P 3850 3500
+F 0 "C801" H 3860 3570 50  0000 L CNN
+F 1 "100nF" H 3860 3420 50  0000 L CNN
+F 2 "KwanSystems:SMD_0603" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3500 4300 3000
-Connection ~ 4300 3000
+	3850 3400 3850 3000
+Connection ~ 3850 3000
 Wire Wire Line
-	4300 3700 4300 3800
-Connection ~ 4300 3800
+	3850 3600 3850 3800
+Connection ~ 3850 3800
 $EndSCHEMATC
