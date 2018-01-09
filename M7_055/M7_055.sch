@@ -204,7 +204,7 @@ $Sheet
 S 8400 1550 600  400 
 U 5A4D3AD6
 F0 "GPS" 60
-F1 "../sensors/UltimateGPS.sch" 60
+F1 "../sensors/GPSNoBat.sch" 60
 F2 "VCC" U L 8400 1600 60 
 F3 "RX" I R 9000 1700 60 
 F4 "TX" O R 9000 1600 60 
@@ -466,17 +466,6 @@ F 3 "" H 4900 5000 50  0001 C CNN
 $EndComp
 $Comp
 L RP4 R107
-U 1 1 5A4EB8E7
-P 4600 5100
-F 0 "R107" H 4550 5150 45  0000 L BNN
-F 1 "10k" H 4550 5000 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 4655 5250 20  0001 C CNN
-F 3 "" H 5025 4800 60  0001 C CNN
-	1    4600 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RP4 R107
 U 2 1 5A4ECAB6
 P 4900 5500
 F 0 "R107" H 4850 5550 45  0000 L BNN
@@ -507,7 +496,6 @@ Wire Wire Line
 Connection ~ 800  6000
 Wire Wire Line
 	800  5500 1600 5500
-Connection ~ 800  5500
 Wire Wire Line
 	800  5700 1600 5700
 Connection ~ 800  5700
@@ -611,23 +599,23 @@ $EndComp
 $Comp
 L RP4 R107
 U 3 1 5A4EEFA3
-P 4600 3100
-F 0 "R107" H 4550 3150 45  0000 L BNN
-F 1 "10k" H 4550 3000 45  0000 L BNN
-F 2 "KwanSystems:R_Array_Convex_4x0402" H 4655 3250 20  0001 C CNN
-F 3 "" H 5025 2800 60  0001 C CNN
-	3    4600 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L RP4 R107
-U 4 1 5A4EF122
 P 4350 3100
 F 0 "R107" H 4300 3150 45  0000 L BNN
 F 1 "10k" H 4300 3000 45  0000 L BNN
 F 2 "KwanSystems:R_Array_Convex_4x0402" H 4405 3250 20  0001 C CNN
 F 3 "" H 4775 2800 60  0001 C CNN
-	4    4350 3100
+	3    4350 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RP4 R107
+U 4 1 5A4EF122
+P 4600 3100
+F 0 "R107" H 4550 3150 45  0000 L BNN
+F 1 "10k" H 4550 3000 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4655 3250 20  0001 C CNN
+F 3 "" H 5025 2800 60  0001 C CNN
+	4    4600 3100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -648,7 +636,7 @@ F 1 "12MHz" H 6925 5825 50  0000 L CNN
 F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 6800 5700 50  0001 C CNN
 F 3 "" H 6800 5700 50  0001 C CNN
 	1    6800 5700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CP2 C105
@@ -708,61 +696,61 @@ XOUT
 Text Label 1400 2400 0    60   ~ 0
 XIN
 $Comp
-L Conn_01x12 J102
+L Conn_01x16 J102
 U 1 1 5A4DB2E3
-P 4900 7100
-F 0 "J102" H 4900 7700 50  0000 C CNN
-F 1 "Conn_01x12" H 4900 6400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 4900 7100 50  0001 C CNN
-F 3 "" H 4900 7100 50  0001 C CNN
-	1    4900 7100
-	-1   0    0    1   
+P 5350 6750
+F 0 "J102" H 5350 7550 50  0000 C CNN
+F 1 "Conn_01x16" H 5350 5850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 5350 6750 50  0001 C CNN
+F 3 "" H 5350 6750 50  0001 C CNN
+	1    5350 6750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR016
 U 1 1 5A4DB4ED
-P 5100 6900
-F 0 "#PWR016" H 5100 6750 50  0001 C CNN
-F 1 "+3V3" H 5100 7040 50  0000 C CNN
-F 2 "" H 5100 6900 50  0001 C CNN
-F 3 "" H 5100 6900 50  0001 C CNN
-	1    5100 6900
+P 5550 7350
+F 0 "#PWR016" H 5550 7200 50  0001 C CNN
+F 1 "+3V3" H 5550 7490 50  0000 C CNN
+F 2 "" H 5550 7350 50  0001 C CNN
+F 3 "" H 5550 7350 50  0001 C CNN
+	1    5550 7350
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR017
 U 1 1 5A4DB600
-P 5100 7600
-F 0 "#PWR017" H 5100 7350 50  0001 C CNN
-F 1 "GND" H 5100 7450 50  0000 C CNN
-F 2 "" H 5100 7600 50  0001 C CNN
-F 3 "" H 5100 7600 50  0001 C CNN
-	1    5100 7600
+P 5550 7550
+F 0 "#PWR017" H 5550 7300 50  0001 C CNN
+F 1 "GND" H 5550 7400 50  0000 C CNN
+F 2 "" H 5550 7550 50  0001 C CNN
+F 3 "" H 5550 7550 50  0001 C CNN
+	1    5550 7550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5100 7000 5600 7000
+	5550 6550 6050 6550
 Wire Wire Line
-	5100 7100 5600 7100
+	5550 6650 6050 6650
 Wire Wire Line
-	5100 7200 5600 7200
+	5550 6950 6050 6950
 Wire Wire Line
-	5100 7300 5600 7300
+	5550 7050 6050 7050
 Wire Wire Line
-	5100 7400 5600 7400
+	5550 7150 6050 7150
 Wire Wire Line
-	5100 7500 5600 7500
-Text Label 5200 7400 0    60   ~ 0
+	5550 7250 6050 7250
+Text Label 5650 6850 0    60   ~ 0
 RESET
-Text Label 5200 7500 0    60   ~ 0
+Text Label 5650 6750 0    60   ~ 0
 BOOT
-Text Label 5200 7300 0    60   ~ 0
+Text Label 5650 7250 0    60   ~ 0
 M7_TX
-Text Label 5200 7200 0    60   ~ 0
+Text Label 5650 7150 0    60   ~ 0
 M7_RX
-Text Label 5200 7100 0    60   ~ 0
+Text Label 5650 6550 0    60   ~ 0
 SDA
-Text Label 5200 7000 0    60   ~ 0
+Text Label 5650 6650 0    60   ~ 0
 SCL
 Wire Wire Line
 	3400 2400 4000 2400
@@ -837,30 +825,22 @@ Text Label 3600 5000 0    60   ~ 0
 PWMG
 Text Label 3600 5100 0    60   ~ 0
 PWMB
-Text Label 3600 5200 0    60   ~ 0
-PWM4
 Wire Wire Line
-	3400 5000 3900 5000
+	3400 5000 4000 5000
 Wire Wire Line
-	3400 5100 3900 5100
+	3400 5100 4100 5100
 Wire Wire Line
-	3400 5200 3900 5200
+	5550 6350 6050 6350
 Wire Wire Line
-	5100 6800 5600 6800
+	5550 6250 6050 6250
 Wire Wire Line
-	5100 6700 5600 6700
-Wire Wire Line
-	5100 6600 5600 6600
-Wire Wire Line
-	5100 6500 5600 6500
-Text Label 5200 6500 0    60   ~ 0
+	5550 6150 6050 6150
+Text Label 5650 6350 0    60   ~ 0
 PWMR
-Text Label 5200 6600 0    60   ~ 0
+Text Label 5650 6250 0    60   ~ 0
 PWMG
-Text Label 5200 6700 0    60   ~ 0
+Text Label 5650 6150 0    60   ~ 0
 PWMB
-Text Label 5200 6800 0    60   ~ 0
-PWM4
 Wire Wire Line
 	6600 5500 6600 6000
 Wire Wire Line
@@ -877,10 +857,7 @@ Text Label 7000 5700 1    60   ~ 0
 XOUT
 Wire Wire Line
 	6600 6200 7000 6200
-Wire Wire Line
-	6800 5500 6800 6200
 Connection ~ 6800 6200
-Connection ~ 6800 5900
 $Comp
 L GND #PWR020
 U 1 1 5A51957C
@@ -930,8 +907,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 5800 4900 5600
 Wire Wire Line
-	4600 5000 4600 4800
-Wire Wire Line
 	4600 4800 4900 4800
 Wire Wire Line
 	4900 5200 4900 5400
@@ -939,22 +914,17 @@ Wire Wire Line
 	4900 5300 5300 5300
 Connection ~ 4900 5300
 Wire Wire Line
-	4600 5200 4600 5400
-Wire Wire Line
 	4600 5300 4200 5300
-Connection ~ 4600 5300
 Text Label 4300 5300 0    60   ~ 0
 RESET
 Text Label 5000 5300 0    60   ~ 0
 BOOT
 Wire Wire Line
-	1600 1400 1100 1400
-Text Label 1200 1400 0    60   ~ 0
-VBAT
+	1600 1400 1500 1400
 Wire Wire Line
 	8400 1700 7900 1700
 Text Label 8000 1700 0    60   ~ 0
-VBAT
+VRAW
 $Comp
 L LED_ARGB D137
 U 1 1 5A5225DB
@@ -969,11 +939,11 @@ $EndComp
 Wire Wire Line
 	5300 4100 5000 4100
 Text Label 5050 4100 0    60   ~ 0
-PWMR
+PWMR-
 Text Label 5050 4300 0    60   ~ 0
-PWMG
+PWMG-
 Text Label 5050 4500 0    60   ~ 0
-PWMB
+PWMB-
 $Comp
 L GND #PWR021
 U 1 1 5A523D77
@@ -1011,4 +981,154 @@ Wire Wire Line
 	5300 4300 5000 4300
 Wire Wire Line
 	5300 4500 5000 4500
+Text Notes 5050 3850 0    60   ~ 0
+High-current voltage drop on GPIO implies a\nmaximum 65R output impedance. This will\nsafely power the green and blue but not red.\nR137 will reduce brightness but make red\nsafer and green/blue safe no matter the\noutput impedance.
+$Comp
+L RP4 R137
+U 1 1 5A53B508
+P 4900 4500
+F 0 "R137" H 4850 4550 45  0000 L BNN
+F 1 "68" H 4850 4400 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4955 4650 20  0001 C CNN
+F 3 "" H 5325 4200 60  0001 C CNN
+	1    4900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP4 R137
+U 2 1 5A53BC04
+P 4900 4300
+F 0 "R137" H 4850 4350 45  0000 L BNN
+F 1 "68" H 4850 4200 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4955 4450 20  0001 C CNN
+F 3 "" H 5325 4000 60  0001 C CNN
+	2    4900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP4 R137
+U 3 1 5A53BD29
+P 4900 4100
+F 0 "R137" H 4850 4150 45  0000 L BNN
+F 1 "68" H 4850 4000 45  0000 L BNN
+F 2 "KwanSystems:R_Array_Convex_4x0402" H 4955 4250 20  0001 C CNN
+F 3 "" H 5325 3800 60  0001 C CNN
+	3    4900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4100 4800 4100
+Wire Wire Line
+	4000 4300 4800 4300
+Wire Wire Line
+	4100 4500 4800 4500
+Wire Wire Line
+	3900 4900 3900 4100
+Wire Wire Line
+	4000 5000 4000 4300
+Wire Wire Line
+	4100 5100 4100 4500
+$Comp
+L STANDOFF_GND J103
+U 1 1 5A53E631
+P 7500 5100
+F 0 "J103" H 7500 5200 60  0000 C CNN
+F 1 "STANDOFF_GND" H 7500 5000 60  0000 C CNN
+F 2 "KwanSystems:MountingHole_2.9mm_M2.5_Pad" H 7500 5100 60  0001 C CNN
+F 3 "" H 7500 5100 60  0001 C CNN
+	1    7500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L STANDOFF_GND J104
+U 1 1 5A53EC1B
+P 7800 5100
+F 0 "J104" H 7800 5200 60  0000 C CNN
+F 1 "STANDOFF_GND" H 7800 5000 60  0000 C CNN
+F 2 "KwanSystems:MountingHole_2.9mm_M2.5_Pad" H 7800 5100 60  0001 C CNN
+F 3 "" H 7800 5100 60  0001 C CNN
+	1    7800 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L STANDOFF_GND J105
+U 1 1 5A53EE86
+P 8100 5100
+F 0 "J105" H 8100 5200 60  0000 C CNN
+F 1 "STANDOFF_GND" H 8100 5000 60  0000 C CNN
+F 2 "KwanSystems:MountingHole_2.9mm_M2.5_Pad" H 8100 5100 60  0001 C CNN
+F 3 "" H 8100 5100 60  0001 C CNN
+	1    8100 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L STANDOFF_GND J106
+U 1 1 5A53F581
+P 8400 5100
+F 0 "J106" H 8400 5200 60  0000 C CNN
+F 1 "STANDOFF_GND" H 8400 5000 60  0000 C CNN
+F 2 "KwanSystems:MountingHole_2.9mm_M2.5_Pad" H 8400 5100 60  0001 C CNN
+F 3 "" H 8400 5100 60  0001 C CNN
+	1    8400 5100
+	0    1    1    0   
+$EndComp
+Text Label 6900 4500 0    60   ~ 0
+VBUS
+Text Label 8100 4500 0    60   ~ 0
+VRAW
+Connection ~ 1500 1400
+Text Notes 1400 1600 2    60   ~ 0
+VBAT is not directly\nLiPo tolerant\nNormal max, 3.6V,\nabsolute max 4.0V.
+Connection ~ 7500 5100
+Connection ~ 7800 5100
+Connection ~ 8100 5100
+Connection ~ 8400 5100
+$Comp
+L GND #PWR024
+U 1 1 5A55459F
+P 5550 7450
+F 0 "#PWR024" H 5550 7200 50  0001 C CNN
+F 1 "GND" H 5550 7300 50  0000 C CNN
+F 2 "" H 5550 7450 50  0001 C CNN
+F 3 "" H 5550 7450 50  0001 C CNN
+	1    5550 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 5A55474C
+P 5550 6050
+F 0 "#PWR025" H 5550 5800 50  0001 C CNN
+F 1 "GND" H 5550 5900 50  0000 C CNN
+F 2 "" H 5550 6050 50  0001 C CNN
+F 3 "" H 5550 6050 50  0001 C CNN
+	1    5550 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 6750 6050 6750
+Wire Wire Line
+	5550 6850 6050 6850
+Text Label 5650 6950 0    60   ~ 0
+GPS_RX
+Text Label 5650 7050 0    60   ~ 0
+GPS_TX
+$Comp
+L GND #PWR026
+U 1 1 5A556747
+P 5550 6450
+F 0 "#PWR026" H 5550 6200 50  0001 C CNN
+F 1 "GND" H 5550 6300 50  0000 C CNN
+F 2 "" H 5550 6450 50  0001 C CNN
+F 3 "" H 5550 6450 50  0001 C CNN
+	1    5550 6450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3400 5200
+Wire Wire Line
+	6800 5900 6800 6200
+Wire Wire Line
+	4600 5400 4600 5300
+Text Notes 4950 6250 2    60   ~ 0
+RST has an internal \n~~40k pull-up resistor\nDatasheet p154, figure 46
 $EndSCHEMATC

@@ -177,10 +177,10 @@ Connection ~ 5200 4800
 Wire Wire Line
 	4550 4300 5200 4300
 $Comp
-L PWR_FLAG #FLG025
+L PWR_FLAG #FLG028
 U 1 1 598E375C
 P 4800 4300
-F 0 "#FLG025" H 4800 4375 50  0001 C CNN
+F 0 "#FLG028" H 4800 4375 50  0001 C CNN
 F 1 "PWR_FLAG" H 4800 4474 50  0000 C CNN
 F 2 "" H 4800 4300 50  0001 C CNN
 F 3 "" H 4800 4300 50  0001 C CNN
@@ -217,4 +217,6 @@ F 3 "" V 5450 5510 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 4800 5450 5250
+Text Notes 5550 4550 0    60   ~ 0
+Use VRAW for all power purposes,\nincluding battery backup. Use VLIPO\nonly for measurement of battery voltage.
 $EndSCHEMATC
