@@ -32,7 +32,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
-LIBS:M7_055-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -126,7 +125,7 @@ Connection ~ 3100 1500
 Text HLabel 3600 3000 3    60   Output ~ 0
 INT
 Text Notes 3000 3600 0    60   ~ 0
-In I2C mode, MISO is an address select pin\nMISO low gives address 0x1D\nMISO high gives address 0x53\n
+In I2C mode, MISO is an address select pin\nMISO high gives address 0x1D\nMISO low gives address 0x53\n
 Text Notes 1600 3050 0    60   ~ 0
 Any interrupt function can be routed to\neither pin, and the results are ORed, so\nwe only really need to expose one pin for\nthe "data ready" application
 Text Notes 2250 1200 0    60   ~ 0

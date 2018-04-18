@@ -1,0 +1,381 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KwanSystems
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_Small C104
+U 1 1 5A4CD0A0
+P 1000 1400
+F 0 "C104" H 1010 1470 50  0000 L CNN
+F 1 "4.7uF" H 1010 1320 50  0000 L CNN
+F 2 "" H 1000 1400 50  0001 C CNN
+F 3 "" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5A4CD0D1
+P 1000 1100
+F 0 "#PWR?" H 1000 950 50  0001 C CNN
+F 1 "+3V3" H 1000 1240 50  0000 C CNN
+F 2 "" H 1000 1100 50  0001 C CNN
+F 3 "" H 1000 1100 50  0001 C CNN
+	1    1000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A4CD0F7
+P 1000 1800
+F 0 "#PWR?" H 1000 1550 50  0001 C CNN
+F 1 "GND" H 1000 1650 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C164
+U 1 1 5A4CD113
+P 2100 1700
+F 0 "C164" V 2150 1500 50  0000 L CNN
+F 1 "4.7uF" V 2050 1500 50  0000 L CNN
+F 2 "" H 2100 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L L_Small L164
+U 1 1 5A4CD1C6
+P 2200 1000
+F 0 "L164" H 2230 1040 50  0000 L CNN
+F 1 "10uH" H 2230 960 50  0000 L CNN
+F 2 "" H 2200 1000 50  0001 C CNN
+F 3 "" H 2200 1000 50  0001 C CNN
+	1    2200 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RESISTOR R164
+U 1 1 5A4CD2CB
+P 1900 1000
+F 0 "R164" H 1850 1050 45  0000 L BNN
+F 1 "2.2k" H 1850 900 45  0000 L BNN
+F 2 "KwanSystems:SMD_0402" H 1955 1150 20  0001 C CNN
+F 3 "" H 2325 700 60  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C110
+U 1 1 5A4CD34D
+P 2400 1400
+F 0 "C110" V 2350 1450 50  0000 L CNN
+F 1 "100nF" V 2450 1400 50  0000 L CNN
+F 2 "" H 2400 1400 50  0001 C CNN
+F 3 "" H 2400 1400 50  0001 C CNN
+	1    2400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C142
+U 1 1 5A4CD628
+P 2100 1500
+F 0 "C142" V 2150 1300 50  0000 L CNN
+F 1 "100nF" V 2050 1250 50  0000 L CNN
+F 2 "" H 2100 1500 50  0001 C CNN
+F 3 "" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C158
+U 1 1 5A4CD6E1
+P 2400 1600
+F 0 "C158" V 2450 1400 50  0000 L CNN
+F 1 "100nF" V 2350 1350 50  0000 L CNN
+F 2 "" H 2400 1600 50  0001 C CNN
+F 3 "" H 2400 1600 50  0001 C CNN
+	1    2400 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C104
+U 1 1 5A4CD859
+P 2100 1300
+F 0 "C104" V 2050 1350 50  0000 L CNN
+F 1 "100nF" V 2150 1350 50  0000 L CNN
+F 2 "" H 2100 1300 50  0001 C CNN
+F 3 "" H 2100 1300 50  0001 C CNN
+	1    2100 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SAM70 U101
+U 1 1 5A4CE06C
+P 3700 1500
+F 0 "U101" H 3750 1900 60  0000 C CNN
+F 1 "SAM70" H 4050 1900 60  0000 C CNN
+F 2 "" H 3700 1550 60  0001 C CNN
+F 3 "" H 3700 1550 60  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A4CE4CF
+P 1650 2400
+F 0 "#PWR?" H 1650 2150 50  0001 C CNN
+F 1 "GND" H 1650 2250 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C113
+U 1 1 5A4CE5C4
+P 2400 2000
+F 0 "C113" V 2350 2050 50  0000 L CNN
+F 1 "100nF" V 2450 2000 50  0000 L CNN
+F 2 "" H 2400 2000 50  0001 C CNN
+F 3 "" H 2400 2000 50  0001 C CNN
+	1    2400 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C124
+U 1 1 5A4CE721
+P 2100 2100
+F 0 "C124" V 2050 2150 50  0000 L CNN
+F 1 "100nF" V 2150 2100 50  0000 L CNN
+F 2 "" H 2100 2100 50  0001 C CNN
+F 3 "" H 2100 2100 50  0001 C CNN
+	1    2100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C161
+U 1 1 5A4CE7C0
+P 2400 2200
+F 0 "C161" V 2350 2200 50  0000 L CNN
+F 1 "100nF" V 2450 2200 50  0000 L CNN
+F 2 "" H 2400 2200 50  0001 C CNN
+F 3 "" H 2400 2200 50  0001 C CNN
+	1    2400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Ferrite_Bead_Small L152
+U 1 1 5A4CEA28
+P 2600 2300
+F 0 "L152" V 2650 2350 50  0000 L CNN
+F 1 "470R@100MHz" V 2600 1700 50  0000 L CNN
+F 2 "" V 2530 2300 50  0001 C CNN
+F 3 "" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C152
+U 1 1 5A4CEB97
+P 2100 2400
+F 0 "C152" V 2050 2450 50  0000 L CNN
+F 1 "100nF" V 2150 2450 50  0000 L CNN
+F 2 "" H 2100 2400 50  0001 C CNN
+F 3 "" H 2100 2400 50  0001 C CNN
+	1    2100 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C103
+U 1 1 5A4CED6A
+P 2100 1900
+F 0 "C103" V 2150 1700 50  0000 L CNN
+F 1 "1uF" V 2050 1750 50  0000 L CNN
+F 2 "" H 2100 1900 50  0001 C CNN
+F 3 "" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 1100 1000 1300
+Wire Wire Line
+	2200 1700 2800 1700
+Connection ~ 2700 1700
+Wire Wire Line
+	2000 1000 2100 1000
+Wire Wire Line
+	1000 1200 2600 1200
+Wire Wire Line
+	1800 1200 1800 1000
+Connection ~ 1000 1200
+Wire Wire Line
+	2500 1400 2800 1400
+Wire Wire Line
+	2500 1600 2800 1600
+Wire Wire Line
+	2200 1500 2800 1500
+Wire Wire Line
+	2300 1400 1650 1400
+Wire Wire Line
+	1650 1300 1650 2400
+Wire Wire Line
+	1650 1500 2000 1500
+Wire Wire Line
+	1650 1600 2300 1600
+Connection ~ 1650 1500
+Wire Wire Line
+	2600 1200 2600 1600
+Connection ~ 2600 1400
+Connection ~ 1800 1200
+Connection ~ 2600 1500
+Connection ~ 2600 1600
+Wire Wire Line
+	2200 1300 2800 1300
+Connection ~ 2600 1300
+Wire Wire Line
+	2000 1300 1650 1300
+Connection ~ 1650 1400
+Wire Wire Line
+	2300 1000 2700 1000
+Wire Wire Line
+	2700 1000 2700 1700
+Wire Wire Line
+	1650 1700 2000 1700
+Connection ~ 1650 1600
+Wire Wire Line
+	1000 1500 1000 1800
+Wire Wire Line
+	2500 1800 2800 1800
+Wire Wire Line
+	2700 1800 2700 2250
+Wire Wire Line
+	2500 2000 2800 2000
+Wire Wire Line
+	2200 2100 2800 2100
+Connection ~ 2700 2000
+Wire Wire Line
+	2500 2200 2800 2200
+Connection ~ 2700 2100
+Connection ~ 2700 2200
+Wire Wire Line
+	1650 2000 2300 2000
+Wire Wire Line
+	1650 2100 2000 2100
+Wire Wire Line
+	1650 2200 2300 2200
+Connection ~ 1650 2100
+Connection ~ 1650 2000
+Connection ~ 1650 1700
+Wire Wire Line
+	2700 2250 2500 2250
+Wire Wire Line
+	2500 2250 2500 2300
+Wire Wire Line
+	2700 2300 2800 2300
+Wire Wire Line
+	2700 2300 2700 2400
+Wire Wire Line
+	2700 2400 2200 2400
+Connection ~ 2700 2300
+Connection ~ 1650 2200
+Wire Wire Line
+	1650 2400 2000 2400
+Wire Wire Line
+	2700 1900 2200 1900
+Connection ~ 2700 1900
+Wire Wire Line
+	2000 1900 1650 1900
+Connection ~ 1650 1900
+$Comp
+L C_Small CB103
+U 1 1 5A4CF72F
+P 2400 1800
+F 0 "CB103" V 2450 1550 50  0000 L CNN
+F 1 "100nF" V 2350 1650 50  0000 L CNN
+F 2 "" H 2400 1800 50  0001 C CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+Connection ~ 2700 1800
+Wire Wire Line
+	2300 1800 1650 1800
+Connection ~ 1650 1800
+$Comp
+L GND #PWR?
+U 1 1 5A4CFB8C
+P 2700 5800
+F 0 "#PWR?" H 2700 5550 50  0001 C CNN
+F 1 "GND" H 2700 5650 50  0000 C CNN
+F 2 "" H 2700 5800 50  0001 C CNN
+F 3 "" H 2700 5800 50  0001 C CNN
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5800 2700 5600
+Wire Wire Line
+	2700 5600 2800 5600
+Wire Wire Line
+	2700 5700 2800 5700
+Connection ~ 2700 5700
+Wire Wire Line
+	2700 5800 2800 5800
+Connection ~ 2700 5800
+Text Label 2350 1000 0    60   ~ 0
+VDDPLLUSB-
+Text Label 2100 1000 1    60   ~ 0
+VDDPLLUSB+
+Text Label 2550 1800 0    60   ~ 0
+VDDOUT
+Text Label 2250 2400 0    60   ~ 0
+VDDPLL
+$EndSCHEMATC

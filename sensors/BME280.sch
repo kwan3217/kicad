@@ -126,4 +126,6 @@ F 3 "" H 5800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5400 3200
+Text Notes 5150 3900 0    60   ~ 0
+In I2C mode. SDO is grounded, so address is 0x76
 $EndSCHEMATC

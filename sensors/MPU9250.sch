@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -9,7 +12,9 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
+LIBS:xilinx
 LIBS:microcontrollers
+LIBS:dsp
 LIBS:microchip
 LIBS:analog_switches
 LIBS:motorola
@@ -25,15 +30,13 @@ LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
+LIBS:valves
 LIBS:KwanSystems
-LIBS:ftdi
-LIBS:switches
-LIBS:Tracker_pHAT-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -129,7 +132,6 @@ Connection ~ 4000 2500
 NoConn ~ 5100 2200
 NoConn ~ 5100 2300
 NoConn ~ 5100 2400
-NoConn ~ 5100 2500
 Wire Wire Line
 	4100 1700 4100 1900
 Connection ~ 4100 1800
@@ -148,4 +150,8 @@ Text HLabel 3700 1700 1    60   UnSpc ~ 0
 +3.3V
 Text HLabel 3600 2500 3    60   UnSpc ~ 0
 GND
+Text HLabel 5500 2500 2    60   Output ~ 0
+INT
+Wire Wire Line
+	5100 2500 5500 2500
 $EndSCHEMATC
