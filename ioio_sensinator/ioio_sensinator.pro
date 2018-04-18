@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../../home/chrisj/workspace/kicad
+LibDir=../
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,4 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/chrisj/workspace/kicad/KwanSystems
+LibName33=KwanSystems
