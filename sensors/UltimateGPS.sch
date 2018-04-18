@@ -32,11 +32,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
+LIBS:ioio_sensinator-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -236,10 +237,10 @@ DO NOT POPULATE Dx04 and/or \nRx04 if using a coin cell rather than\na supercap.
 Text Label 4800 2700 0    60   ~ 0
 VBACKUP+
 $Comp
-L PWR_FLAG #FLG07
+L PWR_FLAG #FLG017
 U 1 1 598DE7CB
 P 5450 2600
-F 0 "#FLG07" H 5450 2675 50  0001 C CNN
+F 0 "#FLG017" H 5450 2675 50  0001 C CNN
 F 1 "PWR_FLAG" H 5450 2750 50  0000 C CNN
 F 2 "" H 5450 2600 50  0001 C CNN
 F 3 "" H 5450 2600 50  0001 C CNN

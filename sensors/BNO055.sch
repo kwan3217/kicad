@@ -32,11 +32,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:KwanSystems
+LIBS:ioio_sensinator-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
