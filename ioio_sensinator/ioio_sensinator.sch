@@ -407,17 +407,13 @@ F 3 "" H 7400 6100 50  0001 C CNN
 	1    7400 6100
 	0    1    1    0   
 $EndComp
-NoConn ~ 4950 3800
 NoConn ~ 4850 3800
 NoConn ~ 4750 3800
 NoConn ~ 4650 3800
 NoConn ~ 4550 3800
 NoConn ~ 4450 3800
-NoConn ~ 4350 3800
 NoConn ~ 4250 3800
 NoConn ~ 4150 3800
-NoConn ~ 4050 3800
-NoConn ~ 3950 3800
 NoConn ~ 3850 3800
 NoConn ~ 3750 3800
 NoConn ~ 3650 3800
@@ -432,8 +428,6 @@ NoConn ~ 2750 4100
 NoConn ~ 2750 4200
 NoConn ~ 2750 4300
 NoConn ~ 2750 4400
-NoConn ~ 2750 4500
-NoConn ~ 2750 4600
 NoConn ~ 2750 4700
 NoConn ~ 2750 4800
 NoConn ~ 2750 4900
@@ -460,4 +454,270 @@ Connection ~ 5650 4900
 Connection ~ 5050 4900
 Connection ~ 4750 5100
 Connection ~ 5350 5100
+Wire Wire Line
+	8300 3800 8700 3800
+Wire Wire Line
+	8300 3900 9000 3900
+Wire Wire Line
+	8300 4000 8700 4000
+Text Label 8400 3800 0    60   ~ 0
+SCL
+Wire Wire Line
+	8300 4900 8700 4900
+Wire Wire Line
+	8300 5400 8700 5400
+Wire Wire Line
+	8300 5900 8700 5900
+Text Label 8400 4900 0    60   ~ 0
+SCL
+Text Label 8400 5400 0    60   ~ 0
+SCL
+Text Label 8450 5900 0    60   ~ 0
+SCL
+Wire Wire Line
+	8300 5000 8700 5000
+Wire Wire Line
+	8300 5500 8700 5500
+Wire Wire Line
+	8300 6000 8700 6000
+Wire Wire Line
+	8300 4300 8700 4300
+Wire Wire Line
+	8300 4400 8700 4400
+Wire Wire Line
+	8300 4500 8700 4500
+Wire Wire Line
+	8300 4600 8700 4600
+Wire Wire Line
+	8300 5100 8700 5100
+Wire Wire Line
+	8300 5600 8700 5600
+Text Label 8400 3900 0    60   ~ 0
+SDA
+Text Label 8400 5000 0    60   ~ 0
+SDA
+Text Label 8400 5500 0    60   ~ 0
+SDA
+Text Label 8450 6000 0    60   ~ 0
+SDA
+Text Label 8400 4000 0    60   ~ 0
+MPU_INT
+Text Label 8400 4300 0    60   ~ 0
+GPS_RX
+Text Label 8400 4400 0    60   ~ 0
+GPS_TX
+Text Label 8400 4500 0    60   ~ 0
+GPS_FIX
+Text Label 8400 4600 0    60   ~ 0
+GPS_PPS
+Text Label 8400 5100 0    60   ~ 0
+ADXL_INT
+Text Label 8400 5600 0    60   ~ 0
+BNO_INT
+$Comp
+L PWR_FLAG #FLG017
+U 1 1 5AD7DDBC
+P 6250 5100
+F 0 "#FLG017" H 6250 5175 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 5250 50  0000 C CNN
+F 2 "" H 6250 5100 50  0001 C CNN
+F 3 "" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG018
+U 1 1 5AD7DF9D
+P 5650 5100
+F 0 "#FLG018" H 5650 5175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 5250 50  0000 C CNN
+F 2 "" H 5650 5100 50  0001 C CNN
+F 3 "" H 5650 5100 50  0001 C CNN
+	1    5650 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG019
+U 1 1 5AD7E17E
+P 5050 5100
+F 0 "#FLG019" H 5050 5175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5050 5250 50  0000 C CNN
+F 2 "" H 5050 5100 50  0001 C CNN
+F 3 "" H 5050 5100 50  0001 C CNN
+	1    5050 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG020
+U 1 1 5AD7E243
+P 4750 4900
+F 0 "#FLG020" H 4750 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 5050 50  0000 C CNN
+F 2 "" H 4750 4900 50  0001 C CNN
+F 3 "" H 4750 4900 50  0001 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RP2 R101
+U 1 1 5AD7E572
+P 8700 3700
+F 0 "R101" H 8650 3750 45  0000 L BNN
+F 1 "4k7" H 8650 3600 45  0000 L BNN
+F 2 "0402-RES" H 8755 3850 20  0001 C CNN
+F 3 "" H 9125 3400 60  0001 C CNN
+	1    8700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L RP2 R101
+U 2 1 5AD7E8E4
+P 9000 3700
+F 0 "R101" H 8950 3750 45  0000 L BNN
+F 1 "4k7" H 8950 3600 45  0000 L BNN
+F 2 "0402-RES" H 9055 3850 20  0001 C CNN
+F 3 "" H 9425 3400 60  0001 C CNN
+	2    9000 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 3900 9000 3800
+Wire Wire Line
+	9000 3600 8700 3600
+$Comp
+L +3V3 #PWR021
+U 1 1 5AD7F034
+P 8700 3600
+F 0 "#PWR021" H 8700 3450 50  0001 C CNN
+F 1 "+3V3" H 8700 3740 50  0000 C CNN
+F 2 "" H 8700 3600 50  0001 C CNN
+F 3 "" H 8700 3600 50  0001 C CNN
+	1    8700 3600
+	1    0    0    -1  
+$EndComp
+Text Notes 4850 3700 1    60   ~ 0
+1P - DA1
+Text Notes 4750 3700 1    60   ~ 0
+2P - CL1
+Text Notes 4650 3700 1    60   ~ 0
+3P
+Text Notes 4550 3700 1    60   ~ 0
+4P - DA0
+Text Notes 4450 3700 1    60   ~ 0
+5P - CL0
+Text Notes 4350 3700 1    60   ~ 0
+6P
+Text Notes 4250 3700 1    60   ~ 0
+7P
+Text Notes 4150 3700 1    60   ~ 0
+8
+Text Notes 4050 3700 1    60   ~ 0
+9Pi
+Text Notes 3950 3700 1    60   ~ 0
+10P
+Text Notes 3850 3700 1    60   ~ 0
+11P
+Text Notes 3750 3700 1    60   ~ 0
+12P
+Text Notes 3650 3700 1    60   ~ 0
+13P
+Text Notes 3550 3700 1    60   ~ 0
+14P
+Text Notes 3450 3700 1    60   ~ 0
+15
+Text Notes 3350 3700 1    60   ~ 0
+16
+Text Notes 3250 3700 1    60   ~ 0
+17
+Text Notes 3150 3700 1    60   ~ 0
+18
+Text Notes 3050 3700 1    60   ~ 0
+19
+Text Notes 2700 4000 2    60   ~ 0
+20
+Text Notes 2700 4100 2    60   ~ 0
+21
+Text Notes 2700 4200 2    60   ~ 0
+22
+Text Notes 2700 4300 2    60   ~ 0
+23
+Text Notes 2700 4400 2    60   ~ 0
+24
+Text Notes 2700 4500 2    60   ~ 0
+CL2 - 25
+Text Notes 2700 4600 2    60   ~ 0
+DA2 - 26
+Text Notes 2700 4700 2    60   ~ 0
+P27
+Text Notes 2700 4800 2    60   ~ 0
+P28
+Text Notes 2700 4900 2    60   ~ 0
+29
+Text Notes 2700 5000 2    60   ~ 0
+30
+$Comp
+L GND #PWR022
+U 1 1 5AD8181E
+P 4950 3800
+F 0 "#PWR022" H 4950 3550 50  0001 C CNN
+F 1 "GND" H 4950 3650 50  0000 C CNN
+F 2 "" H 4950 3800 50  0001 C CNN
+F 3 "" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	-1   0    0    1   
+$EndComp
+Text Notes 2950 5400 3    60   ~ 0
+31
+Text Notes 3050 5400 3    60   ~ 0
+32
+Text Notes 3150 5400 3    60   ~ 0
+33
+Text Notes 3250 5400 3    60   ~ 0
+P34
+Text Notes 3350 5400 3    60   ~ 0
+P35
+Text Notes 3450 5400 3    60   ~ 0
+P36
+Text Notes 3550 5400 3    60   ~ 0
+P37
+Text Notes 3650 5400 3    60   ~ 0
+P38
+Text Notes 3750 5400 3    60   ~ 0
+P39
+Text Notes 3850 5400 3    60   ~ 0
+P40
+Text Notes 3950 5400 3    60   ~ 0
+41
+Text Notes 4050 5400 3    60   ~ 0
+42
+Text Notes 4150 5400 3    60   ~ 0
+43
+Text Notes 4250 5400 3    60   ~ 0
+44
+Text Notes 4350 5400 3    60   ~ 0
+P45
+Text Notes 4450 5400 3    60   ~ 0
+P46
+Text Notes 1750 5400 0    60   ~ 0
+All pins 31-46 can be\nanalog in 0-3.3V
+Wire Wire Line
+	2750 4500 1750 4500
+Wire Wire Line
+	2750 4600 1750 4600
+Text Label 1850 4500 0    60   ~ 0
+SCL
+Text Label 1850 4600 0    60   ~ 0
+SDA
+Wire Wire Line
+	3950 3800 3950 3250
+Wire Wire Line
+	4050 3800 4050 3250
+Text Label 3950 3450 1    60   ~ 0
+GPS_RX
+Text Label 4050 3450 1    60   ~ 0
+GPS_TX
+Wire Wire Line
+	4350 3800 4350 3250
+Text Label 4350 3450 1    60   ~ 0
+GPS_FIX
 $EndSCHEMATC
