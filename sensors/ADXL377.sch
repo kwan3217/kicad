@@ -1,40 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:KwanSystems
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:Loginator_pihat-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -45,18 +15,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ADXL377 U901
+L KwanSystems:ADXL377 U901
 U 1 1 598D4615
 P 3050 2150
 F 0 "U901" H 4091 2053 60  0000 L CNN
 F 1 "ADXL377" H 4091 1947 60  0000 L CNN
-F 2 "" H 3050 2150 60  0001 C CNN
+F 2 "KwanSystems:ADXL377" H 3050 2150 60  0001 C CNN
 F 3 "" H 3050 2150 60  0001 C CNN
 	1    3050 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C914
+L Device:C_Small C914
 U 1 1 598D4693
 P 2200 2300
 F 0 "C914" H 2292 2346 50  0000 L CNN
@@ -77,7 +47,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2400 2200 2900
 Wire Wire Line
-	2200 2900 3450 2900
+	2200 2900 2700 2900
 Wire Wire Line
 	3450 2900 3450 2750
 Wire Wire Line
@@ -105,4 +75,16 @@ Text HLabel 3350 3050 3    60   Output ~ 0
 XOUT
 Text HLabel 3350 1600 1    60   Output ~ 0
 ZOUT
+Wire Wire Line
+	2700 2900 3450 2900
+Connection ~ 3450 1850
+Connection ~ 3450 2750
+NoConn ~ 4050 2150
+NoConn ~ 4050 2250
+NoConn ~ 4050 2350
+NoConn ~ 4050 2450
+NoConn ~ 3650 2750
+NoConn ~ 3650 1850
+NoConn ~ 2850 2150
+NoConn ~ 2850 2350
 $EndSCHEMATC

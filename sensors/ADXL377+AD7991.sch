@@ -1,40 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:KwanSystems
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:Loginator_pihat-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -77,19 +47,19 @@ NoConn ~ 2250 2700
 Wire Wire Line
 	2250 1650 2650 1650
 Wire Wire Line
-	2650 1650 2650 2500
+	2650 1650 2650 2100
 Wire Wire Line
 	2650 2500 2250 2500
 Wire Wire Line
 	2250 1750 2550 1750
 Wire Wire Line
-	2550 1750 2550 2600
+	2550 1750 2550 2200
 Wire Wire Line
 	2550 2600 2250 2600
 Wire Wire Line
 	2250 1850 2450 1850
 Wire Wire Line
-	2450 1850 2450 2800
+	2450 1850 2450 2300
 Wire Wire Line
 	2450 2800 2250 2800
 Wire Wire Line
@@ -107,7 +77,7 @@ YACC
 Text Label 2350 1850 0    60   ~ 0
 ZACC
 $Comp
-L C_Small C916
+L Device:C_Small C916
 U 1 1 598D684E
 P 1600 2300
 F 0 "C916" V 1550 2450 50  0000 C CNN
@@ -121,7 +91,7 @@ Wire Wire Line
 	2650 2100 2200 2100
 Connection ~ 2650 2100
 $Comp
-L C_Small C904
+L Device:C_Small C904
 U 1 1 598D6B91
 P 1850 2200
 F 0 "C904" V 1800 2350 50  0000 C CNN
@@ -135,7 +105,7 @@ Wire Wire Line
 	2550 2200 1950 2200
 Connection ~ 2550 2200
 $Comp
-L C_Small C905
+L Device:C_Small C905
 U 1 1 598D6C36
 P 2100 2100
 F 0 "C905" V 2050 2250 50  0000 C CNN
@@ -151,7 +121,7 @@ Connection ~ 2450 2300
 Wire Wire Line
 	1500 2300 1400 2300
 Wire Wire Line
-	1400 1850 1400 3000
+	1400 1850 1400 2100
 Wire Wire Line
 	1400 3000 1600 3000
 Wire Wire Line
@@ -164,7 +134,7 @@ Wire Wire Line
 	1400 1850 1600 1850
 Connection ~ 1400 2100
 Wire Wire Line
-	950  1650 1600 1650
+	950  1650 1250 1650
 Wire Wire Line
 	1250 1650 1250 2500
 Wire Wire Line
@@ -178,4 +148,18 @@ Text HLabel 2700 2900 2    60   BiDi ~ 0
 SDA
 Text HLabel 2700 3000 2    60   BiDi ~ 0
 SCL
+Wire Wire Line
+	2650 2100 2650 2500
+Wire Wire Line
+	2550 2200 2550 2600
+Wire Wire Line
+	2450 2300 2450 2800
+Wire Wire Line
+	1400 2300 1400 3000
+Wire Wire Line
+	1400 2200 1400 2300
+Wire Wire Line
+	1400 2100 1400 2200
+Wire Wire Line
+	1250 1650 1600 1650
 $EndSCHEMATC

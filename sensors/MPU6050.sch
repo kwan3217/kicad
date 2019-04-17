@@ -1,40 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:KwanSystems
-LIBS:Yukari6-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+LIBS:Loginator_pihat-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 4
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C_Small C610
+L Device:C_Small C610
 U 1 1 590FBC2E
 P 4500 4200
 F 0 "C610" H 4510 4270 50  0000 L CNN
@@ -67,12 +37,12 @@ SDA
 Text HLabel 5200 3800 2    60   UnSpc ~ 0
 +3.3V
 $Comp
-L MPU6050 U601
+L KwanSystems:MPU6050 U601
 U 1 1 598DB414
 P 4300 3800
 F 0 "U601" H 3900 4450 60  0000 L CNN
 F 1 "MPU6050" H 4750 4450 60  0000 L CNN
-F 2 "" H 4400 3700 60  0001 C CNN
+F 2 "KwanSystems:MPU60x0" H 4400 3700 60  0001 C CNN
 F 3 "" H 4400 3700 60  0001 C CNN
 	1    4300 3800
 	1    0    0    -1  
@@ -84,12 +54,12 @@ Wire Wire Line
 Wire Wire Line
 	4600 4300 4600 4000
 Wire Wire Line
-	4400 4300 4600 4300
+	4400 4300 4500 4300
 Wire Wire Line
 	4400 4000 4400 4300
 Connection ~ 4500 4300
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 598DB8D4
 P 4500 4300
 F 0 "#PWR05" H 4500 4050 50  0001 C CNN
@@ -104,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4550 5000 4550
 Wire Wire Line
-	5000 4550 5000 3650
+	5000 4550 5000 3800
 Wire Wire Line
 	5000 3800 5200 3800
 Text Label 4700 4300 1    60   ~ 0
@@ -112,7 +82,7 @@ INT
 Text Label 4500 4100 1    60   ~ 0
 N$13
 $Comp
-L C_Small C613
+L Device:C_Small C613
 U 1 1 598DB9A9
 P 5000 3550
 F 0 "C613" H 5010 3620 50  0000 L CNN
@@ -127,7 +97,7 @@ Wire Wire Line
 	5000 3450 5000 3300
 Connection ~ 5000 3800
 $Comp
-L C_Small C620
+L Device:C_Small C620
 U 1 1 598DBAC7
 P 4700 2900
 F 0 "C620" H 4710 2970 50  0000 L CNN
@@ -145,7 +115,7 @@ N$1
 Wire Wire Line
 	4400 2800 4700 2800
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 598DBBE1
 P 4400 2800
 F 0 "#PWR06" H 4400 2550 50  0001 C CNN
@@ -164,7 +134,7 @@ GND
 Text HLabel 4700 4300 3    60   Output ~ 0
 INT
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 598DBE0D
 P 5000 3300
 F 0 "#PWR07" H 5000 3050 50  0001 C CNN
@@ -175,7 +145,7 @@ F 3 "" H 5000 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 598DBE2C
 P 3700 3300
 F 0 "#PWR08" H 3700 3050 50  0001 C CNN
@@ -190,4 +160,9 @@ Wire Wire Line
 NoConn ~ 4400 3100
 NoConn ~ 3800 3800
 NoConn ~ 4200 4000
+Wire Wire Line
+	4500 4300 4600 4300
+Wire Wire Line
+	5000 3800 5000 3650
+Connection ~ 5000 3300
 $EndSCHEMATC
