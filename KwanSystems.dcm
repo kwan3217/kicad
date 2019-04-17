@@ -6,4 +6,16 @@ K current sensor
 F http://www.ti.com/lit/ds/symlink/ina220.pdf
 $ENDCMP
 #
+$CMP NC7SZ157
+D Two-input non-inverting multiplexer
+K multiplexer
+F http://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF
+$ENDCMP
+#
+$CMP TXB0104RUT
+D Bidirectional voltage-level translator
+K level-shifter
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
 #End Doc Library
