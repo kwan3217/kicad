@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:KwanSystems
-LIBS:switches
-LIBS:Rocketometer-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr E 44000 34000
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TM4C1232 U401
+L KwanSystems:TM4C1232 U401
 U 1 1 58BE35B8
 P 3350 3800
 F 0 "U401" H 3350 3900 60  0000 C CNN
@@ -57,7 +25,7 @@ F 3 "" H 3350 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C456
+L Device:C C456
 U 1 1 58BE36BB
 P 3850 950
 F 0 "C456" H 3875 1050 50  0000 L CNN
@@ -68,7 +36,7 @@ F 3 "" H 3850 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 58BE374F
 P 4150 950
 F 0 "#PWR01" H 4150 700 50  0001 C CNN
@@ -79,7 +47,7 @@ F 3 "" H 4150 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3V3 #PWR02
+L power:+3V3 #PWR02
 U 1 1 58BE37E9
 P 3300 950
 F 0 "#PWR02" H 3300 800 50  0001 C CNN
@@ -90,7 +58,7 @@ F 3 "" H 3300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR03
+L power:+3V3 #PWR03
 U 1 1 58BE3801
 P 3100 950
 F 0 "#PWR03" H 3100 800 50  0001 C CNN
@@ -101,7 +69,7 @@ F 3 "" H 3100 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 58BE42DB
 P 3400 6850
 F 0 "#PWR04" H 3400 6600 50  0001 C CNN
@@ -112,7 +80,7 @@ F 3 "" H 3400 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 58BE42FD
 P 3800 6850
 F 0 "#PWR05" H 3800 6600 50  0001 C CNN
@@ -156,7 +124,7 @@ F 3 "" H 1700 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW_Push S438
+L Switch:SW_Push S438
 U 1 1 58BE5029
 P 1950 1200
 F 0 "S438" H 2000 1300 50  0000 L CNN
@@ -167,7 +135,7 @@ F 3 "" H 1950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RESISTOR R438
+L KwanSystems:RESISTOR R438
 U 1 1 58BE506E
 P 2250 1050
 F 0 "R438" H 2200 1100 45  0000 L BNN
@@ -178,7 +146,7 @@ F 3 "" H 2675 750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C402
+L Device:C_Small C402
 U 1 1 58BE5551
 P 1100 1050
 F 0 "C402" H 1110 1120 50  0000 L CNN
@@ -189,7 +157,7 @@ F 3 "" H 1100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C411
+L Device:C_Small C411
 U 1 1 58BE55B6
 P 1200 1300
 F 0 "C411" H 1210 1370 50  0000 L CNN
@@ -200,7 +168,7 @@ F 3 "" H 1200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C426
+L Device:C_Small C426
 U 1 1 58BE560E
 P 1300 1050
 F 0 "C426" H 1310 1120 50  0000 L CNN
@@ -211,7 +179,7 @@ F 3 "" H 1300 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C442
+L Device:C_Small C442
 U 1 1 58BE5775
 P 1400 1300
 F 0 "C442" H 1410 1370 50  0000 L CNN
@@ -222,7 +190,7 @@ F 3 "" H 1400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C454
+L Device:C_Small C454
 U 1 1 58BE5A59
 P 1500 1050
 F 0 "C454" H 1510 1120 50  0000 L CNN
@@ -233,7 +201,7 @@ F 3 "" H 1500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C438
+L Device:C_Small C438
 U 1 1 58BE5B80
 P 2150 1300
 F 0 "C438" H 2160 1370 50  0000 L CNN
@@ -246,7 +214,7 @@ $EndComp
 Text Notes 1450 7050 0    60   ~ 0
 Section 4 - Microcontroller
 $Comp
-L USB_OTG J001
+L Connector:USB_OTG J001
 U 1 1 58BE6A32
 P 7200 2200
 F 0 "J001" H 7000 2650 50  0000 L CNN
@@ -280,7 +248,7 @@ D+
 Text Label 7600 2300 0    60   ~ 0
 D-
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 58BE74CB
 P 7100 2600
 F 0 "#PWR06" H 7100 2350 50  0001 C CNN
@@ -317,7 +285,7 @@ VBUS-
 Text Label 4850 2000 1    60   ~ 0
 VBUS+
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 58BE7972
 P 4850 2400
 F 0 "#PWR07" H 4850 2150 50  0001 C CNN
@@ -328,7 +296,7 @@ F 3 "" H 4850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 58BE7C9B
 P 5850 1100
 F 0 "#PWR08" H 5850 850 50  0001 C CNN
@@ -344,7 +312,7 @@ CTS
 Text Label 6200 1150 0    60   ~ 0
 GND
 $Comp
-L +3V3 #PWR09
+L power:+3V3 #PWR09
 U 1 1 58BE7F4F
 P 5850 1300
 F 0 "#PWR09" H 5850 1150 50  0001 C CNN
@@ -412,7 +380,7 @@ F 3 "" H 11050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 58BE8E12
 P 10900 2450
 F 0 "#PWR010" H 10900 2200 50  0001 C CNN
@@ -423,7 +391,7 @@ F 3 "" H 10900 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 58BE9152
 P 9450 2450
 F 0 "#PWR011" H 9450 2200 50  0001 C CNN
@@ -467,45 +435,26 @@ F 3 "http://assets.nexperia.com/documents/data-sheet/PMEG2005CT.pdf" H 10150 160
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3500 950  3700 950 
-Wire Wire Line
 	4150 950  4000 950 
 Wire Wire Line
-	1100 950  3100 950 
-Connection ~ 2900 950 
-Connection ~ 3000 950 
-Connection ~ 2800 950 
+	1100 950  1200 950 
 Wire Wire Line
-	1100 6850 3400 6850
-Connection ~ 3300 6850
-Connection ~ 3200 6850
-Connection ~ 3100 6850
-Wire Wire Line
-	1100 1150 1100 6850
+	1100 1150 1100 1400
 Wire Wire Line
 	2300 1400 2300 2250
 Wire Wire Line
 	2300 2250 2000 2250
 Wire Wire Line
-	2300 1300 2200 1300
+	2300 1300 2250 1300
 Wire Wire Line
 	2200 1300 2200 2000
 Wire Wire Line
 	2200 2000 1700 2000
 Wire Wire Line
-	1700 2000 1700 2500
-Wire Wire Line
 	2000 2250 2000 2500
-Connection ~ 1700 2250
 Wire Wire Line
 	1850 2800 1850 2450
-Wire Wire Line
-	1100 2800 2000 2800
 Connection ~ 1850 2800
-Wire Wire Line
-	1100 1400 2150 1400
-Connection ~ 1400 1400
-Connection ~ 1200 1400
 Connection ~ 1100 1400
 Wire Wire Line
 	1200 1200 1200 950 
@@ -525,15 +474,11 @@ Connection ~ 1750 1400
 Wire Wire Line
 	2250 1150 2250 1200
 Wire Wire Line
-	2150 1200 2300 1200
+	2150 1200 2250 1200
 Connection ~ 2250 1200
 Connection ~ 1100 2800
-Connection ~ 1700 2800
-Wire Wire Line
-	7100 2600 7500 2600
 Wire Wire Line
 	7500 2600 7500 2400
-Connection ~ 7200 2600
 Wire Wire Line
 	4350 4300 4900 4300
 Wire Wire Line
@@ -561,24 +506,19 @@ Wire Wire Line
 Wire Wire Line
 	5150 1300 4350 1300
 Wire Wire Line
-	10650 2150 11400 2150
-Wire Wire Line
-	10900 2450 11600 2450
+	10650 2150 10850 2150
 Wire Wire Line
 	10900 2450 10900 2250
 Wire Wire Line
 	10900 2250 10650 2250
 Wire Wire Line
-	8300 2150 9650 2150
-Wire Wire Line
 	8300 2000 8300 2150
-Connection ~ 9250 2150
 Wire Wire Line
 	9450 2300 9450 2450
 Wire Wire Line
 	9450 2450 9250 2450
 Wire Wire Line
-	9550 1600 9550 2150
+	9550 1600 9550 1850
 Wire Wire Line
 	9550 1850 9700 1850
 Connection ~ 9550 2150
@@ -588,8 +528,6 @@ Wire Wire Line
 	10750 1850 10750 2350
 Wire Wire Line
 	10750 2350 10650 2350
-Connection ~ 11050 2150
-Connection ~ 11050 2450
 Wire Wire Line
 	9850 1600 9550 1600
 Connection ~ 9550 1850
@@ -630,8 +568,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5319.pdf" H 14000 1600 5
 	1    13900 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12700 1850 13500 1850
 Text Label 12750 1850 0    60   ~ 0
 VIN
 Wire Wire Line
@@ -640,7 +576,7 @@ Wire Wire Line
 	12950 1950 13050 1950
 Connection ~ 12950 1850
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 58BF846F
 P 13050 2150
 F 0 "#PWR012" H 13050 1900 50  0001 C CNN
@@ -651,7 +587,7 @@ F 3 "" H 13050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 58BF84B9
 P 13900 2250
 F 0 "#PWR013" H 13900 2000 50  0001 C CNN
@@ -673,12 +609,12 @@ F 3 "" H 15000 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14300 1850 15200 1850
+	14300 1850 15000 1850
 Wire Wire Line
 	15000 1950 15000 1850
 Connection ~ 15000 1850
 $Comp
-L +3V3 #PWR014
+L power:+3V3 #PWR014
 U 1 1 58BF876C
 P 15200 1850
 F 0 "#PWR014" H 15200 1700 50  0001 C CNN
@@ -689,7 +625,7 @@ F 3 "" H 15200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 58BF87B8
 P 15000 2250
 F 0 "#PWR015" H 15000 2000 50  0001 C CNN
@@ -711,7 +647,7 @@ F 3 "" H 12800 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 58BF895A
 P 12800 2150
 F 0 "#PWR016" H 12800 1900 50  0001 C CNN
@@ -733,7 +669,7 @@ F 3 "" H 14350 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 58BF8D34
 P 14350 2350
 F 0 "#PWR017" H 14350 2100 50  0001 C CNN
@@ -750,7 +686,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 1200 10150 1200
 $Comp
-L +3V3 #PWR018
+L power:+3V3 #PWR018
 U 1 1 58BF9817
 P 8750 4250
 F 0 "#PWR018" H 8750 4100 50  0001 C CNN
@@ -761,7 +697,7 @@ F 3 "" H 8750 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 58BF9869
 P 8750 4450
 F 0 "#PWR019" H 8750 4200 50  0001 C CNN
@@ -772,7 +708,7 @@ F 3 "" H 8750 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Micro_SD_Card_SPI J701
+L KwanSystems:Micro_SD_Card_SPI J701
 U 1 1 58BF9B05
 P 9650 4250
 F 0 "J701" H 9000 4850 50  0000 C CNN
@@ -828,15 +764,10 @@ Wire Wire Line
 	9650 2300 9650 2350
 Text Label 9650 2350 0    60   ~ 0
 PROG
-Connection ~ 11400 2450
-Connection ~ 1300 950 
-Connection ~ 1500 950 
-Connection ~ 4850 2200
 Text Label 2150 1200 0    60   ~ 0
 RESET
-Connection ~ 2250 950 
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 58BFECCD
 P 1850 2050
 F 0 "#PWR020" H 1850 1800 50  0001 C CNN
@@ -846,8 +777,6 @@ F 3 "" H 1850 2050 50  0001 C CNN
 	1    1850 2050
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3600 950 
-Connection ~ 12800 1850
 Wire Wire Line
 	14300 2050 14350 2050
 Text Label 14300 2050 0    60   ~ 0
@@ -874,4 +803,67 @@ Wire Wire Line
 	11600 2450 11600 2400
 Text Label 3500 950  0    60   ~ 0
 VDDC
+Wire Wire Line
+	1850 2800 2000 2800
+Wire Wire Line
+	1100 1400 1100 2800
+Wire Wire Line
+	1500 1400 1750 1400
+Wire Wire Line
+	1750 1400 2150 1400
+Wire Wire Line
+	2250 1200 2300 1200
+Wire Wire Line
+	1100 2800 1100 6850
+Wire Wire Line
+	9550 2150 9650 2150
+Wire Wire Line
+	9550 1850 9550 2150
+Wire Wire Line
+	12950 1850 13500 1850
+Wire Wire Line
+	15000 1850 15200 1850
+Wire Wire Line
+	3500 950  3550 950 
+Wire Wire Line
+	1700 2000 1700 2500
+Wire Wire Line
+	1100 2800 1850 2800
+Wire Wire Line
+	1100 1400 1300 1400
+Wire Wire Line
+	7100 2600 7500 2600
+Wire Wire Line
+	10900 2450 11200 2450
+Wire Wire Line
+	8300 2150 9550 2150
+Wire Wire Line
+	12700 1850 12950 1850
+Wire Wire Line
+	1300 1400 1500 1400
+Wire Wire Line
+	1200 950  1400 950 
+Wire Wire Line
+	10850 2150 11400 2150
+Wire Wire Line
+	11200 2450 11600 2450
+Wire Wire Line
+	1100 6850 3050 6850
+Wire Wire Line
+	1400 950  2750 950 
+Wire Wire Line
+	3350 6850 3400 6850
+Connection ~ 2250 1300
+Wire Wire Line
+	2250 1300 2200 1300
+Wire Wire Line
+	3050 950  3100 950 
+Connection ~ 3550 950 
+Wire Wire Line
+	3550 950  3600 950 
+Connection ~ 3100 950 
+Connection ~ 3400 6850
+Connection ~ 3600 950 
+Wire Wire Line
+	3600 950  3700 950 
 $EndSCHEMATC
