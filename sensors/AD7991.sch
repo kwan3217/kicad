@@ -1,40 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:KwanSystems
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AD7991 U902
+L KwanSystems:AD7991 U902
 U 1 1 598D52D6
 P 3400 2500
 F 0 "U902" H 3750 2747 60  0000 C CNN
@@ -56,7 +25,7 @@ F 3 "" H 3400 2500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C908
+L Device:C_Small C908
 U 1 1 598D53B4
 P 5100 2600
 F 0 "C908" H 5192 2646 50  0000 L CNN
@@ -67,7 +36,7 @@ F 3 "" H 5100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C907
+L Device:C_Small C907
 U 1 1 598D544E
 P 4950 2750
 F 0 "C907" H 5042 2796 50  0000 L CNN

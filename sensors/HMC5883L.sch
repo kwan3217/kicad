@@ -1,40 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:KwanSystems
-LIBS:Yukari6-cache
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 4
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -55,7 +24,7 @@ Wire Wire Line
 	3800 1900 4300 1900
 Connection ~ 3800 2000
 $Comp
-L C_Small C808
+L Device:C_Small C808
 U 1 1 590F6DF9
 P 3900 2300
 F 0 "C808" H 3910 2370 50  0000 L CNN
@@ -71,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2400 3900 2400
 $Comp
-L C_Small C810
+L Device:C_Small C810
 U 1 1 590F6E03
 P 3600 2500
 F 0 "C810" H 3610 2570 50  0000 L CNN
@@ -91,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2300 3600 2400
 $Comp
-L C_Small C802
+L Device:C_Small C802
 U 1 1 590F6E10
 P 3300 2200
 F 0 "C802" H 3310 2270 50  0000 L CNN
@@ -130,7 +99,7 @@ GND
 Text HLabel 3800 1900 0    60   UnSpc ~ 0
 +3.3V
 $Comp
-L HMC5883L U801
+L KwanSystems:HMC5883L U801
 U 1 1 59101AC9
 P 5100 2500
 F 0 "U801" H 4900 3347 60  0000 C CNN

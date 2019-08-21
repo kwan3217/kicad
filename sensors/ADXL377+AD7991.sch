@@ -1,40 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:KwanSystems
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -107,7 +76,7 @@ YACC
 Text Label 2350 1850 0    60   ~ 0
 ZACC
 $Comp
-L C_Small C916
+L Device:C_Small C916
 U 1 1 598D684E
 P 1600 2300
 F 0 "C916" V 1550 2450 50  0000 C CNN
@@ -121,7 +90,7 @@ Wire Wire Line
 	2650 2100 2200 2100
 Connection ~ 2650 2100
 $Comp
-L C_Small C904
+L Device:C_Small C904
 U 1 1 598D6B91
 P 1850 2200
 F 0 "C904" V 1800 2350 50  0000 C CNN
@@ -135,7 +104,7 @@ Wire Wire Line
 	2550 2200 1950 2200
 Connection ~ 2550 2200
 $Comp
-L C_Small C905
+L Device:C_Small C905
 U 1 1 598D6C36
 P 2100 2100
 F 0 "C905" V 2050 2250 50  0000 C CNN
