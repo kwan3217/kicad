@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Precision-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 36000 12000
@@ -24,7 +25,7 @@ F 1 "HOUR" V 1500 7250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 7250 50  0001 C CNN
 F 3 "" H 1500 7200 50  0001 C CNN
 	1    1500 7250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D016
@@ -35,7 +36,7 @@ F 1 "HOUR" V 2500 8250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 8250 50  0001 C CNN
 F 3 "" H 2500 8200 50  0001 C CNN
 	1    2500 8250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D028
@@ -46,7 +47,7 @@ F 1 "HOUR" V 2500 2250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 2250 50  0001 C CNN
 F 3 "" H 2500 2200 50  0001 C CNN
 	1    2500 2250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D025
@@ -57,18 +58,7 @@ F 1 "HOUR" V 2000 3750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 3750 50  0001 C CNN
 F 3 "" H 2000 3700 50  0001 C CNN
 	1    2000 3750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D024
-U 1 1 E982C641
-P 2500 4250
-F 0 "D024" H 2350 4300 59  0000 L BNN
-F 1 "HOUR" V 2500 4250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 2500 4250 50  0001 C CNN
-F 3 "" H 2500 4200 50  0001 C CNN
-	1    2500 4250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D023
@@ -79,7 +69,7 @@ F 1 "HOUR" V 2000 4750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 4750 50  0001 C CNN
 F 3 "" H 2000 4700 50  0001 C CNN
 	1    2000 4750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D022
@@ -90,7 +80,7 @@ F 1 "HOUR" V 2500 5250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 5250 50  0001 C CNN
 F 3 "" H 2500 5200 50  0001 C CNN
 	1    2500 5250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D021
@@ -101,7 +91,7 @@ F 1 "HOUR" V 2000 5750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 5750 50  0001 C CNN
 F 3 "" H 2000 5700 50  0001 C CNN
 	1    2000 5750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D020
@@ -112,7 +102,7 @@ F 1 "HOUR" V 2500 6250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 6250 50  0001 C CNN
 F 3 "" H 2500 6200 50  0001 C CNN
 	1    2500 6250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D019
@@ -123,7 +113,7 @@ F 1 "HOUR" V 2000 6750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 6750 50  0001 C CNN
 F 3 "" H 2000 6700 50  0001 C CNN
 	1    2000 6750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D018
@@ -134,7 +124,7 @@ F 1 "HOUR" V 2500 7250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 7250 50  0001 C CNN
 F 3 "" H 2500 7200 50  0001 C CNN
 	1    2500 7250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D017
@@ -145,7 +135,7 @@ F 1 "HOUR" V 2000 7750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 7750 50  0001 C CNN
 F 3 "" H 2000 7700 50  0001 C CNN
 	1    2000 7750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D015
@@ -156,7 +146,7 @@ F 1 "HOUR" V 2000 8750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 8750 50  0001 C CNN
 F 3 "" H 2000 8700 50  0001 C CNN
 	1    2000 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D014
@@ -167,7 +157,7 @@ F 1 "HOUR" V 1500 1750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 1750 50  0001 C CNN
 F 3 "" H 1500 1700 50  0001 C CNN
 	1    1500 1750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D012
@@ -178,18 +168,7 @@ F 1 "HOUR" V 1500 2750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 2750 50  0001 C CNN
 F 3 "" H 1500 2700 50  0001 C CNN
 	1    1500 2750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D011
-U 1 1 E982C634
-P 1500 3250
-F 0 "D011" H 1350 3300 59  0000 L BNN
-F 1 "HOUR" V 1500 3250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 1500 3250 50  0001 C CNN
-F 3 "" H 1500 3200 50  0001 C CNN
-	1    1500 3250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D010
@@ -200,7 +179,7 @@ F 1 "HOUR" V 1500 3750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 3750 50  0001 C CNN
 F 3 "" H 1500 3700 50  0001 C CNN
 	1    1500 3750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D009
@@ -211,7 +190,7 @@ F 1 "HOUR" V 1500 4250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 4250 50  0001 C CNN
 F 3 "" H 1500 4200 50  0001 C CNN
 	1    1500 4250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D008
@@ -222,7 +201,7 @@ F 1 "HOUR" V 1500 4750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 4750 50  0001 C CNN
 F 3 "" H 1500 4700 50  0001 C CNN
 	1    1500 4750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D007
@@ -233,7 +212,7 @@ F 1 "HOUR" V 1500 5250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 5250 50  0001 C CNN
 F 3 "" H 1500 5200 50  0001 C CNN
 	1    1500 5250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D006
@@ -244,7 +223,7 @@ F 1 "HOUR" V 1500 5750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 5750 50  0001 C CNN
 F 3 "" H 1500 5700 50  0001 C CNN
 	1    1500 5750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D005
@@ -255,7 +234,7 @@ F 1 "HOUR" V 1500 6250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 6250 50  0001 C CNN
 F 3 "" H 1500 6200 50  0001 C CNN
 	1    1500 6250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D004
@@ -266,7 +245,7 @@ F 1 "HOUR" V 1500 6750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 6750 50  0001 C CNN
 F 3 "" H 1500 6700 50  0001 C CNN
 	1    1500 6750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D001
@@ -277,18 +256,7 @@ F 1 "HOUR" V 1500 8250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 8250 50  0001 C CNN
 F 3 "" H 1500 8200 50  0001 C CNN
 	1    1500 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D000
-U 1 1 E982C629
-P 1500 8750
-F 0 "D000" H 1350 8800 59  0000 L BNN
-F 1 "HOUR" V 1500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 1500 8750 50  0001 C CNN
-F 3 "" H 1500 8700 50  0001 C CNN
-	1    1500 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 Text HLabel 1000 1500 0    50   UnSpc ~ 0
 Q16
@@ -331,7 +299,7 @@ F 1 "HOUR" V 1500 2250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 2250 50  0001 C CNN
 F 3 "" H 1500 2200 50  0001 C CNN
 	1    1500 2250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1000 1500 1500 1500
@@ -447,7 +415,7 @@ F 1 "HOUR" V 1500 7750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 1500 7750 50  0001 C CNN
 F 3 "" H 1500 7700 50  0001 C CNN
 	1    1500 7750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1500 9000 2000 9000
@@ -470,7 +438,7 @@ F 1 "HOUR" V 2000 2750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2000 2750 50  0001 C CNN
 F 3 "" H 2000 2700 50  0001 C CNN
 	1    2000 2750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D026
@@ -481,7 +449,7 @@ F 1 "HOUR" V 2500 3250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 2500 3250 50  0001 C CNN
 F 3 "" H 2500 3200 50  0001 C CNN
 	1    2500 3250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1500 7000 2000 7000
@@ -567,11 +535,6 @@ Wire Wire Line
 Connection ~ 2500 6500
 Wire Wire Line
 	1500 7500 2500 7500
-Wire Wire Line
-	2500 7500 2500 7400
-Wire Wire Line
-	2500 7500 2500 8100
-Connection ~ 2500 7500
 $Comp
 L Device:LED D029
 U 1 1 E982C646
@@ -581,7 +544,7 @@ F 1 "HOUR" V 3000 8750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3000 8750 50  0001 C CNN
 F 3 "" H 3000 8700 50  0001 C CNN
 	1    3000 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D030
@@ -592,7 +555,7 @@ F 1 "HOUR" V 3500 8250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3500 8250 50  0001 C CNN
 F 3 "" H 3500 8200 50  0001 C CNN
 	1    3500 8250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D031
@@ -603,7 +566,7 @@ F 1 "HOUR" V 4000 7750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4000 7750 50  0001 C CNN
 F 3 "" H 4000 7700 50  0001 C CNN
 	1    4000 7750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D032
@@ -614,7 +577,7 @@ F 1 "HOUR" V 3000 7250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3000 7250 50  0001 C CNN
 F 3 "" H 3000 7200 50  0001 C CNN
 	1    3000 7250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D033
@@ -625,7 +588,7 @@ F 1 "HOUR" V 3500 6750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3500 6750 50  0001 C CNN
 F 3 "" H 3500 6700 50  0001 C CNN
 	1    3500 6750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D034
@@ -636,7 +599,7 @@ F 1 "HOUR" V 4000 6250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4000 6250 50  0001 C CNN
 F 3 "" H 4000 6200 50  0001 C CNN
 	1    4000 6250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D035
@@ -647,7 +610,7 @@ F 1 "HOUR" V 3000 5750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3000 5750 50  0001 C CNN
 F 3 "" H 3000 5700 50  0001 C CNN
 	1    3000 5750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D036
@@ -658,7 +621,7 @@ F 1 "HOUR" V 3500 5250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3500 5250 50  0001 C CNN
 F 3 "" H 3500 5200 50  0001 C CNN
 	1    3500 5250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D038
@@ -669,7 +632,7 @@ F 1 "HOUR" V 3000 4250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3000 4250 50  0001 C CNN
 F 3 "" H 3000 4200 50  0001 C CNN
 	1    3000 4250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D039
@@ -680,7 +643,7 @@ F 1 "HOUR" V 3500 3750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3500 3750 50  0001 C CNN
 F 3 "" H 3500 3700 50  0001 C CNN
 	1    3500 3750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D040
@@ -691,7 +654,7 @@ F 1 "HOUR" V 4000 3250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4000 3250 50  0001 C CNN
 F 3 "" H 4000 3200 50  0001 C CNN
 	1    4000 3250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D041
@@ -702,7 +665,7 @@ F 1 "HOUR" V 3000 2750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 3000 2750 50  0001 C CNN
 F 3 "" H 3000 2700 50  0001 C CNN
 	1    3000 2750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D042
@@ -713,7 +676,7 @@ F 1 "HOUR" V 4500 8750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4500 8750 50  0001 C CNN
 F 3 "" H 4500 8700 50  0001 C CNN
 	1    4500 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D043
@@ -724,7 +687,7 @@ F 1 "HOUR" V 5000 8250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5000 8250 50  0001 C CNN
 F 3 "" H 5000 8200 50  0001 C CNN
 	1    5000 8250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D044
@@ -735,7 +698,7 @@ F 1 "HOUR" V 5500 7750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5500 7750 50  0001 C CNN
 F 3 "" H 5500 7700 50  0001 C CNN
 	1    5500 7750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D045
@@ -746,7 +709,7 @@ F 1 "HOUR" V 6000 7250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 6000 7250 50  0001 C CNN
 F 3 "" H 6000 7200 50  0001 C CNN
 	1    6000 7250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D046
@@ -757,7 +720,7 @@ F 1 "HOUR" V 4500 6750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4500 6750 50  0001 C CNN
 F 3 "" H 4500 6700 50  0001 C CNN
 	1    4500 6750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D047
@@ -768,7 +731,7 @@ F 1 "HOUR" V 5000 6250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5000 6250 50  0001 C CNN
 F 3 "" H 5000 6200 50  0001 C CNN
 	1    5000 6250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D048
@@ -779,7 +742,7 @@ F 1 "HOUR" V 5500 5750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5500 5750 50  0001 C CNN
 F 3 "" H 5500 5700 50  0001 C CNN
 	1    5500 5750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D049
@@ -790,7 +753,7 @@ F 1 "HOUR" V 6000 5250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 6000 5250 50  0001 C CNN
 F 3 "" H 6000 5200 50  0001 C CNN
 	1    6000 5250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D050
@@ -801,7 +764,7 @@ F 1 "HOUR" V 4500 4750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4500 4750 50  0001 C CNN
 F 3 "" H 4500 4700 50  0001 C CNN
 	1    4500 4750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D051
@@ -812,7 +775,7 @@ F 1 "HOUR" V 5000 4250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5000 4250 50  0001 C CNN
 F 3 "" H 5000 4200 50  0001 C CNN
 	1    5000 4250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D052
@@ -823,7 +786,7 @@ F 1 "HOUR" V 5500 3750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 5500 3750 50  0001 C CNN
 F 3 "" H 5500 3700 50  0001 C CNN
 	1    5500 3750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D053
@@ -834,18 +797,7 @@ F 1 "HOUR" V 6000 3250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 6000 3250 50  0001 C CNN
 F 3 "" H 6000 3200 50  0001 C CNN
 	1    6000 3250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D054
-U 1 1 E982C65F
-P 6500 8750
-F 0 "D054" H 6350 8800 59  0000 L BNN
-F 1 "HOUR" V 6500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 6500 8750 50  0001 C CNN
-F 3 "" H 6500 8700 50  0001 C CNN
-	1    6500 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D055
@@ -856,7 +808,7 @@ F 1 "HOUR" V 7000 8250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 7000 8250 50  0001 C CNN
 F 3 "" H 7000 8200 50  0001 C CNN
 	1    7000 8250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D056
@@ -867,7 +819,7 @@ F 1 "HOUR" V 7500 7750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 7500 7750 50  0001 C CNN
 F 3 "" H 7500 7700 50  0001 C CNN
 	1    7500 7750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D057
@@ -878,7 +830,7 @@ F 1 "HOUR" V 8000 7250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 8000 7250 50  0001 C CNN
 F 3 "" H 8000 7200 50  0001 C CNN
 	1    8000 7250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D058
@@ -889,7 +841,7 @@ F 1 "HOUR" V 8500 6750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 8500 6750 50  0001 C CNN
 F 3 "" H 8500 6700 50  0001 C CNN
 	1    8500 6750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D059
@@ -900,7 +852,7 @@ F 1 "HOUR" V 6500 6250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 6500 6250 50  0001 C CNN
 F 3 "" H 6500 6200 50  0001 C CNN
 	1    6500 6250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D100
@@ -911,7 +863,7 @@ F 1 "MIN" V 7000 5750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 7000 5750 50  0001 C CNN
 F 3 "" H 7000 5700 50  0001 C CNN
 	1    7000 5750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D101
@@ -922,7 +874,7 @@ F 1 "MIN" V 7500 5250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 7500 5250 50  0001 C CNN
 F 3 "" H 7500 5200 50  0001 C CNN
 	1    7500 5250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D102
@@ -933,7 +885,7 @@ F 1 "MIN" V 8000 4750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 8000 4750 50  0001 C CNN
 F 3 "" H 8000 4700 50  0001 C CNN
 	1    8000 4750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D103
@@ -944,7 +896,7 @@ F 1 "MIN" V 8500 4250 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 8500 4250 50  0001 C CNN
 F 3 "" H 8500 4200 50  0001 C CNN
 	1    8500 4250
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D104
@@ -955,612 +907,7 @@ F 1 "MIN" V 6500 3750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 6500 3750 50  0001 C CNN
 F 3 "" H 6500 3700 50  0001 C CNN
 	1    6500 3750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D105
-U 1 1 E982C66A
-P 9500 8750
-F 0 "D105" H 9350 8800 59  0000 L BNN
-F 1 "MIN" V 9500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 9500 8750 50  0001 C CNN
-F 3 "" H 9500 8700 50  0001 C CNN
-	1    9500 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D106
-U 1 1 E982C66B
-P 10000 8250
-F 0 "D106" H 9850 8300 59  0000 L BNN
-F 1 "MIN" V 10000 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 10000 8250 50  0001 C CNN
-F 3 "" H 10000 8200 50  0001 C CNN
-	1    10000 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D107
-U 1 1 E982C66C
-P 10500 7750
-F 0 "D107" H 10350 7800 59  0000 L BNN
-F 1 "MIN" V 10500 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 10500 7750 50  0001 C CNN
-F 3 "" H 10500 7700 50  0001 C CNN
-	1    10500 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D108
-U 1 1 E982C66D
-P 11000 7250
-F 0 "D108" H 10850 7300 59  0000 L BNN
-F 1 "MIN" V 11000 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 11000 7250 50  0001 C CNN
-F 3 "" H 11000 7200 50  0001 C CNN
-	1    11000 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D109
-U 1 1 E982C66E
-P 11500 6750
-F 0 "D109" H 11350 6800 59  0000 L BNN
-F 1 "MIN" V 11500 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 11500 6750 50  0001 C CNN
-F 3 "" H 11500 6700 50  0001 C CNN
-	1    11500 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D110
-U 1 1 E982C66F
-P 12000 6250
-F 0 "D110" H 11850 6300 59  0000 L BNN
-F 1 "MIN" V 12000 6250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 12000 6250 50  0001 C CNN
-F 3 "" H 12000 6200 50  0001 C CNN
-	1    12000 6250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D111
-U 1 1 E982C670
-P 9500 5750
-F 0 "D111" H 9350 5800 59  0000 L BNN
-F 1 "MIN" V 9500 5750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 9500 5750 50  0001 C CNN
-F 3 "" H 9500 5700 50  0001 C CNN
-	1    9500 5750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D112
-U 1 1 E982C671
-P 10000 5250
-F 0 "D112" H 9850 5300 59  0000 L BNN
-F 1 "MIN" V 10000 5250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 10000 5250 50  0001 C CNN
-F 3 "" H 10000 5200 50  0001 C CNN
-	1    10000 5250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D113
-U 1 1 E982C672
-P 10500 4750
-F 0 "D113" H 10350 4800 59  0000 L BNN
-F 1 "MIN" V 10500 4750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 10500 4750 50  0001 C CNN
-F 3 "" H 10500 4700 50  0001 C CNN
-	1    10500 4750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D114
-U 1 1 E982C673
-P 11000 4250
-F 0 "D114" H 10850 4300 59  0000 L BNN
-F 1 "MIN" V 11000 4250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 11000 4250 50  0001 C CNN
-F 3 "" H 11000 4200 50  0001 C CNN
-	1    11000 4250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D115
-U 1 1 E982C674
-P 12500 8750
-F 0 "D115" H 12350 8800 59  0000 L BNN
-F 1 "MIN" V 12500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 12500 8750 50  0001 C CNN
-F 3 "" H 12500 8700 50  0001 C CNN
-	1    12500 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D116
-U 1 1 E982C675
-P 13000 8250
-F 0 "D116" H 12850 8300 59  0000 L BNN
-F 1 "MIN" V 13000 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 13000 8250 50  0001 C CNN
-F 3 "" H 13000 8200 50  0001 C CNN
-	1    13000 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D117
-U 1 1 E982C676
-P 13500 7750
-F 0 "D117" H 13350 7800 59  0000 L BNN
-F 1 "MIN" V 13500 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 13500 7750 50  0001 C CNN
-F 3 "" H 13500 7700 50  0001 C CNN
-	1    13500 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D118
-U 1 1 E982C677
-P 14000 7250
-F 0 "D118" H 13850 7300 59  0000 L BNN
-F 1 "MIN" V 14000 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 14000 7250 50  0001 C CNN
-F 3 "" H 14000 7200 50  0001 C CNN
-	1    14000 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D119
-U 1 1 E982C678
-P 14500 6750
-F 0 "D119" H 14350 6800 59  0000 L BNN
-F 1 "MIN" V 14500 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 14500 6750 50  0001 C CNN
-F 3 "" H 14500 6700 50  0001 C CNN
-	1    14500 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D120
-U 1 1 E982C679
-P 15000 6250
-F 0 "D120" H 14850 6300 59  0000 L BNN
-F 1 "MIN" V 15000 6250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 15000 6250 50  0001 C CNN
-F 3 "" H 15000 6200 50  0001 C CNN
-	1    15000 6250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D121
-U 1 1 E982C67A
-P 15500 5750
-F 0 "D121" H 15350 5800 59  0000 L BNN
-F 1 "MIN" V 15500 5750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 15500 5750 50  0001 C CNN
-F 3 "" H 15500 5700 50  0001 C CNN
-	1    15500 5750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D122
-U 1 1 E982C67B
-P 12500 5250
-F 0 "D122" H 12350 5300 59  0000 L BNN
-F 1 "MIN" V 12500 5250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 12500 5250 50  0001 C CNN
-F 3 "" H 12500 5200 50  0001 C CNN
-	1    12500 5250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D123
-U 1 1 E982C67C
-P 13000 4750
-F 0 "D123" H 12850 4800 59  0000 L BNN
-F 1 "MIN" V 13000 4750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 13000 4750 50  0001 C CNN
-F 3 "" H 13000 4700 50  0001 C CNN
-	1    13000 4750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D124
-U 1 1 E982C67D
-P 16000 8750
-F 0 "D124" H 15850 8800 59  0000 L BNN
-F 1 "MIN" V 16000 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 16000 8750 50  0001 C CNN
-F 3 "" H 16000 8700 50  0001 C CNN
-	1    16000 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D125
-U 1 1 E982C67E
-P 16500 8250
-F 0 "D125" H 16350 8300 59  0000 L BNN
-F 1 "MIN" V 16500 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 16500 8250 50  0001 C CNN
-F 3 "" H 16500 8200 50  0001 C CNN
-	1    16500 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D126
-U 1 1 E982C67F
-P 17000 7750
-F 0 "D126" H 16850 7800 59  0000 L BNN
-F 1 "MIN" V 17000 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 17000 7750 50  0001 C CNN
-F 3 "" H 17000 7700 50  0001 C CNN
-	1    17000 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D127
-U 1 1 E982C680
-P 17500 7250
-F 0 "D127" H 17350 7300 59  0000 L BNN
-F 1 "MIN" V 17500 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 17500 7250 50  0001 C CNN
-F 3 "" H 17500 7200 50  0001 C CNN
-	1    17500 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D128
-U 1 1 E982C681
-P 18000 6750
-F 0 "D128" H 17850 6800 59  0000 L BNN
-F 1 "MIN" V 18000 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 18000 6750 50  0001 C CNN
-F 3 "" H 18000 6700 50  0001 C CNN
-	1    18000 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D129
-U 1 1 E982C682
-P 18500 6250
-F 0 "D129" H 18350 6300 59  0000 L BNN
-F 1 "MIN" V 18500 6250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 18500 6250 50  0001 C CNN
-F 3 "" H 18500 6200 50  0001 C CNN
-	1    18500 6250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D130
-U 1 1 E982C683
-P 19000 5750
-F 0 "D130" H 18850 5800 59  0000 L BNN
-F 1 "MIN" V 19000 5750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 19000 5750 50  0001 C CNN
-F 3 "" H 19000 5700 50  0001 C CNN
-	1    19000 5750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D131
-U 1 1 E982C684
-P 19500 5250
-F 0 "D131" H 19350 5300 59  0000 L BNN
-F 1 "MIN" V 19500 5250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 19500 5250 50  0001 C CNN
-F 3 "" H 19500 5200 50  0001 C CNN
-	1    19500 5250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D132
-U 1 1 E982C685
-P 20000 8750
-F 0 "D132" H 19850 8800 59  0000 L BNN
-F 1 "MIN" V 20000 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 20000 8750 50  0001 C CNN
-F 3 "" H 20000 8700 50  0001 C CNN
-	1    20000 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D133
-U 1 1 E982C686
-P 20500 8250
-F 0 "D133" H 20350 8300 59  0000 L BNN
-F 1 "MIN" V 20500 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 20500 8250 50  0001 C CNN
-F 3 "" H 20500 8200 50  0001 C CNN
-	1    20500 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D134
-U 1 1 E982C687
-P 21000 7750
-F 0 "D134" H 20850 7800 59  0000 L BNN
-F 1 "MIN" V 21000 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 21000 7750 50  0001 C CNN
-F 3 "" H 21000 7700 50  0001 C CNN
-	1    21000 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D135
-U 1 1 E982C688
-P 21500 7250
-F 0 "D135" H 21350 7300 59  0000 L BNN
-F 1 "MIN" V 21500 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 21500 7250 50  0001 C CNN
-F 3 "" H 21500 7200 50  0001 C CNN
-	1    21500 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D136
-U 1 1 E982C689
-P 22000 6750
-F 0 "D136" H 21850 6800 59  0000 L BNN
-F 1 "MIN" V 22000 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 22000 6750 50  0001 C CNN
-F 3 "" H 22000 6700 50  0001 C CNN
-	1    22000 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D137
-U 1 1 E982C68A
-P 22500 6250
-F 0 "D137" H 22350 6300 59  0000 L BNN
-F 1 "MIN" V 22500 6250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 22500 6250 50  0001 C CNN
-F 3 "" H 22500 6200 50  0001 C CNN
-	1    22500 6250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D138
-U 1 1 E982C68B
-P 23000 5750
-F 0 "D138" H 22850 5800 59  0000 L BNN
-F 1 "MIN" V 23000 5750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 23000 5750 50  0001 C CNN
-F 3 "" H 23000 5700 50  0001 C CNN
-	1    23000 5750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D139
-U 1 1 E982C68C
-P 23500 8750
-F 0 "D139" H 23350 8800 59  0000 L BNN
-F 1 "MIN" V 23500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 23500 8750 50  0001 C CNN
-F 3 "" H 23500 8700 50  0001 C CNN
-	1    23500 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D140
-U 1 1 E982C68D
-P 24000 8250
-F 0 "D140" H 23850 8300 59  0000 L BNN
-F 1 "MIN" V 24000 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 24000 8250 50  0001 C CNN
-F 3 "" H 24000 8200 50  0001 C CNN
-	1    24000 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D141
-U 1 1 E982C68E
-P 24500 7750
-F 0 "D141" H 24350 7800 59  0000 L BNN
-F 1 "MIN" V 24500 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 24500 7750 50  0001 C CNN
-F 3 "" H 24500 7700 50  0001 C CNN
-	1    24500 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D142
-U 1 1 E982C68F
-P 25000 7250
-F 0 "D142" H 24850 7300 59  0000 L BNN
-F 1 "MIN" V 25000 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 25000 7250 50  0001 C CNN
-F 3 "" H 25000 7200 50  0001 C CNN
-	1    25000 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D143
-U 1 1 E982C690
-P 25500 6750
-F 0 "D143" H 25350 6800 59  0000 L BNN
-F 1 "MIN" V 25500 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 25500 6750 50  0001 C CNN
-F 3 "" H 25500 6700 50  0001 C CNN
-	1    25500 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D144
-U 1 1 E982C691
-P 26000 6250
-F 0 "D144" H 25850 6300 59  0000 L BNN
-F 1 "MIN" V 26000 6250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 26000 6250 50  0001 C CNN
-F 3 "" H 26000 6200 50  0001 C CNN
-	1    26000 6250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D145
-U 1 1 E982C692
-P 26500 8750
-F 0 "D145" H 26350 8800 59  0000 L BNN
-F 1 "MIN" V 26500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 26500 8750 50  0001 C CNN
-F 3 "" H 26500 8700 50  0001 C CNN
-	1    26500 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D146
-U 1 1 E982C693
-P 27000 8250
-F 0 "D146" H 26850 8300 59  0000 L BNN
-F 1 "MIN" V 27000 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 27000 8250 50  0001 C CNN
-F 3 "" H 27000 8200 50  0001 C CNN
-	1    27000 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D147
-U 1 1 E982C694
-P 27500 7750
-F 0 "D147" H 27350 7800 59  0000 L BNN
-F 1 "MIN" V 27500 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 27500 7750 50  0001 C CNN
-F 3 "" H 27500 7700 50  0001 C CNN
-	1    27500 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D148
-U 1 1 E982C695
-P 28000 7250
-F 0 "D148" H 27850 7300 59  0000 L BNN
-F 1 "MIN" V 28000 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 28000 7250 50  0001 C CNN
-F 3 "" H 28000 7200 50  0001 C CNN
-	1    28000 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D149
-U 1 1 E982C696
-P 28500 6750
-F 0 "D149" H 28350 6800 59  0000 L BNN
-F 1 "MIN" V 28500 6750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 28500 6750 50  0001 C CNN
-F 3 "" H 28500 6700 50  0001 C CNN
-	1    28500 6750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D150
-U 1 1 E982C697
-P 29000 8750
-F 0 "D150" H 28850 8800 59  0000 L BNN
-F 1 "MIN" V 29000 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 29000 8750 50  0001 C CNN
-F 3 "" H 29000 8700 50  0001 C CNN
-	1    29000 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D151
-U 1 1 E982C698
-P 29500 8250
-F 0 "D151" H 29350 8300 59  0000 L BNN
-F 1 "MIN" V 29500 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 29500 8250 50  0001 C CNN
-F 3 "" H 29500 8200 50  0001 C CNN
-	1    29500 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D152
-U 1 1 E982C699
-P 30000 7750
-F 0 "D152" H 29850 7800 59  0000 L BNN
-F 1 "MIN" V 30000 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 30000 7750 50  0001 C CNN
-F 3 "" H 30000 7700 50  0001 C CNN
-	1    30000 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D153
-U 1 1 E982C69A
-P 30500 7250
-F 0 "D153" H 30350 7300 59  0000 L BNN
-F 1 "MIN" V 30500 7250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 30500 7250 50  0001 C CNN
-F 3 "" H 30500 7200 50  0001 C CNN
-	1    30500 7250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D154
-U 1 1 E982C69B
-P 31000 8750
-F 0 "D154" H 30850 8800 59  0000 L BNN
-F 1 "MIN" V 31000 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 31000 8750 50  0001 C CNN
-F 3 "" H 31000 8700 50  0001 C CNN
-	1    31000 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D155
-U 1 1 E982C69C
-P 31500 8250
-F 0 "D155" H 31350 8300 59  0000 L BNN
-F 1 "MIN" V 31500 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 31500 8250 50  0001 C CNN
-F 3 "" H 31500 8200 50  0001 C CNN
-	1    31500 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D156
-U 1 1 E982C69D
-P 32000 7750
-F 0 "D156" H 31850 7800 59  0000 L BNN
-F 1 "MIN" V 32000 7750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 32000 7750 50  0001 C CNN
-F 3 "" H 32000 7700 50  0001 C CNN
-	1    32000 7750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D157
-U 1 1 E982C69E
-P 32500 8750
-F 0 "D157" H 32350 8800 59  0000 L BNN
-F 1 "MIN" V 32500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 32500 8750 50  0001 C CNN
-F 3 "" H 32500 8700 50  0001 C CNN
-	1    32500 8750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D158
-U 1 1 E982C69F
-P 33000 8250
-F 0 "D158" H 32850 8300 59  0000 L BNN
-F 1 "MIN" V 33000 8250 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 33000 8250 50  0001 C CNN
-F 3 "" H 33000 8200 50  0001 C CNN
-	1    33000 8250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D159
-U 1 1 E982C6A0
-P 33500 8750
-F 0 "D159" H 33350 8800 59  0000 L BNN
-F 1 "MIN" V 33500 8750 59  0001 L BNN
-F 2 "KwanSystems:D_0603" H 33500 8750 50  0001 C CNN
-F 3 "" H 33500 8700 50  0001 C CNN
-	1    33500 8750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED D037
@@ -1571,12 +918,8 @@ F 1 "HOUR" V 4000 4750 59  0001 L BNN
 F 2 "KwanSystems:D_0603" H 4000 4750 50  0001 C CNN
 F 3 "" H 4000 4700 50  0001 C CNN
 	1    4000 4750
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2500 7500 3000 7500
-Wire Wire Line
-	3000 7500 3000 8600
 Wire Wire Line
 	3000 8900 3000 9000
 Wire Wire Line
@@ -1652,8 +995,6 @@ Wire Wire Line
 	4000 6400 4000 6500
 Wire Wire Line
 	4000 6500 2500 6500
-Wire Wire Line
-	4000 7600 4000 7500
 Connection ~ 4000 6500
 Wire Wire Line
 	3500 6900 3500 7000
@@ -1686,11 +1027,6 @@ Connection ~ 4000 8000
 Wire Wire Line
 	6000 7400 6000 7500
 Wire Wire Line
-	6000 7500 4000 7500
-Connection ~ 4000 7500
-Wire Wire Line
-	4000 7500 4000 6500
-Wire Wire Line
 	4500 6900 4500 7000
 Wire Wire Line
 	4500 7000 3500 7000
@@ -1703,9 +1039,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 6000 3000 6000
 Connection ~ 3000 6000
-Wire Wire Line
-	3000 7400 3000 7500
-Connection ~ 3000 7500
 Wire Wire Line
 	3000 5900 3000 6000
 Wire Wire Line
@@ -1750,8 +1083,6 @@ Wire Wire Line
 	3000 3000 4500 3000
 Wire Wire Line
 	4500 3000 4500 4600
-Wire Wire Line
-	6000 3500 6000 5100
 Connection ~ 6000 3500
 Wire Wire Line
 	5500 4000 5500 5600
@@ -1762,8 +1093,6 @@ Connection ~ 5000 4500
 Wire Wire Line
 	4500 5000 4500 6600
 Connection ~ 4500 5000
-Wire Wire Line
-	6000 5500 6000 7100
 Connection ~ 6000 5500
 Wire Wire Line
 	5500 6000 5500 7600
@@ -1778,641 +1107,1309 @@ Wire Bus Line
 	6250 1000 6250 9500
 Wire Wire Line
 	6500 8900 6500 9000
-Wire Wire Line
-	6500 9000 4500 9000
 Connection ~ 4500 9000
 Wire Wire Line
 	7000 8400 7000 8500
-Wire Wire Line
-	7000 8500 5000 8500
 Connection ~ 5000 8500
 Wire Wire Line
 	7500 7900 7500 8000
-Wire Wire Line
-	7500 8000 5500 8000
 Connection ~ 5500 8000
 Wire Wire Line
 	8000 7400 8000 7500
 Wire Wire Line
-	8000 7500 6000 7500
-Connection ~ 6000 7500
-Wire Wire Line
 	8500 6900 8500 7000
-Wire Wire Line
-	8500 7000 4500 7000
 Wire Wire Line
 	6500 6400 6500 6500
 Wire Wire Line
-	6500 6500 5000 6500
-Wire Wire Line
 	7000 5900 7000 6000
-Wire Wire Line
-	7000 6000 5500 6000
 Wire Wire Line
 	7500 5400 7500 5500
 Wire Wire Line
-	7500 5500 6000 5500
-Wire Wire Line
 	8000 4900 8000 5000
-Wire Wire Line
-	8000 5000 4500 5000
 Wire Wire Line
 	8500 4400 8500 4500
 Wire Wire Line
-	8500 4500 5000 4500
-Wire Wire Line
 	6500 3900 6500 4000
-Wire Wire Line
-	6500 4000 5500 4000
 Wire Wire Line
 	8500 6600 8500 4500
 Connection ~ 8500 4500
-Wire Wire Line
-	8000 7100 8000 5000
 Connection ~ 8000 5000
-Wire Wire Line
-	7500 7600 7500 5500
 Connection ~ 7500 5500
-Wire Wire Line
-	7000 8100 7000 6000
 Connection ~ 7000 6000
-Wire Wire Line
-	6500 8600 6500 6500
 Connection ~ 6500 6500
-Wire Wire Line
-	6500 6100 6500 4000
 Connection ~ 6500 4000
-Wire Wire Line
-	6500 3600 6500 1500
 Wire Wire Line
 	6500 1500 6000 1500
 Connection ~ 6000 1500
-Wire Wire Line
-	7000 5600 7000 3500
-Wire Wire Line
-	7000 3500 6000 3500
-Wire Wire Line
-	7500 5100 7500 3000
-Wire Wire Line
-	7500 3000 4500 3000
 Connection ~ 4500 3000
-Wire Wire Line
-	8000 4600 8000 2500
-Wire Wire Line
-	8000 2500 5000 2500
 Connection ~ 5000 2500
 Wire Wire Line
 	8500 4100 8500 2000
-Wire Wire Line
-	8500 2000 5500 2000
 Connection ~ 5500 2000
 Wire Bus Line
 	8750 9500 8750 1000
+$Comp
+L Device:LED D000
+U 1 1 E982C629
+P 1500 8750
+F 0 "D000" H 1350 8800 59  0000 L BNN
+F 1 "HOUR" V 1500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 1500 8750 50  0001 C CNN
+F 3 "" H 1500 8700 50  0001 C CNN
+	1    1500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D011
+U 1 1 E982C634
+P 1500 3250
+F 0 "D011" H 1350 3300 59  0000 L BNN
+F 1 "HOUR" V 1500 3250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 1500 3250 50  0001 C CNN
+F 3 "" H 1500 3200 50  0001 C CNN
+	1    1500 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D024
+U 1 1 E982C641
+P 2500 4250
+F 0 "D024" H 2350 4300 59  0000 L BNN
+F 1 "HOUR" V 2500 4250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 2500 4250 50  0001 C CNN
+F 3 "" H 2500 4200 50  0001 C CNN
+	1    2500 4250
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
-	9500 8900 9500 9000
+	8000 7100 8000 5000
 Wire Wire Line
-	9500 9000 6500 9000
+	8500 7000 4500 7000
+Wire Wire Line
+	8000 4600 8000 2500
+Wire Wire Line
+	8500 4500 5000 4500
+Wire Wire Line
+	8500 2000 5500 2000
+Wire Wire Line
+	7500 7600 7500 5500
+Wire Wire Line
+	8000 7500 6000 7500
+Wire Wire Line
+	7500 5100 7500 3000
+Wire Wire Line
+	8000 5000 4500 5000
+Wire Wire Line
+	8000 2500 5000 2500
+Wire Wire Line
+	7000 8100 7000 6000
+Wire Wire Line
+	7500 8000 5500 8000
+Wire Wire Line
+	7000 5600 7000 3500
+Wire Wire Line
+	7500 5500 6000 5500
+Wire Wire Line
+	7500 3000 4500 3000
+Wire Wire Line
+	6500 8600 6500 6500
+Wire Wire Line
+	7000 8500 5000 8500
+Wire Wire Line
+	6500 6100 6500 4000
+Wire Wire Line
+	7000 6000 5500 6000
+Wire Wire Line
+	7000 3500 6000 3500
+Wire Wire Line
+	6500 3600 6500 1500
+Wire Wire Line
+	6500 9000 4500 9000
+Wire Wire Line
+	6500 6500 5000 6500
+Wire Wire Line
+	6000 5500 6000 7100
+Wire Wire Line
+	6500 4000 5500 4000
+Wire Wire Line
+	6000 3500 6000 5100
+$Comp
+L Device:LED D118
+U 1 1 E982C677
+P 13500 7250
+F 0 "D118" H 13350 7300 59  0000 L BNN
+F 1 "MIN" V 13500 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 13500 7250 50  0001 C CNN
+F 3 "" H 13500 7200 50  0001 C CNN
+	1    13500 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D119
+U 1 1 E982C678
+P 14000 6750
+F 0 "D119" H 13850 6800 59  0000 L BNN
+F 1 "MIN" V 14000 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 14000 6750 50  0001 C CNN
+F 3 "" H 14000 6700 50  0001 C CNN
+	1    14000 6750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	31500 1500 31500 7600
+Wire Bus Line
+	32750 9500 32750 1000
+Connection ~ 32500 1500
+Wire Wire Line
+	33000 1500 33000 8600
+Wire Wire Line
+	33000 1500 32500 1500
+Connection ~ 31500 1500
+Wire Wire Line
+	32500 1500 31500 1500
+Wire Wire Line
+	32500 8100 32500 1500
+Wire Wire Line
+	32000 2000 31000 2000
+Wire Wire Line
+	32000 8600 32000 2000
+Connection ~ 30000 1500
+Wire Wire Line
+	31500 1500 30000 1500
+Wire Wire Line
+	31000 2000 29500 2000
+Connection ~ 31000 2000
+Wire Wire Line
+	31000 8100 31000 2000
+Wire Wire Line
+	30500 8600 30500 2500
+Wire Wire Line
+	29000 2500 30500 2500
+Wire Bus Line
+	31750 1000 31750 9500
+Wire Bus Line
+	30250 9500 30250 1000
+Connection ~ 28000 1500
+Wire Wire Line
+	30000 1500 28000 1500
+Wire Wire Line
+	30000 7100 30000 1500
+Wire Wire Line
+	29500 2000 27500 2000
+Connection ~ 29500 2000
+Wire Wire Line
+	29500 7600 29500 2000
+Connection ~ 29000 2500
+Wire Wire Line
+	29000 8100 29000 2500
+Wire Wire Line
+	28500 8600 28500 3000
+Wire Wire Line
+	27000 2500 29000 2500
+Wire Wire Line
+	26500 3000 28500 3000
+Connection ~ 25500 1500
+Wire Wire Line
+	28000 1500 25500 1500
+Wire Wire Line
+	28000 6600 28000 1500
+Wire Wire Line
+	27500 2000 25000 2000
+Connection ~ 27500 2000
+Wire Wire Line
+	27500 7100 27500 2000
+Connection ~ 27000 2500
+Wire Wire Line
+	27000 7600 27000 2500
+Connection ~ 26500 3000
+Wire Wire Line
+	26500 8100 26500 3000
+Wire Wire Line
+	26000 3500 26000 8600
+Wire Wire Line
+	24500 2500 27000 2500
+Wire Wire Line
+	24000 3000 26500 3000
+Wire Wire Line
+	23500 3500 26000 3500
+Connection ~ 22500 1500
+Wire Wire Line
+	25500 1500 22500 1500
+Wire Wire Line
+	25500 6100 25500 1500
+Wire Wire Line
+	25000 2000 22000 2000
+Connection ~ 25000 2000
+Wire Wire Line
+	25000 6600 25000 2000
+Connection ~ 24500 2500
+Wire Wire Line
+	24500 7100 24500 2500
+Connection ~ 24000 3000
+Wire Wire Line
+	24000 7600 24000 3000
+Connection ~ 23500 3500
+Wire Wire Line
+	23500 8100 23500 3500
+Wire Wire Line
+	23000 4000 23000 8600
+Wire Wire Line
+	21500 2500 24500 2500
+Wire Wire Line
+	21000 3000 24000 3000
+Wire Wire Line
+	20500 3500 23500 3500
+Wire Wire Line
+	20000 4000 23000 4000
+Connection ~ 19000 1500
+Wire Wire Line
+	22500 1500 19000 1500
+Wire Wire Line
+	22500 5600 22500 1500
+Wire Wire Line
+	22000 2000 18500 2000
+Connection ~ 22000 2000
+Wire Wire Line
+	22000 6100 22000 2000
+Connection ~ 21500 2500
+Wire Wire Line
+	21500 6600 21500 2500
+Connection ~ 21000 3000
+Wire Wire Line
+	21000 7100 21000 3000
+Connection ~ 20500 3500
+Wire Wire Line
+	20500 7600 20500 3500
+Connection ~ 20000 4000
+Wire Wire Line
+	20000 8100 20000 4000
+Wire Wire Line
+	19500 8600 19500 4500
+Wire Wire Line
+	18000 2500 21500 2500
+Wire Wire Line
+	17500 3000 21000 3000
+Wire Wire Line
+	17000 3500 20500 3500
+Wire Wire Line
+	16500 4000 20000 4000
+Wire Wire Line
+	16000 4500 19500 4500
+Connection ~ 18500 2000
+Connection ~ 25000 7000
+Wire Wire Line
+	28000 7000 28000 6900
+Wire Wire Line
+	25000 7000 28000 7000
+Connection ~ 27500 7500
+Wire Wire Line
+	30000 7500 30000 7400
+Wire Wire Line
+	27500 7500 30000 7500
+Connection ~ 24500 7500
+Wire Wire Line
+	27500 7500 27500 7400
+Wire Wire Line
+	24500 7500 27500 7500
+Connection ~ 29500 8000
+Wire Wire Line
+	31500 8000 31500 7900
+Wire Wire Line
+	29500 8000 31500 8000
+Connection ~ 27000 8000
+Wire Wire Line
+	29500 8000 29500 7900
+Wire Wire Line
+	27000 8000 29500 8000
+Connection ~ 24000 8000
+Wire Wire Line
+	27000 8000 27000 7900
+Wire Wire Line
+	24000 8000 27000 8000
+Connection ~ 31000 8500
+Wire Wire Line
+	32500 8400 32500 8500
+Wire Wire Line
+	31000 8500 32500 8500
+Connection ~ 29000 8500
+Wire Wire Line
+	31000 8500 31000 8400
+Wire Wire Line
+	29000 8500 31000 8500
+Connection ~ 26500 8500
+Wire Wire Line
+	29000 8500 29000 8400
+Wire Wire Line
+	26500 8500 29000 8500
+Connection ~ 23500 8500
+Wire Wire Line
+	26500 8500 26500 8400
+Wire Wire Line
+	23500 8500 26500 8500
+Connection ~ 22000 6500
+Wire Wire Line
+	25500 6500 25500 6400
+Wire Wire Line
+	22000 6500 25500 6500
+Connection ~ 21500 7000
+Wire Wire Line
+	25000 7000 25000 6900
+Wire Wire Line
+	21500 7000 25000 7000
+Connection ~ 21000 7500
+Wire Wire Line
+	24500 7500 24500 7400
+Wire Wire Line
+	21000 7500 24500 7500
+Connection ~ 20500 8000
+Wire Wire Line
+	24000 8000 24000 7900
+Wire Wire Line
+	20500 8000 24000 8000
+Connection ~ 20000 8500
+Wire Wire Line
+	23500 8500 23500 8400
+Wire Wire Line
+	20000 8500 23500 8500
+Connection ~ 32000 9000
+Wire Wire Line
+	33000 9000 33000 8900
+Wire Wire Line
+	32000 9000 33000 9000
+Connection ~ 30500 9000
+Wire Wire Line
+	32000 9000 32000 8900
+Wire Wire Line
+	30500 9000 32000 9000
+Connection ~ 28500 9000
+Wire Wire Line
+	30500 8900 30500 9000
+Wire Wire Line
+	28500 9000 30500 9000
+Connection ~ 26000 9000
+Wire Wire Line
+	28500 9000 28500 8900
+Wire Wire Line
+	26000 9000 28500 9000
+Connection ~ 23000 9000
+Wire Wire Line
+	26000 9000 26000 8900
+Wire Wire Line
+	23000 9000 26000 9000
+Connection ~ 19500 9000
+Wire Wire Line
+	23000 9000 23000 8900
+Wire Wire Line
+	19500 9000 23000 9000
+Wire Bus Line
+	28250 9500 28250 1000
+Wire Bus Line
+	25750 9500 25750 1000
+Wire Bus Line
+	22750 9500 22750 1000
+Connection ~ 18000 2500
+Connection ~ 17500 3000
+Connection ~ 17000 3500
+Connection ~ 16500 4000
+Connection ~ 16000 4500
+Wire Bus Line
+	19250 9500 19250 1000
+Connection ~ 18500 6000
+Wire Wire Line
+	22500 6000 18500 6000
+Wire Wire Line
+	22500 5900 22500 6000
+Connection ~ 18000 6500
+Wire Wire Line
+	22000 6500 18000 6500
+Wire Wire Line
+	22000 6400 22000 6500
+Connection ~ 17500 7000
+Wire Wire Line
+	21500 7000 17500 7000
+Wire Wire Line
+	21500 6900 21500 7000
+Connection ~ 17000 7500
+Wire Wire Line
+	21000 7500 17000 7500
+Wire Wire Line
+	21000 7400 21000 7500
+Connection ~ 16500 8000
+Wire Wire Line
+	20500 8000 16500 8000
+Wire Wire Line
+	20500 7900 20500 8000
+Connection ~ 16000 8500
+Wire Wire Line
+	20000 8500 16000 8500
+Wire Wire Line
+	20000 8400 20000 8500
+Connection ~ 15500 9000
+Wire Wire Line
+	19500 9000 15500 9000
+Wire Wire Line
+	19500 8900 19500 9000
+Wire Bus Line
+	15250 9500 15250 1000
+Connection ~ 12500 1500
+Wire Wire Line
+	19000 1500 12500 1500
+Wire Wire Line
+	19000 5100 19000 1500
+Connection ~ 12000 2000
+Wire Wire Line
+	18500 2000 12000 2000
+Wire Wire Line
+	18500 5600 18500 2000
+Connection ~ 15000 2500
+Wire Wire Line
+	18000 2500 15000 2500
+Wire Wire Line
+	18000 6100 18000 2500
+Connection ~ 14500 3000
+Wire Wire Line
+	17500 3000 14500 3000
+Wire Wire Line
+	17500 6600 17500 3000
+Connection ~ 14000 3500
+Wire Wire Line
+	17000 3500 14000 3500
+Wire Wire Line
+	17000 7100 17000 3500
+Connection ~ 13500 4000
+Wire Wire Line
+	16500 4000 13500 4000
+Wire Wire Line
+	16500 7600 16500 4000
+Connection ~ 13000 4500
+Wire Wire Line
+	16000 4500 13000 4500
+Wire Wire Line
+	16000 8100 16000 4500
+Wire Wire Line
+	15500 5000 12500 5000
+Wire Wire Line
+	15500 8600 15500 5000
+Wire Wire Line
+	19000 5500 12000 5500
+Wire Wire Line
+	19000 5400 19000 5500
+Connection ~ 15000 6000
+Wire Wire Line
+	18500 6000 15000 6000
+Wire Wire Line
+	18500 5900 18500 6000
+Connection ~ 14500 6500
+Wire Wire Line
+	18000 6500 14500 6500
+Wire Wire Line
+	18000 6400 18000 6500
+Connection ~ 14000 7000
+Wire Wire Line
+	17500 7000 14000 7000
+Wire Wire Line
+	17500 6900 17500 7000
+Connection ~ 13500 7500
+Wire Wire Line
+	17000 7500 13500 7500
+Wire Wire Line
+	17000 7400 17000 7500
+Connection ~ 13000 8000
+Wire Wire Line
+	16500 8000 13000 8000
+Wire Wire Line
+	16500 7900 16500 8000
+Connection ~ 12500 8500
+Wire Wire Line
+	16000 8500 12500 8500
+Wire Wire Line
+	16000 8400 16000 8500
+Connection ~ 12000 9000
+Wire Wire Line
+	15500 9000 12000 9000
+Wire Wire Line
+	15500 8900 15500 9000
+Connection ~ 12000 5500
+Wire Wire Line
+	12000 8600 12000 5500
+Connection ~ 12500 5000
+Wire Wire Line
+	12500 8100 12500 5000
+Wire Wire Line
+	13000 4500 10500 4500
+Wire Wire Line
+	13000 7600 13000 4500
+Wire Wire Line
+	13500 4000 11000 4000
+Wire Wire Line
+	13500 7100 13500 4000
+Wire Wire Line
+	14000 3500 11500 3500
+Wire Wire Line
+	14000 6600 14000 3500
+Wire Wire Line
+	14500 3000 9000 3000
+Wire Wire Line
+	14500 6100 14500 3000
+Wire Wire Line
+	15000 2500 9500 2500
+Wire Wire Line
+	15000 5600 15000 2500
+Wire Wire Line
+	12000 2000 12000 5100
+Wire Wire Line
+	10000 2000 12000 2000
+Wire Wire Line
+	12500 1500 12500 4600
+Wire Wire Line
+	10500 1500 12500 1500
+Wire Wire Line
+	12500 5000 10000 5000
+Wire Wire Line
+	12500 4900 12500 5000
+Wire Wire Line
+	12000 5500 9500 5500
+Wire Wire Line
+	12000 5400 12000 5500
+Wire Wire Line
+	15000 6000 9000 6000
+Wire Wire Line
+	15000 5900 15000 6000
+Wire Wire Line
+	14500 6500 11500 6500
+Wire Wire Line
+	14500 6400 14500 6500
+Wire Wire Line
+	14000 7000 11000 7000
+Wire Wire Line
+	14000 6900 14000 7000
+Wire Wire Line
+	13500 7500 10500 7500
+Wire Wire Line
+	13500 7400 13500 7500
+Wire Wire Line
+	13000 8000 10000 8000
+Wire Wire Line
+	13000 7900 13000 8000
+Wire Wire Line
+	12500 8500 9500 8500
+Wire Wire Line
+	12500 8400 12500 8500
+Wire Wire Line
+	12000 9000 9000 9000
+Wire Wire Line
+	12000 8900 12000 9000
+Wire Bus Line
+	11750 9500 11750 1000
+Wire Wire Line
+	10500 4100 10500 1500
+Wire Wire Line
+	10000 4600 10000 2000
+Wire Wire Line
+	9500 5100 9500 2500
+Wire Wire Line
+	9000 5600 9000 3000
+Wire Wire Line
+	11500 6100 11500 3500
+Wire Wire Line
+	11000 6600 11000 4000
+Connection ~ 10500 4500
+Wire Wire Line
+	10500 7100 10500 4500
+Connection ~ 10000 5000
+Wire Wire Line
+	10000 7600 10000 5000
+Connection ~ 9500 5500
+Wire Wire Line
+	9500 8100 9500 5500
+Connection ~ 9000 6000
+Wire Wire Line
+	9000 8600 9000 6000
+Wire Wire Line
+	10500 4400 10500 4500
+Wire Wire Line
+	10000 4900 10000 5000
+Wire Wire Line
+	9500 5400 9500 5500
+Wire Wire Line
+	9000 5900 9000 6000
+Wire Wire Line
+	11500 6400 11500 6500
+Wire Wire Line
+	11000 6900 11000 7000
+Wire Wire Line
+	10500 7400 10500 7500
+Wire Wire Line
+	10000 7900 10000 8000
+Wire Wire Line
+	9500 8400 9500 8500
+Wire Wire Line
+	9000 8900 9000 9000
+$Comp
+L Device:LED D159
+U 1 1 E982C6A0
+P 33000 8750
+F 0 "D159" H 32850 8800 59  0000 L BNN
+F 1 "MIN" V 33000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 33000 8750 50  0001 C CNN
+F 3 "" H 33000 8700 50  0001 C CNN
+	1    33000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D158
+U 1 1 E982C69F
+P 32500 8250
+F 0 "D158" H 32350 8300 59  0000 L BNN
+F 1 "MIN" V 32500 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 32500 8250 50  0001 C CNN
+F 3 "" H 32500 8200 50  0001 C CNN
+	1    32500 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D157
+U 1 1 E982C69E
+P 32000 8750
+F 0 "D157" H 31850 8800 59  0000 L BNN
+F 1 "MIN" V 32000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 32000 8750 50  0001 C CNN
+F 3 "" H 32000 8700 50  0001 C CNN
+	1    32000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D156
+U 1 1 E982C69D
+P 31500 7750
+F 0 "D156" H 31350 7800 59  0000 L BNN
+F 1 "MIN" V 31500 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 31500 7750 50  0001 C CNN
+F 3 "" H 31500 7700 50  0001 C CNN
+	1    31500 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D155
+U 1 1 E982C69C
+P 31000 8250
+F 0 "D155" H 30850 8300 59  0000 L BNN
+F 1 "MIN" V 31000 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 31000 8250 50  0001 C CNN
+F 3 "" H 31000 8200 50  0001 C CNN
+	1    31000 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D154
+U 1 1 E982C69B
+P 30500 8750
+F 0 "D154" H 30350 8800 59  0000 L BNN
+F 1 "MIN" V 30500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 30500 8750 50  0001 C CNN
+F 3 "" H 30500 8700 50  0001 C CNN
+	1    30500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D153
+U 1 1 E982C69A
+P 30000 7250
+F 0 "D153" H 29850 7300 59  0000 L BNN
+F 1 "MIN" V 30000 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 30000 7250 50  0001 C CNN
+F 3 "" H 30000 7200 50  0001 C CNN
+	1    30000 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D152
+U 1 1 E982C699
+P 29500 7750
+F 0 "D152" H 29350 7800 59  0000 L BNN
+F 1 "MIN" V 29500 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 29500 7750 50  0001 C CNN
+F 3 "" H 29500 7700 50  0001 C CNN
+	1    29500 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D151
+U 1 1 E982C698
+P 29000 8250
+F 0 "D151" H 28850 8300 59  0000 L BNN
+F 1 "MIN" V 29000 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 29000 8250 50  0001 C CNN
+F 3 "" H 29000 8200 50  0001 C CNN
+	1    29000 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D150
+U 1 1 E982C697
+P 28500 8750
+F 0 "D150" H 28350 8800 59  0000 L BNN
+F 1 "MIN" V 28500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 28500 8750 50  0001 C CNN
+F 3 "" H 28500 8700 50  0001 C CNN
+	1    28500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D149
+U 1 1 E982C696
+P 28000 6750
+F 0 "D149" H 27850 6800 59  0000 L BNN
+F 1 "MIN" V 28000 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 28000 6750 50  0001 C CNN
+F 3 "" H 28000 6700 50  0001 C CNN
+	1    28000 6750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D148
+U 1 1 E982C695
+P 27500 7250
+F 0 "D148" H 27350 7300 59  0000 L BNN
+F 1 "MIN" V 27500 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 27500 7250 50  0001 C CNN
+F 3 "" H 27500 7200 50  0001 C CNN
+	1    27500 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D147
+U 1 1 E982C694
+P 27000 7750
+F 0 "D147" H 26850 7800 59  0000 L BNN
+F 1 "MIN" V 27000 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 27000 7750 50  0001 C CNN
+F 3 "" H 27000 7700 50  0001 C CNN
+	1    27000 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D146
+U 1 1 E982C693
+P 26500 8250
+F 0 "D146" H 26350 8300 59  0000 L BNN
+F 1 "MIN" V 26500 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 26500 8250 50  0001 C CNN
+F 3 "" H 26500 8200 50  0001 C CNN
+	1    26500 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D145
+U 1 1 E982C692
+P 26000 8750
+F 0 "D145" H 25850 8800 59  0000 L BNN
+F 1 "MIN" V 26000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 26000 8750 50  0001 C CNN
+F 3 "" H 26000 8700 50  0001 C CNN
+	1    26000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D144
+U 1 1 E982C691
+P 25500 6250
+F 0 "D144" H 25350 6300 59  0000 L BNN
+F 1 "MIN" V 25500 6250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 25500 6250 50  0001 C CNN
+F 3 "" H 25500 6200 50  0001 C CNN
+	1    25500 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D143
+U 1 1 E982C690
+P 25000 6750
+F 0 "D143" H 24850 6800 59  0000 L BNN
+F 1 "MIN" V 25000 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 25000 6750 50  0001 C CNN
+F 3 "" H 25000 6700 50  0001 C CNN
+	1    25000 6750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D142
+U 1 1 E982C68F
+P 24500 7250
+F 0 "D142" H 24350 7300 59  0000 L BNN
+F 1 "MIN" V 24500 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 24500 7250 50  0001 C CNN
+F 3 "" H 24500 7200 50  0001 C CNN
+	1    24500 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D141
+U 1 1 E982C68E
+P 24000 7750
+F 0 "D141" H 23850 7800 59  0000 L BNN
+F 1 "MIN" V 24000 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 24000 7750 50  0001 C CNN
+F 3 "" H 24000 7700 50  0001 C CNN
+	1    24000 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D140
+U 1 1 E982C68D
+P 23500 8250
+F 0 "D140" H 23350 8300 59  0000 L BNN
+F 1 "MIN" V 23500 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 23500 8250 50  0001 C CNN
+F 3 "" H 23500 8200 50  0001 C CNN
+	1    23500 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D139
+U 1 1 E982C68C
+P 23000 8750
+F 0 "D139" H 22850 8800 59  0000 L BNN
+F 1 "MIN" V 23000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 23000 8750 50  0001 C CNN
+F 3 "" H 23000 8700 50  0001 C CNN
+	1    23000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D138
+U 1 1 E982C68B
+P 22500 5750
+F 0 "D138" H 22350 5800 59  0000 L BNN
+F 1 "MIN" V 22500 5750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 22500 5750 50  0001 C CNN
+F 3 "" H 22500 5700 50  0001 C CNN
+	1    22500 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D136
+U 1 1 E982C689
+P 21500 6750
+F 0 "D136" H 21350 6800 59  0000 L BNN
+F 1 "MIN" V 21500 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 21500 6750 50  0001 C CNN
+F 3 "" H 21500 6700 50  0001 C CNN
+	1    21500 6750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D135
+U 1 1 E982C688
+P 21000 7250
+F 0 "D135" H 20850 7300 59  0000 L BNN
+F 1 "MIN" V 21000 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 21000 7250 50  0001 C CNN
+F 3 "" H 21000 7200 50  0001 C CNN
+	1    21000 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D134
+U 1 1 E982C687
+P 20500 7750
+F 0 "D134" H 20350 7800 59  0000 L BNN
+F 1 "MIN" V 20500 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 20500 7750 50  0001 C CNN
+F 3 "" H 20500 7700 50  0001 C CNN
+	1    20500 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D133
+U 1 1 E982C686
+P 20000 8250
+F 0 "D133" H 19850 8300 59  0000 L BNN
+F 1 "MIN" V 20000 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 20000 8250 50  0001 C CNN
+F 3 "" H 20000 8200 50  0001 C CNN
+	1    20000 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D132
+U 1 1 E982C685
+P 19500 8750
+F 0 "D132" H 19350 8800 59  0000 L BNN
+F 1 "MIN" V 19500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 19500 8750 50  0001 C CNN
+F 3 "" H 19500 8700 50  0001 C CNN
+	1    19500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D131
+U 1 1 E982C684
+P 19000 5250
+F 0 "D131" H 18850 5300 59  0000 L BNN
+F 1 "MIN" V 19000 5250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 19000 5250 50  0001 C CNN
+F 3 "" H 19000 5200 50  0001 C CNN
+	1    19000 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D130
+U 1 1 E982C683
+P 18500 5750
+F 0 "D130" H 18350 5800 59  0000 L BNN
+F 1 "MIN" V 18500 5750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 18500 5750 50  0001 C CNN
+F 3 "" H 18500 5700 50  0001 C CNN
+	1    18500 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D129
+U 1 1 E982C682
+P 18000 6250
+F 0 "D129" H 17850 6300 59  0000 L BNN
+F 1 "MIN" V 18000 6250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 18000 6250 50  0001 C CNN
+F 3 "" H 18000 6200 50  0001 C CNN
+	1    18000 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D128
+U 1 1 E982C681
+P 17500 6750
+F 0 "D128" H 17350 6800 59  0000 L BNN
+F 1 "MIN" V 17500 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 17500 6750 50  0001 C CNN
+F 3 "" H 17500 6700 50  0001 C CNN
+	1    17500 6750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D127
+U 1 1 E982C680
+P 17000 7250
+F 0 "D127" H 16850 7300 59  0000 L BNN
+F 1 "MIN" V 17000 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 17000 7250 50  0001 C CNN
+F 3 "" H 17000 7200 50  0001 C CNN
+	1    17000 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D126
+U 1 1 E982C67F
+P 16500 7750
+F 0 "D126" H 16350 7800 59  0000 L BNN
+F 1 "MIN" V 16500 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 16500 7750 50  0001 C CNN
+F 3 "" H 16500 7700 50  0001 C CNN
+	1    16500 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D125
+U 1 1 E982C67E
+P 16000 8250
+F 0 "D125" H 15850 8300 59  0000 L BNN
+F 1 "MIN" V 16000 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 16000 8250 50  0001 C CNN
+F 3 "" H 16000 8200 50  0001 C CNN
+	1    16000 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D124
+U 1 1 E982C67D
+P 15500 8750
+F 0 "D124" H 15350 8800 59  0000 L BNN
+F 1 "MIN" V 15500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 15500 8750 50  0001 C CNN
+F 3 "" H 15500 8700 50  0001 C CNN
+	1    15500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D123
+U 1 1 E982C67C
+P 12500 4750
+F 0 "D123" H 12350 4800 59  0000 L BNN
+F 1 "MIN" V 12500 4750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 12500 4750 50  0001 C CNN
+F 3 "" H 12500 4700 50  0001 C CNN
+	1    12500 4750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D122
+U 1 1 E982C67B
+P 12000 5250
+F 0 "D122" H 11850 5300 59  0000 L BNN
+F 1 "MIN" V 12000 5250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 12000 5250 50  0001 C CNN
+F 3 "" H 12000 5200 50  0001 C CNN
+	1    12000 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D121
+U 1 1 E982C67A
+P 15000 5750
+F 0 "D121" H 14850 5800 59  0000 L BNN
+F 1 "MIN" V 15000 5750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 15000 5750 50  0001 C CNN
+F 3 "" H 15000 5700 50  0001 C CNN
+	1    15000 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D120
+U 1 1 E982C679
+P 14500 6250
+F 0 "D120" H 14350 6300 59  0000 L BNN
+F 1 "MIN" V 14500 6250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 14500 6250 50  0001 C CNN
+F 3 "" H 14500 6200 50  0001 C CNN
+	1    14500 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D117
+U 1 1 E982C676
+P 13000 7750
+F 0 "D117" H 12850 7800 59  0000 L BNN
+F 1 "MIN" V 13000 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 13000 7750 50  0001 C CNN
+F 3 "" H 13000 7700 50  0001 C CNN
+	1    13000 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D116
+U 1 1 E982C675
+P 12500 8250
+F 0 "D116" H 12350 8300 59  0000 L BNN
+F 1 "MIN" V 12500 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 12500 8250 50  0001 C CNN
+F 3 "" H 12500 8200 50  0001 C CNN
+	1    12500 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D115
+U 1 1 E982C674
+P 12000 8750
+F 0 "D115" H 11850 8800 59  0000 L BNN
+F 1 "MIN" V 12000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 12000 8750 50  0001 C CNN
+F 3 "" H 12000 8700 50  0001 C CNN
+	1    12000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D114
+U 1 1 E982C673
+P 10500 4250
+F 0 "D114" H 10350 4300 59  0000 L BNN
+F 1 "MIN" V 10500 4250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 10500 4250 50  0001 C CNN
+F 3 "" H 10500 4200 50  0001 C CNN
+	1    10500 4250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D113
+U 1 1 E982C672
+P 10000 4750
+F 0 "D113" H 9850 4800 59  0000 L BNN
+F 1 "MIN" V 10000 4750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 10000 4750 50  0001 C CNN
+F 3 "" H 10000 4700 50  0001 C CNN
+	1    10000 4750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D112
+U 1 1 E982C671
+P 9500 5250
+F 0 "D112" H 9350 5300 59  0000 L BNN
+F 1 "MIN" V 9500 5250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 9500 5250 50  0001 C CNN
+F 3 "" H 9500 5200 50  0001 C CNN
+	1    9500 5250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D111
+U 1 1 E982C670
+P 9000 5750
+F 0 "D111" H 8850 5800 59  0000 L BNN
+F 1 "MIN" V 9000 5750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 9000 5750 50  0001 C CNN
+F 3 "" H 9000 5700 50  0001 C CNN
+	1    9000 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D110
+U 1 1 E982C66F
+P 11500 6250
+F 0 "D110" H 11350 6300 59  0000 L BNN
+F 1 "MIN" V 11500 6250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 11500 6250 50  0001 C CNN
+F 3 "" H 11500 6200 50  0001 C CNN
+	1    11500 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D109
+U 1 1 E982C66E
+P 11000 6750
+F 0 "D109" H 10850 6800 59  0000 L BNN
+F 1 "MIN" V 11000 6750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 11000 6750 50  0001 C CNN
+F 3 "" H 11000 6700 50  0001 C CNN
+	1    11000 6750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D108
+U 1 1 E982C66D
+P 10500 7250
+F 0 "D108" H 10350 7300 59  0000 L BNN
+F 1 "MIN" V 10500 7250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 10500 7250 50  0001 C CNN
+F 3 "" H 10500 7200 50  0001 C CNN
+	1    10500 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D107
+U 1 1 E982C66C
+P 10000 7750
+F 0 "D107" H 9850 7800 59  0000 L BNN
+F 1 "MIN" V 10000 7750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 10000 7750 50  0001 C CNN
+F 3 "" H 10000 7700 50  0001 C CNN
+	1    10000 7750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D106
+U 1 1 E982C66B
+P 9500 8250
+F 0 "D106" H 9350 8300 59  0000 L BNN
+F 1 "MIN" V 9500 8250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 9500 8250 50  0001 C CNN
+F 3 "" H 9500 8200 50  0001 C CNN
+	1    9500 8250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D105
+U 1 1 E982C66A
+P 9000 8750
+F 0 "D105" H 8850 8800 59  0000 L BNN
+F 1 "MIN" V 9000 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 9000 8750 50  0001 C CNN
+F 3 "" H 9000 8700 50  0001 C CNN
+	1    9000 8750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9000 9000 6500 9000
+Connection ~ 9000 9000
 Connection ~ 6500 9000
 Wire Wire Line
-	10000 8400 10000 8500
-Wire Wire Line
-	10000 8500 7000 8500
+	9500 8500 7000 8500
+Connection ~ 9500 8500
 Connection ~ 7000 8500
 Wire Wire Line
-	10500 7900 10500 8000
-Wire Wire Line
-	10500 8000 7500 8000
+	10000 8000 7500 8000
+Connection ~ 10000 8000
 Connection ~ 7500 8000
 Wire Wire Line
-	11000 7400 11000 7500
-Wire Wire Line
-	11000 7500 8000 7500
+	10500 7500 8000 7500
+Connection ~ 10500 7500
 Connection ~ 8000 7500
 Wire Wire Line
-	11500 6900 11500 7000
-Wire Wire Line
-	11500 7000 8500 7000
+	11000 7000 8500 7000
+Connection ~ 11000 7000
 Connection ~ 8500 7000
 Wire Wire Line
-	12000 6400 12000 6500
+	11500 6500 6500 6500
+Connection ~ 11500 6500
 Wire Wire Line
-	12000 6500 6500 6500
+	9000 6000 7000 6000
 Wire Wire Line
-	9500 5900 9500 6000
+	9500 5500 7500 5500
 Wire Wire Line
-	9500 6000 7000 6000
+	10000 5000 8000 5000
 Wire Wire Line
-	10000 5400 10000 5500
+	10500 4500 8500 4500
 Wire Wire Line
-	10000 5500 7500 5500
+	11000 4000 6500 4000
+Connection ~ 11000 4000
 Wire Wire Line
-	10500 4900 10500 5000
-Wire Wire Line
-	10500 5000 8000 5000
-Wire Wire Line
-	11000 4400 11000 4500
-Wire Wire Line
-	11000 4500 8500 4500
-Wire Wire Line
-	9500 8600 9500 6000
-Connection ~ 9500 6000
-Wire Wire Line
-	10000 8100 10000 5500
-Connection ~ 10000 5500
-Wire Wire Line
-	10500 7600 10500 5000
-Connection ~ 10500 5000
-Wire Wire Line
-	11000 7100 11000 4500
-Connection ~ 11000 4500
-Wire Wire Line
-	11500 6600 11500 4000
-Wire Wire Line
-	11500 4000 6500 4000
-Wire Wire Line
-	12000 6100 12000 3500
-Wire Wire Line
-	12000 3500 7000 3500
+	11500 3500 7000 3500
+Connection ~ 11500 3500
 Connection ~ 7000 3500
 Wire Wire Line
-	9500 5600 9500 3000
-Wire Wire Line
-	9500 3000 7500 3000
+	9000 3000 7500 3000
+Connection ~ 9000 3000
 Connection ~ 7500 3000
 Wire Wire Line
-	10000 5100 10000 2500
-Wire Wire Line
-	10000 2500 8000 2500
+	9500 2500 8000 2500
+Connection ~ 9500 2500
 Connection ~ 8000 2500
 Wire Wire Line
-	10500 4600 10500 2000
-Wire Wire Line
-	10500 2000 8500 2000
+	10000 2000 8500 2000
+Connection ~ 10000 2000
 Connection ~ 8500 2000
 Wire Wire Line
-	11000 4100 11000 1500
-Wire Wire Line
-	11000 1500 6500 1500
+	10500 1500 6500 1500
+Connection ~ 10500 1500
 Connection ~ 6500 1500
-Wire Bus Line
-	12250 9500 12250 1000
 Wire Wire Line
-	12500 8900 12500 9000
-Wire Wire Line
-	12500 9000 9500 9000
-Connection ~ 9500 9000
-Wire Wire Line
-	13000 8400 13000 8500
-Wire Wire Line
-	13000 8500 10000 8500
-Connection ~ 10000 8500
-Wire Wire Line
-	13500 7900 13500 8000
-Wire Wire Line
-	13500 8000 10500 8000
-Connection ~ 10500 8000
-Wire Wire Line
-	14000 7400 14000 7500
-Wire Wire Line
-	14000 7500 11000 7500
-Connection ~ 11000 7500
-Wire Wire Line
-	14500 6900 14500 7000
-Wire Wire Line
-	14500 7000 11500 7000
-Connection ~ 11500 7000
-Wire Wire Line
-	15000 6400 15000 6500
-Wire Wire Line
-	15000 6500 12000 6500
-Connection ~ 12000 6500
-Wire Wire Line
-	15500 5900 15500 6000
-Wire Wire Line
-	15500 6000 9500 6000
-Wire Wire Line
-	12500 5400 12500 5500
-Wire Wire Line
-	12500 5500 10000 5500
-Wire Wire Line
-	13000 4900 13000 5000
-Wire Wire Line
-	13000 5000 10500 5000
-Wire Wire Line
-	11000 1500 13000 1500
-Wire Wire Line
-	13000 1500 13000 4600
-Connection ~ 11000 1500
-Wire Wire Line
-	10500 2000 12500 2000
-Wire Wire Line
-	12500 2000 12500 5100
-Connection ~ 10500 2000
-Wire Wire Line
-	15500 5600 15500 2500
-Wire Wire Line
-	15500 2500 10000 2500
-Connection ~ 10000 2500
-Wire Wire Line
-	15000 6100 15000 3000
-Wire Wire Line
-	15000 3000 9500 3000
-Connection ~ 9500 3000
-Wire Wire Line
-	14500 6600 14500 3500
-Wire Wire Line
-	14500 3500 12000 3500
-Connection ~ 12000 3500
-Wire Wire Line
-	14000 7100 14000 4000
-Wire Wire Line
-	14000 4000 11500 4000
-Connection ~ 11500 4000
-Wire Wire Line
-	13500 7600 13500 4500
-Wire Wire Line
-	13500 4500 11000 4500
-Wire Wire Line
-	13000 8100 13000 5000
-Connection ~ 13000 5000
-Wire Wire Line
-	12500 8600 12500 5500
-Connection ~ 12500 5500
-Wire Wire Line
-	16000 8900 16000 9000
-Wire Wire Line
-	16000 9000 12500 9000
-Connection ~ 12500 9000
-Wire Wire Line
-	16500 8400 16500 8500
-Wire Wire Line
-	16500 8500 13000 8500
-Connection ~ 13000 8500
-Wire Wire Line
-	17000 7900 17000 8000
-Wire Wire Line
-	17000 8000 13500 8000
-Connection ~ 13500 8000
-Wire Wire Line
-	17500 7400 17500 7500
-Wire Wire Line
-	17500 7500 14000 7500
-Connection ~ 14000 7500
-Wire Wire Line
-	18000 6900 18000 7000
-Wire Wire Line
-	18000 7000 14500 7000
-Connection ~ 14500 7000
-Wire Wire Line
-	18500 6400 18500 6500
-Wire Wire Line
-	18500 6500 15000 6500
-Connection ~ 15000 6500
-Wire Wire Line
-	19000 5900 19000 6000
-Wire Wire Line
-	19000 6000 15500 6000
-Connection ~ 15500 6000
-Wire Wire Line
-	19500 5400 19500 5500
-Wire Wire Line
-	19500 5500 12500 5500
-Wire Wire Line
-	16000 8600 16000 5000
-Wire Wire Line
-	16000 5000 13000 5000
-Wire Wire Line
-	16500 8100 16500 4500
-Wire Wire Line
-	16500 4500 13500 4500
-Connection ~ 13500 4500
-Wire Wire Line
-	17000 7600 17000 4000
-Wire Wire Line
-	17000 4000 14000 4000
-Connection ~ 14000 4000
-Wire Wire Line
-	17500 7100 17500 3500
-Wire Wire Line
-	17500 3500 14500 3500
-Connection ~ 14500 3500
-Wire Wire Line
-	18000 6600 18000 3000
-Wire Wire Line
-	18000 3000 15000 3000
-Connection ~ 15000 3000
-Wire Wire Line
-	18500 6100 18500 2500
-Wire Wire Line
-	18500 2500 15500 2500
-Connection ~ 15500 2500
-Wire Wire Line
-	19000 5600 19000 2000
-Wire Wire Line
-	19000 2000 12500 2000
-Connection ~ 12500 2000
-Wire Wire Line
-	19500 5100 19500 1500
-Wire Wire Line
-	19500 1500 13000 1500
-Connection ~ 13000 1500
-Wire Bus Line
-	15750 9500 15750 1000
-Wire Wire Line
-	20000 8900 20000 9000
-Wire Wire Line
-	20000 9000 16000 9000
-Connection ~ 16000 9000
-Wire Wire Line
-	20500 8400 20500 8500
-Wire Wire Line
-	20500 8500 16500 8500
-Connection ~ 16500 8500
-Wire Wire Line
-	21000 7900 21000 8000
-Wire Wire Line
-	21000 8000 17000 8000
-Connection ~ 17000 8000
-Wire Wire Line
-	21500 7400 21500 7500
-Wire Wire Line
-	21500 7500 17500 7500
-Connection ~ 17500 7500
-Wire Wire Line
-	22000 6900 22000 7000
-Wire Wire Line
-	22000 7000 18000 7000
-Connection ~ 18000 7000
-Wire Wire Line
-	22500 6400 22500 6500
-Wire Wire Line
-	22500 6500 18500 6500
-Connection ~ 18500 6500
-Wire Wire Line
-	23000 5900 23000 6000
-Wire Wire Line
-	23000 6000 19000 6000
-Connection ~ 19000 6000
-Wire Bus Line
-	19750 9500 19750 1000
-Connection ~ 16500 4500
-Connection ~ 17000 4000
-Connection ~ 17500 3500
-Connection ~ 18000 3000
-Connection ~ 18500 2500
-Wire Bus Line
-	23250 9500 23250 1000
-Wire Bus Line
-	26250 9500 26250 1000
-Wire Bus Line
-	28750 9500 28750 1000
-Wire Wire Line
-	20000 9000 23500 9000
-Wire Wire Line
-	23500 9000 23500 8900
-Connection ~ 20000 9000
-Wire Wire Line
-	23500 9000 26500 9000
-Wire Wire Line
-	26500 9000 26500 8900
-Connection ~ 23500 9000
-Wire Wire Line
-	26500 9000 29000 9000
-Wire Wire Line
-	29000 9000 29000 8900
-Connection ~ 26500 9000
-Wire Wire Line
-	29000 9000 31000 9000
-Wire Wire Line
-	31000 8900 31000 9000
-Connection ~ 29000 9000
-Wire Wire Line
-	31000 9000 32500 9000
-Wire Wire Line
-	32500 9000 32500 8900
-Connection ~ 31000 9000
-Wire Wire Line
-	32500 9000 33500 9000
-Wire Wire Line
-	33500 9000 33500 8900
-Connection ~ 32500 9000
-Wire Wire Line
-	20500 8500 24000 8500
-Wire Wire Line
-	24000 8500 24000 8400
-Connection ~ 20500 8500
-Wire Wire Line
-	21000 8000 24500 8000
-Wire Wire Line
-	24500 8000 24500 7900
-Connection ~ 21000 8000
-Wire Wire Line
-	21500 7500 25000 7500
-Wire Wire Line
-	25000 7500 25000 7400
-Connection ~ 21500 7500
-Wire Wire Line
-	22000 7000 25500 7000
-Wire Wire Line
-	25500 7000 25500 6900
-Connection ~ 22000 7000
-Wire Wire Line
-	22500 6500 26000 6500
-Wire Wire Line
-	26000 6500 26000 6400
-Connection ~ 22500 6500
-Wire Wire Line
-	24000 8500 27000 8500
-Wire Wire Line
-	27000 8500 27000 8400
-Connection ~ 24000 8500
-Wire Wire Line
-	27000 8500 29500 8500
-Wire Wire Line
-	29500 8500 29500 8400
-Connection ~ 27000 8500
-Wire Wire Line
-	29500 8500 31500 8500
-Wire Wire Line
-	31500 8500 31500 8400
-Connection ~ 29500 8500
-Wire Wire Line
-	31500 8500 33000 8500
-Wire Wire Line
-	33000 8400 33000 8500
-Connection ~ 31500 8500
-Wire Wire Line
-	24500 8000 27500 8000
-Wire Wire Line
-	27500 8000 27500 7900
-Connection ~ 24500 8000
-Wire Wire Line
-	27500 8000 30000 8000
-Wire Wire Line
-	30000 8000 30000 7900
-Connection ~ 27500 8000
-Wire Wire Line
-	30000 8000 32000 8000
-Wire Wire Line
-	32000 8000 32000 7900
-Connection ~ 30000 8000
-Wire Wire Line
-	25000 7500 28000 7500
-Wire Wire Line
-	28000 7500 28000 7400
-Connection ~ 25000 7500
-Wire Wire Line
-	28000 7500 30500 7500
-Wire Wire Line
-	30500 7500 30500 7400
-Connection ~ 28000 7500
-Wire Wire Line
-	25500 7000 28500 7000
-Wire Wire Line
-	28500 7000 28500 6900
-Connection ~ 25500 7000
-Connection ~ 19000 2000
-Wire Wire Line
-	16500 4500 20000 4500
-Wire Wire Line
-	17000 4000 20500 4000
-Wire Wire Line
-	17500 3500 21000 3500
-Wire Wire Line
-	18000 3000 21500 3000
-Wire Wire Line
-	18500 2500 22000 2500
-Wire Wire Line
-	20000 8600 20000 4500
-Wire Wire Line
-	20500 8100 20500 4000
-Connection ~ 20500 4000
-Wire Wire Line
-	21000 7600 21000 3500
-Connection ~ 21000 3500
-Wire Wire Line
-	21500 7100 21500 3000
-Connection ~ 21500 3000
-Wire Wire Line
-	22000 6600 22000 2500
-Connection ~ 22000 2500
-Wire Wire Line
-	22500 6100 22500 2000
-Connection ~ 22500 2000
-Wire Wire Line
-	22500 2000 19000 2000
-Wire Wire Line
-	23000 5600 23000 1500
-Wire Wire Line
-	23000 1500 19500 1500
-Connection ~ 19500 1500
-Wire Wire Line
-	20500 4000 23500 4000
-Wire Wire Line
-	21000 3500 24000 3500
-Wire Wire Line
-	21500 3000 24500 3000
-Wire Wire Line
-	22000 2500 25000 2500
-Wire Wire Line
-	23500 4000 23500 8600
-Wire Wire Line
-	24000 8100 24000 3500
-Connection ~ 24000 3500
-Wire Wire Line
-	24500 7600 24500 3000
-Connection ~ 24500 3000
-Wire Wire Line
-	25000 7100 25000 2500
-Connection ~ 25000 2500
-Wire Wire Line
-	25500 6600 25500 2000
-Connection ~ 25500 2000
-Wire Wire Line
-	25500 2000 22500 2000
-Wire Wire Line
-	26000 6100 26000 1500
-Wire Wire Line
-	26000 1500 23000 1500
-Connection ~ 23000 1500
-Wire Wire Line
-	24000 3500 26500 3500
-Wire Wire Line
-	24500 3000 27000 3000
-Wire Wire Line
-	25000 2500 27500 2500
-Wire Wire Line
-	26500 3500 26500 8600
-Wire Wire Line
-	27000 8100 27000 3000
-Connection ~ 27000 3000
-Wire Wire Line
-	27500 7600 27500 2500
-Connection ~ 27500 2500
-Wire Wire Line
-	28000 7100 28000 2000
-Connection ~ 28000 2000
-Wire Wire Line
-	28000 2000 25500 2000
-Wire Wire Line
-	28500 6600 28500 1500
-Wire Wire Line
-	28500 1500 26000 1500
-Connection ~ 26000 1500
-Wire Wire Line
-	27000 3000 29000 3000
-Wire Wire Line
-	27500 2500 29500 2500
-Wire Wire Line
-	29000 8600 29000 3000
-Wire Wire Line
-	29500 8100 29500 2500
-Connection ~ 29500 2500
-Wire Wire Line
-	30000 7600 30000 2000
-Connection ~ 30000 2000
-Wire Wire Line
-	30000 2000 28000 2000
-Wire Wire Line
-	30500 7100 30500 1500
-Wire Wire Line
-	30500 1500 28500 1500
-Connection ~ 28500 1500
-Wire Bus Line
-	30750 9500 30750 1000
-Wire Bus Line
-	32250 1000 32250 9500
-Wire Wire Line
-	29500 2500 31000 2500
-Wire Wire Line
-	31000 8600 31000 2500
-Wire Wire Line
-	31500 8100 31500 2000
-Connection ~ 31500 2000
-Wire Wire Line
-	31500 2000 30000 2000
-Wire Wire Line
-	32000 1500 30500 1500
-Wire Wire Line
-	32000 1500 32000 7600
-Connection ~ 32000 7600
-Wire Wire Line
-	32000 7600 32000 7650
-Connection ~ 30500 1500
-Wire Wire Line
-	32500 8600 32500 2000
-Wire Wire Line
-	32500 2000 31500 2000
-Wire Wire Line
-	33000 8100 33000 1500
-Wire Wire Line
-	33000 1500 32000 1500
-Connection ~ 32000 1500
-Wire Wire Line
-	33500 1500 33000 1500
-Wire Wire Line
-	33500 1500 33500 8600
-Connection ~ 33000 1500
-Wire Bus Line
-	33250 9500 33250 1000
+	2500 7500 2500 8100
+Wire Wire Line
+	2500 7500 2500 7400
+Connection ~ 2500 7500
+Wire Wire Line
+	3000 7400 3000 7500
+Wire Wire Line
+	3000 7500 3000 8600
+Connection ~ 3000 7500
+Wire Wire Line
+	2500 7500 3000 7500
+$Comp
+L Device:LED D054
+U 1 1 E982C65F
+P 6500 8750
+F 0 "D054" H 6350 8800 59  0000 L BNN
+F 1 "HOUR" V 6500 8750 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 6500 8750 50  0001 C CNN
+F 3 "" H 6500 8700 50  0001 C CNN
+	1    6500 8750
+	0    -1   1    0   
+$EndComp
+Text Notes 1350 9900 0    50   ~ 0
+Note that all diodes are reversed from their directions in Precision 1.1.\nThis allows the first 15 diodes to connect tip-to-tail given their new orientation.\n\nThis will require a code change in the firmware, namely swapping the A and K array names
+Wire Wire Line
+	4000 6500 4000 7600
+Wire Wire Line
+	6000 7500 3000 7500
+Connection ~ 6000 7500
+$Comp
+L Device:LED D137
+U 1 1 E982C68A
+P 22000 6250
+F 0 "D137" H 21850 6300 59  0000 L BNN
+F 1 "MIN" V 22000 6250 59  0001 L BNN
+F 2 "KwanSystems:D_0603" H 22000 6250 50  0001 C CNN
+F 3 "" H 22000 6200 50  0001 C CNN
+	1    22000 6250
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC

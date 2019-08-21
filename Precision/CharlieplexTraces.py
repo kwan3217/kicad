@@ -1,5 +1,6 @@
 import pcbnew
 import math
+import numpy as np
 
 # most queries start with a board
 board = pcbnew.GetBoard()
@@ -13,6 +14,7 @@ centerX=2000
 centerY=2000
 diodeRad=1460
 outerRingRad=1400
+outerViaRad=(outerRingRad+diodeRad)/2
 ringWidth=6
 viaDia=27
 viaDrillDia=13
@@ -33,11 +35,11 @@ if hasattr(pcbnew, 'PAD_SHAPE_ROUNDRECT'):
     padshapes[pcbnew.PAD_SHAPE_ROUNDRECT] = "PAD_SHAPE_ROUNDRECT",
 
 def polar(r,theta):
-    xm=int(centerX+r*math.sin(theta*(3.14159265358/180)))
-    ym=int(centerY-r*math.cos(theta*(3.14159265358/180)))
+    x=int(centerX+r*np.sin(np.radians(theta)))
+    y=int(centerY-r*np.cos(np.radians(theta)))
     return pcbnew.wxPoint(x*mil,y*mil)
 
-def pl_diodes():
+def place_diodes():
     for i_hand in range(2):
         for i_diode in range(60):
             modref="D%01d%02d"%(i_hand,i_diode)
@@ -61,10 +63,18 @@ def pl_diodes():
 
 def erase_rings():
     nets=board.GetNetsByName()
-    for i_ring in range(1,16):
-        net=nets.find("Q%02d"%i_ring).value()[1]
+    for i_ring in range(1,16+1):
+        net=nets.find("/Q%02d"%i_ring).value()[1]
         netclass=net.GetNetClass()
         print("net {} is on netclass {}".format(net.GetNetname(),netclass))
+        for track in board.TracksInNet(net.GetNet()):
+             print("{},{}->{},{} width {}".format(track.GetStart().x/mil,
+             track.GetStart().y/mil,
+             track.GetEnd().x/mil,
+             track.GetEnd().y/mil,
+             track.GetWidth()/mil))
+             board.Remove(track)
+    pcbnew.Refresh()
 
 def draw_rings():
     for i_ring in range(1,17):
@@ -83,4 +93,86 @@ def draw_rings():
           board.Add(track)
           track.SetNet(net)
     pcbnew.Refresh()
+
+def calc_ak():
+    a=[[0]*60,[0]*60]
+    k=[[0]*60,[0]*60]
+    aa=1
+    kk=2
+    spacing=1
+    for i_hand in range(2):
+        for i_diode in range(60):
+            a[i_hand][i_diode]=aa
+            k[i_hand][i_diode]=kk
+            aa+=1
+            kk+=1
+            if kk>16:
+              spacing+=1
+              aa=1
+              kk=aa+spacing
+    return (a,k)
+
+(a,k)=calc_ak()
+for i_hand in range(2):
+    for i_diode in range(60):
+        print("D%01d%02d: A=%2d,K=%2d"%(i_hand,i_diode,a[i_hand][i_diode],k[i_hand][i_diode]))
+
+layerTable={}
+numlayers=pcbnew.PCB_LAYER_ID_COUNT
+for i in range(numlayers):
+    layerTable[board.GetLayerName(i)]=i
+print(layerTable)
+def draw_radials():
+    def draw_radial(i_hand,i_ring,theta,rad_ofs,theta_ofs):
+        if i_hand==0:
+           outerRad=outerViaRad
+        else:
+           outerRad=diodeRad
+        ringRad=outerRingRad-(i_ring-1)*ringSpacing
+        track=pcbnew.TRACK(board)
+        track.SetStart(polar(ringRad ,theta))
+        track.SetEnd  (polar(outerRad+rad_ofs,theta))          
+        track.SetWidth(ringWidth*mil)
+        track.SetLayer(layerTable["B.Cu"])
+        net=board.GetNetsByName()["/Q%02d"%i_ring]
+        board.Add(track)
+        track.SetNet(net)
+        via=pcbnew.VIA(board)
+        via.SetLayerPair(layerTable["F.Cu"],layerTable["B.Cu"])
+        via.SetPosition(polar(ringRad ,theta))
+        board.Add(via)
+        via.SetNet(net)
+        if i_hand==0:
+            via=pcbnew.VIA(board)
+            via.SetLayerPair(layerTable["F.Cu"],layerTable["B.Cu"])
+            via.SetPosition(polar(outerRad+rad_ofs,theta))
+            board.Add(via)
+            via.SetNet(net)
+            track=pcbnew.TRACK(board)
+            track.SetStart(polar(diodeRad        ,theta+theta_ofs))
+            track.SetEnd  (polar(outerRad+rad_ofs,theta))          
+            track.SetWidth(ringWidth*mil)
+            track.SetLayer(layerTable["F.Cu"])
+            net=board.GetNetsByName()["/Q%02d"%i_ring]
+            board.Add(track)
+            track.SetNet(net)
+    for i_diode in range(60):
+        theta0=i_diode*6
+        theta1=theta0+1.5
+        theta2=theta1+1.5
+        thetam=theta0-1.5
+        i_ring0=a[0][i_diode]
+        i_ring1=k[1][i_diode]
+        i_ring2=k[0][i_diode]
+        i_ringm=a[1][i_diode]
+        draw_radial(0,i_ring0,theta0,0,-1.2)
+        draw_radial(1,i_ring1,theta1,0,0)
+        draw_radial(0,i_ring2,theta2,diodeRad-outerViaRad,-1.5)
+        draw_radial(1,i_ringm,thetam,0,0)
+    pcbnew.Refresh()
+        
+def redraw():
+    erase_rings()
+    draw_rings()
+    draw_radials()
 
