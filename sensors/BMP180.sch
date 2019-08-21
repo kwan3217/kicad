@@ -61,4 +61,6 @@ Text HLabel 7200 2900 2    60   BiDi ~ 0
 SCL
 Text HLabel 7200 3000 2    60   BiDi ~ 0
 SDA
+Wire Wire Line
+	5800 3200 6000 3200
 $EndSCHEMATC

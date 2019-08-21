@@ -41,7 +41,7 @@ U 1 1 598DB414
 P 4300 3800
 F 0 "U601" H 3900 4450 60  0000 L CNN
 F 1 "MPU6050" H 4750 4450 60  0000 L CNN
-F 2 "" H 4400 3700 60  0001 C CNN
+F 2 "KwanSystems:MPU60x0" H 4400 3700 60  0001 C CNN
 F 3 "" H 4400 3700 60  0001 C CNN
 	1    4300 3800
 	1    0    0    -1  
@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4300 4600 4000
 Wire Wire Line
-	4400 4300 4600 4300
+	4400 4300 4500 4300
 Wire Wire Line
 	4400 4000 4400 4300
 Connection ~ 4500 4300
@@ -73,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4550 5000 4550
 Wire Wire Line
-	5000 4550 5000 3650
+	5000 4550 5000 3800
 Wire Wire Line
 	5000 3800 5200 3800
 Text Label 4700 4300 1    60   ~ 0
@@ -159,4 +159,9 @@ Wire Wire Line
 NoConn ~ 4400 3100
 NoConn ~ 3800 3800
 NoConn ~ 4200 4000
+Wire Wire Line
+	4500 4300 4600 4300
+Wire Wire Line
+	5000 3800 5000 3650
+Connection ~ 5000 3300
 $EndSCHEMATC

@@ -46,7 +46,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2400 2200 2900
 Wire Wire Line
-	2200 2900 3450 2900
+	2200 2900 2700 2900
 Wire Wire Line
 	3450 2900 3450 2750
 Wire Wire Line
@@ -74,4 +74,16 @@ Text HLabel 3350 3050 3    60   Output ~ 0
 XOUT
 Text HLabel 3350 1600 1    60   Output ~ 0
 ZOUT
+Wire Wire Line
+	2700 2900 3450 2900
+Connection ~ 3450 1850
+Connection ~ 3450 2750
+NoConn ~ 4050 2150
+NoConn ~ 4050 2250
+NoConn ~ 4050 2350
+NoConn ~ 4050 2450
+NoConn ~ 3650 2750
+NoConn ~ 3650 1850
+NoConn ~ 2850 2150
+NoConn ~ 2850 2350
 $EndSCHEMATC

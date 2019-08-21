@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Precision-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -1048,23 +1049,23 @@ NoConn ~ 8400 4700
 $Comp
 L Connector_Generic:Conn_01x08 J405
 U 1 1 5CB24553
-P 8800 3100
-F 0 "J405" V 8924 3046 50  0000 C CNN
-F 1 "Conn_01x08" V 9015 3046 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8800 3100 50  0001 C CNN
-F 3 "~" H 8800 3100 50  0001 C CNN
-	1    8800 3100
+P 8000 3100
+F 0 "J405" V 8124 3046 50  0000 C CNN
+F 1 "Conn_01x08" V 8215 3046 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8000 3100 50  0001 C CNN
+F 3 "~" H 8000 3100 50  0001 C CNN
+	1    8000 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J406
 U 1 1 5CB247B5
-P 8000 3100
-F 0 "J406" V 8124 3046 50  0000 C CNN
-F 1 "Conn_01x08" V 8215 3046 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8000 3100 50  0001 C CNN
-F 3 "~" H 8000 3100 50  0001 C CNN
-	1    8000 3100
+P 8800 3100
+F 0 "J406" V 8924 3046 50  0000 C CNN
+F 1 "Conn_01x08" V 9015 3046 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8800 3100 50  0001 C CNN
+F 3 "~" H 8800 3100 50  0001 C CNN
+	1    8800 3100
 	0    1    1    0   
 $EndComp
 Wire Wire Line

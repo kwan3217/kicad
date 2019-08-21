@@ -15,9 +15,9 @@ Comment4 ""
 $EndDescr
 Connection ~ 4300 2800
 Wire Wire Line
-	3300 2000 4300 2000
+	3300 2000 3800 2000
 Wire Wire Line
-	3800 1900 3800 2500
+	3800 1900 3800 2000
 Wire Wire Line
 	3800 2500 4300 2500
 Wire Wire Line
@@ -54,7 +54,7 @@ $EndComp
 Wire Wire Line
 	3600 2600 3600 2700
 Wire Wire Line
-	3300 2700 4300 2700
+	3300 2700 3600 2700
 Wire Wire Line
 	4300 2300 3600 2300
 Wire Wire Line
@@ -118,4 +118,10 @@ Text Label 5550 2200 0    60   ~ 0
 DRDY
 Text HLabel 5800 2200 2    60   Output ~ 0
 DRDY
+Wire Wire Line
+	3800 2000 4300 2000
+Wire Wire Line
+	3800 2000 3800 2500
+Wire Wire Line
+	3600 2700 4300 2700
 $EndSCHEMATC

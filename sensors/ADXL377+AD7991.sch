@@ -46,19 +46,19 @@ NoConn ~ 2250 2700
 Wire Wire Line
 	2250 1650 2650 1650
 Wire Wire Line
-	2650 1650 2650 2500
+	2650 1650 2650 2100
 Wire Wire Line
 	2650 2500 2250 2500
 Wire Wire Line
 	2250 1750 2550 1750
 Wire Wire Line
-	2550 1750 2550 2600
+	2550 1750 2550 2200
 Wire Wire Line
 	2550 2600 2250 2600
 Wire Wire Line
 	2250 1850 2450 1850
 Wire Wire Line
-	2450 1850 2450 2800
+	2450 1850 2450 2300
 Wire Wire Line
 	2450 2800 2250 2800
 Wire Wire Line
@@ -120,7 +120,7 @@ Connection ~ 2450 2300
 Wire Wire Line
 	1500 2300 1400 2300
 Wire Wire Line
-	1400 1850 1400 3000
+	1400 1850 1400 2100
 Wire Wire Line
 	1400 3000 1600 3000
 Wire Wire Line
@@ -133,7 +133,7 @@ Wire Wire Line
 	1400 1850 1600 1850
 Connection ~ 1400 2100
 Wire Wire Line
-	950  1650 1600 1650
+	950  1650 1250 1650
 Wire Wire Line
 	1250 1650 1250 2500
 Wire Wire Line
@@ -147,4 +147,18 @@ Text HLabel 2700 2900 2    60   BiDi ~ 0
 SDA
 Text HLabel 2700 3000 2    60   BiDi ~ 0
 SCL
+Wire Wire Line
+	2650 2100 2650 2500
+Wire Wire Line
+	2550 2200 2550 2600
+Wire Wire Line
+	2450 2300 2450 2800
+Wire Wire Line
+	1400 2300 1400 3000
+Wire Wire Line
+	1400 2200 1400 2300
+Wire Wire Line
+	1400 2100 1400 2200
+Wire Wire Line
+	1250 1650 1600 1650
 $EndSCHEMATC
