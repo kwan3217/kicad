@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:SensorFeatherWing-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -14,23 +15,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KwanSystems:ADXL377 U901
+L KwanSystems:ADXL377 U501
 U 1 1 598D4615
 P 3050 2150
-F 0 "U901" H 4091 2053 60  0000 L CNN
+F 0 "U501" H 4091 2053 60  0000 L CNN
 F 1 "ADXL377" H 4091 1947 60  0000 L CNN
-F 2 "" H 3050 2150 60  0001 C CNN
+F 2 "KwanSystems:ADXL377" H 3050 2150 60  0001 C CNN
 F 3 "" H 3050 2150 60  0001 C CNN
 	1    3050 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C914
+L Device:C_Small C505
 U 1 1 598D4693
 P 2200 2300
-F 0 "C914" H 2292 2346 50  0000 L CNN
+F 0 "C505" H 2292 2346 50  0000 L CNN
 F 1 "4.7uF" H 2292 2255 50  0000 L CNN
-F 2 "KwanSystems:SMD_0402" H 2200 2300 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 2200 2300 50  0001 C CNN
 F 3 "" H 2200 2300 50  0001 C CNN
 	1    2200 2300
 	1    0    0    -1  

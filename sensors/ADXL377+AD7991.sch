@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:SensorFeatherWing-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -76,12 +77,12 @@ YACC
 Text Label 2350 1850 0    60   ~ 0
 ZACC
 $Comp
-L Device:C_Small C916
+L Device:C_Small C401
 U 1 1 598D684E
 P 1600 2300
-F 0 "C916" V 1550 2450 50  0000 C CNN
+F 0 "C401" V 1550 2450 50  0000 C CNN
 F 1 "100nF" V 1650 2150 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 1600 2300 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 1600 2300 50  0001 C CNN
 F 3 "" H 1600 2300 50  0001 C CNN
 	1    1600 2300
 	0    -1   1    0   
@@ -90,12 +91,12 @@ Wire Wire Line
 	2650 2100 2200 2100
 Connection ~ 2650 2100
 $Comp
-L Device:C_Small C904
+L Device:C_Small C402
 U 1 1 598D6B91
 P 1850 2200
-F 0 "C904" V 1800 2350 50  0000 C CNN
+F 0 "C402" V 1800 2350 50  0000 C CNN
 F 1 "100nF" V 1900 2050 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 1850 2200 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 1850 2200 50  0001 C CNN
 F 3 "" H 1850 2200 50  0001 C CNN
 	1    1850 2200
 	0    -1   1    0   
@@ -104,12 +105,12 @@ Wire Wire Line
 	2550 2200 1950 2200
 Connection ~ 2550 2200
 $Comp
-L Device:C_Small C905
+L Device:C_Small C403
 U 1 1 598D6C36
 P 2100 2100
-F 0 "C905" V 2050 2250 50  0000 C CNN
+F 0 "C403" V 2050 2250 50  0000 C CNN
 F 1 "100nF" V 2150 1950 50  0000 C CNN
-F 2 "KwanSystems:SMD_0402" H 2100 2100 50  0001 C CNN
+F 2 "KwanSystems:SMD_0603" H 2100 2100 50  0001 C CNN
 F 3 "" H 2100 2100 50  0001 C CNN
 	1    2100 2100
 	0    -1   1    0   
