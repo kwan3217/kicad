@@ -1,0 +1,1032 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 5F39534A
+P 1100 1400
+F 0 "#PWR0113" H 1100 1250 50  0001 C CNN
+F 1 "+3V3" V 1115 1528 50  0000 L CNN
+F 2 "" H 1100 1400 50  0001 C CNN
+F 3 "" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5F395516
+P 1100 2100
+F 0 "#PWR0114" H 1100 1850 50  0001 C CNN
+F 1 "GND" V 1105 1972 50  0000 R CNN
+F 2 "" H 1100 2100 50  0001 C CNN
+F 3 "" H 1100 2100 50  0001 C CNN
+	1    1100 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 5F3B755B
+P 1100 2400
+F 0 "#PWR0115" H 1100 2250 50  0001 C CNN
+F 1 "+3V3" V 1115 2528 50  0000 L CNN
+F 2 "" H 1100 2400 50  0001 C CNN
+F 3 "" H 1100 2400 50  0001 C CNN
+	1    1100 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1400 3100 1400
+Wire Wire Line
+	2100 1500 3100 1500
+Wire Wire Line
+	2100 1600 3100 1600
+Wire Wire Line
+	2100 1800 3100 1800
+Wire Wire Line
+	2100 1900 2650 1900
+Wire Wire Line
+	2100 2000 2650 2000
+Wire Wire Line
+	2100 2100 3100 2100
+Text Label 3100 1400 2    50   ~ 0
+TX_GPS
+Text Label 3100 1500 2    50   ~ 0
+RX_GPS
+Text Label 3100 1600 2    50   ~ 0
+PPS
+Text Label 3100 2000 2    50   ~ 0
+P1_TX_SCL
+Text Label 3100 2100 2    50   ~ 0
+P1_RX_SCL
+Text Label 3100 1800 2    50   ~ 0
+P1_TX_SDA
+Text Label 3100 1900 2    50   ~ 0
+P1_RX_SDA
+Wire Wire Line
+	2100 2800 3100 2800
+Wire Wire Line
+	2100 2900 2650 2900
+Wire Wire Line
+	2100 3000 2650 3000
+Wire Wire Line
+	2100 3100 3100 3100
+Text Label 3100 3000 2    50   ~ 0
+P0_TX_SCL
+Text Label 3100 3100 2    50   ~ 0
+P0_RX_SCL
+Text Label 3100 2800 2    50   ~ 0
+P0_TX_SDA
+Text Label 3100 2900 2    50   ~ 0
+P0_RX_SDA
+$Comp
+L power:GND #PWR0125
+U 1 1 5F3C115C
+P 6500 1500
+F 0 "#PWR0125" H 6500 1250 50  0001 C CNN
+F 1 "GND" V 6505 1372 50  0000 R CNN
+F 2 "" H 6500 1500 50  0001 C CNN
+F 3 "" H 6500 1500 50  0001 C CNN
+	1    6500 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5F3C133D
+P 7900 2900
+F 0 "#PWR0128" H 7900 2650 50  0001 C CNN
+F 1 "GND" V 7905 2772 50  0000 R CNN
+F 2 "" H 7900 2900 50  0001 C CNN
+F 3 "" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 5F3C15A2
+P 7900 1700
+F 0 "#PWR0127" H 7900 1550 50  0001 C CNN
+F 1 "+3V3" V 7915 1828 50  0000 L CNN
+F 2 "" H 7900 1700 50  0001 C CNN
+F 3 "" H 7900 1700 50  0001 C CNN
+	1    7900 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0126
+U 1 1 5F3C17E6
+P 6500 2900
+F 0 "#PWR0126" H 6500 2750 50  0001 C CNN
+F 1 "+3V3" V 6515 3028 50  0000 L CNN
+F 2 "" H 6500 2900 50  0001 C CNN
+F 3 "" H 6500 2900 50  0001 C CNN
+	1    6500 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3400 6000 3400
+Wire Wire Line
+	6500 3500 6000 3500
+Text Label 6000 3400 0    50   ~ 0
+TX_GPS
+Text Label 6000 3500 0    50   ~ 0
+RX_GPS
+Wire Wire Line
+	6500 3000 5450 3000
+Text Label 6000 3000 0    50   ~ 0
+P2_SCL
+Text Label 6000 3100 0    50   ~ 0
+P2_SDA
+Wire Wire Line
+	7900 2200 8500 2200
+Text Label 8300 2200 2    50   ~ 0
+P0_SCL
+Text Label 8300 2300 2    50   ~ 0
+P0_SDA
+Text Label 8300 2500 2    50   ~ 0
+P1_SCL
+Text Label 8300 2400 2    50   ~ 0
+P1_SDA
+Wire Wire Line
+	7900 2600 8300 2600
+Text Label 8300 2600 2    50   ~ 0
+PPS
+$Comp
+L KwanSystems:RESISTOR R140
+U 1 1 5F3C7AC4
+P 8700 2100
+F 0 "R140" H 8800 2150 45  0000 R CNN
+F 1 "10k" V 8650 1800 45  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8755 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9125 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 8700 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 8700 2100 50  0001 C CNN "Purpose"
+	1    8700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0124
+U 1 1 5F3C928C
+P 5450 2800
+F 0 "#PWR0124" H 5450 2650 50  0001 C CNN
+F 1 "+3V3" H 5465 2973 50  0000 C CNN
+F 2 "" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	1    5450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:RESISTOR R141
+U 1 1 5F3C9A4B
+P 8500 2100
+F 0 "R141" H 8400 2150 45  0000 L CNN
+F 1 "10k" V 8450 1750 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8555 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8925 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 8500 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 8500 2100 50  0001 C CNN "Purpose"
+	1    8500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 5F3CA712
+P 5250 2800
+F 0 "#PWR0123" H 5250 2650 50  0001 C CNN
+F 1 "+3V3" H 5265 2973 50  0000 C CNN
+F 2 "" H 5250 2800 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3100 5250 3000
+Wire Wire Line
+	5250 3100 6500 3100
+Wire Wire Line
+	8700 2300 8700 2200
+Wire Wire Line
+	7900 2300 8700 2300
+$Comp
+L KwanSystems:RESISTOR R139
+U 1 1 5F3CE47B
+P 8900 2100
+F 0 "R139" H 8800 2150 45  0000 L CNN
+F 1 "10k" V 8850 1350 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8955 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9325 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 8900 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 8900 2100 50  0001 C CNN "Purpose"
+	1    8900 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KwanSystems:RESISTOR R138
+U 1 1 5F3CECA5
+P 9100 2100
+F 0 "R138" H 9000 2150 45  0000 L CNN
+F 1 "10k" V 9050 1150 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9155 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9525 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 9100 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 9100 2100 50  0001 C CNN "Purpose"
+	1    9100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KwanSystems:RESISTOR R116
+U 1 1 5F3CF04C
+P 5450 2900
+F 0 "R116" H 5350 2850 45  0000 L CNN
+F 1 "10k" V 5500 2450 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5505 3050 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5875 2600 60  0001 C CNN
+F 4 "P10KJCT-ND" H 5450 2900 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 5450 2900 50  0001 C CNN "Purpose"
+	1    5450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L KwanSystems:RESISTOR R117
+U 1 1 5F3CF4B7
+P 5250 2900
+F 0 "R117" H 5150 2850 45  0000 L CNN
+F 1 "10k" V 5300 2650 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5305 3050 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5675 2600 60  0001 C CNN
+F 4 "P10KJCT-ND" H 5250 2900 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 5250 2900 50  0001 C CNN "Purpose"
+	1    5250 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2400 8900 2200
+Wire Wire Line
+	7900 2400 8900 2400
+Wire Wire Line
+	9100 2500 9100 2200
+Wire Wire Line
+	7900 2500 9100 2500
+$Comp
+L power:+3V3 #PWR0129
+U 1 1 5F3D7B04
+P 8500 2000
+F 0 "#PWR0129" H 8500 1850 50  0001 C CNN
+F 1 "+3V3" H 8515 2173 50  0000 C CNN
+F 2 "" H 8500 2000 50  0001 C CNN
+F 3 "" H 8500 2000 50  0001 C CNN
+	1    8500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0130
+U 1 1 5F3D7DAA
+P 8700 2000
+F 0 "#PWR0130" H 8700 1850 50  0001 C CNN
+F 1 "+3V3" H 8715 2173 50  0000 C CNN
+F 2 "" H 8700 2000 50  0001 C CNN
+F 3 "" H 8700 2000 50  0001 C CNN
+	1    8700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0131
+U 1 1 5F3D81FB
+P 8900 2000
+F 0 "#PWR0131" H 8900 1850 50  0001 C CNN
+F 1 "+3V3" H 8915 2173 50  0000 C CNN
+F 2 "" H 8900 2000 50  0001 C CNN
+F 3 "" H 8900 2000 50  0001 C CNN
+	1    8900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0132
+U 1 1 5F3D84E1
+P 9100 2000
+F 0 "#PWR0132" H 9100 1850 50  0001 C CNN
+F 1 "+3V3" H 9115 2173 50  0000 C CNN
+F 2 "" H 9100 2000 50  0001 C CNN
+F 3 "" H 9100 2000 50  0001 C CNN
+	1    9100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:P82B96 U102
+U 1 1 5F3EAB8E
+P 4050 1800
+F 0 "U102" H 4250 2000 50  0000 C CNN
+F 1 "P82B96" H 4300 1300 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4800 1800 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/P82B96.pdf" H 4800 1800 50  0001 C CNN
+F 4 "568-3197-1-ND" H 4050 1800 50  0001 C CNN "Digikey"
+F 5 "I2C transceiver" H 4050 1800 50  0001 C CNN "Purpose"
+	1    4050 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5F3EB7E7
+P 4050 3200
+F 0 "#PWR0122" H 4050 2950 50  0001 C CNN
+F 1 "GND" V 4055 3072 50  0000 R CNN
+F 2 "" H 4050 3200 50  0001 C CNN
+F 3 "" H 4050 3200 50  0001 C CNN
+	1    4050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KwanSystems:P82B96 U112
+U 1 1 5F40C13D
+P 4050 2800
+F 0 "U112" H 4250 3000 50  0000 C CNN
+F 1 "P82B96" H 4300 2300 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4800 2800 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/P82B96.pdf" H 4800 2800 50  0001 C CNN
+F 4 "568-3197-1-ND" H 4050 2800 50  0001 C CNN "Digikey"
+F 5 "I2C transceiver" H 4050 2800 50  0001 C CNN "Purpose"
+	1    4050 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1800 4450 1800
+Wire Wire Line
+	4050 2000 4450 2000
+Text Label 4750 2000 2    50   ~ 0
+P1_SCL
+Text Label 4750 1800 2    50   ~ 0
+P1_SDA
+Wire Wire Line
+	4050 2800 4400 2800
+Wire Wire Line
+	4050 3000 4400 3000
+Text Label 4750 3000 2    50   ~ 0
+P0_SCL
+Text Label 4750 2800 2    50   ~ 0
+P0_SDA
+$Comp
+L power:GND #PWR0120
+U 1 1 5F42E267
+P 4050 2200
+F 0 "#PWR0120" H 4050 1950 50  0001 C CNN
+F 1 "GND" V 4055 2072 50  0000 R CNN
+F 2 "" H 4050 2200 50  0001 C CNN
+F 3 "" H 4050 2200 50  0001 C CNN
+	1    4050 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 5F42E94B
+P 4050 1700
+F 0 "#PWR0119" H 4050 1550 50  0001 C CNN
+F 1 "+3V3" V 4065 1828 50  0000 L CNN
+F 2 "" H 4050 1700 50  0001 C CNN
+F 3 "" H 4050 1700 50  0001 C CNN
+	1    4050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 5F42EF07
+P 4050 2700
+F 0 "#PWR0121" H 4050 2550 50  0001 C CNN
+F 1 "+3V3" V 4065 2828 50  0000 L CNN
+F 2 "" H 4050 2700 50  0001 C CNN
+F 3 "" H 4050 2700 50  0001 C CNN
+	1    4050 2700
+	0    1    1    0   
+$EndComp
+$Sheet
+S 1000 3750 1000 400 
+U 5F3A4939
+F0 "Pocket 6Dof 0" 50
+F1 "../sensors/LSM6DSOX.sch" 50
+F2 "VDD" U L 1000 3800 50 
+F3 "SDO_SA0" B L 1000 3900 50 
+F4 "SDA" B R 2000 3800 50 
+F5 "SCL" I R 2000 3900 50 
+F6 "I2C_~CS" I L 1000 4000 50 
+F7 "INT" O R 2000 4000 50 
+F8 "GND" U L 1000 4100 50 
+$EndSheet
+Wire Wire Line
+	2100 1700 3100 1700
+Text Label 3100 1700 2    50   ~ 0
+P1_INT
+Wire Wire Line
+	2100 2700 3100 2700
+Text Label 3100 2700 2    50   ~ 0
+P0_INT
+Wire Wire Line
+	2000 3800 3000 3800
+Wire Wire Line
+	2000 3900 3000 3900
+Wire Wire Line
+	2000 4000 3000 4000
+Text Label 3000 3800 2    50   ~ 0
+P2_SDA
+Text Label 3000 3900 2    50   ~ 0
+P2_SCL
+Text Label 3000 4000 2    50   ~ 0
+P2_INT
+$Sheet
+S 1000 4450 1000 400 
+U 5F3D1FFA
+F0 "Pocket 6DoF 1" 50
+F1 "../sensors/LSM6DSOX.sch" 50
+F2 "VDD" U L 1000 4500 50 
+F3 "GND" U L 1000 4800 50 
+F4 "SDO_SA0" B L 1000 4600 50 
+F5 "SDA" B R 2000 4500 50 
+F6 "SCL" I R 2000 4600 50 
+F7 "I2C_~CS" I L 1000 4700 50 
+F8 "INT" O R 2000 4700 50 
+$EndSheet
+NoConn ~ 2000 4700
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5F3D84E4
+P 1000 3800
+F 0 "#PWR0101" H 1000 3650 50  0001 C CNN
+F 1 "+3V3" V 1015 3928 50  0000 L CNN
+F 2 "" H 1000 3800 50  0001 C CNN
+F 3 "" H 1000 3800 50  0001 C CNN
+	1    1000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5F3D96FB
+P 1000 4500
+F 0 "#PWR0105" H 1000 4350 50  0001 C CNN
+F 1 "+3V3" V 1015 4628 50  0000 L CNN
+F 2 "" H 1000 4500 50  0001 C CNN
+F 3 "" H 1000 4500 50  0001 C CNN
+	1    1000 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F3D9AD5
+P 1000 4800
+F 0 "#PWR0108" H 1000 4550 50  0001 C CNN
+F 1 "GND" V 1005 4672 50  0000 R CNN
+F 2 "" H 1000 4800 50  0001 C CNN
+F 3 "" H 1000 4800 50  0001 C CNN
+	1    1000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F3D9F9E
+P 1000 4100
+F 0 "#PWR0104" H 1000 3850 50  0001 C CNN
+F 1 "GND" V 1005 3972 50  0000 R CNN
+F 2 "" H 1000 4100 50  0001 C CNN
+F 3 "" H 1000 4100 50  0001 C CNN
+	1    1000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F3DA255
+P 1000 3900
+F 0 "#PWR0102" H 1000 3650 50  0001 C CNN
+F 1 "GND" V 1005 3772 50  0000 R CNN
+F 2 "" H 1000 3900 50  0001 C CNN
+F 3 "" H 1000 3900 50  0001 C CNN
+	1    1000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5F3DA516
+P 1000 4600
+F 0 "#PWR0106" H 1000 4450 50  0001 C CNN
+F 1 "+3V3" V 1015 4728 50  0000 L CNN
+F 2 "" H 1000 4600 50  0001 C CNN
+F 3 "" H 1000 4600 50  0001 C CNN
+	1    1000 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5F3DA97E
+P 1000 4000
+F 0 "#PWR0103" H 1000 3850 50  0001 C CNN
+F 1 "+3V3" V 1015 4128 50  0000 L CNN
+F 2 "" H 1000 4000 50  0001 C CNN
+F 3 "" H 1000 4000 50  0001 C CNN
+	1    1000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5F3DACCD
+P 1000 4700
+F 0 "#PWR0107" H 1000 4550 50  0001 C CNN
+F 1 "+3V3" V 1015 4828 50  0000 L CNN
+F 2 "" H 1000 4700 50  0001 C CNN
+F 3 "" H 1000 4700 50  0001 C CNN
+	1    1000 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 4500 3000 4500
+Wire Wire Line
+	2000 4600 3000 4600
+Text Label 3000 4500 2    50   ~ 0
+P2_SDA
+Text Label 3000 4600 2    50   ~ 0
+P2_SCL
+$Sheet
+S 1000 5050 1000 200 
+U 5F42001C
+F0 "Pocket Pressure Sensor" 50
+F1 "../sensors/BME280.sch" 50
+F2 "VCC" U L 1000 5100 50 
+F3 "GND" U L 1000 5200 50 
+F4 "SCL" B R 2000 5200 50 
+F5 "SDA" B R 2000 5100 50 
+$EndSheet
+Wire Wire Line
+	2000 5100 3000 5100
+Wire Wire Line
+	2000 5200 3000 5200
+Text Label 3000 5100 2    50   ~ 0
+P2_SDA
+Text Label 3000 5200 2    50   ~ 0
+P2_SCL
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5F422E8C
+P 1000 5100
+F 0 "#PWR0109" H 1000 4950 50  0001 C CNN
+F 1 "+3V3" V 1015 5228 50  0000 L CNN
+F 2 "" H 1000 5100 50  0001 C CNN
+F 3 "" H 1000 5100 50  0001 C CNN
+	1    1000 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F4232D0
+P 1000 5200
+F 0 "#PWR0110" H 1000 4950 50  0001 C CNN
+F 1 "GND" V 1005 5072 50  0000 R CNN
+F 2 "" H 1000 5200 50  0001 C CNN
+F 3 "" H 1000 5200 50  0001 C CNN
+	1    1000 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5F3B7982
+P 1100 3100
+F 0 "#PWR0116" H 1100 2850 50  0001 C CNN
+F 1 "GND" V 1105 2972 50  0000 R CNN
+F 2 "" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
+	0    1    1    0   
+$EndComp
+$Sheet
+S 1100 2350 1000 800 
+U 5F3957A4
+F0 "Shoe" 50
+F1 "Shoe.sch" 50
+F2 "+3V3" U L 1100 2400 50 
+F3 "GND" U L 1100 3100 50 
+F4 "TX_GPS" O R 2100 2400 50 
+F5 "RX_GPS" I R 2100 2500 50 
+F6 "TX_SDA" O R 2100 2800 50 
+F7 "RX_SDA" I R 2100 2900 50 
+F8 "PPS" O R 2100 2600 50 
+F9 "INT" O R 2100 2700 50 
+F10 "MAG~RST" I L 1100 2500 50 
+F11 "ID" O L 1100 2600 50 
+F12 "TX_SCL" O R 2100 3000 50 
+F13 "RX_SCL" I R 2100 3100 50 
+$EndSheet
+Wire Wire Line
+	1100 1600 650  1600
+Text Label 650  1600 0    50   ~ 0
+P1_ID
+Wire Wire Line
+	2100 2400 3100 2400
+Wire Wire Line
+	2100 2500 3100 2500
+Wire Wire Line
+	2100 2600 3100 2600
+Text Label 3100 2400 2    50   ~ 0
+TX_GPS
+Text Label 3100 2500 2    50   ~ 0
+RX_GPS
+Text Label 3100 2600 2    50   ~ 0
+PPS
+Wire Wire Line
+	1100 2600 650  2600
+Text Label 650  2600 0    50   ~ 0
+P0_ID
+Wire Wire Line
+	1100 1500 650  1500
+Text Label 650  1500 0    50   ~ 0
+MAG~RST
+Wire Wire Line
+	1100 2500 650  2500
+Text Label 650  2500 0    50   ~ 0
+MAG~RST
+Text Label 8300 2700 2    50   ~ 0
+P0_ID
+Text Label 6000 1900 0    50   ~ 0
+P1_ID
+Text Label 6000 2000 0    50   ~ 0
+MAG~RST
+$Comp
+L KwanSystems:AK09970 U101
+U 1 1 5F4534F0
+P 1000 5750
+F 0 "U101" H 2144 5646 50  0000 L CNN
+F 1 "AK09970" H 2144 5555 50  0000 L CNN
+F 2 "KwanSystems:AK09970" H 1000 5750 50  0001 C CNN
+F 3 "" H 1000 5750 50  0001 C CNN
+F 4 "974-1158-1-ND" H 1000 5750 50  0001 C CNN "Digikey"
+F 5 "Magnetic Sensor" H 1000 5750 50  0001 C CNN "Purpose"
+	1    1000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F4544AE
+P 1000 5750
+F 0 "#PWR0111" H 1000 5500 50  0001 C CNN
+F 1 "GND" V 1005 5622 50  0000 R CNN
+F 2 "" H 1000 5750 50  0001 C CNN
+F 3 "" H 1000 5750 50  0001 C CNN
+	1    1000 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 5F454840
+P 1000 5950
+F 0 "#PWR0112" H 1000 5800 50  0001 C CNN
+F 1 "+3V3" V 1015 6078 50  0000 L CNN
+F 2 "" H 1000 5950 50  0001 C CNN
+F 3 "" H 1000 5950 50  0001 C CNN
+	1    1000 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 6050 600  6050
+Text Label 600  6050 0    50   ~ 0
+MAG~RST
+NoConn ~ 1500 5550
+NoConn ~ 1400 6250
+NoConn ~ 2100 5950
+Wire Wire Line
+	2100 6050 2500 6050
+Text Label 2500 6050 2    50   ~ 0
+P2_SDA
+Text Label 2500 6250 2    50   ~ 0
+P2_SCL
+Wire Wire Line
+	1600 6250 2500 6250
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 5F45FD3F
+P 1500 6250
+F 0 "#PWR0118" H 1500 6100 50  0001 C CNN
+F 1 "+3V3" V 1515 6378 50  0000 L CNN
+F 2 "" H 1500 6250 50  0001 C CNN
+F 3 "" H 1500 6250 50  0001 C CNN
+	1    1500 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5F46034A
+P 1400 5550
+F 0 "#PWR0117" H 1400 5300 50  0001 C CNN
+F 1 "GND" V 1405 5422 50  0000 R CNN
+F 2 "" H 1400 5550 50  0001 C CNN
+F 3 "" H 1400 5550 50  0001 C CNN
+	1    1400 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L KwanSystems:Teensy4.1 U104
+U 1 1 5F3BC78B
+P 7200 2700
+F 0 "U104" H 7200 4125 50  0000 C CNN
+F 1 "Teensy4.1" H 7200 4034 50  0000 C CNN
+F 2 "KwanSystems:Teensy2x24" V 7450 2900 50  0001 C CNN
+F 3 "" V 7450 2900 50  0001 C CNN
+F 4 "1568-DEV-16771-ND" H 7200 2700 50  0001 C CNN "Digikey"
+F 5 "Microcontroller" H 7200 2700 50  0001 C CNN "Purpose"
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 2800
+Text Notes 7950 2800 0    50   ~ 0
+TeensyView SCK
+NoConn ~ 6500 2700
+Text Notes 6450 2700 2    50   ~ 0
+TeensyView MOSI\n
+NoConn ~ 6500 2800
+Text Notes 6450 2800 2    50   ~ 0
+(TeensyView MISO, NC)
+NoConn ~ 6500 2600
+Text Notes 6450 2600 2    50   ~ 0
+TeensyView CS
+NoConn ~ 6500 1800
+Text Notes 6450 1800 2    50   ~ 0
+TeensyView RST
+NoConn ~ 6500 2100
+Text Notes 6450 2100 2    50   ~ 0
+TeensyView DC
+Wire Wire Line
+	7900 2000 8300 2000
+Text Label 8300 2000 2    50   ~ 0
+P0_INT
+Text Label 6000 2300 0    50   ~ 0
+P1_INT
+Wire Wire Line
+	6500 2000 6000 2000
+Wire Wire Line
+	6500 1900 6000 1900
+Wire Wire Line
+	8300 2700 7900 2700
+Wire Wire Line
+	6500 2300 6000 2300
+NoConn ~ 7900 1600
+NoConn ~ 7900 1800
+NoConn ~ 7900 1900
+NoConn ~ 7900 3000
+NoConn ~ 7900 3100
+NoConn ~ 7900 3300
+NoConn ~ 7900 3400
+NoConn ~ 7900 3500
+NoConn ~ 7900 3600
+NoConn ~ 7900 3700
+NoConn ~ 7900 3800
+NoConn ~ 7900 2100
+NoConn ~ 6500 3800
+NoConn ~ 6500 3700
+NoConn ~ 6500 3600
+NoConn ~ 6500 2500
+NoConn ~ 6500 2400
+NoConn ~ 6500 2200
+NoConn ~ 6500 1700
+NoConn ~ 6500 1600
+Text Label 6000 3200 0    50   ~ 0
+P2_INT
+NoConn ~ 6500 3300
+$Sheet
+S 1100 1350 1000 800 
+U 5F394D12
+F0 "Shoulder" 50
+F1 "Shoulder.sch" 50
+F2 "+3V3" U L 1100 1400 50 
+F3 "GND" U L 1100 2100 50 
+F4 "TX_GPS" O R 2100 1400 50 
+F5 "RX_GPS" I R 2100 1500 50 
+F6 "PPS" O R 2100 1600 50 
+F7 "INT" O R 2100 1700 50 
+F8 "MAG~RST" I L 1100 1500 50 
+F9 "ID" O L 1100 1600 50 
+F10 "TX_SCL" O R 2100 2000 50 
+F11 "RX_SCL" I R 2100 2100 50 
+F12 "TX_SDA" O R 2100 1800 50 
+F13 "RX_SDA" I R 2100 1900 50 
+$EndSheet
+$Comp
+L KwanSystems:KwanSystems G102
+U 1 1 5F418264
+P 9550 850
+F 0 "G102" H 9550 750 60  0001 C CNN
+F 1 "KwanSystems" H 9575 850 60  0000 L CNN
+F 2 "KwanSystems:StKwansSoldermask" H 9550 850 60  0001 C CNN
+F 3 "" H 9550 850 60  0001 C CNN
+	1    9550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:DesignedWithKicad G101
+U 1 1 5F41C79E
+P 9500 950
+F 0 "G101" H 9500 850 60  0001 C CNN
+F 1 "DesignedWithKicad" H 9550 950 60  0000 L CNN
+F 2 "KwanSystems:Symbol_KiCAD-Logo_CopperAndSilkScreenTop_small" H 9500 950 60  0001 C CNN
+F 3 "" H 9500 950 60  0001 C CNN
+	1    9500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:OSHW G103
+U 1 1 5F420ED7
+P 9550 1050
+F 0 "G103" H 9550 950 60  0001 C CNN
+F 1 "OSHW" H 9575 1050 60  0000 L CNN
+F 2 "KwanSystems:OSHW-Symbol_6.7x6mm_SolderMask" H 9550 1050 60  0001 C CNN
+F 3 "" H 9550 1050 60  0001 C CNN
+	1    9550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:STANDOFF J120
+U 1 1 5F4232C8
+P 9550 1450
+F 0 "J120" H 9750 1500 60  0000 L CNN
+F 1 "STANDOFF" H 9628 1397 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 9550 1450 60  0001 C CNN
+F 3 "" H 9550 1450 60  0001 C CNN
+	1    9550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:STANDOFF J125
+U 1 1 5F42AC14
+P 9550 1900
+F 0 "J125" H 9700 1950 60  0000 L CNN
+F 1 "STANDOFF" H 9628 1847 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 9550 1900 60  0001 C CNN
+F 3 "" H 9550 1900 60  0001 C CNN
+	1    9550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:STANDOFF J127
+U 1 1 5F42B2D3
+P 10250 1450
+F 0 "J127" H 10328 1450 60  0000 L CNN
+F 1 "STANDOFF" H 10328 1397 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 10250 1450 60  0001 C CNN
+F 3 "" H 10250 1450 60  0001 C CNN
+	1    10250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:STANDOFF J129
+U 1 1 5F42DE21
+P 10250 1900
+F 0 "J129" H 10350 1950 60  0000 L CNN
+F 1 "STANDOFF" H 10328 1847 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 10250 1900 60  0001 C CNN
+F 3 "" H 10250 1900 60  0001 C CNN
+	1    10250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KwanSystems:KwanSystems G104
+U 1 1 5F472865
+P 9550 750
+F 0 "G104" H 9550 650 60  0001 C CNN
+F 1 "KwanSystems" H 9575 750 60  0000 L CNN
+F 2 "KwanSystems:StKwansSoldermask" H 9550 750 60  0001 C CNN
+F 3 "" H 9550 750 60  0001 C CNN
+	1    9550 750 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7900 3200
+Wire Wire Line
+	6500 3200 6000 3200
+$Comp
+L KwanSystems:OSHW G105
+U 1 1 5F48F095
+P 10100 1150
+F 0 "G105" H 10100 1050 60  0001 C CNN
+F 1 "Axis" H 9850 1250 60  0000 L CNN
+F 2 "KwanSystems:Axis" H 10100 1150 60  0001 C CNN
+F 3 "" H 10100 1150 60  0001 C CNN
+	1    10100 1150
+	1    0    0    -1  
+$EndComp
+Text Notes 3100 1200 0    50   ~ 0
+Crossover occurs at these points,\nas close as possible to the processor or\ntranscever, so the majority is labeled\nTx/Rx from the point of view of the\nremote device.\n
+Wire Notes Line
+	6450 3350 6450 3550
+Wire Notes Line
+	3100 1750 3100 2150
+Wire Notes Line
+	3100 2750 3100 3150
+$Comp
+L Jumper:SolderJumper_2_Bridged J107
+U 1 1 5F48DBB6
+P 3550 2350
+F 0 "J107" H 3400 2400 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3550 2464 50  0001 C CNN
+F 2 "KwanSystems:SolderJumper-2_Bridged" H 3550 2350 50  0001 C CNN
+F 3 "~" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged J111
+U 1 1 5F48E28A
+P 3550 2550
+F 0 "J111" H 3400 2600 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3550 2664 50  0001 C CNN
+F 2 "KwanSystems:SolderJumper-2_Bridged" H 3550 2550 50  0001 C CNN
+F 3 "~" H 3550 2550 50  0001 C CNN
+	1    3550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged J117
+U 1 1 5F48E5E5
+P 3550 3400
+F 0 "J117" H 3400 3450 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3550 3514 50  0001 C CNN
+F 2 "KwanSystems:SolderJumper-2_Bridged" H 3550 3400 50  0001 C CNN
+F 3 "~" H 3550 3400 50  0001 C CNN
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged J101
+U 1 1 5F48EB7F
+P 3550 1550
+F 0 "J101" H 3550 1663 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 3550 1664 50  0001 C CNN
+F 2 "KwanSystems:SolderJumper-2_Bridged" H 3550 1550 50  0001 C CNN
+F 3 "~" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1550 2650 1550
+Wire Wire Line
+	2650 1550 2650 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	2650 1900 3100 1900
+Wire Wire Line
+	3700 1550 4450 1550
+Wire Wire Line
+	4450 1550 4450 1800
+Connection ~ 4450 1800
+Wire Wire Line
+	4450 1800 4750 1800
+Wire Wire Line
+	3700 2350 4450 2350
+Wire Wire Line
+	4450 2350 4450 2000
+Connection ~ 4450 2000
+Wire Wire Line
+	4450 2000 4750 2000
+Wire Wire Line
+	3400 2350 3150 2350
+Wire Wire Line
+	3150 2350 3150 2200
+Wire Wire Line
+	3150 2200 2650 2200
+Wire Wire Line
+	2650 2200 2650 2000
+Connection ~ 2650 2000
+Wire Wire Line
+	2650 2000 3100 2000
+Wire Wire Line
+	3700 2550 4400 2550
+Wire Wire Line
+	4400 2550 4400 2800
+Connection ~ 4400 2800
+Wire Wire Line
+	4400 2800 4750 2800
+Wire Wire Line
+	3700 3400 4400 3400
+Wire Wire Line
+	4400 3400 4400 3000
+Connection ~ 4400 3000
+Wire Wire Line
+	4400 3000 4750 3000
+Wire Wire Line
+	3400 2550 2650 2550
+Wire Wire Line
+	2650 2550 2650 2900
+Connection ~ 2650 2900
+Wire Wire Line
+	2650 2900 3100 2900
+Wire Wire Line
+	3400 3400 2650 3400
+Wire Wire Line
+	2650 3400 2650 3000
+Connection ~ 2650 3000
+Wire Wire Line
+	2650 3000 3100 3000
+Text Notes 3800 4000 0    50   ~ 0
+Either:\n*Leave bridges on both this and remote board,\nand do not install transceivers\nOR\n*cut bridges and install transceivers on both\nthis and remote board
+NoConn ~ 7900 1500
+$EndSCHEMATC
