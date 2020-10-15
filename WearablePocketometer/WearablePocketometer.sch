@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -149,7 +149,7 @@ P2_SCL
 Text Label 6000 3100 0    50   ~ 0
 P2_SDA
 Wire Wire Line
-	7900 2200 8500 2200
+	7900 2200 9300 2200
 Text Label 8300 2200 2    50   ~ 0
 P0_SCL
 Text Label 8300 2300 2    50   ~ 0
@@ -165,14 +165,14 @@ PPS
 $Comp
 L KwanSystems:RESISTOR R140
 U 1 1 5F3C7AC4
-P 8700 2100
-F 0 "R140" H 8800 2150 45  0000 R CNN
-F 1 "10k" V 8650 1800 45  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8755 2250 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9125 1800 60  0001 C CNN
-F 4 "P10KJCT-ND" H 8700 2100 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" H 8700 2100 50  0001 C CNN "Purpose"
-	1    8700 2100
+P 9500 2100
+F 0 "R140" H 9600 2150 45  0000 R CNN
+F 1 "10k" V 9400 1650 45  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9555 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9925 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 9500 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 9500 2100 50  0001 C CNN "Purpose"
+	1    9500 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -189,14 +189,14 @@ $EndComp
 $Comp
 L KwanSystems:RESISTOR R141
 U 1 1 5F3C9A4B
-P 8500 2100
-F 0 "R141" H 8400 2150 45  0000 L CNN
-F 1 "10k" V 8450 1750 45  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8555 2250 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8925 1800 60  0001 C CNN
-F 4 "P10KJCT-ND" H 8500 2100 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" H 8500 2100 50  0001 C CNN "Purpose"
-	1    8500 2100
+P 9300 2100
+F 0 "R141" H 9200 2150 45  0000 L CNN
+F 1 "10k" V 9250 1300 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9355 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9725 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 9300 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 9300 2100 50  0001 C CNN "Purpose"
+	1    9300 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -215,33 +215,33 @@ Wire Wire Line
 Wire Wire Line
 	5250 3100 6500 3100
 Wire Wire Line
-	8700 2300 8700 2200
+	9500 2300 9500 2200
 Wire Wire Line
-	7900 2300 8700 2300
+	7900 2300 9500 2300
 $Comp
 L KwanSystems:RESISTOR R139
 U 1 1 5F3CE47B
-P 8900 2100
-F 0 "R139" H 8800 2150 45  0000 L CNN
-F 1 "10k" V 8850 1350 45  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8955 2250 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9325 1800 60  0001 C CNN
-F 4 "P10KJCT-ND" H 8900 2100 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" H 8900 2100 50  0001 C CNN "Purpose"
-	1    8900 2100
+P 9700 2100
+F 0 "R139" H 9600 2150 45  0000 L CNN
+F 1 "10k" V 9650 1700 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9755 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 10125 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 9700 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 9700 2100 50  0001 C CNN "Purpose"
+	1    9700 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L KwanSystems:RESISTOR R138
 U 1 1 5F3CECA5
-P 9100 2100
-F 0 "R138" H 9000 2150 45  0000 L CNN
-F 1 "10k" V 9050 1150 45  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9155 2250 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 9525 1800 60  0001 C CNN
-F 4 "P10KJCT-ND" H 9100 2100 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" H 9100 2100 50  0001 C CNN "Purpose"
-	1    9100 2100
+P 9900 2100
+F 0 "R138" H 9800 2150 45  0000 L CNN
+F 1 "10k" V 9850 1900 45  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9955 2250 20  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 10325 1800 60  0001 C CNN
+F 4 "P10KJCT-ND" H 9900 2100 50  0001 C CNN "Digikey"
+F 5 "I2C pullup" H 9900 2100 50  0001 C CNN "Purpose"
+	1    9900 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -271,55 +271,55 @@ F 5 "I2C pullup" H 5250 2900 50  0001 C CNN "Purpose"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 2400 8900 2200
+	9700 2400 9700 2200
 Wire Wire Line
-	7900 2400 8900 2400
+	7900 2400 9700 2400
 Wire Wire Line
-	9100 2500 9100 2200
+	9900 2500 9900 2200
 Wire Wire Line
-	7900 2500 9100 2500
+	7900 2500 9900 2500
 $Comp
 L power:+3V3 #PWR0129
 U 1 1 5F3D7B04
-P 8500 2000
-F 0 "#PWR0129" H 8500 1850 50  0001 C CNN
-F 1 "+3V3" H 8515 2173 50  0000 C CNN
-F 2 "" H 8500 2000 50  0001 C CNN
-F 3 "" H 8500 2000 50  0001 C CNN
-	1    8500 2000
+P 9300 2000
+F 0 "#PWR0129" H 9300 1850 50  0001 C CNN
+F 1 "+3V3" H 9315 2173 50  0000 C CNN
+F 2 "" H 9300 2000 50  0001 C CNN
+F 3 "" H 9300 2000 50  0001 C CNN
+	1    9300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0130
 U 1 1 5F3D7DAA
-P 8700 2000
-F 0 "#PWR0130" H 8700 1850 50  0001 C CNN
-F 1 "+3V3" H 8715 2173 50  0000 C CNN
-F 2 "" H 8700 2000 50  0001 C CNN
-F 3 "" H 8700 2000 50  0001 C CNN
-	1    8700 2000
+P 9500 2000
+F 0 "#PWR0130" H 9500 1850 50  0001 C CNN
+F 1 "+3V3" H 9515 2173 50  0000 C CNN
+F 2 "" H 9500 2000 50  0001 C CNN
+F 3 "" H 9500 2000 50  0001 C CNN
+	1    9500 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0131
 U 1 1 5F3D81FB
-P 8900 2000
-F 0 "#PWR0131" H 8900 1850 50  0001 C CNN
-F 1 "+3V3" H 8915 2173 50  0000 C CNN
-F 2 "" H 8900 2000 50  0001 C CNN
-F 3 "" H 8900 2000 50  0001 C CNN
-	1    8900 2000
+P 9700 2000
+F 0 "#PWR0131" H 9700 1850 50  0001 C CNN
+F 1 "+3V3" H 9715 2173 50  0000 C CNN
+F 2 "" H 9700 2000 50  0001 C CNN
+F 3 "" H 9700 2000 50  0001 C CNN
+	1    9700 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0132
 U 1 1 5F3D84E1
-P 9100 2000
-F 0 "#PWR0132" H 9100 1850 50  0001 C CNN
-F 1 "+3V3" H 9115 2173 50  0000 C CNN
-F 2 "" H 9100 2000 50  0001 C CNN
-F 3 "" H 9100 2000 50  0001 C CNN
-	1    9100 2000
+P 9900 2000
+F 0 "#PWR0132" H 9900 1850 50  0001 C CNN
+F 1 "+3V3" H 9915 2173 50  0000 C CNN
+F 2 "" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0001 C CNN
+	1    9900 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -650,9 +650,9 @@ Text Label 650  2500 0    50   ~ 0
 MAG~RST
 Text Label 8300 2700 2    50   ~ 0
 P0_ID
-Text Label 6000 1900 0    50   ~ 0
+Text Label 5650 1900 0    50   ~ 0
 P1_ID
-Text Label 6000 2000 0    50   ~ 0
+Text Label 5650 2000 0    50   ~ 0
 MAG~RST
 $Comp
 L KwanSystems:AK09970 U101
@@ -740,37 +740,37 @@ F 5 "Microcontroller" H 7200 2700 50  0001 C CNN "Purpose"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7900 2800
-Text Notes 7950 2800 0    50   ~ 0
-TeensyView SCK
+Text Notes 8550 2800 0    50   ~ 0
+TV_SCK S
 NoConn ~ 6500 2700
 Text Notes 6450 2700 2    50   ~ 0
-TeensyView MOSI\n
+TV_DA S\n
 NoConn ~ 6500 2800
-Text Notes 6450 2800 2    50   ~ 0
-(TeensyView MISO, NC)
+Text Notes 6450 2800 2    50   Italic 0
+(TV_MISO, NC)
 NoConn ~ 6500 2600
 Text Notes 6450 2600 2    50   ~ 0
-TeensyView CS
+TV_~CS~ S
 NoConn ~ 6500 1800
 Text Notes 6450 1800 2    50   ~ 0
-TeensyView RST
+TV_~RST~ A
 NoConn ~ 6500 2100
 Text Notes 6450 2100 2    50   ~ 0
-TeensyView DC
+TV_D/~C~ S
 Wire Wire Line
 	7900 2000 8300 2000
 Text Label 8300 2000 2    50   ~ 0
 P0_INT
-Text Label 6000 2300 0    50   ~ 0
+Text Label 5650 2300 0    50   ~ 0
 P1_INT
 Wire Wire Line
-	6500 2000 6000 2000
+	6500 2000 5650 2000
 Wire Wire Line
-	6500 1900 6000 1900
+	6500 1900 5650 1900
 Wire Wire Line
 	8300 2700 7900 2700
 Wire Wire Line
-	6500 2300 6000 2300
+	6500 2300 5650 2300
 NoConn ~ 7900 1600
 NoConn ~ 7900 1800
 NoConn ~ 7900 1900
@@ -848,45 +848,45 @@ $EndComp
 $Comp
 L KwanSystems:STANDOFF J120
 U 1 1 5F4232C8
-P 9550 1450
-F 0 "J120" H 9750 1500 60  0000 L CNN
-F 1 "STANDOFF" H 9628 1397 60  0001 L CNN
-F 2 "KwanSystems:STANDOFF_NONPLATED" H 9550 1450 60  0001 C CNN
-F 3 "" H 9550 1450 60  0001 C CNN
-	1    9550 1450
+P 8150 700
+F 0 "J120" H 8350 750 60  0000 L CNN
+F 1 "STANDOFF" H 8228 647 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 8150 700 60  0001 C CNN
+F 3 "" H 8150 700 60  0001 C CNN
+	1    8150 700 
 	1    0    0    -1  
 $EndComp
 $Comp
 L KwanSystems:STANDOFF J125
 U 1 1 5F42AC14
-P 9550 1900
-F 0 "J125" H 9700 1950 60  0000 L CNN
-F 1 "STANDOFF" H 9628 1847 60  0001 L CNN
-F 2 "KwanSystems:STANDOFF_NONPLATED" H 9550 1900 60  0001 C CNN
-F 3 "" H 9550 1900 60  0001 C CNN
-	1    9550 1900
+P 8150 800
+F 0 "J125" H 8300 850 60  0000 L CNN
+F 1 "STANDOFF" H 8228 747 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 8150 800 60  0001 C CNN
+F 3 "" H 8150 800 60  0001 C CNN
+	1    8150 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L KwanSystems:STANDOFF J127
 U 1 1 5F42B2D3
-P 10250 1450
-F 0 "J127" H 10328 1450 60  0000 L CNN
-F 1 "STANDOFF" H 10328 1397 60  0001 L CNN
-F 2 "KwanSystems:STANDOFF_NONPLATED" H 10250 1450 60  0001 C CNN
-F 3 "" H 10250 1450 60  0001 C CNN
-	1    10250 1450
+P 8850 700
+F 0 "J127" H 8928 700 60  0000 L CNN
+F 1 "STANDOFF" H 8928 647 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 8850 700 60  0001 C CNN
+F 3 "" H 8850 700 60  0001 C CNN
+	1    8850 700 
 	1    0    0    -1  
 $EndComp
 $Comp
 L KwanSystems:STANDOFF J129
 U 1 1 5F42DE21
-P 10250 1900
-F 0 "J129" H 10350 1950 60  0000 L CNN
-F 1 "STANDOFF" H 10328 1847 60  0001 L CNN
-F 2 "KwanSystems:STANDOFF_NONPLATED" H 10250 1900 60  0001 C CNN
-F 3 "" H 10250 1900 60  0001 C CNN
-	1    10250 1900
+P 8850 800
+F 0 "J129" H 8950 850 60  0000 L CNN
+F 1 "STANDOFF" H 8928 747 60  0001 L CNN
+F 2 "KwanSystems:STANDOFF_NONPLATED" H 8850 800 60  0001 C CNN
+F 3 "" H 8850 800 60  0001 C CNN
+	1    8850 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1028,5 +1028,63 @@ Wire Wire Line
 	2650 3000 3100 3000
 Text Notes 3800 4000 0    50   ~ 0
 Either:\n*Leave bridges on both this and remote board,\nand do not install transceivers\nOR\n*cut bridges and install transceivers on both\nthis and remote board
-NoConn ~ 7900 1500
+$Sheet
+S 3950 4450 1000 200 
+U 5F4E5D14
+F0 "USB C Power" 50
+F1 "../blocks/USB_C_power.sch" 50
+F2 "VBUS" O L 3950 4500 50 
+F3 "GND" U L 3950 4600 50 
+$EndSheet
+$Comp
+L power:+5V #PWR0133
+U 1 1 5F4ECDD3
+P 3950 4500
+F 0 "#PWR0133" H 3950 4350 50  0001 C CNN
+F 1 "+5V" V 3965 4628 50  0000 L CNN
+F 2 "" H 3950 4500 50  0001 C CNN
+F 3 "" H 3950 4500 50  0001 C CNN
+	1    3950 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5F4ED470
+P 3950 4600
+F 0 "#PWR0134" H 3950 4350 50  0001 C CNN
+F 1 "GND" V 3955 4472 50  0000 R CNN
+F 2 "" H 3950 4600 50  0001 C CNN
+F 3 "" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0135
+U 1 1 5F4F02C7
+P 7900 1500
+F 0 "#PWR0135" H 7900 1350 50  0001 C CNN
+F 1 "+5V" V 7915 1628 50  0000 L CNN
+F 2 "" H 7900 1500 50  0001 C CNN
+F 3 "" H 7900 1500 50  0001 C CNN
+	1    7900 1500
+	0    1    1    0   
+$EndComp
+Text Notes 8550 2600 0    50   Italic 0
+TV_~RST~ S
+Text Notes 8650 3250 0    50   ~ 0
+D15 is the *only* pin which can be used\nfor GPT capture, so it *must* be used\nfor PPS.
+Text Notes 8900 2000 2    50   Italic 0
+TV_D/~C~ A
+Text Notes 8550 2700 0    50   Italic 0
+TV_SCK A
+Text Notes 9000 2700 0    50   ~ 0
+Teensy 4.1 cannot drive SCK0 with pin D14
+Text Notes 8900 2100 2    50   Italic 0
+TV_~CS~ A
+Text Notes 6400 2300 2    50   Italic 0
+TV_DA A\n
+Text Notes 4800 2400 0    50   ~ 0
+Teensy4.1 cannot drive MOSI0 with pin D7
+Text Notes 8150 4500 0    50   ~ 0
+TeensyView pin selection marked with *stars*\nSignal     Std     Alt    \n~RST~        15     *2*   Use alt because std is only PPS GPT capture\nD/~C~       *5*     21    Plain GPIO, could use either\n~CS~        *10*    20   Plain GPIO, could use either\nSCK       *13*    14     Pri drives LED but alt not available on Teensy4.1\nMISO      *11*     7    Alt not available on Teensy4.1
 $EndSCHEMATC
