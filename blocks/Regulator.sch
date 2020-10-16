@@ -1,43 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:KwanSystems
-LIBS:M7_055-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 8
+Sheet 15 16
 Title "Rocketometer055"
 Date "2017-08-12"
 Rev "0.0"
@@ -48,92 +14,113 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C_Small C601
+L Device:C_Small C?
 U 1 1 598BF239
 P 5400 3600
-AR Path="/598E8215/598BF239" Ref="C601"  Part="1" 
-AR Path="/59931DEA/598BF239" Ref="C704"  Part="1" 
-AR Path="/59E5513D/598BF239" Ref="C601"  Part="1" 
-AR Path="/59F0F663/598BF239" Ref="C401"  Part="1" 
-AR Path="/59FCEA60/598BF239" Ref="C201"  Part="1" 
-AR Path="/5A4D577F/598BF239" Ref="C701"  Part="1" 
-F 0 "C701" H 5492 3646 50  0000 L CNN
+AR Path="/598E8215/598BF239" Ref="C?"  Part="1" 
+AR Path="/59931DEA/598BF239" Ref="C?"  Part="1" 
+AR Path="/59E5513D/598BF239" Ref="C?"  Part="1" 
+AR Path="/59F0F663/598BF239" Ref="C?"  Part="1" 
+AR Path="/59FCEA60/598BF239" Ref="C?"  Part="1" 
+AR Path="/5A4D577F/598BF239" Ref="C?"  Part="1" 
+AR Path="/598BF239" Ref="C?"  Part="1" 
+AR Path="/5E487B18/598BF239" Ref="C?"  Part="1" 
+AR Path="/5ECDC67E/598BF239" Ref="C?"  Part="1" 
+AR Path="/5ECE7DF9/598BF239" Ref="C?"  Part="1" 
+AR Path="/5F394D12/5F3DC98B/5F47E677/598BF239" Ref="C801"  Part="1" 
+F 0 "C801" H 5492 3646 50  0000 L CNN
 F 1 "1uF" H 5492 3555 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 5400 3600 50  0001 C CNN
-F 3 "" H 5400 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 3600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5400 3600 50  0001 C CNN
+F 4 "445-9024-1-ND" H 5400 3600 50  0001 C CNN "Digikey"
+F 5 "Regulator Input" H 5400 3600 50  0001 C CNN "Purpose"
 	1    5400 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C604
+L Device:C_Small C?
 U 1 1 598BF23A
 P 6400 3550
-AR Path="/598E8215/598BF23A" Ref="C604"  Part="1" 
-AR Path="/59931DEA/598BF23A" Ref="C714"  Part="1" 
-AR Path="/59E5513D/598BF23A" Ref="C604"  Part="1" 
-AR Path="/59F0F663/598BF23A" Ref="C404"  Part="1" 
-AR Path="/59FCEA60/598BF23A" Ref="C204"  Part="1" 
-AR Path="/5A4D577F/598BF23A" Ref="C704"  Part="1" 
-F 0 "C704" H 6492 3596 50  0000 L CNN
+AR Path="/598E8215/598BF23A" Ref="C?"  Part="1" 
+AR Path="/59931DEA/598BF23A" Ref="C?"  Part="1" 
+AR Path="/59E5513D/598BF23A" Ref="C?"  Part="1" 
+AR Path="/59F0F663/598BF23A" Ref="C?"  Part="1" 
+AR Path="/59FCEA60/598BF23A" Ref="C?"  Part="1" 
+AR Path="/5A4D577F/598BF23A" Ref="C?"  Part="1" 
+AR Path="/598BF23A" Ref="C?"  Part="1" 
+AR Path="/5E487B18/598BF23A" Ref="C?"  Part="1" 
+AR Path="/5ECDC67E/598BF23A" Ref="C?"  Part="1" 
+AR Path="/5ECE7DF9/598BF23A" Ref="C?"  Part="1" 
+AR Path="/5F394D12/5F3DC98B/5F47E677/598BF23A" Ref="C804"  Part="1" 
+F 0 "C804" H 6492 3596 50  0000 L CNN
 F 1 "100nF" H 6492 3505 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 6400 3550 50  0001 C CNN
-F 3 "" H 6400 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 3550 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 6400 3550 50  0001 C CNN
+F 4 "445-4952-1-ND" H 6400 3550 50  0001 C CNN "Digikey"
+F 5 "Regulator Bypass" H 6400 3550 50  0001 C CNN "Purpose"
 	1    6400 3550
 	1    0    0    -1  
 $EndComp
 Text Label 6400 3450 0    60   ~ 0
 BYP
 $Comp
-L C_Small C605
+L Device:C_Small C?
 U 1 1 598BF23B
 P 6600 3750
-AR Path="/598E8215/598BF23B" Ref="C605"  Part="1" 
-AR Path="/59931DEA/598BF23B" Ref="C715"  Part="1" 
-AR Path="/59E5513D/598BF23B" Ref="C605"  Part="1" 
-AR Path="/59F0F663/598BF23B" Ref="C405"  Part="1" 
-AR Path="/59FCEA60/598BF23B" Ref="C205"  Part="1" 
-AR Path="/5A4D577F/598BF23B" Ref="C705"  Part="1" 
-F 0 "C705" H 6692 3796 50  0000 L CNN
-F 1 "4.7uF" H 6692 3705 50  0000 L CNN
-F 2 "KwanSystems:SMD_0603" H 6600 3750 50  0001 C CNN
-F 3 "" H 6600 3750 50  0001 C CNN
+AR Path="/598E8215/598BF23B" Ref="C?"  Part="1" 
+AR Path="/59931DEA/598BF23B" Ref="C?"  Part="1" 
+AR Path="/59E5513D/598BF23B" Ref="C?"  Part="1" 
+AR Path="/59F0F663/598BF23B" Ref="C?"  Part="1" 
+AR Path="/59FCEA60/598BF23B" Ref="C?"  Part="1" 
+AR Path="/5A4D577F/598BF23B" Ref="C?"  Part="1" 
+AR Path="/598BF23B" Ref="C?"  Part="1" 
+AR Path="/5E487B18/598BF23B" Ref="C?"  Part="1" 
+AR Path="/5ECDC67E/598BF23B" Ref="C?"  Part="1" 
+AR Path="/5ECE7DF9/598BF23B" Ref="C?"  Part="1" 
+AR Path="/5F394D12/5F3DC98B/5F47E677/598BF23B" Ref="C805"  Part="1" 
+F 0 "C805" H 6692 3796 50  0000 L CNN
+F 1 "2.2uF" H 6692 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 3750 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 6600 3750 50  0001 C CNN
+F 4 "445-4999-1-ND" H 6600 3750 50  0001 C CNN "Digikey"
+F 5 "Regulator output" H 6600 3750 50  0001 C CNN "Purpose"
 	1    6600 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L MIC5319 U601
+L KwanSystems:MIC5319 U?
 U 1 1 598BF238
 P 6000 3250
-AR Path="/598E8215/598BF238" Ref="U601"  Part="1" 
-AR Path="/59931DEA/598BF238" Ref="U701"  Part="1" 
-AR Path="/59E5513D/598BF238" Ref="U601"  Part="1" 
-AR Path="/59F0F663/598BF238" Ref="U401"  Part="1" 
-AR Path="/59FCEA60/598BF238" Ref="U201"  Part="1" 
-AR Path="/5A4D577F/598BF238" Ref="U701"  Part="1" 
-F 0 "U701" H 5750 3450 50  0000 L CNN
-F 1 "3.3V" H 6600 3450 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 6650 3000 50  0001 C CIN
+AR Path="/598E8215/598BF238" Ref="U?"  Part="1" 
+AR Path="/59931DEA/598BF238" Ref="U?"  Part="1" 
+AR Path="/59E5513D/598BF238" Ref="U?"  Part="1" 
+AR Path="/59F0F663/598BF238" Ref="U?"  Part="1" 
+AR Path="/59FCEA60/598BF238" Ref="U?"  Part="1" 
+AR Path="/5A4D577F/598BF238" Ref="U?"  Part="1" 
+AR Path="/598BF238" Ref="U?"  Part="1" 
+AR Path="/5E487B18/598BF238" Ref="U?"  Part="1" 
+AR Path="/5ECDC67E/598BF238" Ref="U?"  Part="1" 
+AR Path="/5ECE7DF9/598BF238" Ref="U?"  Part="1" 
+AR Path="/5F394D12/5F3DC98B/5F47E677/598BF238" Ref="U801"  Part="1" 
+F 0 "U801" H 5750 3450 50  0000 L CNN
+F 1 "MIC5319 3.3V" H 6600 3450 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6650 3000 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5319.pdf" H 6100 2900 50  0001 C CNN
+F 4 "576-1910-1-ND" H 6000 3250 50  0001 C CNN "Digikey"
+F 5 "Regulator" H 6000 3250 50  0001 C CNN "Purpose"
 	1    6000 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3950 3950 0    60   UnSpc ~ 0
+Text HLabel 4800 3950 0    60   UnSpc ~ 0
 GND
-Text HLabel 4400 2550 0    60   UnSpc ~ 0
+Text HLabel 4800 3150 0    60   UnSpc ~ 0
 VIN
 Text HLabel 6600 3150 2    60   UnSpc ~ 0
 VOUT
 Wire Wire Line
-	4400 2550 5400 2550
-Wire Wire Line
-	4400 2550 4400 3250
-Wire Wire Line
-	4400 3950 4400 3450
+	4800 3150 5400 3150
 Wire Wire Line
 	4800 3350 5600 3350
-Wire Wire Line
-	5400 2550 5400 3500
-Connection ~ 4400 3950
 Wire Wire Line
 	5400 3150 5600 3150
 Wire Wire Line
@@ -153,26 +140,17 @@ Wire Wire Line
 	6600 3150 6400 3150
 Connection ~ 5400 3150
 Wire Wire Line
-	3950 3950 6600 3950
-Wire Wire Line
 	6400 3950 6400 3650
-Text Label 4900 3350 0    60   ~ 0
-PWR_EN
-$Comp
-L SW_SPDT S601
-U 1 1 598BF237
-P 4600 3350
-AR Path="/598E8215/598BF237" Ref="S601"  Part="1" 
-AR Path="/59931DEA/598BF237" Ref="S701"  Part="1" 
-AR Path="/59E5513D/598BF237" Ref="S603"  Part="1" 
-AR Path="/59F0F663/598BF237" Ref="S401"  Part="1" 
-AR Path="/59FCEA60/598BF237" Ref="S201"  Part="1" 
-AR Path="/5A4D577F/598BF237" Ref="S701"  Part="1" 
-F 0 "S701" H 4600 3520 50  0000 C CNN
-F 1 "SPDT" H 4600 3150 50  0000 C CNN
-F 2 "KwanSystems:SW_SPST_CJS120xA" H 4600 3350 50  0001 C CNN
-F 3 "" H 4600 3350 50  0000 C CNN
-	1    4600 3350
-	-1   0    0    -1  
-$EndComp
+Wire Wire Line
+	5400 3950 6000 3950
+Wire Wire Line
+	6000 3950 6400 3950
+Wire Wire Line
+	6400 3950 6600 3950
+Wire Wire Line
+	5400 3150 5400 3500
+Text HLabel 4800 3350 0    50   Input ~ 0
+EN
+Wire Wire Line
+	4800 3950 5400 3950
 $EndSCHEMATC
