@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Feather12
+D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Feather16
+D Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP INA220
 D Current and Bus Voltage Sensor
 K current sensor
@@ -10,6 +22,21 @@ $CMP NC7SZ157
 D Two-input non-inverting multiplexer
 K multiplexer
 F http://www.onsemi.com/pub/Collateral/NC7SZ157-D.PDF
+$ENDCMP
+#
+$CMP NEO_M8U
+D ublox NEO-M8U GNSS receiver with internal inertial sensors for untethered dead reckoning
+K GPS ublox dead reckoning
+$ENDCMP
+#
+$CMP OLED0.66
+F https://www.sparkfun.com/products/13003
+$ENDCMP
+#
+$CMP P82B96
+D I2C-to-bidirectional buffer for long-range I2C
+K I2C
+F https://www.nxp.com/docs/en/data-sheet/P82B96.pdf
 $ENDCMP
 #
 $CMP TXB0104RUT
