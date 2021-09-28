@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 16
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J701
+L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 5F4D574F
 P 3800 2600
-F 0 "J701" H 3907 3467 50  0000 C CNN
+F 0 "J?" H 3907 3467 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 3907 3376 50  0000 C CNN
 F 2 "KwanSystems:GCTUSBTypeC_PTH" H 3950 2600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3950 2600 50  0001 C CNN
@@ -32,10 +32,10 @@ Wire Wire Line
 	4400 2800 4400 2700
 Connection ~ 4400 2700
 $Comp
-L KwanSystems:RESISTOR R702
+L KwanSystems:RESISTOR R?
 U 1 1 5E430747
 P 4600 2300
-F 0 "R702" H 4850 2300 45  0000 C CNN
+F 0 "R?" H 4850 2300 45  0000 C CNN
 F 1 "5.1k" H 5050 2350 45  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4655 2450 20  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5025 2000 60  0001 C CNN
@@ -44,10 +44,10 @@ F 4 "P5.1KJCT-ND" H 4600 2300 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KwanSystems:RESISTOR R701
+L KwanSystems:RESISTOR R?
 U 1 1 5F4D5751
 P 4600 2200
-F 0 "R701" H 4850 2200 45  0000 C CNN
+F 0 "R?" H 4850 2200 45  0000 C CNN
 F 1 "5.1k" H 5050 2150 45  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4655 2350 20  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5025 1900 60  0001 C CNN
@@ -118,10 +118,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 3400 7000 3400
 $Comp
-L Power_Protection:USBLC6-2SC6 U701
+L Power_Protection:USBLC6-2SC6 U?
 U 1 1 5F467A54
 P 5600 3000
-F 0 "U701" V 5554 3444 50  0000 L CNN
+F 0 "U?" V 5554 3444 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 5645 3444 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5600 2500 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 5800 3350 50  0001 C CNN

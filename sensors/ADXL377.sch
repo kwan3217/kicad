@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:SensorFeatherWing-cache
+LIBS:Adafruit Feather M4 Express-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -77,8 +77,6 @@ Text HLabel 3350 1600 1    60   Output ~ 0
 ZOUT
 Wire Wire Line
 	2700 2900 3450 2900
-Connection ~ 3450 1850
-Connection ~ 3450 2750
 NoConn ~ 4050 2150
 NoConn ~ 4050 2250
 NoConn ~ 4050 2350

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 13 19
 Title ""
 Date ""
 Rev ""
@@ -14,13 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J701
+L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 5E42C6D3
 P 3800 2600
-AR Path="/5F394D12/5F3DC98B/5F4547A0/5E42C6D3" Ref="J701"  Part="1" 
-AR Path="/5F4BB1A2/5E42C6D3" Ref="J1601"  Part="1" 
-AR Path="/5F4E5D14/5E42C6D3" Ref="J1601"  Part="1" 
-F 0 "J1601" H 3907 3467 50  0000 C CNN
+AR Path="/5F394D12/5F3DC98B/5F4547A0/5E42C6D3" Ref="J?"  Part="1" 
+AR Path="/5F4BB1A2/5E42C6D3" Ref="J?"  Part="1" 
+AR Path="/5F4E5D14/5E42C6D3" Ref="J1901"  Part="1" 
+F 0 "J1901" H 3907 3467 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 3907 3376 50  0000 C CNN
 F 2 "KwanSystems:GCTUSBTypeC_PTH" H 3950 2600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3950 2600 50  0001 C CNN
@@ -29,30 +29,30 @@ F 4 "2073-USB4105-GF-ACT-ND" H 3800 2600 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KwanSystems:RESISTOR R702
+L KwanSystems:RESISTOR R?
 U 1 1 5F4D5750
 P 4600 2300
-AR Path="/5F394D12/5F3DC98B/5F4547A0/5F4D5750" Ref="R702"  Part="1" 
-AR Path="/5F4BB1A2/5F4D5750" Ref="R1602"  Part="1" 
-AR Path="/5F4E5D14/5F4D5750" Ref="R1602"  Part="1" 
-F 0 "R1602" H 4850 2300 45  0000 C CNN
+AR Path="/5F394D12/5F3DC98B/5F4547A0/5F4D5750" Ref="R?"  Part="1" 
+AR Path="/5F4BB1A2/5F4D5750" Ref="R?"  Part="1" 
+AR Path="/5F4E5D14/5F4D5750" Ref="R1902"  Part="1" 
+F 0 "R1902" H 4850 2300 45  0000 C CNN
 F 1 "5.1k" H 5050 2350 45  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4655 2450 20  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4655 2450 20  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5025 2000 60  0001 C CNN
 F 4 "P5.1KJCT-ND" H 4600 2300 50  0001 C CNN "Digikey"
 	1    4600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L KwanSystems:RESISTOR R701
+L KwanSystems:RESISTOR R?
 U 1 1 5E430BC2
 P 4600 2200
-AR Path="/5F394D12/5F3DC98B/5F4547A0/5E430BC2" Ref="R701"  Part="1" 
-AR Path="/5F4BB1A2/5E430BC2" Ref="R1601"  Part="1" 
-AR Path="/5F4E5D14/5E430BC2" Ref="R1601"  Part="1" 
-F 0 "R1601" H 4850 2200 45  0000 C CNN
+AR Path="/5F394D12/5F3DC98B/5F4547A0/5E430BC2" Ref="R?"  Part="1" 
+AR Path="/5F4BB1A2/5E430BC2" Ref="R?"  Part="1" 
+AR Path="/5F4E5D14/5E430BC2" Ref="R1901"  Part="1" 
+F 0 "R1901" H 4850 2200 45  0000 C CNN
 F 1 "5.1k" H 5050 2150 45  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4655 2350 20  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4655 2350 20  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5025 1900 60  0001 C CNN
 F 4 "P5.1KJCT-ND" H 4600 2200 50  0001 C CNN "Digikey"
 	1    4600 2200

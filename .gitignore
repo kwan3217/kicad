@@ -3,3 +3,7 @@
 *.bck
 *-cache.lib
 
+*.svg
+*.gbr
+*.gbrjob
+*cache

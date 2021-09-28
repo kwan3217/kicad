@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:SensorFeatherWing-cache
+LIBS:Adafruit Feather M4 Express-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -37,10 +37,10 @@ F 3 "" H 5100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C605
+L Device:C_Small C607
 U 1 1 598D544E
 P 4950 2750
-F 0 "C605" H 5042 2796 50  0000 L CNN
+F 0 "C607" H 5042 2796 50  0000 L CNN
 F 1 "100nF" H 5042 2705 50  0000 L CNN
 F 2 "KwanSystems:SMD_0603" H 4950 2750 50  0001 C CNN
 F 3 "" H 4950 2750 50  0001 C CNN
@@ -82,9 +82,9 @@ Text HLabel 2700 2600 0    60   BiDi ~ 0
 SDA
 Text HLabel 2700 2500 0    60   BiDi ~ 0
 SCL
-Text HLabel 2700 2700 0    60   BiDi ~ 0
+Text HLabel 2700 2700 0    60   Input ~ 0
 VIN0
-Text HLabel 2700 2800 0    60   BiDi ~ 0
+Text HLabel 2700 2800 0    60   Input ~ 0
 VIN1
 Wire Wire Line
 	4950 2500 5100 2500

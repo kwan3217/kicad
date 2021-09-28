@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 16
+Sheet 5 19
 Title ""
 Date ""
 Rev ""
@@ -13,117 +13,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9000 3600 0    50   UnSpc ~ 0
+Text HLabel 8950 4100 2    50   UnSpc ~ 0
 +3V3
-Text HLabel 9000 3500 0    50   UnSpc ~ 0
+Text HLabel 8950 5200 2    50   UnSpc ~ 0
 GND
-Text HLabel 10500 3800 2    50   Output ~ 0
-TX_SCL
-Text HLabel 9000 3800 0    50   Input ~ 0
-RX_SCL
-Text HLabel 10500 3900 2    50   Output ~ 0
-TX_SDA
-Text HLabel 9000 3900 0    50   Input ~ 0
-RX_SDA
-Text HLabel 9000 3700 0    50   Input ~ 0
-RX_GPS
-Text HLabel 10500 3700 2    50   Output ~ 0
-TX_GPS
-Wire Wire Line
-	10500 3500 10000 3500
-Wire Wire Line
-	10500 3600 10000 3600
-Wire Wire Line
-	10500 3700 10000 3700
-Wire Wire Line
-	9000 3700 9500 3700
-Wire Wire Line
-	9000 3800 9500 3800
-Wire Wire Line
-	10500 3900 10000 3900
-Wire Wire Line
-	9000 3900 9500 3900
-Wire Wire Line
-	9000 3600 9500 3600
-Text Label 10000 3700 0    50   ~ 0
-P_TX_GPS
-Text Label 10000 3800 0    50   ~ 0
-P_TX_SCL
-Text HLabel 10500 3600 2    50   Output ~ 0
-PPS
-Wire Wire Line
-	10500 3800 10000 3800
-Text Label 10000 3600 0    50   ~ 0
-P_PPS
-Text Label 10000 3900 0    50   ~ 0
-P_TX_SDA
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J102
-U 1 1 5F397706
-P 9700 3700
-F 0 "J102" H 9808 4281 50  0000 C CNN
-F 1 "Conn_02x06_Male" H 9808 4190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 9700 3700 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68020.pdf" H 9700 3700 50  0001 C CNN
-F 4 "609-3345-ND" H 9700 3700 50  0001 C CNN "Digikey"
-	1    9700 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 3500 9500 3500
-Wire Wire Line
-	7450 2300 6550 2300
-Wire Wire Line
-	7450 2200 6450 2200
-Wire Wire Line
-	7450 2100 6450 2100
-Wire Wire Line
-	7450 2000 6550 2000
-Text Label 6450 2300 0    50   ~ 0
-Q_TX_SCL
-Text Label 6450 2200 0    50   ~ 0
-Q_RX_SCL
-Text Label 6450 2100 0    50   ~ 0
-Q_TX_SDA
-Text Label 6450 2000 0    50   ~ 0
-Q_RX_SDA
-Text Label 9000 4600 0    50   ~ 0
-Q_3V3
-Text Label 10500 4600 2    50   ~ 0
-Q_PPS
-Text Label 9000 4700 0    50   ~ 0
-Q_RX_GPS
-Text Label 10500 4700 2    50   ~ 0
-Q_TX_GPS
-Wire Wire Line
-	10000 4600 10500 4600
-Wire Wire Line
-	10000 4700 10500 4700
-$Comp
-L KwanSystems:P82B96 U202
-U 1 1 5F414F40
-P 5500 2000
-F 0 "U202" H 5850 1485 50  0000 C CNN
-F 1 "P82B96" H 5750 2200 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 6350 1500 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/data-sheet/P82B96.pdf" H 6250 2000 50  0001 C CNN
-F 4 "568-3197-1-ND" H 5500 2000 50  0001 C CNN "Digikey"
-F 5 "I2C transceiver" H 5500 2000 50  0001 C CNN "Purpose"
-	1    5500 2000
-	1    0    0    -1  
-$EndComp
-Text Label 4950 2000 0    50   ~ 0
-SDA
-Text Label 4950 2200 0    50   ~ 0
+Text HLabel 8950 4600 2    50   BiDi ~ 0
 SCL
-Text Label 9000 4500 0    50   ~ 0
-Q_GND
-Wire Wire Line
-	5500 2400 4950 2400
-Text Label 4950 2400 0    50   ~ 0
-Q_GND
-Text Label 4950 1900 0    50   ~ 0
-Q_3V3
+Text HLabel 8950 4700 2    50   BiDi ~ 0
+SDA
+Text HLabel 8950 4400 2    50   Input ~ 0
+RX_GPS
+Text HLabel 8950 4500 2    50   Output ~ 0
+TX_GPS
+Text Label 8950 4500 2    50   ~ 0
+P_TX_GPS
+Text Label 8950 4600 2    50   ~ 0
+P_SCL
+Text HLabel 8950 4900 2    50   Output ~ 0
+PPS
+Text Label 8950 4900 2    50   ~ 0
+P_PPS
+Text Label 8950 4700 2    50   ~ 0
+P_SDA
 $Sheet
 S 2500 1950 1000 400 
 U 5F3C4014
@@ -137,14 +48,10 @@ F6 "I2C_~CS" I L 2500 2200 50
 F7 "INT" O R 3500 2300 50 
 F8 "GND" U L 2500 2300 50 
 $EndSheet
-Text HLabel 10500 3500 2    50   Output ~ 0
+Text HLabel 8950 4800 2    50   Output ~ 0
 INT
-Text Label 10000 3500 0    50   ~ 0
+Text Label 8950 4800 2    50   ~ 0
 P_INT
-Text Label 10500 4500 2    50   ~ 0
-Q_INT
-Wire Wire Line
-	10000 4500 10500 4500
 Wire Wire Line
 	3500 2000 4000 2000
 Wire Wire Line
@@ -174,15 +81,15 @@ Connection ~ 2300 2300
 Wire Wire Line
 	2300 2300 2000 2300
 Text Label 4000 2000 2    50   ~ 0
-SDA
+Q_SDA
 Text Label 4000 2100 2    50   ~ 0
-SCL
+Q_SCL
 Text Label 4000 2300 2    50   ~ 0
 Q_INT
 $Sheet
 S 2500 2950 1000 200 
 U 5F3CD7F8
-F0 "BME280 Pressure Sensor" 50
+F0 "Shoulder BME280 Pressure Sensor" 50
 F1 "../sensors/BME280.sch" 50
 F2 "VCC" U L 2500 3000 50 
 F3 "SDA" B R 3500 3000 50 
@@ -202,9 +109,9 @@ Q_3V3
 Text Label 2000 3100 0    50   ~ 0
 Q_GND
 Text Label 4000 3100 2    50   ~ 0
-SCL
+Q_SCL
 Text Label 4000 3000 2    50   ~ 0
-SDA
+Q_SDA
 $Sheet
 S 2500 3450 1000 400 
 U 5F3AC74C
@@ -244,9 +151,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 3600 4000 3600
 Text Label 4000 3500 2    50   ~ 0
-SDA
+Q_SDA
 Text Label 4000 3600 2    50   ~ 0
-SCL
+Q_SCL
 Wire Wire Line
 	5500 3200 6000 3200
 Wire Wire Line
@@ -264,14 +171,14 @@ Q_3V3
 Wire Wire Line
 	5500 3100 6000 3100
 Wire Wire Line
-	4500 3200 4250 3200
-Text Label 4250 3200 0    50   ~ 0
+	4500 3400 4250 3400
+Text Label 4250 3400 0    50   ~ 0
 Q_GND
 $Comp
-L KwanSystems:AK09970 U201
+L KwanSystems:AK09970 U501
 U 1 1 5F56C072
 P 2500 4500
-F 0 "U201" H 3644 4396 50  0000 L CNN
+F 0 "U501" H 3644 4396 50  0000 L CNN
 F 1 "AK09970" H 3644 4305 50  0000 L CNN
 F 2 "KwanSystems:AK09970" H 2500 4500 50  0001 C CNN
 F 3 "" H 2500 4500 50  0001 C CNN
@@ -299,7 +206,7 @@ NoConn ~ 3000 4300
 Wire Wire Line
 	3100 5200 2000 5200
 Text Label 2000 5200 0    50   ~ 0
-SCL
+Q_SCL
 Wire Wire Line
 	3100 5200 3100 5000
 Wire Wire Line
@@ -314,7 +221,7 @@ Connection ~ 2400 4700
 Wire Wire Line
 	2400 4700 2000 4700
 Text Label 4500 4800 2    50   ~ 0
-SDA
+Q_SDA
 NoConn ~ 3600 4700
 Wire Wire Line
 	2900 4300 2400 4300
@@ -323,122 +230,29 @@ Wire Wire Line
 Connection ~ 2400 4500
 Wire Wire Line
 	2400 4500 2000 4500
-Wire Wire Line
-	9500 4000 9000 4000
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J202
-U 1 1 5F58B1E6
-P 9800 4700
-F 0 "J202" H 9908 5281 50  0000 C CNN
-F 1 "Conn_02x06_Male" H 9908 5190 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_1x12_P1.27mm_Vertical_SMD_Pin1Left" H 9800 4700 50  0001 C CNN
-F 3 "~" H 9800 4700 50  0001 C CNN
-F 4 "" H 9800 4700 50  0001 C CNN "Digikey"
-	1    9800 4700
-	-1   0    0    -1  
-$EndComp
-Text Notes 10300 3300 0    50   ~ 0
+Text Notes 8350 5600 2    50   ~ 0
 This connector is on\nthe pocket board
-Text Notes 5050 3750 0    50   ~ 0
-GPS can provide 3.3V power to the\nentire system through its USB-C \nconnector. Powering both shoulder\nand pocket board is possible but not\nrecommended (one board might try\nto charge the other).
-Text Label 9000 4000 0    50   ~ 0
+Text Label 8950 5000 2    50   ~ 0
 P_MAG~RST
-Text HLabel 9000 4000 0    50   Input ~ 0
+Text HLabel 8950 5000 2    50   Input ~ 0
 MAG~RST
-Text Label 9000 3900 0    50   ~ 0
-P_RX_SDA
-Text Label 9000 3800 0    50   ~ 0
-P_RX_SCL
-Text Label 9000 3700 0    50   ~ 0
+Text Label 8950 4400 2    50   ~ 0
 P_RX_GPS
-Text Label 9000 3600 0    50   ~ 0
-P_3V3
-Text Label 9000 3500 0    50   ~ 0
+Text Label 8950 5200 2    50   ~ 0
 P_GND
-Wire Wire Line
-	10000 4000 10500 4000
-Text HLabel 10500 4000 2    50   Output ~ 0
+Text HLabel 8950 5100 2    50   Output ~ 0
 ID
-Text Label 9000 4900 0    50   ~ 0
-Q_RX_SDA
-Text Label 9000 5000 0    50   ~ 0
-Q_MAG~RST
-Wire Wire Line
-	10000 4800 10500 4800
-Wire Wire Line
-	10000 4900 10500 4900
-Wire Wire Line
-	10000 5000 10500 5000
-Text Label 10500 5000 2    50   ~ 0
-Q_3V3
-Text Notes 9950 5200 0    50   ~ 0
+Text Notes 7450 5600 2    50   ~ 0
 This ID's this board as\nthe shoulder (HI) board. 
-Text Label 10500 4800 2    50   ~ 0
-Q_TX_SCL
-Text Label 10500 4900 2    50   ~ 0
-Q_TX_SDA
-$Comp
-L KwanSystems:RESISTOR R201
-U 1 1 5F3E1D4C
-P 4750 1900
-F 0 "R201" V 4708 1842 45  0000 R CNN
-F 1 "10k" V 4792 1842 45  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4805 2050 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5175 1600 60  0001 C CNN
-F 4 "P10KJCT-ND" H 4750 1900 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" V 4750 1900 50  0001 C CNN "Purpose"
-	1    4750 1900
-	0    -1   1    0   
-$EndComp
-$Comp
-L KwanSystems:RESISTOR R207
-U 1 1 5F3E223F
-P 4400 1900
-F 0 "R207" V 4358 1842 45  0000 R CNN
-F 1 "10k" V 4442 1842 45  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4455 2050 20  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4825 1600 60  0001 C CNN
-F 4 "P10KJCT-ND" H 4400 1900 50  0001 C CNN "Digikey"
-F 5 "I2C pullup" V 4400 1900 50  0001 C CNN "Purpose"
-	1    4400 1900
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4750 2000 5400 2000
-Wire Wire Line
-	4400 2200 4400 2000
-Wire Wire Line
-	4400 2200 5400 2200
-Wire Wire Line
-	4900 1900 4900 1800
-Wire Wire Line
-	4900 1800 4750 1800
-Wire Wire Line
-	4400 1800 4750 1800
-Connection ~ 4750 1800
-Text Label 10000 4000 0    50   ~ 0
+Text Label 8950 5100 2    50   ~ 0
 P_ID
-Text Label 9000 4800 0    50   ~ 0
-Q_RX_SCL
-Wire Wire Line
-	9000 4500 9500 4500
-Wire Wire Line
-	9000 4600 9500 4600
-Wire Wire Line
-	9000 4700 9500 4700
-Wire Wire Line
-	9000 4800 9500 4800
-Wire Wire Line
-	9000 4900 9500 4900
-Wire Wire Line
-	9000 5000 9500 5000
 $Comp
 L KwanSystems:KwanSystems G?
 U 1 1 5F45F6D9
 P 8900 1400
 AR Path="/5F45F6D9" Ref="G?"  Part="1" 
-AR Path="/5F394D12/5F45F6D9" Ref="G902"  Part="1" 
-F 0 "G902" H 8900 1300 60  0001 C CNN
+AR Path="/5F394D12/5F45F6D9" Ref="G502"  Part="1" 
+F 0 "G502" H 8900 1300 60  0001 C CNN
 F 1 "KwanSystems" H 8925 1400 60  0000 L CNN
 F 2 "KwanSystems:StKwansSoldermask" H 8900 1400 60  0001 C CNN
 F 3 "" H 8900 1400 60  0001 C CNN
@@ -450,8 +264,8 @@ L KwanSystems:DesignedWithKicad G?
 U 1 1 5F45F6DF
 P 8850 1500
 AR Path="/5F45F6DF" Ref="G?"  Part="1" 
-AR Path="/5F394D12/5F45F6DF" Ref="G901"  Part="1" 
-F 0 "G901" H 8850 1400 60  0001 C CNN
+AR Path="/5F394D12/5F45F6DF" Ref="G501"  Part="1" 
+F 0 "G501" H 8850 1400 60  0001 C CNN
 F 1 "DesignedWithKicad" H 8900 1500 60  0000 L CNN
 F 2 "KwanSystems:Symbol_KiCAD-Logo_CopperAndSilkScreenTop_small" H 8850 1500 60  0001 C CNN
 F 3 "" H 8850 1500 60  0001 C CNN
@@ -463,8 +277,8 @@ L KwanSystems:OSHW G?
 U 1 1 5F45F6E5
 P 8900 1600
 AR Path="/5F45F6E5" Ref="G?"  Part="1" 
-AR Path="/5F394D12/5F45F6E5" Ref="G903"  Part="1" 
-F 0 "G903" H 8900 1500 60  0001 C CNN
+AR Path="/5F394D12/5F45F6E5" Ref="G503"  Part="1" 
+F 0 "G503" H 8900 1500 60  0001 C CNN
 F 1 "OSHW" H 8925 1600 60  0000 L CNN
 F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 8900 1600 60  0001 C CNN
 F 3 "" H 8900 1600 60  0001 C CNN
@@ -476,79 +290,206 @@ L KwanSystems:OSHW G?
 U 1 1 5F49ABEB
 P 9450 1700
 AR Path="/5F49ABEB" Ref="G?"  Part="1" 
-AR Path="/5F394D12/5F49ABEB" Ref="G904"  Part="1" 
-F 0 "G904" H 9450 1600 60  0001 C CNN
+AR Path="/5F394D12/5F49ABEB" Ref="G504"  Part="1" 
+F 0 "G504" H 9450 1600 60  0001 C CNN
 F 1 "Axis" H 9200 1800 60  0000 L CNN
 F 2 "KwanSystems:Axis" H 9450 1700 60  0001 C CNN
 F 3 "" H 9450 1700 60  0001 C CNN
 	1    9450 1700
 	1    0    0    -1  
 $EndComp
-Text Notes 7850 4350 0    50   ~ 0
+Text Notes 6800 3400 0    50   ~ 0
 No crossover of Tx/Rx on this sheet\nAll labeled from point of view of this board
-$Comp
-L Jumper:SolderJumper_2_Open J207
-U 1 1 5F45D83C
-P 6050 2750
-F 0 "J207" H 6050 2955 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6050 2864 50  0000 C CNN
-F 2 "KwanSystems:SolderJumper-2_Bridged" H 6050 2750 50  0001 C CNN
-F 3 "~" H 6050 2750 50  0001 C CNN
-	1    6050 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 2750 5400 2750
-Wire Wire Line
-	5400 2750 5400 2200
-Connection ~ 5400 2200
-Wire Wire Line
-	5400 2200 5500 2200
-Wire Wire Line
-	6200 2750 6550 2750
-Wire Wire Line
-	6550 2750 6550 2300
-Connection ~ 6550 2300
-Wire Wire Line
-	6550 2300 6450 2300
-Text Notes 6400 1350 0    50   ~ 0
-If the jumpers are bridged, then the transceiver\nchip is bypassed and doesn't even need to be installed.\nTX_SCL will be connected to SCL and RX_SDA will be\nconnected to SDA
-$Comp
-L Jumper:SolderJumper_2_Open J201
-U 1 1 5F46765E
-P 6000 1600
-F 0 "J201" H 6000 1805 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6000 1714 50  0000 C CNN
-F 2 "KwanSystems:SolderJumper-2_Bridged" H 6000 1600 50  0001 C CNN
-F 3 "~" H 6000 1600 50  0001 C CNN
-	1    6000 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 1600 6550 1600
-Wire Wire Line
-	6550 1600 6550 2000
-Connection ~ 6550 2000
-Wire Wire Line
-	6550 2000 6450 2000
-Wire Wire Line
-	5850 1600 5400 1600
-Wire Wire Line
-	4900 1900 5500 1900
-Wire Wire Line
-	5400 1600 5400 2000
-Connection ~ 5400 2000
-Wire Wire Line
-	5400 2000 5500 2000
 $Sheet
-S 4500 2950 1000 300 
+S 4500 2950 1000 500 
 U 5F3DC98B
 F0 "GPS" 50
 F1 "GPS.sch" 50
-F2 "VCC" I L 4500 3000 50 
-F3 "PPS" O R 5500 3200 50 
-F4 "RX" I R 5500 3000 50 
-F5 "TX" O R 5500 3100 50 
-F6 "GND" U L 4500 3200 50 
+F2 "PPS" O R 5500 3200 50 
+F3 "RX" I R 5500 3000 50 
+F4 "TX" O R 5500 3100 50 
+F5 "GND" U L 4500 3400 50 
+F6 "3V3" I L 4500 3000 50 
+F7 "D-" U R 5500 3300 50 
+F8 "D+" U R 5500 3400 50 
 $EndSheet
+$Sheet
+S 3100 5900 1000 300 
+U 5F8DE078
+F0 "Regulator" 50
+F1 "../blocks/Regulator.sch" 50
+F2 "VIN" U L 3100 5950 50 
+F3 "VOUT" U R 4100 5950 50 
+F4 "EN" I L 3100 6050 50 
+F5 "GND" U L 3100 6150 50 
+$EndSheet
+Wire Wire Line
+	3100 6050 3000 6050
+Wire Wire Line
+	3000 6050 3000 5950
+Connection ~ 3000 5950
+Wire Wire Line
+	3000 5950 3100 5950
+Wire Wire Line
+	4100 5950 4800 5950
+Wire Wire Line
+	2650 6150 3100 6150
+Wire Wire Line
+	2650 5950 3000 5950
+Text Label 2650 5950 0    50   ~ 0
+Q_5V
+Wire Wire Line
+	6600 4200 6000 4200
+Wire Wire Line
+	6600 4300 6000 4300
+Wire Wire Line
+	6600 4400 6000 4400
+Wire Wire Line
+	6600 4500 6000 4500
+Wire Wire Line
+	6600 4600 6000 4600
+Wire Wire Line
+	6600 4700 6000 4700
+Wire Wire Line
+	6600 4900 6000 4900
+Wire Wire Line
+	6600 5000 6000 5000
+Wire Wire Line
+	6600 5100 6000 5100
+Wire Wire Line
+	6600 4000 6000 4000
+Text Label 6000 4000 0    50   ~ 0
+Q_5V
+Text Label 6000 4100 0    50   ~ 0
+Q_3V3
+Text Label 6000 4200 0    50   ~ 0
+D-
+Text Label 6000 4300 0    50   ~ 0
+D+
+Text Label 6000 4400 0    50   ~ 0
+Q_RX_GPS
+Text Label 6000 4500 0    50   ~ 0
+Q_TX_GPS
+Text Label 6000 4600 0    50   ~ 0
+Q_SCL
+Text Label 6000 4700 0    50   ~ 0
+Q_SDA
+Wire Wire Line
+	6600 4800 6000 4800
+Wire Wire Line
+	5500 3300 6000 3300
+Wire Wire Line
+	5500 3400 6000 3400
+Text Label 6000 3300 2    50   ~ 0
+D-
+Text Label 6000 3400 2    50   ~ 0
+D+
+Text Label 6000 4800 0    50   ~ 0
+Q_INT
+Text Label 6000 4900 0    50   ~ 0
+Q_PPS
+Text Label 6000 5000 0    50   ~ 0
+Q_MAG~RST
+Text Label 6000 5100 0    50   ~ 0
+Q_3V3
+Text Label 6000 5200 0    50   ~ 0
+Q_GND
+Text Label 2650 6150 0    50   ~ 0
+Q_GND
+Text Label 4800 5950 2    50   ~ 0
+Q_3V3
+$Sheet
+S 7450 3950 1000 1300
+U 5F99C742
+F0 "Shoulder Upstream" 50
+F1 "Pocket_C.sch" 50
+F2 "TX_GPS" U R 8450 4500 50 
+F3 "RX_GPS" U R 8450 4400 50 
+F4 "~MRST" U R 8450 5000 50 
+F5 "PPS" U R 8450 4900 50 
+F6 "ID" O R 8450 5100 50 
+F7 "3V3" I R 8450 4100 50 
+F8 "GND" U R 8450 5200 50 
+F9 "SCL" B R 8450 4600 50 
+F10 "SDA" B R 8450 4700 50 
+F11 "INT" U R 8450 4800 50 
+F12 "VBUS" O R 8450 4000 50 
+$EndSheet
+Wire Wire Line
+	8450 4100 8950 4100
+Wire Wire Line
+	8450 4400 8950 4400
+Wire Wire Line
+	8450 4500 8950 4500
+Wire Wire Line
+	8450 4600 8950 4600
+Wire Wire Line
+	8450 4700 8950 4700
+Wire Wire Line
+	8450 4800 8950 4800
+Wire Wire Line
+	8450 4900 8950 4900
+Wire Wire Line
+	8450 5000 8950 5000
+Wire Wire Line
+	8450 5100 8950 5100
+Wire Wire Line
+	8450 5200 8950 5200
+Text Label 8950 4100 2    50   ~ 0
+P_3V3
+$Sheet
+S 6600 3950 850  1300
+U 5F89C558
+F0 "Shoulder Downstream" 50
+F1 "USB2+_C.sch" 50
+F2 "D-" B L 6600 4200 50 
+F3 "D+" B L 6600 4300 50 
+F4 "VBUS" O L 6600 4000 50 
+F5 "GND" U L 6600 5200 50 
+F6 "SCL" U L 6600 4600 50 
+F7 "TX_GPS" U L 6600 4500 50 
+F8 "RX_GPS" U L 6600 4400 50 
+F9 "SDA" U L 6600 4700 50 
+F10 "~MRST" U L 6600 5000 50 
+F11 "PPS" U L 6600 4900 50 
+F12 "ID" U L 6600 5100 50 
+F13 "3V3" U L 6600 4100 50 
+F14 "INT" U L 6600 4800 50 
+$EndSheet
+Text HLabel 8950 4000 2    50   Output ~ 0
+VBUS
+Wire Wire Line
+	8950 4000 8450 4000
+Text Label 8950 4000 2    50   ~ 0
+P_VBUS
+$Comp
+L Device:LED_Small D501
+U 1 1 5F8B50AA
+P 5500 4200
+F 0 "D501" V 5546 4130 50  0000 R CNN
+F 1 "RED" V 5455 4130 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 5500 4200 50  0001 C CNN
+F 3 "~" V 5500 4200 50  0001 C CNN
+	1    5500 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KwanSystems:RESISTOR R501
+U 1 1 5F8B54DA
+P 5500 4650
+F 0 "R501" V 5458 4708 45  0000 L CNN
+F 1 "1k" V 5542 4708 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5555 4800 20  0001 C CNN
+F 3 "" H 5925 4350 60  0001 C CNN
+	1    5500 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4100 6600 4100
+Wire Wire Line
+	5500 4750 5500 5200
+Wire Wire Line
+	5500 5200 6600 5200
+Wire Wire Line
+	5500 4300 5500 4550
 $EndSCHEMATC

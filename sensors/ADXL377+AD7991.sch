@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:SensorFeatherWing-cache
+LIBS:Adafruit Feather M4 Express-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -36,11 +36,11 @@ F4 "VCC" U L 1600 2500 60
 F5 "GND" U L 1600 3000 60 
 F6 "SDA" B R 2250 2900 60 
 F7 "SCL" B R 2250 3000 60 
-F8 "VIN0" B R 2250 2500 60 
-F9 "VIN1" B R 2250 2600 60 
+F8 "VIN0" I R 2250 2500 60 
+F9 "VIN1" I R 2250 2600 60 
 $EndSheet
 Text Notes 3350 2550 0    60   ~ 0
-Need at least 1nF between each output \nand ground, in external circuit. This sets\nthe sensor bandwidth. It is part of a low-pass\nfilter with cutoff frequency f_-3dB=0.000005/C\n\nBandwidth   Capacitor nF\n50                      100\n100                      50\n200                      25\n500                      10\n1000                      5
+Need at least 1nF between each output \nand ground, in between ADXL377 and any\nreader of its outputs. This sets the sensor\nbandwidth. It is part of a low-pass filter with\ncutoff frequency f_-3dB=0.000005/C\n\nBandwidth   Capacitor nF\n50                      100\n100                      50\n200                      25\n500                      10\n1000                      5
 Text Notes 3350 2850 0    60   ~ 0
 The 100nF caps here give a 50Hz bandwidth, \nadequate if sampled at 100Hz or higher.
 NoConn ~ 2250 2700

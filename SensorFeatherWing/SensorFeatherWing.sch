@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ $Sheet
 S 3050 2150 650  350 
 U 5DA3E469
 F0 "MPU9250" 50
-F1 "../../sensors/MPU9250.sch" 50
+F1 "../sensors/MPU9250.sch" 50
 F2 "SCL" B R 3700 2200 50 
 F3 "SDA" B R 3700 2300 50 
 F4 "+3.3V" U L 3050 2200 50 
@@ -56,7 +56,7 @@ F 1 "STANDOFF" H 7328 1147 60  0000 L CNN
 F 2 "KwanSystems:STANDOFF_FEATHER" H 7250 1200 60  0001 C CNN
 F 3 "" H 7250 1200 60  0001 C CNN
 	1    7250 1200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L KwanSystems:STANDOFF J106
@@ -70,26 +70,15 @@ F 3 "" H 8950 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x12_Male J104
+L KwanSystems:Feather12 J104
 U 1 1 5DA3F31F
 P 8350 1200
-F 0 "J104" V 8277 1128 50  0000 C CNN
-F 1 "Conn_01x12_Male" V 8186 1128 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x12_Pitch2.54mm" H 8350 1200 50  0001 C CNN
+F 0 "J104" V 8150 1050 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 8186 1128 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8350 1200 50  0001 C CNN
 F 3 "~" H 8350 1200 50  0001 C CNN
 	1    8350 1200
 	0    1    -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x16_Male J103
-U 1 1 5DA41FC9
-P 8050 1750
-F 0 "J103" V 7885 1678 50  0000 C CNN
-F 1 "Conn_01x16_Male" V 7976 1678 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x16_Pitch2.54mm" H 8050 1750 50  0001 C CNN
-F 3 "~" H 8050 1750 50  0001 C CNN
-	1    8050 1750
-	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3700 2200 3800 2200
@@ -171,7 +160,7 @@ $Sheet
 S 3050 2900 650  300 
 U 5DA50364
 F0 "BME280" 50
-F1 "../../sensors/BME280.sch" 50
+F1 "../sensors/BME280.sch" 50
 F2 "VCC" U L 3050 2950 50 
 F3 "GND" U L 3050 3150 50 
 F4 "SCL" B R 3700 2950 50 
@@ -197,19 +186,19 @@ Wire Wire Line
 	3800 2950 3800 2200
 Connection ~ 3800 2200
 Wire Wire Line
-	3800 2200 4650 2200
+	3800 2200 4150 2200
 Wire Wire Line
 	3700 3050 3900 3050
 Wire Wire Line
 	3900 3050 3900 2300
 Connection ~ 3900 2300
 Wire Wire Line
-	3900 2300 4650 2300
+	3900 2300 4500 2300
 $Sheet
 S 3050 3550 650  200 
 U 5DA53C30
 F0 "HighAcc" 50
-F1 "../../sensors/ADXL377+AD7991.sch" 50
+F1 "../sensors/ADXL377+AD7991.sch" 50
 F2 "VCC" U L 3050 3600 50 
 F3 "GND" U L 3050 3700 50 
 F4 "SDA" B R 3700 3700 50 
@@ -235,4 +224,201 @@ Wire Wire Line
 Wire Wire Line
 	2900 3700 3050 3700
 Connection ~ 2900 3150
+Text Notes 9000 800  0    50   ~ 0
+D10 - reserved for CS on SD card wing\nD5 - reserved for PPS from GPS wing
+$Sheet
+S 3050 4000 650  300 
+U 5DA5E927
+F0 "BNO055" 50
+F1 "../sensors/BNO055.sch" 50
+F2 "GND" U L 3050 4250 50 
+F3 "VCC" U L 3050 4050 50 
+F4 "SDA" B R 3700 4150 50 
+F5 "SCL" B R 3700 4050 50 
+F6 "INT" O R 3700 4250 50 
+$EndSheet
+Wire Wire Line
+	3700 4050 3800 4050
+Wire Wire Line
+	3800 4050 3800 3600
+Connection ~ 3800 3600
+Wire Wire Line
+	3700 4150 3900 4150
+Wire Wire Line
+	3900 4150 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	2950 3600 2950 4050
+Wire Wire Line
+	2950 4050 3050 4050
+Connection ~ 2950 3600
+Wire Wire Line
+	2900 3700 2900 4250
+Wire Wire Line
+	2900 4250 3050 4250
+Connection ~ 2900 3700
+Wire Wire Line
+	3700 4250 4700 4250
+Text Label 4000 4250 0    50   ~ 0
+BNO055_INT
+$Comp
+L KwanSystems:Feather16 J103
+U 1 1 5DA41FC9
+P 8050 1750
+F 0 "J103" V 7900 1600 50  0000 C CNN
+F 1 "Conn_01x16_Male" V 8350 1350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 8050 1750 50  0001 C CNN
+F 3 "~" H 8050 1750 50  0001 C CNN
+	1    8050 1750
+	0    -1   1    0   
+$EndComp
+$Comp
+L KwanSystems:Feather16 J107
+U 1 1 5DA6B34E
+P 8050 1750
+F 0 "J107" V 7900 1800 50  0000 C CNN
+F 1 "Conn_01x16_Male" V 8350 1350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 8050 1750 50  0001 C CNN
+F 3 "~" H 8050 1750 50  0001 C CNN
+	1    8050 1750
+	0    -1   1    0   
+$EndComp
+Connection ~ 7450 1950
+Connection ~ 7650 1950
+$Comp
+L KwanSystems:Feather12 J108
+U 1 1 5DA7475C
+P 8350 1200
+F 0 "J108" V 8150 1350 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 8186 1128 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8350 1200 50  0001 C CNN
+F 3 "~" H 8350 1200 50  0001 C CNN
+	1    8350 1200
+	0    1    -1   0   
+$EndComp
+Connection ~ 8850 1000
+Connection ~ 8750 1000
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J109
+U 1 1 5DA59C3B
+P 6000 3350
+F 0 "J109" H 6107 4217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 6107 4126 50  0000 C CNN
+F 2 "KwanSystems:USB4110" H 6150 3350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6150 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2750 6600 850 
+Wire Wire Line
+	6600 850  7950 850 
+Wire Wire Line
+	7950 850  7950 1000
+Connection ~ 7950 1000
+$Comp
+L power:VBUS #PWR0105
+U 1 1 5DA5CA01
+P 6600 850
+F 0 "#PWR0105" H 6600 700 50  0001 C CNN
+F 1 "VBUS" H 6615 1023 50  0000 C CNN
+F 2 "" H 6600 850 50  0001 C CNN
+F 3 "" H 6600 850 50  0001 C CNN
+	1    6600 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 850 
+$Comp
+L power:GND #PWR0106
+U 1 1 5DA5D19A
+P 6000 4250
+F 0 "#PWR0106" H 6000 4000 50  0001 C CNN
+F 1 "GND" H 6005 4077 50  0000 C CNN
+F 2 "" H 6000 4250 50  0001 C CNN
+F 3 "" H 6000 4250 50  0001 C CNN
+	1    6000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4250 5700 4250
+Connection ~ 6000 4250
+$Comp
+L KwanSystems:RP2 R101
+U 1 1 5DA6C24D
+P 4500 2000
+F 0 "R101" V 4458 2058 45  0000 L CNN
+F 1 "10k" V 4542 2058 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 4555 2150 20  0001 C CNN
+F 3 "" H 4925 1700 60  0001 C CNN
+	1    4500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L KwanSystems:RP2 R101
+U 2 1 5DA6C949
+P 4150 2100
+F 0 "R101" V 4108 2158 45  0000 L CNN
+F 1 "10k" V 4192 2158 45  0000 L CNN
+F 2 "KwanSystems:R_Array_Convex_2x0402" H 4205 2250 20  0001 C CNN
+F 3 "" H 4575 1800 60  0001 C CNN
+	2    4150 2100
+	0    1    1    0   
+$EndComp
+Connection ~ 4150 2200
+Wire Wire Line
+	4150 2200 4650 2200
+Wire Wire Line
+	4500 2300 4500 2100
+Connection ~ 4500 2300
+Wire Wire Line
+	4500 2300 4650 2300
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5DA77481
+P 4500 1900
+F 0 "#PWR0107" H 4500 1750 50  0001 C CNN
+F 1 "+3V3" H 4515 2073 50  0000 C CNN
+F 2 "" H 4500 1900 50  0001 C CNN
+F 3 "" H 4500 1900 50  0001 C CNN
+	1    4500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1900 4150 1900
+Wire Wire Line
+	4150 1900 4150 2000
+Connection ~ 4500 1900
+Wire Wire Line
+	8550 1000 8550 650 
+Connection ~ 8550 1000
+Wire Wire Line
+	8450 1000 8450 650 
+Connection ~ 8450 1000
+Text Label 8550 950  1    50   ~ 0
+MPU9250_INT
+Text Label 8450 950  1    50   ~ 0
+BNO055_INT
+NoConn ~ 8650 950 
+NoConn ~ 8350 950 
+NoConn ~ 8250 950 
+NoConn ~ 8150 950 
+NoConn ~ 8050 950 
+NoConn ~ 7850 950 
+NoConn ~ 7750 950 
+NoConn ~ 8850 2000
+NoConn ~ 8750 2000
+NoConn ~ 8650 2000
+NoConn ~ 8550 2000
+NoConn ~ 8450 2000
+NoConn ~ 8350 2000
+NoConn ~ 8250 2000
+NoConn ~ 8150 2000
+NoConn ~ 8050 2000
+NoConn ~ 7950 2000
+NoConn ~ 7850 2000
+NoConn ~ 7750 2000
+NoConn ~ 7550 2000
+NoConn ~ 7350 2000
+Text Notes 8950 2300 0    50   ~ 0
+MI - Used for SD card\nMO - Used for SD card\nSCK - Used for SD card\nRX - Used for GPS\nTX - Used for GPS
 $EndSCHEMATC

@@ -39,10 +39,26 @@ K I2C
 F https://www.nxp.com/docs/en/data-sheet/P82B96.pdf
 $ENDCMP
 #
+$CMP R_Network08_YC158
+D 8 resistor network, star topology, bussed resistors, small US symbol
+K R network star-topology
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-YC_TC_group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 $CMP TXB0104RUT
 D Bidirectional voltage-level translator
 K level-shifter
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VUSB"
+K power-flag
+$ENDCMP
+#
+$CMP VUSB
+D Power symbol creates a global label with name "VUSB"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
